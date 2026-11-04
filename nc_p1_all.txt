@@ -1,0 +1,199 @@
+TOÁN NÂNG CAO LỚP 4 – ĐỊNH HƯỚNG THI CLC
+
+THẦY ĐẶNG VIỆT HÙNG
+
+01. VIẾT SỐ VỚI ĐIỀU KIỆN CHO TRƯỚC (P1)
+Biên soạn  Sưu tầm: Thầy Đặng Việt Hùng (0985.074.831)
+Câu 1 [ĐVH]. Viết số tự nhiên X lớn nhất có các chữ số khác nhau và thỏa mãn
+a) Tổng các chữ số bằng 19
+b) Tổng các chữ số bằng 14
+c) Tổng các chữ số bằng 45
+Lời giải:
+Số X muốn lớn nhất thì nó cần có nhiều chữ số nhất (ở đây ưu tiên là số lượng chữ số
+chứ không phải là giá trị chữ số)
+Do các chữ số khác nhau, ta liệt kê từ 0, 1, 2, 3,.....
+a) Ta có 19 = 0 + 1 + 2 + 3 + 4 + 5 + 4 = 1 + 2 + 3 + 4 + 9
+Số lớn nhất viết được khi đó là 943 210.
+b) Ta có 14 = 0 + 1 + 2 + 3 + 4 + 4 = 1 + 2 + 3 + 8
+Số lớn nhất viết được khi đó là 83 210.
+c) Ta có 45 = 0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9
+Số lớn nhất viết được khi đó là 9 876 543 210.
+Chú ý: Với dạng bài tập này các con đọc đề lưu ý các chữ số có khác nhau hay không, và
+đừng quên chữ số 0 nhé !
+Câu 2 [ĐVH]. Viết số tự nhiên Y lớn nhất có ba chữ số và tổng các chữ số là :
+a) Tổng các chữ số bằng 13
+b) Tổng các chữ số bằng 20
+c) Tổng các chữ số bằng 8
+Lời giải:
+̅̅̅̅̅.
+Số Y yêu cầu cụ thể là có 3 chữ số dạng abc
+Để Y lớn nhất thì ta cần chọn sao cho a lớn nhất, rồi đến b và c.
+a) Ta có 13 = 9 + 4
+Số lớn nhất là 940 (không phải là 931 đâu nhá)
+b) Ta có 20 = 9 + 9 + 2
+Số lớn nhất là 992 (nếu đề yêu cầu các chữ số khác nhau thì là 983)
+c) Ta có 8 = 7 + 1 = 8 + 0
+Số lớn nhất là 800 (không phải là 710 đâu nhá)
+
+TOÁN NÂNG CAO LỚP 4 – ĐỊNH HƯỚNG THI CLC
+
+THẦY ĐẶNG VIỆT HÙNG
+
+Câu 3 [ĐVH].
+a) Tìm số tự nhiên A lớn nhất có các chữ số khác nhau mà tích các chữ số là 40.
+b) Tìm số tự nhiên A lớn nhất có năm chữ số mà tích các chữ số là 40.
+c) Tìm số tự nhiên A chẵn lớn nhất có năm chữ số mà tích các chữ số là 40.
+d) Tìm số tự nhiên A chẵn bé nhất có năm chữ số mà tích các chữ số là 40.
+Lời giải:
+a) Ta phân tích 40 thành tích của các số khác nhau: 40 = 8 x 5 = 2 x 4 x 5 = 1 x 2 x 4 x 5
+Khi đó số lớn nhất là 5421.
+a) Đề bài không yêu cầu các chữ số khác nhau, nên để A lớn nhất thì ta cần chọn cho chữ
+số hàng chục nghìn là lớn nhất (phải là chữ số 8)
+Khi đó ta có 40 = 8 x 5 x 1 x 1 x 1
+Số lớn nhất là 85111
+c) Số cần tìm phải chẵn nên chữ số hàng đơn vị phải chẵn (ở đây có thể là 2, 4, 8)
+Nếu chữ số hàng đơn vị là 8 thì ta có số 51118
+Nếu chữ số hàng đơn vị là 4 thì ta có số 52114
+Nếu chữ số hàng đon vị là 2 thì ta có số 54112
+Vậy số chẵn lớn nhất lập được là 54112.
+d) Tương tự ta có chữ số hàng đơn vị phải là 2, 4 hoặc 8
+Nếu chữ số hàng đơn vị là 8 thì ta có số 11158
+Nếu chữ số hàng đơn vị là 4 thì ta có số 11254
+Nếu chữ số hàng đon vị là 2 thì ta có số 11452
+Vậy số chẵn nhỏ nhất lập được là 11158.
+Chú ý: Với dạng bài có tích các chữ số thì khi cần bổ sung cho đủ lượng chữ số các con
+đừng quên chữ số 1, vì 1 nhân với bao nhiêu cũng không khác biệt cả !
+Câu 4 [ĐVH]. Viết số tự nhiên X bé nhất và:
+a) Có tổng các chữ số là 19.
+b) Có các chữ số khác nhau và tổng các chữ số của số đó là 17.
+Lời giải:
+Số tự nhiên bé nhất khi nó có ít chữ số nhất. Để tách một số thành tổng của ít số nhất thì
+các số đó cần lớn nhất.
+a) Ta cần tách 19 theo 9, 8, 7, ….
+Ta có 19 = 9 + 9 + 1
+Khi đó số bé nhất là 199 (nếu yêu cầu các chữ số khác nhau thì đó là số 289).
+
+TOÁN NÂNG CAO LỚP 4 – ĐỊNH HƯỚNG THI CLC
+
+THẦY ĐẶNG VIỆT HÙNG
+
+a) Ta cần tách 17 theo 9, 8, 7, ….
+Ta có 19 = 9 + 8 + 0 = 9 + 7 + 1
+Khi đó số bé nhất là 179.
+Câu 5 [ĐVH]. Viết số tự nhiên E thoả mãn:
+a) Bé nhất có tổng các chữ số là 38.
+b) Bé nhất có các chữ số khác nhau và tổng các chữ số là 38.
+c) Bé nhất có tích các chữ số là 120.
+Lời giải:
+a) Ta tách 38 theo 9 nhiều nhất có thể, 38 = 9 + 9 + 9 + 9 + 2
+Số bé nhất là 29 999.
+b) Ta tách 38 theo 9, 8, 7, …, do đó 38 = 9 + 8 + 7 + 6 + 5 + 3
+Số bé nhất là 356 789.
+c) Ta phân tích: 120 = 15 x 8 = 3 x 5 x 8 = 3 x 5 x 2 x 4 = 1 x 3 x 5 x 2 x 4
+Số bé nhất là 358.
+Mở rộng: Số bé nhất có các chữ số khác nhau là 1358
+Câu 6 [ĐVH]. Cho số tự nhiên 127 062 492. Xoá đi năm chữ số, giữ nguyên thứ tự các
+chữ số còn lại để được số tự nhiên:
+a) Lớn nhất.
+b) Bé nhất.
+Lời giải:
+̅̅̅̅̅̅
+Đề bài cho một số có 9 chữ số. Khi xóa đi 5 chữ số ta còn một số có 4 chữ số dạng abcd
+a) Để số lớn nhất thì cần a phải lớn nhất, ở đây a = 7
+Tiếp theo để b lớn nhất (sau khi đã chọn a) thì b = 6
+Tiếp theo c lớn nhất trong các chữ số còn lại thì c = 9 và d = 2.
+Số thu được sau khi xóa là 7692.
+b) Để số bé nhất thì cần a phải bé nhất và khác 0, do đó a = 1
+Tiếp theo để b nhỏ nhất và khác a thì b = 0
+Tiếp theo để c nhỏ nhất và khác a, b đã chọn thì c = 2, cuối cùng thì d = 2
+Số thu được sau khi xóa là 1022
+
+TOÁN NÂNG CAO LỚP 4 – ĐỊNH HƯỚNG THI CLC
+
+THẦY ĐẶNG VIỆT HÙNG
+
+Câu 7 [ĐVH]. Viết các số tự nhiên chẵn thoả mãn:
+a) Lớn nhất và có bốn chữ số.
+b) Nhỏ nhất và có bốn chữ số khác nhau.
+Lời giải:
+a) Số tự nhiên chẵn có chữ số tận cùng là 0; 2; 4; 6; 8.
+Lưu ý: Vì bài toán không yêu cầu viết số chẵn lớn nhất có bốn chữ số khác nhau nên các
+chữ số ở các hàng có thể được giống nhau.
+- Chữ số hàng nghìn lớn nhất là 9.
+- Chữ số hàng trăm lớn nhất là 9.
+- Chữ số hàng chục lớn nhất là 9.
+- Chữ số hàng đơn vị là chữ số chẵn lớn nhất là 8.
+Vậy số cần tìm là: 9998.
+b) Để số nhỏ nhất và có 4 chữ số khác nhau:
+- Hàng nghìn nhỏ nhất khác 0 là 1.
+- Hàng trăm nhỏ nhất chưa dùng là 0.
+- Hàng chục nhỏ nhất chưa dùng là 2.
+- Hàng đơn vị phải là số chẵn nhỏ nhất chưa dùng là 4.
+Vậy số cần tìm là: 1024.
+Câu 8 [ĐVH]. Viết các số tự nhiên lẻ thoả mãn:
+a) Bé nhất và có năm chữ số.
+b) Lớn nhất và có năm chữ số khác nhau.
+Lời giải:
+a) Số có năm chữ số bé nhất là 10000.
+Để số đó là số lẻ thì chữ số hàng đơn vị phải là số lẻ nhỏ nhất là 1.
+Vậy số cần tìm là: 10001.
+b) Bài này cần thỏa mãn 3 điều kiện: số lẻ; lớn nhất; có năm chữ số khác nhau
+Để số lớn nhất:
+- Chọn các chữ số lớn nhất và khác nhau.
+- Chữ số hàng đơn vị phải là số lẻ.
+Ta chọn:
+- Hàng chục nghìn là 9
+- Hàng nghìn là 8
+- Hàng trăm là 7
+- Hàng chục là 6
+
+TOÁN NÂNG CAO LỚP 4 – ĐỊNH HƯỚNG THI CLC
+
+THẦY ĐẶNG VIỆT HÙNG
+
+- Hàng đơn vị là số lẻ nên chọn số 5.
+Vậy số cần tìm là: 98765
+Câu 9 [ĐVH]. Từ các chữ số 0; 2; 5; 6; 8; 9, viết các số tự nhiên thoả mãn điều kiện sau:
+a) Số chẵn lớn nhất có bốn chữ số khác nhau.
+b) Số lẻ bé nhất có ba chữ số khác nhau.
+Lời giải:
+a) Để số cần tìm là số chẵn thì chữ số hàng đơn vị phải là một trong các số: 0; 2; 6; 8.
+Để số cần tìm lớn nhất, ta xét lần lượt từ hàng lớn nhất:
+- Hàng nghìn là 9
+- Hàng trăm là 8
+- Hàng chục là 6
+- Hàng đơn vị còn lại 0, 2, 5. Để thỏa mãn yêu cầu đề bài là số chẵn lớn nhất nên hàng
+đơn vị chọn 2.
+Vậy số cần tìm là 9862.
+b) Để thỏa mãn điều kiện là số lẻ thì chữ số hàng đơn vị là 5 hoặc 9.
+Để số bé nhất có ba chữ số khác nhau, ta chọn:
+- Hàng trăm là 2 (khác 0)
+- Hàng chục là 0
+- Hàng đơn vị là 5
+Vậy số cần tìm là 205.
+Câu 10 [ĐVH]. Viết số tự nhiên lớn nhất có bốn chữ số và tổng các chữ số là:
+a) 29
+
+b) 34
+
+c) 8
+
+d) 17
+
+Lời giải:
+Để số lớn nhất, ta ưu tiên các hàng bên trái là các chữ số lớn nhất.
+a) 29 = 9 + 9 + 9 + 2
+Số lớn nhất là: 9992.
+b) 34 = 9 + 9 + 9 + 7
+Số lớn nhất là: 9997.
+c) 8 = 8 + 0 + 0 + 0
+Số lớn nhất là: 8000.
+d) 17 = 9 + 8 + 0 + 0
+
+TOÁN NÂNG CAO LỚP 4 – ĐỊNH HƯỚNG THI CLC
+
+Số lớn nhất là: 9800.
+
+THẦY ĐẶNG VIỆT HÙNG
+
+

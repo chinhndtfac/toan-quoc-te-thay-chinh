@@ -1,0 +1,18 @@
+# Node & dependencies
+node_modules/
+package-lock.json
+*.log
+
+# Scratch and temp files
+.agents/
+temp_*
+inspect_*
+debug_*
+test_*
+parse_*
+*~
+*.bak
+
+# Environment
+.env
+.env.local

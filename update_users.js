@@ -1,0 +1,111 @@
+const fs = require('fs');
+const path = require('path');
+
+const users = [
+  {
+    "username": "admin",
+    "pass": "thaychinh2026",
+    "name": "Thầy Nguyễn Đình Chinh (Admin)",
+    "role": "admin",
+    "allowedGrades": ["all"],
+    "allowedExams": ["all"],
+    "expireAt": "unlimited",
+    "createdAt": "2026-11-01"
+  },
+  {
+    "username": "hoangdung2019",
+    "pass": "123456",
+    "name": "Hoàng Dũng",
+    "role": "student",
+    "allowedGrades": [2],
+    "allowedExams": ["all"],
+    "expireAt": "2026-12-02T23:59:59",
+    "createdAt": "2026-11-02"
+  },
+  {
+    "username": "hocsinh1",
+    "pass": "123456",
+    "name": "Bảo An (Lớp 1)",
+    "role": "student",
+    "allowedGrades": [1],
+    "allowedExams": ["all"],
+    "expireAt": "unlimited",
+    "createdAt": "2026-11-01"
+  },
+  {
+    "username": "hocsinh2",
+    "pass": "123456",
+    "name": "Minh Khôi (Lớp 4)",
+    "role": "student",
+    "allowedGrades": [4],
+    "allowedExams": ["all"],
+    "expireAt": "unlimited",
+    "createdAt": "2026-11-01"
+  },
+  {
+    "username": "hocsinh3",
+    "pass": "123456",
+    "name": "Hồng Anh (Thử 7 ngày)",
+    "role": "student",
+    "allowedGrades": ["all"],
+    "allowedExams": ["TIMO", "Kangaroo"],
+    "expireAt": "2026-11-10T23:59:59",
+    "createdAt": "2026-11-01"
+  },
+  {
+    "username": "lop1",
+    "pass": "lop1123456",
+    "name": "Lop1",
+    "role": "student",
+    "allowedGrades": [1],
+    "allowedExams": ["all"],
+    "expireAt": "2026-12-03T23:59:59",
+    "createdAt": "2026-11-03"
+  },
+  {
+    "username": "lop2",
+    "pass": "lop2123456",
+    "name": "Lop2",
+    "role": "student",
+    "allowedGrades": [2],
+    "allowedExams": ["all"],
+    "expireAt": "2026-12-03T23:59:59",
+    "createdAt": "2026-11-03"
+  },
+  {
+    "username": "lop3",
+    "pass": "lop3123456",
+    "name": "Lớp 3",
+    "role": "student",
+    "allowedGrades": [3],
+    "allowedExams": ["all"],
+    "expireAt": "2026-12-03T23:59:59",
+    "createdAt": "2026-11-03"
+  },
+  {
+    "username": "lop4",
+    "pass": "lop4123456",
+    "name": "Lớp 4",
+    "role": "student",
+    "allowedGrades": [4],
+    "allowedExams": ["all"],
+    "expireAt": "2026-12-03T23:59:59",
+    "createdAt": "2026-11-03"
+  },
+  {
+    "username": "lop5",
+    "pass": "lop5123456",
+    "name": "Lớp 5",
+    "role": "student",
+    "allowedGrades": [5],
+    "allowedExams": ["all"],
+    "expireAt": "2026-12-03T23:59:59",
+    "createdAt": "2026-11-03"
+  }
+];
+
+const dir = 'C:\\Users\\HNBV3384\\.gemini\\antigravity\\scratch\\toan-quoc-te';
+fs.writeFileSync(path.join(dir, 'users_db.json'), JSON.stringify(users, null, 2), 'utf8');
+fs.writeFileSync(path.join(dir, 'users_db.js'), 'window.INITIAL_USERS_DB = ' + JSON.stringify(users, null, 2) + ';\nif (typeof module !== "undefined") module.exports = window.INITIAL_USERS_DB;\n', 'utf8');
+
+console.log('Saved ' + users.length + ' users to users_db.json and users_db.js successfully.');
