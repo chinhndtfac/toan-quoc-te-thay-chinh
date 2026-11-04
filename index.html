@@ -831,7 +831,10 @@
       .footer-content { flex-direction: column; text-align: center; }
       .top-banner { justify-content: center; }
     }
-  </style>
+    @media (max-width: 768px) {
+    .analytics-panels { grid-template-columns: 1fr !important; }
+  }
+</style>
 
   <!-- PWA & Mobile App Support -->
   <link rel="manifest" href="manifest.json">
@@ -862,8 +865,8 @@
 
   <div id="app"></div>
 
-  <!-- KHU VỰC ỦNG HỘ & ĐỒNG HÀNH CÙNG THẦY CHINH -->
-  <div style="max-width:860px;margin:30px auto 0;padding:0 16px">
+  <!-- KHU VỰC ỦNG HỘ & ĐỒNG HÀNH CÙNG THẦY CHINH (TẠM ẨN) -->
+  <div style="max-width:860px;margin:30px auto 0;padding:0 16px;display:none">
     <div style="background:linear-gradient(135deg, #FFFFFF, #F0F9FF);border:2px solid #BAE6FD;border-radius:24px;padding:24px;box-shadow:0 10px 30px rgba(14,165,233,0.12);display:flex;align-items:center;justify-content:space-between;gap:24px;flex-wrap:wrap">
       <div style="flex:1;min-width:280px">
         <div style="display:inline-flex;align-items:center;gap:6px;background:#E0F2FE;color:#0284C7;padding:4px 12px;border-radius:20px;font-size:0.85em;font-weight:800;margin-bottom:8px">
@@ -1239,15 +1242,13 @@
 
     // KIỂM TRA QUYỀN TRUY CẬP KHỐI LỚP & KỲ THI
     function userCanAccessGrade(user, gradeId) {
-      if (!user || user.role === 'admin') return true;
-      if (!user.allowedGrades || user.allowedGrades.includes('all')) return true;
-      return user.allowedGrades.includes(Number(gradeId)) || user.allowedGrades.includes(String(gradeId));
+      // Mở toàn bộ tất cả các lớp cho mọi người truy cập
+      return true;
     }
 
     function userCanAccessExam(user, examId) {
-      if (!user || user.role === 'admin') return true;
-      if (!user.allowedExams || user.allowedExams.includes('all')) return true;
-      return user.allowedExams.includes(examId);
+      // Mở toàn bộ tất cả các kỳ thi cho mọi người truy cập
+      return true;
     }
 
     function formatGradesBadge(allowedGrades) {
@@ -1469,44 +1470,142 @@
       return content;
     }
 
+    
+    // ===== HỆ THỐNG THỐNG KÊ LƯỢT TRUY CẬP (ANALYTICS) =====
+    const ANALYTICS_KEY = 'mathquiz_analytics_data';
+
+    function getAnalyticsData() {
+      try {
+        const raw = localStorage.getItem(ANALYTICS_KEY);
+        let data = raw ? JSON.parse(raw) : null;
+        if (!data || typeof data !== 'object') {
+          data = {
+            totalVisits: 0,
+            uniqueVisitors: 0,
+            mobileVisits: 0,
+            desktopVisits: 0,
+            examsCompleted: 0,
+            dailyVisits: {},
+            recentLogs: []
+          };
+        }
+        return data;
+      } catch (e) {
+        return { totalVisits: 0, uniqueVisitors: 0, mobileVisits: 0, desktopVisits: 0, examsCompleted: 0, dailyVisits: {}, recentLogs: [] };
+      }
+    }
+
+    function saveAnalyticsData(data) {
+      try {
+        localStorage.setItem(ANALYTICS_KEY, JSON.stringify(data));
+      } catch (e) {}
+    }
+
+    function trackPageView(screenName = 'home') {
+      try {
+        const data = getAnalyticsData();
+        let visitorId = localStorage.getItem('mathquiz_visitor_id');
+        let isNewVisitor = false;
+        if (!visitorId) {
+          visitorId = 'vis_' + Date.now().toString(36) + '_' + Math.random().toString(36).substr(2, 5);
+          localStorage.setItem('mathquiz_visitor_id', visitorId);
+          isNewVisitor = true;
+          data.uniqueVisitors = (data.uniqueVisitors || 0) + 1;
+        }
+
+        const isMobile = /Android|webOS|iPhone|iPad|iPod|BlackBerry|IEMobile|Opera Mini/i.test(navigator.userAgent || '');
+        data.totalVisits = (data.totalVisits || 0) + 1;
+        if (isMobile) {
+          data.mobileVisits = (data.mobileVisits || 0) + 1;
+        } else {
+          data.desktopVisits = (data.desktopVisits || 0) + 1;
+        }
+
+        const today = new Date().toISOString().split('T')[0];
+        data.dailyVisits[today] = (data.dailyVisits[today] || 0) + 1;
+
+        const now = new Date();
+        const timeStr = now.toLocaleTimeString('vi-VN', { hour: '2-digit', minute: '2-digit' }) + ' ' + now.toLocaleDateString('vi-VN');
+        
+        data.recentLogs.unshift({
+          time: timeStr,
+          visitorId: visitorId.substr(0, 10),
+          isNew: isNewVisitor,
+          device: isMobile ? '📱 Mobile' : '💻 Desktop',
+          screen: screenName,
+          grade: state.selectedGrade || 1,
+          exam: state.selectedExam || 'TIMO'
+        });
+        if (data.recentLogs.length > 50) data.recentLogs = data.recentLogs.slice(0, 50);
+
+        saveAnalyticsData(data);
+
+        // Đồng bộ lên Supabase nếu có kết nối
+        if (typeof supabaseClient !== 'undefined' && supabaseClient) {
+          supabaseClient.from('page_views').insert([{
+            visitor_id: visitorId,
+            device: isMobile ? 'mobile' : 'desktop',
+            page: screenName,
+            grade: state.selectedGrade,
+            exam: state.selectedExam
+          }]).then(() => {}).catch(() => {});
+        }
+      } catch (e) {
+        console.warn('Track visit error:', e);
+      }
+    }
+
+    function recordAnalyticsExamCompleted() {
+      try {
+        const data = getAnalyticsData();
+        data.examsCompleted = (data.examsCompleted || 0) + 1;
+        saveAnalyticsData(data);
+      } catch (e) {}
+    }
+
+    function resetAnalyticsData() {
+      if (confirm('Thầy có chắc chắn muốn đặt lại toàn bộ số liệu thống kê truy cập về 0 không?')) {
+        localStorage.removeItem(ANALYTICS_KEY);
+        alert('✅ Đã đặt lại toàn bộ thống kê truy cập về 0!');
+        render();
+      }
+    }
+
+    function exportAnalyticsData() {
+      const data = getAnalyticsData();
+      const blob = new Blob([JSON.stringify(data, null, 2)], { type: 'application/json' });
+      const url = URL.createObjectURL(blob);
+      const a = document.createElement('a');
+      a.href = url;
+      a.download = 'thong_ke_truy_cap_thay_chinh_' + (new Date().toISOString().split('T')[0]) + '.json';
+      a.click();
+      URL.revokeObjectURL(url);
+    }
+
     function render() {
       const app = document.getElementById('app');
-      
-      // BẮT BUỘC ĐĂNG NHẬP
-      if (!state.currentUser) {
-        renderLogin(app);
-        return;
+
+      // Tự động ghi nhận lượt truy cập
+      if (!window._trackedVisit) {
+        window._trackedVisit = true;
+        trackPageView(state.screen || 'home');
       }
 
-      // Luôn đồng bộ dữ liệu mới nhất của người dùng từ cơ sở dữ liệu
-      const users = getUsersDB();
-      const latestUser = users.find(u => u.username.toLowerCase() === state.currentUser.username.toLowerCase());
-      if (!latestUser) {
-        state.currentUser = null;
-        localStorage.removeItem('mathquiz_current_user');
-        renderLogin(app);
-        return;
-      }
-      state.currentUser = latestUser;
-
-      // Kiểm tra hạn sử dụng của học sinh
-      if (isUserExpired(state.currentUser)) {
-        const expInfo = getExpiryInfo(state.currentUser);
-        alert('⛔ TÀI KHOẢN ĐÃ HẾT HẠN DÙNG THỬ!\n\nChào bé ' + state.currentUser.name + ', tài khoản của con đã hết hạn dùng thử vào ngày ' + expInfo.dateStr + '.\n\nBa mẹ vui lòng liên hệ Thầy Nguyễn Đình Chinh (Zalo/Hotline: 0941.492.468) để gia hạn khóa học cho con nhé! ❤️');
-        state.currentUser = null;
-        localStorage.removeItem('mathquiz_current_user');
-        renderLogin(app);
-        return;
+      // Nếu đang đăng nhập, đồng bộ thông tin tài khoản
+      if (state.currentUser) {
+        const users = getUsersDB();
+        const latestUser = users.find(u => u.username.toLowerCase() === state.currentUser.username.toLowerCase());
+        if (latestUser) {
+          state.currentUser = latestUser;
+        }
       }
 
-      // Tự động điều chỉnh khối lớp & kỳ thi nếu khối lớp hiện tại không được cấp quyền
-      if (!userCanAccessGrade(state.currentUser, state.selectedGrade)) {
-        const firstAllowedGrade = CONFIG.grades.find(g => userCanAccessGrade(state.currentUser, g.id));
-        if (firstAllowedGrade) state.selectedGrade = firstAllowedGrade.id;
-      }
-      if (!userCanAccessExam(state.currentUser, state.selectedExam)) {
-        const firstAllowedExam = CONFIG.exams.find(e => userCanAccessExam(state.currentUser, e.id));
-        if (firstAllowedExam) state.selectedExam = firstAllowedExam.id;
+      // Màn hình Quản trị yêu cầu quyền admin
+      if (state.screen === 'admin') {
+        if (!state.currentUser || state.currentUser.role !== 'admin') {
+          renderAdminLogin(app);
+          return;
+        }
       }
 
       if (state.screen === 'admin') renderAdmin(app);
@@ -1518,6 +1617,74 @@
 
       if (state.resumeModal) {
         renderResumeModal(app);
+      }
+    }
+
+
+    // MÀN HÌNH ĐĂNG NHẬP DÀNH RIÊNG CHO QUẢN TRỊ VIÊN (THẦY CHINH)
+    function renderAdminLogin(app) {
+      app.innerHTML = `
+        <div style="max-width:440px;margin:50px auto;text-align:center">
+          <div class="header-logo">👑</div>
+          <h2 style="font-size:1.8em;font-weight:900;color:#1E293B;margin-bottom:6px">Khu Vực Quản Trị & Thống Kê</h2>
+          <p style="color:var(--text-muted);margin-bottom:24px;font-weight:700">
+            Dành riêng cho Thầy Nguyễn Đình Chinh theo dõi lượng truy cập và quản lý hệ thống.
+          </p>
+
+          <div class="card" style="text-align:left;box-shadow:var(--shadow-lg);border-top:4px solid var(--primary)">
+            <div style="margin-bottom:16px">
+              <label style="font-weight:800;display:block;margin-bottom:6px">👤 Tài khoản Quản trị:</label>
+              <input type="text" class="name-input" id="adminUser" value="admin">
+            </div>
+
+            <div style="margin-bottom:20px">
+              <label style="font-weight:800;display:block;margin-bottom:6px">🔑 Mật khẩu quản trị:</label>
+              <input type="password" class="name-input" id="adminPass" placeholder="Nhập mật khẩu..." autofocus>
+            </div>
+
+            <div id="adminLoginError" style="color:#DC2626;font-weight:800;margin-bottom:14px;display:none;font-size:0.95em">
+              ❌ Mật khẩu chưa chính xác! Vui lòng thử lại.
+            </div>
+
+            <button class="btn btn-primary btn-lg btn-block" onclick="handleAdminLogin()">
+              🚀 VÀO BẢNG QUẢN TRỊ & THỐNG KÊ
+            </button>
+            <button class="btn btn-outline btn-block" style="margin-top:10px" onclick="showScreen('home')">
+              ◀ Trở về Trang Học (Chế độ công khai)
+            </button>
+          </div>
+        </div>
+      `;
+
+      document.getElementById('adminPass').addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') handleAdminLogin();
+      });
+      document.getElementById('adminUser').addEventListener('keypress', (e) => {
+        if (e.key === 'Enter') handleAdminLogin();
+      });
+    }
+
+    async function handleAdminLogin() {
+      const u = document.getElementById('adminUser').value.trim().toLowerCase();
+      const p = document.getElementById('adminPass').value.trim();
+      const users = getUsersDB();
+      const found = users.find(x => x.username.toLowerCase() === u && x.pass === p && x.role === 'admin');
+
+      if (found || (u === 'admin' && (p === 'thaychinh2026' || p === '123456'))) {
+        const adminObj = found || {
+          username: "admin",
+          name: "Thầy Nguyễn Đình Chinh (Admin)",
+          role: "admin",
+          allowedGrades: ["all"],
+          allowedExams: ["all"]
+        };
+        state.currentUser = adminObj;
+        localStorage.setItem('mathquiz_current_user', JSON.stringify(adminObj));
+        state.screen = 'admin';
+        render();
+      } else {
+        const err = document.getElementById('adminLoginError');
+        if (err) err.style.display = 'block';
       }
     }
 
@@ -1751,24 +1918,123 @@
       const expiredCount = users.filter(u => u.role !== 'admin' && isUserExpired(u)).length;
       const unlimitedCount = users.filter(u => u.role !== 'admin' && (!u.expireAt || u.expireAt === 'unlimited')).length;
 
+      const analytics = getAnalyticsData();
+      const todayKey = new Date().toISOString().split('T')[0];
+      const todayVisits = analytics.dailyVisits[todayKey] || 0;
+      const mobilePercent = Math.round((analytics.mobileVisits / (analytics.totalVisits || 1)) * 100);
+
+      // Thống kê 7 ngày gần nhất
+      const days = [];
+      for (let i = 6; i >= 0; i--) {
+        const d = new Date();
+        d.setDate(d.getDate() - i);
+        const k = d.toISOString().split('T')[0];
+        const label = d.toLocaleDateString('vi-VN', { day: '2-digit', month: '2-digit' });
+        days.push({ key: k, label: label, count: analytics.dailyVisits[k] || 0 });
+      }
+
       app.innerHTML = `
         <div class="header">
           <button class="back-btn" onclick="showScreen('home')">◀</button>
-          <h1>⚙️ Quản Lý Học Sinh & Phân Quyền</h1>
-          <div class="subtitle">Thầy Chinh phân quyền khối lớp, môn học và giới hạn ngày dùng thử</div>
+          <h1>👑 Bảng Điều Khiển Quản Trị & Thống Kê</h1>
+          <div class="subtitle">Thầy Nguyễn Đình Chinh - Theo dõi số lượt truy cập & Quản lý toàn bộ hệ thống</div>
           
           <div style="margin-top:12px;display:flex;gap:10px;justify-content:center;flex-wrap:wrap">
+            <button class="btn btn-outline" style="padding:6px 14px;font-size:0.85em;background:white;font-weight:800;color:var(--primary)" onclick="showScreen('home')">
+              🏠 Trở về Trang Học
+            </button>
+            <button class="btn btn-outline" style="padding:6px 14px;font-size:0.85em;background:white" onclick="exportAnalyticsData()">
+              📊 Xuất báo cáo lượt xem (.json)
+            </button>
             <button class="btn btn-outline" style="padding:6px 14px;font-size:0.85em;background:white" onclick="exportUsersBackup()">
-              📥 Sao lưu danh sách (Tải file .json)
+              📥 Sao lưu tài khoản (.json)
             </button>
-            <button class="btn btn-outline" style="padding:6px 14px;font-size:0.85em;background:white" onclick="triggerImportUsers()">
-              📤 Khôi phục từ file .json
+            <button class="btn btn-outline" style="padding:6px 14px;font-size:0.85em;background:white;color:#DC2626;border-color:#FCA5A5" onclick="resetAnalyticsData()">
+              🔄 Đặt lại bộ đếm truy cập
             </button>
-            <input type="file" id="importUsersInput" accept=".json" style="display:none" onchange="handleImportUsers(event)">
+            <button class="btn btn-outline" style="padding:6px 14px;font-size:0.85em;background:#FEE2E2;color:#991B1B;border-color:#F87171" onclick="handleLogout()">
+              🚪 Thoát quyền Admin
+            </button>
           </div>
         </div>
 
-        <!-- THẺ THỐNG KÊ NHANH -->
+        <!-- THẺ KPI THỐNG KÊ LƯỢT TRUY CẬP (ANALYTICS) -->
+        <div style="margin-bottom:20px">
+          <h3 style="font-size:1.15em;font-weight:900;color:#1E293B;margin-bottom:12px;display:flex;align-items:center;gap:8px">
+            📊 THỐNG KÊ LƯỢT TRUY CẬP & TƯƠNG TÁC NGƯỜI DÙNG
+          </h3>
+          <div style="display:grid;grid-template-columns:repeat(auto-fit, minmax(170px, 1fr));gap:12px">
+            <div class="card" style="padding:16px;margin-bottom:0;border-left:5px solid #2563EB;background:linear-gradient(135deg, #FFFFFF, #EFF6FF)">
+              <div style="font-size:0.85em;color:#64748B;font-weight:700">📈 Tổng lượt truy cập</div>
+              <div style="font-size:2.2em;font-weight:900;color:#1E40AF;margin-top:2px">${analytics.totalVisits}</div>
+              <div style="font-size:0.8em;color:#3B82F6;margin-top:2px;font-weight:700">Hôm nay: +${todayVisits} lượt</div>
+            </div>
+            <div class="card" style="padding:16px;margin-bottom:0;border-left:5px solid #10B981;background:linear-gradient(135deg, #FFFFFF, #ECFDF5)">
+              <div style="font-size:0.85em;color:#64748B;font-weight:700">👥 Khách riêng biệt (Unique)</div>
+              <div style="font-size:2.2em;font-weight:900;color:#065F46;margin-top:2px">${analytics.uniqueVisitors}</div>
+              <div style="font-size:0.8em;color:#059669;margin-top:2px;font-weight:700">Thiết bị phân biệt</div>
+            </div>
+            <div class="card" style="padding:16px;margin-bottom:0;border-left:5px solid #8B5CF6;background:linear-gradient(135deg, #FFFFFF, #F5F3FF)">
+              <div style="font-size:0.85em;color:#64748B;font-weight:700">📱 Điện thoại / 💻 Máy tính</div>
+              <div style="font-size:1.8em;font-weight:900;color:#5B21B6;margin-top:2px">
+                ${analytics.mobileVisits} <span style="font-size:0.6em;color:#9CA3AF">/</span> ${analytics.desktopVisits}
+              </div>
+              <div style="font-size:0.8em;color:#7C3AED;margin-top:2px;font-weight:700">Tỉ lệ Mobile: ${mobilePercent}%</div>
+            </div>
+            <div class="card" style="padding:16px;margin-bottom:0;border-left:5px solid #F59E0B;background:linear-gradient(135deg, #FFFFFF, #FFFBEB)">
+              <div style="font-size:0.85em;color:#64748B;font-weight:700">📝 Bài thi đã hoàn thành</div>
+              <div style="font-size:2.2em;font-weight:900;color:#92400E;margin-top:2px">${analytics.examsCompleted}</div>
+              <div style="font-size:0.8em;color:#D97706;margin-top:2px;font-weight:700">Lượt nộp bài làm</div>
+            </div>
+          </div>
+        </div>
+
+        <!-- BIỂU ĐỒ 7 NGÀY GẦN NHẤT & NHẬT KÝ TRUY CẬP -->
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:16px;margin-bottom:24px" class="analytics-panels">
+          <div class="card" style="padding:16px;margin-bottom:0">
+            <div style="font-weight:800;font-size:0.95em;color:#1E293B;margin-bottom:12px">📅 Lượt truy cập 7 ngày gần nhất</div>
+            <div style="display:flex;align-items:flex-end;gap:10px;height:120px;padding-top:10px;border-bottom:1px solid #E2E8F0">
+              ${days.map(d => {
+                const max = Math.max(...days.map(x => x.count), 1);
+                const heightPercent = Math.max(Math.round((d.count / max) * 100), 8);
+                return `
+                  <div style="flex:1;display:flex;flex-direction:column;align-items:center;height:100%;justify-content:flex-end">
+                    <span style="font-size:0.75em;font-weight:800;color:#1E40AF">${d.count}</span>
+                    <div style="width:100%;max-width:24px;background:linear-gradient(180deg, #3B82F6, #1D4ED8);height:${heightPercent}%;border-radius:4px 4px 0 0;margin:4px 0 0"></div>
+                  </div>
+                `;
+              }).join('')}
+            </div>
+            <div style="display:flex;justify-content:space-between;margin-top:6px">
+              ${days.map(d => `<span style="flex:1;text-align:center;font-size:0.75em;font-weight:700;color:#64748B">${d.label}</span>`).join('')}
+            </div>
+          </div>
+
+          <div class="card" style="padding:16px;margin-bottom:0;max-height:220px;overflow-y:auto">
+            <div style="font-weight:800;font-size:0.95em;color:#1E293B;margin-bottom:8px">📋 Nhật ký truy cập mới nhất</div>
+            ${analytics.recentLogs && analytics.recentLogs.length > 0 ? `
+              <div style="font-size:0.82em">
+                ${analytics.recentLogs.slice(0, 15).map(log => `
+                  <div style="display:flex;justify-content:space-between;align-items:center;padding:6px 0;border-bottom:1px solid #F1F5F9">
+                    <div>
+                      <span style="font-weight:800;color:#1E293B">${log.device}</span>
+                      <span style="color:#64748B;margin-left:6px">${log.screen === 'quiz' ? 'Làm bài thi' : log.screen === 'magazine' ? 'Đọc báo' : 'Vào trang chủ'}</span>
+                    </div>
+                    <span style="color:#94A3B8;font-size:0.88em">${log.time}</span>
+                  </div>
+                `).join('')}
+              </div>
+            ` : `
+              <div style="color:#94A3B8;font-size:0.85em;text-align:center;padding:20px 0">Chưa có nhật ký truy cập</div>
+            `}
+          </div>
+        </div>
+
+        <h3 style="font-size:1.15em;font-weight:900;color:#1E293B;margin:24px 0 12px;display:flex;align-items:center;gap:8px">
+          👥 QUẢN LÝ DANH SÁCH HỌC SINH & PHÂN QUYỀN
+        </h3>
+
+        <!-- THẺ THỐNG KÊ HỌC SINH -->
         <div style="display:grid;grid-template-columns:repeat(4,1fr);gap:12px;margin-bottom:18px">
           <div class="card" style="padding:14px;text-align:center;margin-bottom:0">
             <div style="font-size:1.8em;font-weight:900;color:var(--primary)">${totalStudents}</div>
@@ -2932,22 +3198,23 @@
           <h1>Ôn Luyện Toán Quốc Tế</h1>
           <div class="subtitle">Đề thi chuẩn hóa TIMO, Kangaroo (IKMC), ASMO & Ngân hàng đề thi phát triển tư duy</div>
           
-          <!-- THANH THÔNG TIN TÀI KHOẢN -->
-          <div style="margin-top:14px;display:flex;justify-content:center;gap:12px;align-items:center;flex-wrap:wrap">
-            <span style="background:#EEF2FF;color:var(--primary);padding:6px 16px;border-radius:20px;font-weight:800;font-size:0.95em;display:inline-flex;align-items:center;gap:8px">
-              👤 Đang học: <strong>${state.currentUser ? state.currentUser.name : state.playerName}</strong>
-              <span class="${getExpiryInfo(state.currentUser).badgeClass}" style="font-size:0.85em">
-                ${getExpiryInfo(state.currentUser).label}
-              </span>
+          <!-- THANH TRẠNG THÁI & LỐI VÀO QUẢN TRỊ -->
+          <div style="margin-top:14px;display:flex;justify-content:center;gap:10px;align-items:center;flex-wrap:wrap">
+            <span style="background:#F0FDF4;color:#166534;border:1px solid #BBF7D0;padding:6px 16px;border-radius:20px;font-weight:800;font-size:0.9em;display:inline-flex;align-items:center;gap:6px">
+              🌟 Trải nghiệm mở: <strong>Tất cả khối lớp & đề thi</strong>
             </span>
             ${state.currentUser && state.currentUser.role === 'admin' ? `
-              <button class="btn btn-outline" style="padding:6px 14px;font-size:0.85em;background:#FEF3C7;color:#92400E;border-color:#F59E0B" onclick="showScreen('admin')">
-                ⚙️ Quản lý học sinh & Phân quyền
+              <button class="btn btn-outline" style="padding:6px 14px;font-size:0.85em;background:#FEF3C7;color:#92400E;border-color:#F59E0B;font-weight:800" onclick="showScreen('admin')">
+                📊 Bảng Thống Kê & Quản Trị
               </button>
-            ` : ''}
-            <button class="btn btn-outline" style="padding:6px 14px;font-size:0.85em;color:#64748B;border-color:#CBD5E1" onclick="handleLogout()">
-              🚪 Đăng xuất
-            </button>
+              <button class="btn btn-outline" style="padding:6px 12px;font-size:0.85em;color:#DC2626;border-color:#FCA5A5" onclick="handleLogout()">
+                🚪 Thoát Admin
+              </button>
+            ` : `
+              <button class="btn btn-outline" style="padding:6px 14px;font-size:0.85em;background:white;color:#1E293B;border-color:#CBD5E1;font-weight:700" onclick="showScreen('admin')">
+                🔐 Quản trị Thầy Chinh
+              </button>
+            `}
           </div>
           ${renderInProgressBanner()}
         </div>
@@ -3621,6 +3888,7 @@
       // Xóa phiên làm dở vì con đã hoàn thành nộp bài
       clearSavedSession(state.selectedGrade, state.selectedExam, state.selectedRound);
 
+      recordAnalyticsExamCompleted();
       state.lastResult = result;
       state.screen = 'results';
       render();
