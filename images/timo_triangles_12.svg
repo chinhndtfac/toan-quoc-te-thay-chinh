@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 340 260" width="320" height="240">
+  <!-- Outer big triangle -->
+  <polygon points="170,20 20,230 320,230" fill="#F1F5F9" stroke="#1E293B" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Inner dividing lines -->
+  <line x1="170" y1="20" x2="170" y2="230" stroke="#3B82F6" stroke-width="2.5"/>
+  <line x1="95" y1="125" x2="245" y2="125" stroke="#3B82F6" stroke-width="2.5"/>
+  <line x1="95" y1="125" x2="170" y2="230" stroke="#3B82F6" stroke-width="2"/>
+  <line x1="245" y1="125" x2="170" y2="230" stroke="#3B82F6" stroke-width="2"/>
+  <line x1="20" y1="230" x2="170" y2="125" stroke="#3B82F6" stroke-width="2"/>
+  <line x1="320" y1="230" x2="170" y2="125" stroke="#3B82F6" stroke-width="2"/>
+  <!-- Labels 1 to 8 -->
+  <text x="135" y="80" font-family="Arial" font-size="14" font-weight="bold" fill="#1D4ED8">1</text>
+  <text x="175" y="80" font-family="Arial" font-size="14" font-weight="bold" fill="#DC2626">2</text>
+  <text x="135" y="145" font-family="Arial" font-size="14" font-weight="bold" fill="#DC2626">3</text>
+  <text x="65" y="180" font-family="Arial" font-size="14" font-weight="bold" fill="#1D4ED8">4</text>
+  <text x="170" y="175" font-family="Arial" font-size="16" font-weight="bold" fill="#DC2626" text-anchor="middle">5</text>
+  <text x="205" y="145" font-family="Arial" font-size="14" font-weight="bold" fill="#DC2626">6</text>
+  <text x="170" y="210" font-family="Arial" font-size="14" font-weight="bold" fill="#DC2626" text-anchor="middle">7</text>
+  <text x="270" y="180" font-family="Arial" font-size="14" font-weight="bold" fill="#1D4ED8">8</text>
+</svg>

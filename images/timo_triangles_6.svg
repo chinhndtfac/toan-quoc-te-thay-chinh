@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 240" width="280" height="220">
+  <polygon points="150,20 30,210 270,210" fill="#F8FAFC" stroke="#1E293B" stroke-width="3" stroke-linejoin="round"/>
+  <!-- Center inverted triangle -->
+  <line x1="90" y1="115" x2="210" y2="115" stroke="#2563EB" stroke-width="2.5"/>
+  <line x1="90" y1="115" x2="150" y2="210" stroke="#2563EB" stroke-width="2.5"/>
+  <line x1="210" y1="115" x2="150" y2="210" stroke="#2563EB" stroke-width="2.5"/>
+  <line x1="150" y1="20" x2="150" y2="115" stroke="#2563EB" stroke-width="2"/>
+  <!-- Numbers -->
+  <text x="130" y="75" font-family="Arial" font-size="14" font-weight="bold" fill="#DC2626">1</text>
+  <text x="170" y="75" font-family="Arial" font-size="14" font-weight="bold" fill="#DC2626">2</text>
+  <text x="75" y="170" font-family="Arial" font-size="14" font-weight="bold" fill="#DC2626">3</text>
+  <text x="225" y="170" font-family="Arial" font-size="14" font-weight="bold" fill="#DC2626">4</text>
+  <text x="150" y="170" font-family="Arial" font-size="14" font-weight="bold" fill="#DC2626" text-anchor="middle">5</text>
+</svg>

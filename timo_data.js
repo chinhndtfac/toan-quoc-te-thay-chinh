@@ -232,21 +232,21 @@ const TIMO_DB = {
       "round": "Vong loai - De so 8",
       "topic": "Geometry / Hình học",
       "num": 16,
-      "text": "How many rectangles containing the moon symbol are there in the figure below?\nHỏi có bao nhiêu hình chữ nhật chứa biểu tượng mặt trăng trong hình vẽ dưới đây?\n",
+      "text": "How many rectangles containing the moon symbol (🌙) are there in the figure below?\nHỏi có bao nhiêu hình chữ nhật chứa biểu tượng mặt trăng (🌙) trong hình vẽ dưới đây?",
       "textLines": [
-        "How many rectangles containing the moon symbol are there in the figure below?",
-        "Hỏi có bao nhiêu hình chữ nhật chứa biểu tượng mặt trăng trong hình vẽ dưới đây?",
-        ""
+        "How many rectangles containing the moon symbol (🌙) are there in the figure below?",
+        "Hỏi có bao nhiêu hình chữ nhật chứa biểu tượng mặt trăng (🌙) trong hình vẽ dưới đây?"
       ],
       "options": [
         "A. 48",
-        "B. 20",
+        "B. 36",
         "C. 24",
-        "D. 36"
+        "D. 60"
       ],
       "answer": "A",
-      "explanation": "bên trên, bên dưới, bên trái và bên phải biểu tượng đó.\nCó 4 cách chọn đường thẳng ở bên trên biểu tượng mặt trăng.\nCó 2 cách chọn đường thẳng ở bên dưới biểu tượng mặt trăng.\nCó 2 cách chọn đường thẳng ở bên trái biểu tượng mặt trăng.\nCó 3 cách chọn đường thẳng ở bên phải biểu tượng mặt trăng.\nVậy số hình chữ nhật chứa biểu tượng mặt trăng là: 4 x 2 x 2 x 3 = 48 (hình).\nĐáp số: A.",
-      "type": "mc"
+      "explanation": "Một hình chữ nhật chứa biểu tượng 🌙 được xác định bởi:\n- Có 4 cách chọn đường nằm ngang ở phía trên biểu tượng mặt trăng.\n- Có 2 cách chọn đường nằm ngang ở phía dưới biểu tượng mặt trăng.\n- Có 2 cách chọn đường thẳng đứng ở bên trái biểu tượng mặt trăng.\n- Có 3 cách chọn đường thẳng đứng ở bên phải biểu tượng mặt trăng.\nVậy số hình chữ nhật chứa biểu tượng mặt trăng là:\n4 × 2 × 2 × 3 = 48 (hình).\nĐáp số: A.",
+      "type": "mc",
+      "image": "images/moon_grid.svg"
     },
     {
       "id": "4-Vong loai - De so 6-17",
@@ -746,19 +746,19 @@ const TIMO_DB = {
       "round": "Vong loai - De so 4",
       "topic": "Geometry / Hình học",
       "num": 19,
-      "text": "At least how many small squares can be seen if viewing the figure below from the front?\ntrước?",
+      "text": "How many rectangles containing both triangle symbols (▲) are there in the figure below?\nHỏi có bao nhiêu hình chữ nhật chứa cả hai biểu tượng hình tam giác (▲) trong hình vẽ dưới đây?",
       "textLines": [
-        "At least how many small squares can be seen if viewing the figure below from the front?",
-        "trước?"
+        "How many rectangles containing both triangle symbols (▲) are there in the figure below?",
+        "Hỏi có bao nhiêu hình chữ nhật chứa cả hai biểu tượng hình tam giác (▲) trong hình vẽ dưới đây?"
       ],
       "options": [
-        "A. 9",
-        "B. 10",
-        "C. 11",
-        "D. 12"
+        "A. 12",
+        "B. 16",
+        "C. 18",
+        "D. 24"
       ],
       "answer": "D",
-      "explanation": "●\n\n●\n\n\n\nCó 2 đường thẳng bên trên cả hai hình tam giác.\nCó 3 đường thẳng bên phải cả hai hình tam giác.\nCó 2 đường thẳng bên dưới cả hai hình tam giác.\nCó 2 đường thẳng bên trái cả hai hình tam giác.\nVậy số hình chữ nhật chứa cả hai hình tam giác là: 2 x 3 x 2 x 2 = 24 (hình).\nĐáp số: D.",
+      "explanation": "Để một hình chữ nhật chứa cả hai hình tam giác:\n- Có 2 đường thẳng nằm bên trên cả hai hình tam giác.\n- Có 3 đường thẳng nằm bên phải cả hai hình tam giác.\n- Có 2 đường thẳng nằm bên dưới cả hai hình tam giác.\n- Có 2 đường thẳng nằm bên trái cả hai hình tam giác.\nVậy số hình chữ nhật chứa cả hai hình tam giác là:\n2 × 3 × 2 × 2 = 24 (hình).\nĐáp số: D.",
       "type": "mc"
     },
     {
@@ -2225,22 +2225,19 @@ const TIMO_DB = {
       "round": "Vong loai - De so 6",
       "topic": "Geometry / Hình học",
       "num": 20,
-      "text": "Eight identical rectangles with perimeter 36 each are combined to form a big square as\nfollows. Find the perimeter of the square.\nTám hình chữ nhật y hệt nhau đều có chu vi là 36 được ghép thành hình vuông như sau. Tính\nchu vi của hình vuông đó.\nCombinatorics / Tổ hợp",
+      "text": "Eight identical rectangles with perimeter 36 each are combined to form a big square. Find the perimeter of the big square.\nTám hình chữ nhật giống nhau đều có chu vi là 36 được ghép thành một hình vuông lớn. Tính chu vi của hình vuông đó.",
       "textLines": [
-        "Eight identical rectangles with perimeter 36 each are combined to form a big square as",
-        "follows. Find the perimeter of the square.",
-        "Tám hình chữ nhật y hệt nhau đều có chu vi là 36 được ghép thành hình vuông như sau. Tính",
-        "chu vi của hình vuông đó.",
-        "Combinatorics / Tổ hợp"
+        "Eight identical rectangles with perimeter 36 each are combined to form a big square. Find the perimeter of the big square.",
+        "Tám hình chữ nhật giống nhau đều có chu vi là 36 được ghép thành một hình vuông lớn. Tính chu vi của hình vuông đó."
       ],
       "options": [
-        "A. 84",
-        "B. 96",
-        "C. 144",
-        "D. 72"
+        "A. 72",
+        "B. 64",
+        "C. 48",
+        "D. 96"
       ],
       "answer": "B",
-      "explanation": "Dựa vào hình vẽ, ta được dãy số có quy luật sau: 2, 4, 7, 11, …\n\nNhận xét: 2 + 2 = 4,    4 + 3 = 7,     7 + 4 = 11, …\nVậy 5 đường thẳng cắt một hình tròn thành nhiều nhất số phần là: 11 + 5 = 16 (phần).\nĐáp số: B.\n\n\nCombinatorics / Tổ hợp",
+      "explanation": "Gọi chiều rộng mỗi hình chữ nhật là a (cm), chiều dài là b (cm).\nChu vi một hình chữ nhật là: 2 × (a + b) = 36 => a + b = 18 (cm).\nTám hình chữ nhật ghép dọc tạo thành một hình vuông nên cạnh hình vuông bằng chiều dài và bằng 8 lần chiều rộng: b = 8a.\nThay vào: a + 8a = 18 => 9a = 18 => a = 2 (cm), b = 16 (cm).\nCạnh của hình vuông lớn là 16 (cm).\nChu vi hình vuông lớn là: 16 × 4 = 64 (cm).\nĐáp số: B.",
       "type": "mc"
     },
     {
@@ -4251,20 +4248,21 @@ const TIMO_DB = {
       "round": "Vong loai - De so 0",
       "topic": "Geometry / Hình học",
       "num": 18,
-      "text": "At least how many small squares can be seen if viewing the figure below from the front?\nHỏi có thể thấy được ít nhất bao nhiêu hình vuông nhỏ nếu nhìn hình dưới đây từ phía trước?",
+      "text": "How many triangles are there in the 5-pointed star figure below?\nHình ngôi sao năm cánh dưới đây có tất cả bao nhiêu hình tam giác?",
       "textLines": [
-        "At least how many small squares can be seen if viewing the figure below from the front?",
-        "Hỏi có thể thấy được ít nhất bao nhiêu hình vuông nhỏ nếu nhìn hình dưới đây từ phía trước?"
+        "How many triangles are there in the 5-pointed star figure below?",
+        "Hình ngôi sao năm cánh dưới đây có tất cả bao nhiêu hình tam giác?"
       ],
       "options": [
-        "A. 10",
-        "B. 9",
-        "C. 8",
-        "D. 7"
+        "A. 5",
+        "B. 8",
+        "C. 10",
+        "D. 12"
       ],
       "answer": "C",
-      "explanation": "Hình tam giác đơn: 5 hình, là 1, 2, 3, 4, 5.\nHình tam giác tạo bởi 2 tam giác đơn và 1 ngũ giác: 5 hình, là (1, 3, 6), (2, 4, 6), (3, 5, 6), (4,\n1, 6) và (5, 2, 6).\nTổng số hình tam giác là: 5 + 5 = 10 (hình).\nĐáp số: C.",
-      "type": "mc"
+      "explanation": "Quan sát hình ngôi sao năm cánh:\n- Hình tam giác đơn: có 5 hình ở 5 cánh nhọn (1, 2, 3, 4, 5).\n- Hình tam giác lớn tạo bởi 2 tam giác cánh và 1 ngũ giác trung tâm: có 5 hình là (1, 3, 6), (2, 4, 6), (3, 5, 6), (4, 1, 6) và (5, 2, 6).\nTổng số hình tam giác là: 5 + 5 = 10 (hình).\nĐáp số: C.",
+      "type": "mc",
+      "image": "images/star_10_triangles.svg"
     },
     {
       "id": "2-Vong loai - De so 0-19",
@@ -4499,20 +4497,21 @@ const TIMO_DB = {
       "round": "Vong loai - De so 0",
       "topic": "Geometry / Hình học",
       "num": 18,
-      "text": "At least how many squares can be seen if viewing the figure below from the right?\nHỏi có thể nhìn thấy ít nhất bao nhiêu hình vuông nếu nhìn hình dưới đây từ phía bên phải?",
+      "text": "How many triangles are there in the 5-pointed star figure below?\nHình ngôi sao năm cánh dưới đây có tất cả bao nhiêu hình tam giác?",
       "textLines": [
-        "At least how many squares can be seen if viewing the figure below from the right?",
-        "Hỏi có thể nhìn thấy ít nhất bao nhiêu hình vuông nếu nhìn hình dưới đây từ phía bên phải?"
+        "How many triangles are there in the 5-pointed star figure below?",
+        "Hình ngôi sao năm cánh dưới đây có tất cả bao nhiêu hình tam giác?"
       ],
       "options": [
-        "A. 9",
-        "B. 6",
-        "C. 7",
-        "D. 8"
+        "A. 5",
+        "B. 8",
+        "C. 10",
+        "D. 12"
       ],
       "answer": "C",
-      "explanation": "Hình tam giác đơn: 5 hình, là 1, 2, 3, 4, 5.\nHình tam giác tạo bởi 2 tam giác đơn và 1 ngũ giác: 5 hình, là (1, 3, 6), (2, 4, 6), (3, 5, 6), (4,\n1, 6) và (5, 2, 6).\nTổng số hình tam giác là: 5 + 5 = 10 (hình).\nĐáp số: C.",
-      "type": "mc"
+      "explanation": "Quan sát hình ngôi sao năm cánh:\n- Hình tam giác đơn: có 5 hình ở 5 cánh nhọn (1, 2, 3, 4, 5).\n- Hình tam giác lớn tạo bởi 2 tam giác cánh và 1 ngũ giác trung tâm: có 5 hình là (1, 3, 6), (2, 4, 6), (3, 5, 6), (4, 1, 6) và (5, 2, 6).\nTổng số hình tam giác là: 5 + 5 = 10 (hình).\nĐáp số: C.",
+      "type": "mc",
+      "image": "images/star_10_triangles.svg"
     },
     {
       "id": "2-Vong loai - De so 0-19",
@@ -4843,20 +4842,21 @@ const TIMO_DB = {
       "round": "Vong loai - De so 0",
       "topic": "Geometry / Hình học",
       "num": 18,
-      "text": "How many squares are there in the figure below?\nHình dưới đây có bao nhiêu hình vuông?",
+      "text": "How many triangles are there in the 5-pointed star figure below?\nHình ngôi sao năm cánh dưới đây có tất cả bao nhiêu hình tam giác?",
       "textLines": [
-        "How many squares are there in the figure below?",
-        "Hình dưới đây có bao nhiêu hình vuông?"
+        "How many triangles are there in the 5-pointed star figure below?",
+        "Hình ngôi sao năm cánh dưới đây có tất cả bao nhiêu hình tam giác?"
       ],
       "options": [
-        "A. 15",
-        "B. 16",
-        "C. 17",
-        "D. 14"
+        "A. 5",
+        "B. 8",
+        "C. 10",
+        "D. 12"
       ],
       "answer": "C",
-      "explanation": "Hình tam giác đơn: 5 hình, là 1, 2, 3, 4, 5.\nHình tam giác tạo bởi 2 tam giác đơn và 1 ngũ giác: 5 hình, là (1, 3, 6), (2, 4, 6), (3, 5, 6), (4,\n1, 6) và (5, 2, 6).\nTổng số hình tam giác là: 5 + 5 = 10 (hình).\nĐáp số: C.",
-      "type": "mc"
+      "explanation": "Quan sát hình ngôi sao năm cánh:\n- Hình tam giác đơn: có 5 hình ở 5 cánh nhọn (1, 2, 3, 4, 5).\n- Hình tam giác lớn tạo bởi 2 tam giác cánh và 1 ngũ giác trung tâm: có 5 hình là (1, 3, 6), (2, 4, 6), (3, 5, 6), (4, 1, 6) và (5, 2, 6).\nTổng số hình tam giác là: 5 + 5 = 10 (hình).\nĐáp số: C.",
+      "type": "mc",
+      "image": "images/star_10_triangles.svg"
     },
     {
       "id": "2-Vong loai - De so 0-19",
@@ -5974,23 +5974,19 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 7",
       "topic": "Logical Thinking / Tư duy logic",
       "num": 5,
-      "text": "According to the pattern shown below, how many ▶ are there in the 7th group?\nPattern: Quy luật; 7th group: Nhóm thứ 7.\n▶   ▶     ▶     ▶\n▶     ▶    ▶\n▶     ▶                                         ▶   ▶     ▶     ▶\n▶     ▶    ▶\n▶                                               ▶   ▶     ▶     ▶\n▶     ▶\n▶   ▶     ▶\n1st Group        2nd Group               3rd Group                   4th Group\nArithmetic / Số học",
+      "text": "According to the pattern shown below, how many ▶ are there in the 7th group?\nDựa theo quy luật dưới đây, hỏi có bao nhiêu kí hiệu ▶ trong nhóm thứ 7?\n\nNhóm 1: 0 kí hiệu\nNhóm 2: 3 kí hiệu\nNhóm 3: 8 kí hiệu\nNhóm 4: 15 kí hiệu",
       "textLines": [
         "According to the pattern shown below, how many ▶ are there in the 7th group?",
-        "Pattern: Quy luật; 7th group: Nhóm thứ 7.",
-        "▶   ▶     ▶     ▶",
-        "▶     ▶    ▶",
-        "▶     ▶                                         ▶   ▶     ▶     ▶",
-        "▶     ▶    ▶",
-        "▶                                               ▶   ▶     ▶     ▶",
-        "▶     ▶",
-        "▶   ▶     ▶",
-        "1st Group        2nd Group               3rd Group                   4th Group",
-        "Arithmetic / Số học"
+        "Dựa theo quy luật dưới đây, hỏi có bao nhiêu kí hiệu ▶ trong nhóm thứ 7?",
+        "",
+        "Nhóm 1: 0 kí hiệu",
+        "Nhóm 2: 3 kí hiệu",
+        "Nhóm 3: 8 kí hiệu",
+        "Nhóm 4: 15 kí hiệu"
       ],
       "options": [],
-      "answer": "c",
-      "explanation": "Quy luật: 2 chữ cái liên tiếp trong dãy cách nhau 3 chữ cái trong bảng chữ cái tiếng Anh.\nVậy chữ cái cần điền vào chỗ trống là Q.\nĐáp số: Q.\n\n\nArithmetic / Số học",
+      "answer": "48",
+      "explanation": "Số kí hiệu ▶ ở mỗi nhóm lần lượt là: 0, 3, 8, 15, ...\nQuy luật khoảng cách tăng dần các số lẻ:\nNhóm 1 -> Nhóm 2: 0 + 3 = 3\nNhóm 2 -> Nhóm 3: 3 + 5 = 8\nNhóm 3 -> Nhóm 4: 8 + 7 = 15\nNhóm 4 -> Nhóm 5: 15 + 9 = 24\nNhóm 5 -> Nhóm 6: 24 + 11 = 35\nNhóm 6 -> Nhóm 7: 35 + 13 = 48\nVậy nhóm thứ 7 có 48 kí hiệu ▶.\nĐáp số: 48.",
       "type": "fill"
     },
     {
@@ -7093,15 +7089,19 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 7",
       "topic": "Logical Thinking / Tư duy lô-gic",
       "num": 5,
-      "text": "According to the pattern below, how many ※ is / are there in the 7th Group?\nPattern: Quy luật; 7th Group: Nhóm thứ 7.\nArithmetic / Số học",
+      "text": "According to the pattern shown below, how many ▶ are there in the 7th group?\nDựa theo quy luật dưới đây, hỏi có bao nhiêu kí hiệu ▶ trong nhóm thứ 7?\n\nNhóm 1: 0 kí hiệu\nNhóm 2: 3 kí hiệu\nNhóm 3: 8 kí hiệu\nNhóm 4: 15 kí hiệu",
       "textLines": [
-        "According to the pattern below, how many ※ is / are there in the 7th Group?",
-        "Pattern: Quy luật; 7th Group: Nhóm thứ 7.",
-        "Arithmetic / Số học"
+        "According to the pattern shown below, how many ▶ are there in the 7th group?",
+        "Dựa theo quy luật dưới đây, hỏi có bao nhiêu kí hiệu ▶ trong nhóm thứ 7?",
+        "",
+        "Nhóm 1: 0 kí hiệu",
+        "Nhóm 2: 3 kí hiệu",
+        "Nhóm 3: 8 kí hiệu",
+        "Nhóm 4: 15 kí hiệu"
       ],
       "options": [],
-      "answer": "c",
-      "explanation": "Quy luật: 2 chữ cái liên tiếp trong dãy cách nhau 3 chữ cái trong bảng chữ cái tiếng Anh.\nVậy chữ cái cần điền vào chỗ trống là Q.\nĐáp số: Q.\n\n\nArithmetic / Số học",
+      "answer": "48",
+      "explanation": "Số kí hiệu ▶ ở mỗi nhóm lần lượt là: 0, 3, 8, 15, ...\nQuy luật khoảng cách tăng dần các số lẻ:\nNhóm 1 -> Nhóm 2: 0 + 3 = 3\nNhóm 2 -> Nhóm 3: 3 + 5 = 8\nNhóm 3 -> Nhóm 4: 8 + 7 = 15\nNhóm 4 -> Nhóm 5: 15 + 9 = 24\nNhóm 5 -> Nhóm 6: 24 + 11 = 35\nNhóm 6 -> Nhóm 7: 35 + 13 = 48\nVậy nhóm thứ 7 có 48 kí hiệu ▶.\nĐáp số: 48.",
       "type": "fill"
     },
     {
@@ -10780,16 +10780,14 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 6",
       "topic": "Geometry / Hình học",
       "num": 19,
-      "text": "We place some identical cubes on top of each other. At least how many square(s) can be\nseen if observing the figure below from the right-hand side?\nAt least: Ít nhất; Squares: Hình vuông; Observing: Quan sát; Figure: Hình; From the right-hand\nside: Từ phía bên phải.",
+      "text": "What is the maximum number of regions that a circle can be divided into by 5 straight lines?\nHỏi 5 đường thẳng có thể chia một hình tròn thành nhiều nhất bao nhiêu phần?",
       "textLines": [
-        "We place some identical cubes on top of each other. At least how many square(s) can be",
-        "seen if observing the figure below from the right-hand side?",
-        "At least: Ít nhất; Squares: Hình vuông; Observing: Quan sát; Figure: Hình; From the right-hand",
-        "side: Từ phía bên phải."
+        "What is the maximum number of regions that a circle can be divided into by 5 straight lines?",
+        "Hỏi 5 đường thẳng có thể chia một hình tròn thành nhiều nhất bao nhiêu phần?"
       ],
       "options": [],
       "answer": "16",
-      "explanation": "Dựa vào hình vẽ, ta được dãy số có quy luật sau: 2, 4, 7, 11, …\nNhận thấy: 2 + 2 = 4,      4 + 3 = 7,   7 + 4 = 11, …\n5 đường thẳng cắt một hình tròn thành nhiều nhất số phần là: 11 + 5 = 16 (phần).\nĐáp số: 16.",
+      "explanation": "Dựa vào quy luật chia mặt phẳng bởi các đường thẳng:\n- 1 đường thẳng chia hình tròn thành 2 phần.\n- 2 đường thẳng chia thành: 2 + 2 = 4 phần.\n- 3 đường thẳng chia thành: 4 + 3 = 7 phần.\n- 4 đường thẳng chia thành: 7 + 4 = 11 phần.\n- 5 đường thẳng chia thành: 11 + 5 = 16 phần.\nVậy 5 đường thẳng cắt một hình tròn thành nhiều nhất 16 phần.\nĐáp số: 16.",
       "type": "fill"
     },
     {
@@ -12612,20 +12610,20 @@ const TIMO_DB = {
       "round": "Vong loai - De so 3",
       "topic": "Arithmetic / Số học",
       "num": 7,
-      "text": "By observing the equation, which number is being covered by the book?\nQuan sát phép tính dưới đây, hỏi số nào đang bị che bởi quyển sách?\n19 – 📖 = 6",
+      "text": "By observing the equation, which number is being covered by the book 📖?\nQuan sát phép tính dưới đây, hỏi số nào đang bị cuốn sách 📖 che khuất?\n18 - 📖 = 11",
       "textLines": [
-        "By observing the equation, which number is being covered by the book?",
-        "Quan sát phép tính dưới đây, hỏi số nào đang bị che bởi quyển sách?",
-        "19 – 📖 = 6"
+        "By observing the equation, which number is being covered by the book 📖?",
+        "Quan sát phép tính dưới đây, hỏi số nào đang bị cuốn sách 📖 che khuất?",
+        "18 - 📖 = 11"
       ],
       "options": [
-        "A. 13",
-        "B. 16",
-        "C. 3",
-        "D. 14"
+        "A. 7",
+        "B. 8",
+        "C. 9",
+        "D. 6"
       ],
       "answer": "A",
-      "explanation": "Đáp số: A.",
+      "explanation": "Số bị che khuất bởi cuốn sách là:\n18 - 11 = 7.\nĐáp số: A.",
       "type": "mc"
     },
     {
@@ -12800,19 +12798,19 @@ const TIMO_DB = {
       "round": "Vong loai - De so 2",
       "topic": "Geometry / Hình học",
       "num": 16,
-      "text": "How many squares are there in the figure below?\nHỏi có bao nhiêu hình vuông trong hình dưới đây?",
+      "text": "How many circles are there in the figure below?\nHỏi có bao nhiêu hình tròn trong hình vẽ dưới đây?",
       "textLines": [
-        "How many squares are there in the figure below?",
-        "Hỏi có bao nhiêu hình vuông trong hình dưới đây?"
+        "How many circles are there in the figure below?",
+        "Hỏi có bao nhiêu hình tròn trong hình vẽ dưới đây?"
       ],
       "options": [
-        "A. 19",
-        "B. 14",
-        "C. 15",
-        "D. 20"
+        "A. 7",
+        "B. 8",
+        "C. 9",
+        "D. 10"
       ],
       "answer": "C",
-      "explanation": "Vậy hình đã cho có 9 hình tròn.\nĐáp số: C.",
+      "explanation": "Quan sát và đếm các hình tròn trong hình vẽ, ta thấy có tất cả 9 hình tròn.\nĐáp số: C.",
       "type": "mc"
     },
     {
@@ -12999,22 +12997,20 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 6",
       "topic": "Logical Thinking / Tư duy logic",
       "num": 5,
-      "text": "According to the pattern shown below, how many  are there in the 6th group?\nPattern: Quy luật; 6th group: Nhóm thứ 6.\n        \n     \n\n    \n\n\n    1st Group         2nd Group                3rd Group                  4th Group\nArithmetic / Số học",
+      "text": "According to the pattern shown below, how many # are there in the 6th group?\nDựa theo quy luật dưới đây, hỏi có bao nhiêu kí hiệu # trong nhóm thứ 6?\n\nNhóm 1: 0 kí hiệu #\nNhóm 2: 4 kí hiệu #\nNhóm 3: 8 kí hiệu #\nNhóm 4: 12 kí hiệu #\n(1st Group: 0 | 2nd Group: 4 | 3rd Group: 8 | 4th Group: 12)",
       "textLines": [
-        "According to the pattern shown below, how many  are there in the 6th group?",
-        "Pattern: Quy luật; 6th group: Nhóm thứ 6.",
-        "        ",
-        "     ",
-        "",
-        "    ",
-        "",
-        "",
-        "    1st Group         2nd Group                3rd Group                  4th Group",
-        "Arithmetic / Số học"
+        "According to the pattern shown below, how many # are there in the 6th group?",
+        "Dựa theo quy luật dưới đây, hỏi có bao nhiêu kí hiệu # trong nhóm thứ 6?",
+        "",
+        "Nhóm 1: 0 kí hiệu #",
+        "Nhóm 2: 4 kí hiệu #",
+        "Nhóm 3: 8 kí hiệu #",
+        "Nhóm 4: 12 kí hiệu #",
+        "(1st Group: 0 | 2nd Group: 4 | 3rd Group: 8 | 4th Group: 12)"
       ],
       "options": [],
-      "answer": "c",
-      "explanation": "Dãy thứ nhất: G, K, O, S, …\nDãy thứ hai: A, E, I, …\nChữ cái cần tìm là chữ cái tiếp theo của dãy thứ hai.\nQuy luật của dãy thứ hai: 2 chữ cái liên tiếp trong dãy cách nhau 3 chữ cái trong bảng\nchữ cái tiếng Anh.\nABCDEFGHIJKLMN…\nVậy chữ cái cần tìm là M.\nĐáp số: M.\n\n\nArithmetic / Số học",
+      "answer": "20",
+      "explanation": "Số kí hiệu # ở mỗi nhóm lần lượt là: 0, 4, 8, 12, ...\nQuy luật: Số lượng kí hiệu ở mỗi nhóm tăng dần 4 đơn vị:\nNhóm 1: 0\nNhóm 2: 0 + 4 = 4\nNhóm 3: 4 + 4 = 8\nNhóm 4: 8 + 4 = 12\nNhóm 5: 12 + 4 = 16\nNhóm 6: 16 + 4 = 20\nVậy ở nhóm thứ 6 có tất cả 20 kí hiệu.\nĐáp số: 20.",
       "type": "fill"
     },
     {
@@ -13100,15 +13096,17 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 2",
       "topic": "Geometry / Hình học",
       "num": 17,
-      "text": "How many squares are there in the figure below?\nSquare: Hình vuông; Figure: Hình vẽ.",
+      "text": "How many triangles are there in the figure below?\nHình vẽ dưới đây có tất cả bao nhiêu hình tam giác?\n(Hình gồm các mảnh nhỏ được đánh số từ 1 đến 8 như trong hình vẽ)",
       "textLines": [
-        "How many squares are there in the figure below?",
-        "Square: Hình vuông; Figure: Hình vẽ."
+        "How many triangles are there in the figure below?",
+        "Hình vẽ dưới đây có tất cả bao nhiêu hình tam giác?",
+        "(Hình gồm các mảnh nhỏ được đánh số từ 1 đến 8 như trong hình vẽ)"
       ],
       "options": [],
       "answer": "12",
-      "explanation": "Các hình tam giác tạo bởi 1 mảnh là: 2, 3, 5, 6, 7. Có 5 hình tam giác như vậy.\nCác hình tam giác tạo bởi 2 mảnh là: (3, 5), (5, 6). Có 2 hình tam giác như vậy.\nCác hình tam giác tạo bởi 3 mảnh là: (2, 3, 5), (5, 6, 7). Có 2 hình tam giác như vậy.\nCác hình tam giác tạo bởi 4 mảnh là: (1, 2, 3, 5) và (5, 6, 7, 8). Có 2 hình tam giác như vậy.\nCác hình tam giác tạo bởi 6 mảnh là: (2, 3, 4, 5, 6, 7). Có 1 hình tam giác như vậy.\nVậy có tất cả 5 + 2 + 2 + 2 +1 = 12 hình tam giác trong hình đã cho.\nĐáp số: 12.",
-      "type": "fill"
+      "explanation": "Ta đánh số các mảnh ghép trong hình vẽ từ 1 đến 8 như trên:\n- Các hình tam giác tạo bởi 1 mảnh: 2, 3, 5, 6, 7 (gồm 5 hình).\n- Các hình tam giác tạo bởi 2 mảnh: (3, 5), (5, 6) (gồm 2 hình).\n- Các hình tam giác tạo bởi 3 mảnh: (2, 3, 5), (5, 6, 7) (gồm 2 hình).\n- Các hình tam giác tạo bởi 4 mảnh: (1, 2, 3, 5) và (5, 6, 7, 8) (gồm 2 hình).\n- Các hình tam giác tạo bởi 6 mảnh: (2, 3, 4, 5, 6, 7) (gồm 1 hình).\nVậy có tất cả: 5 + 2 + 2 + 2 + 1 = 12 hình tam giác trong hình đã cho.\nĐáp số: 12.",
+      "type": "fill",
+      "image": "images/timo_triangles_12.svg"
     },
     {
       "id": "1-Vong quoc gia - De so 2-18",
@@ -13500,15 +13498,17 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 6",
       "topic": "Geometry / Hình học",
       "num": 18,
-      "text": "How many squares are there in the figure below?\nSquare: Hình vuông; Figure: Hình vẽ.",
+      "text": "How many triangles are there in the figure below?\nHình vẽ dưới đây có tất cả bao nhiêu hình tam giác?\n(Hình gồm các mảnh tam giác nhỏ được đánh số như hình vẽ)",
       "textLines": [
-        "How many squares are there in the figure below?",
-        "Square: Hình vuông; Figure: Hình vẽ."
+        "How many triangles are there in the figure below?",
+        "Hình vẽ dưới đây có tất cả bao nhiêu hình tam giác?",
+        "(Hình gồm các mảnh tam giác nhỏ được đánh số như hình vẽ)"
       ],
       "options": [],
       "answer": "6",
-      "explanation": "Ngoài ra, còn 1 hình tam giác được ghép bởi 4 hình tam giác đơn vị là (1, 2, 3, 4).\nNhư vậy, trong hình đã cho có tất cả 5 + 1 = 6 hình tam giác.\nĐáp số: 6.",
-      "type": "fill"
+      "explanation": "Ta đánh số các hình tam giác nhỏ:\n- Có 5 hình tam giác đơn vị: (1), (2), (3), (4), (5).\n- Có 1 hình tam giác lớn được ghép bởi 4 hình tam giác đơn vị là (1, 2, 3, 4).\nNhư vậy, trong hình đã cho có tất cả: 5 + 1 = 6 hình tam giác.\nĐáp số: 6.",
+      "type": "fill",
+      "image": "images/timo_triangles_6.svg"
     },
     {
       "id": "1-Vong quoc gia - De so 2-20",
@@ -13777,15 +13777,15 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 5",
       "topic": "Logical Thinking / Tư duy lô-gic",
       "num": 5,
-      "text": "From the pattern below, how many ＃ is / are there in the 5th group?\nPattern: Quy luật; 5th group: Nhóm thứ 5.\nArithmetic / Số học",
+      "text": "From the pattern below, what should be the English letter filled in the blank?\nDựa vào quy luật dưới đây, tìm chữ cái tiếng Anh thích hợp để điền vào chỗ trống:\nD, A, H, F, L, K, P, __, …",
       "textLines": [
-        "From the pattern below, how many ＃ is / are there in the 5th group?",
-        "Pattern: Quy luật; 5th group: Nhóm thứ 5.",
-        "Arithmetic / Số học"
+        "From the pattern below, what should be the English letter filled in the blank?",
+        "Dựa vào quy luật dưới đây, tìm chữ cái tiếng Anh thích hợp để điền vào chỗ trống:",
+        "D, A, H, F, L, K, P, __, …"
       ],
       "options": [],
-      "answer": "c",
-      "explanation": "Dãy thứ nhất: D, H, L, P, ...\nDãy thứ hai: A, F, K, ...\nChữ cái cần tìm là chữ cái tiếp theo của dãy thứ hai. Quy luật của dãy thứ hai là 2 chữ cái\nliên tiếp trong dãy cách nhau 4 chữ cái trong bảng chữ cái tiếng Anh.\nA B C D E F G H I J K L M N O P Q R ...\nVậy chữ cái cần tìm là P.\nĐáp số: P.\n\n\nArithmetic / Số học",
+      "answer": "P",
+      "explanation": "Tách dãy chữ cái đã cho thành 2 dãy nhỏ đan xen nhau:\n- Dãy thứ nhất: D, H, L, P, ... (hai chữ cái liên tiếp cách nhau 3 chữ cái trong bảng chữ cái)\n- Dãy thứ hai: A, F, K, ... (hai chữ cái liên tiếp cách nhau 4 chữ cái trong bảng chữ cái: A -> F cách 4 chữ cái; F -> K cách 4 chữ cái; K -> P cách 4 chữ cái: L, M, N, O -> P)\nChữ cái cần tìm ở chỗ trống là chữ cái tiếp theo của dãy thứ hai.\nVậy chữ cái cần tìm là P.\nĐáp số: P.",
       "type": "fill"
     },
     {
@@ -13867,15 +13867,17 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 2",
       "topic": "Geometry / Hình học",
       "num": 17,
-      "text": "How many triangle(s) is / are there in the figure below?\nTriangles: Hình tam giác; Figure: Hình vẽ.",
+      "text": "How many triangles are there in the figure below?\nHình vẽ dưới đây có tất cả bao nhiêu hình tam giác?\n(Hình gồm các mảnh nhỏ được đánh số từ 1 đến 8 như trong hình vẽ)",
       "textLines": [
-        "How many triangle(s) is / are there in the figure below?",
-        "Triangles: Hình tam giác; Figure: Hình vẽ."
+        "How many triangles are there in the figure below?",
+        "Hình vẽ dưới đây có tất cả bao nhiêu hình tam giác?",
+        "(Hình gồm các mảnh nhỏ được đánh số từ 1 đến 8 như trong hình vẽ)"
       ],
       "options": [],
       "answer": "12",
-      "explanation": "Các hình tam giác tạo bởi 1 mảnh là: 2, 3, 5, 6, 7. Có 5 hình tam giác như vậy.\nCác hình tam giác tạo bởi 2 mảnh là: (3, 5), (5, 6). Có 2 hình tam giác như vậy.\nCác hình tam giác tạo bởi 3 mảnh là: (2, 3, 5), (5, 6, 7). Có 2 hình tam giác như vậy.\nCác hình tam giác tạo bởi 4 mảnh là: (1, 2, 3, 5) và (5, 6, 7, 8). Có 2 hình tam giác như vậy.\nCác hình tam giác tạo bởi 6 mảnh là: (2, 3, 4, 5, 6, 7). Có 1 hình tam giác như vậy.\nVậy có tất cả 5 + 2 + 2 + 2 +1 = 12 hình tam giác trong hình đã cho.\nĐáp số: 12.",
-      "type": "fill"
+      "explanation": "Ta đánh số các mảnh ghép trong hình vẽ từ 1 đến 8 như trên:\n- Các hình tam giác tạo bởi 1 mảnh: 2, 3, 5, 6, 7 (gồm 5 hình).\n- Các hình tam giác tạo bởi 2 mảnh: (3, 5), (5, 6) (gồm 2 hình).\n- Các hình tam giác tạo bởi 3 mảnh: (2, 3, 5), (5, 6, 7) (gồm 2 hình).\n- Các hình tam giác tạo bởi 4 mảnh: (1, 2, 3, 5) và (5, 6, 7, 8) (gồm 2 hình).\n- Các hình tam giác tạo bởi 6 mảnh: (2, 3, 4, 5, 6, 7) (gồm 1 hình).\nVậy có tất cả: 5 + 2 + 2 + 2 + 1 = 12 hình tam giác trong hình đã cho.\nĐáp số: 12.",
+      "type": "fill",
+      "image": "images/timo_triangles_12.svg"
     },
     {
       "id": "1-Vong quoc gia - De so 2-18",
@@ -14295,15 +14297,17 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 6",
       "topic": "Geometry / Hình học",
       "num": 18,
-      "text": "How many triangle(s) is / are there in the figure below?\nTriangle: Hình tam giác; Figure: Hình vẽ.",
+      "text": "How many triangles are there in the figure below?\nHình vẽ dưới đây có tất cả bao nhiêu hình tam giác?\n(Hình gồm các mảnh tam giác nhỏ được đánh số như hình vẽ)",
       "textLines": [
-        "How many triangle(s) is / are there in the figure below?",
-        "Triangle: Hình tam giác; Figure: Hình vẽ."
+        "How many triangles are there in the figure below?",
+        "Hình vẽ dưới đây có tất cả bao nhiêu hình tam giác?",
+        "(Hình gồm các mảnh tam giác nhỏ được đánh số như hình vẽ)"
       ],
       "options": [],
       "answer": "6",
-      "explanation": "Ngoài ra, còn 1 hình tam giác được ghép bởi 4 hình tam giác đơn vị là (1, 2, 3, 4).\nNhư vậy, trong hình đã cho có tất cả 5 + 1 = 6 hình tam giác.\nĐáp số: 6.",
-      "type": "fill"
+      "explanation": "Ta đánh số các hình tam giác nhỏ:\n- Có 5 hình tam giác đơn vị: (1), (2), (3), (4), (5).\n- Có 1 hình tam giác lớn được ghép bởi 4 hình tam giác đơn vị là (1, 2, 3, 4).\nNhư vậy, trong hình đã cho có tất cả: 5 + 1 = 6 hình tam giác.\nĐáp số: 6.",
+      "type": "fill",
+      "image": "images/timo_triangles_6.svg"
     },
     {
       "id": "1-Vong quoc gia - De so 6-20",
@@ -15323,19 +15327,19 @@ const TIMO_DB = {
       "round": "Vong loai - De so 2",
       "topic": "Arithmetic / Số học",
       "num": 6,
-      "text": "Find the value of x given that 7 x - 16 = 145 .\nTìm giá trị của x biết rằng 7 x - 16 = 145 .",
+      "text": "Find the value of x given that 7x - 16 = 145.\nTìm giá trị của x biết rằng: 7x - 16 = 145.",
       "textLines": [
-        "Find the value of x given that 7 x - 16 = 145 .",
-        "Tìm giá trị của x biết rằng 7 x - 16 = 145 ."
+        "Find the value of x given that 7x - 16 = 145.",
+        "Tìm giá trị của x biết rằng: 7x - 16 = 145."
       ],
       "options": [
-        "A. 18",
-        "B. 25",
-        "C. 21",
-        "D. 23"
+        "A. 21",
+        "B. 22",
+        "C. 23",
+        "D. 24"
       ],
       "answer": "C",
-      "explanation": "1    1   1                1\n+    +   + ... +\n2×4 4×6 6×8         2020 × 2022\n1 ( 2    2      2                2      \n= ×(    +   +        + ... +             )\n2 ( 2×4 4×6 6×8             2020 × 2022 )\n1 (1 1 1 1           1    1 \n=    × ( - + - + ... +     -     )\n2 (2 4 4 6         2020 2022 )\n1( 1    1  505\n=     ( -      )=     .\n2 ( 2 2022 ) 2022\nĐáp số: C.",
+      "explanation": "Ta có:\n7x - 16 = 145\n7x = 145 + 16\n7x = 161\nx = 161 : 7 = 23.\nĐáp số: C.",
       "type": "mc"
     },
     {
@@ -16361,20 +16365,21 @@ const TIMO_DB = {
       "round": "Vong loai - De so 2",
       "topic": "Arithmetic / Số học",
       "num": 6,
-      "text": "Find the value of     +   +      + ... +             .\n2×4 4×6 6×8           2020 × 2022\n    1    1   1               1\nTìm giá trị của     +   +   + ... +               .\n2×4 4×6 6×8         2020 × 2022\n    1                                  505                        505               1\n    2                                 1011                       2022               4",
+      "text": "Find the value of:\n1/(2×4) + 1/(4×6) + 1/(6×8) + ... + 1/(2020×2022)\nTìm giá trị của biểu thức trên.",
       "textLines": [
-        "Find the value of     +   +      + ... +             .",
-        "2×4 4×6 6×8           2020 × 2022",
-        "    1    1   1               1",
-        "Tìm giá trị của     +   +   + ... +               .",
-        "2×4 4×6 6×8         2020 × 2022",
-        "    1                                  505                        505               1",
-        "    2                                 1011                       2022               4"
+        "Find the value of:",
+        "1/(2×4) + 1/(4×6) + 1/(6×8) + ... + 1/(2020×2022)",
+        "Tìm giá trị của biểu thức trên."
       ],
-      "options": [],
+      "options": [
+        "A. 1/2",
+        "B. 505/1011",
+        "C. 505/2022",
+        "D. 1/4"
+      ],
       "answer": "C",
-      "explanation": "1    1   1                1\n+    +   + ... +\n2×4 4×6 6×8         2020 × 2022\n1 ( 2    2      2                2      \n= ×(    +   +        + ... +             )\n2 ( 2×4 4×6 6×8             2020 × 2022 )\n1 (1 1 1 1           1    1 \n=    × ( - + - + ... +     -     )\n2 (2 4 4 6         2020 2022 )\n1( 1    1  505\n=     ( -      )=     .\n2 ( 2 2022 ) 2022\nĐáp số: C.",
-      "type": "fill"
+      "explanation": "Đặt S = 1/(2×4) + 1/(4×6) + 1/(6×8) + ... + 1/(2020×2022)\nNhân cả hai vế với 2:\n2 × S = 2/(2×4) + 2/(4×6) + ... + 2/(2020×2022)\n2 × S = (1/2 - 1/4) + (1/4 - 1/6) + ... + (1/2020 - 1/2022)\n2 × S = 1/2 - 1/2022 = 1010/2022\nS = 1/2 × 1010/2022 = 505/2022.\nĐáp số: C.",
+      "type": "mc"
     },
     {
       "id": "5-Vong loai - De so 2-8",
@@ -16607,18 +16612,14 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 3",
       "topic": "Arithmetic / Số học",
       "num": 8,
-      "text": "Find the value of                          .\n4-\n3+\n1+\nValue: Giá trị.\n(3 3    3  3  (7 7 7 7 ",
+      "text": "Find the value of: 3 + 6 + 9 + 12 + ... + 51.\nTính giá trị của tổng: 3 + 6 + 9 + 12 + ... + 51.",
       "textLines": [
-        "Find the value of                          .",
-        "4-",
-        "3+",
-        "1+",
-        "Value: Giá trị.",
-        "(3 3    3  3  (7 7 7 7 "
+        "Find the value of: 3 + 6 + 9 + 12 + ... + 51.",
+        "Tính giá trị của tổng: 3 + 6 + 9 + 12 + ... + 51."
       ],
       "options": [],
       "answer": "459",
-      "explanation": "Số số hạng là: (51 – 3) : 3 + 1 = 17.\nTổng cần tìm là: (51 + 3) x 17 : 2 = 459\nĐáp số: 459.",
+      "explanation": "Dãy số cách đều 3 đơn vị: 3, 6, 9, 12, ..., 51.\nSố số hạng là: (51 - 3) : 3 + 1 = 17 (số).\nTổng cần tìm là: (51 + 3) × 17 : 2 = 54 × 17 : 2 = 459.\nĐáp số: 459.",
       "type": "fill"
     },
     {
@@ -16887,14 +16888,14 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 3",
       "topic": "Arithmetic / Số học",
       "num": 8,
-      "text": "Find the value of 9 + 18 + 36 + 72 + ... + 1152 .\nValue: Giá trị.",
+      "text": "Find the value of: 3 + 6 + 9 + 12 + ... + 51.\nTính giá trị của tổng: 3 + 6 + 9 + 12 + ... + 51.",
       "textLines": [
-        "Find the value of 9 + 18 + 36 + 72 + ... + 1152 .",
-        "Value: Giá trị."
+        "Find the value of: 3 + 6 + 9 + 12 + ... + 51.",
+        "Tính giá trị của tổng: 3 + 6 + 9 + 12 + ... + 51."
       ],
       "options": [],
       "answer": "459",
-      "explanation": "Số số hạng là: (51 – 3) : 3 + 1 = 17.\nTổng cần tìm là: (51 + 3) x 17 : 2 = 459\nĐáp số: 459.",
+      "explanation": "Dãy số cách đều 3 đơn vị: 3, 6, 9, 12, ..., 51.\nSố số hạng là: (51 - 3) : 3 + 1 = 17 (số).\nTổng cần tìm là: (51 + 3) × 17 : 2 = 54 × 17 : 2 = 459.\nĐáp số: 459.",
       "type": "fill"
     },
     {
@@ -17946,13 +17947,14 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 2",
       "topic": "Arithmetic / Số học",
       "num": 9,
-      "text": "Find the value of 1 + 4 + 9 + 16 + ... + 121 + 144 + 169 .",
+      "text": "Find the value of: 4 + 12 + 36 + 108 + ... + 2916.\nTính giá trị của tổng: 4 + 12 + 36 + 108 + ... + 2916.",
       "textLines": [
-        "Find the value of 1 + 4 + 9 + 16 + ... + 121 + 144 + 169 ."
+        "Find the value of: 4 + 12 + 36 + 108 + ... + 2916.",
+        "Tính giá trị của tổng: 4 + 12 + 36 + 108 + ... + 2916."
       ],
       "options": [],
       "answer": "4372",
-      "explanation": "Ta đặt tổng là P và nhân với 3 như sau:\nP = 4 + 12 + 36 + 108 + ... + 2916\n3 × P = 12 + 36 + 108 + 324 + ... + 8748\n3 × P - P = 8748 - 4\n2 × P = 8744\nP = 8744 : 2\nP = 4372\nĐáp số: 4372.\n( 5 5 5  ( 1 1 1 1  55 25 11",
+      "explanation": "Đặt tổng là P:\nP = 4 + 12 + 36 + 108 + ... + 2916\nNhân 2 vế với 3:\n3 × P = 12 + 36 + 108 + 324 + ... + 8748\nLấy (3 × P) - P:\n2 × P = 8748 - 4 = 8744\nP = 8744 : 2 = 4372.\nĐáp số: 4372.",
       "type": "fill"
     },
     {

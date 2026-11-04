@@ -1379,6 +1379,7 @@
         .replace(/[\uF0EA\uF0AB]/g, ' ★ ')
         .replace(/[\uF0A8]/g, ' ◇ ')
         .replace(/[\uF0A9]/g, ' ❤ ')
+        .replace(/[\uF083]/g, ' 🌙 ')
         // Ký hiệu chuỗi số bí ẩn và dấu câu
         .replace(/[\uF0AF\uF0B6\uF050]/g, ' ? ')
         .replace(/[\uF026]/g, ' 📖 ')
@@ -1386,7 +1387,7 @@
         .replace(/[\uF0BC]/g, ' ... ')
         .replace(/[\uF096]/g, ' • ')
         .replace(/[\uF0E6\uF0E7\uF0E8]/g, '(')
-        .replace(/[\uF0F7\uF0F8]/g, ')')
+        .replace(/[\uF0F7\uF0F8\uF0F6]/g, ')')
         // Dọn dẹp khoảng trắng thừa quanh dấu phép tính
         .replace(/\s{2,}/g, ' ')
         .replace(/\s*([+\-×÷=≠<⨂⨁])\s*/g, ' $1 ');

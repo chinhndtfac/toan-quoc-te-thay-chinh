@@ -1,0 +1,16 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 300 300" width="280" height="280">
+  <polygon points="150,15 185,105 285,105 205,165 235,260 150,205 65,260 95,165 15,105 115,105" 
+    fill="#EFF6FF" stroke="#2563EB" stroke-width="4" stroke-linejoin="round"/>
+  <!-- Lines inside connecting vertices -->
+  <line x1="150" y1="15" x2="235" y2="260" stroke="#93C5FD" stroke-width="2"/>
+  <line x1="150" y1="15" x2="65" y2="260" stroke="#93C5FD" stroke-width="2"/>
+  <line x1="15" y1="105" x2="285" y2="105" stroke="#93C5FD" stroke-width="2"/>
+  <line x1="15" y1="105" x2="235" y2="260" stroke="#93C5FD" stroke-width="2"/>
+  <line x1="285" y1="105" x2="65" y2="260" stroke="#93C5FD" stroke-width="2"/>
+  <text x="150" y="55" font-family="Arial" font-size="14" font-weight="bold" fill="#1E40AF" text-anchor="middle">1</text>
+  <text x="245" y="125" font-family="Arial" font-size="14" font-weight="bold" fill="#1E40AF" text-anchor="middle">2</text>
+  <text x="210" y="235" font-family="Arial" font-size="14" font-weight="bold" fill="#1E40AF" text-anchor="middle">3</text>
+  <text x="90" y="235" font-family="Arial" font-size="14" font-weight="bold" fill="#1E40AF" text-anchor="middle">4</text>
+  <text x="55" y="125" font-family="Arial" font-size="14" font-weight="bold" fill="#1E40AF" text-anchor="middle">5</text>
+  <text x="150" y="165" font-family="Arial" font-size="16" font-weight="bold" fill="#DC2626" text-anchor="middle">6</text>
+</svg>

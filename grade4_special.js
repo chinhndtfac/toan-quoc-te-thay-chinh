@@ -1249,7 +1249,7 @@ const GRADE4_SPECIAL_DB = [
       "(B) 87",
       "(B)87"
     ],
-    "explanation": " Tổng điểm 4 bài đầu: 4 × 85 = 340 điểm.\r\n Tổng điểm 5 bài: 340 + 95 = 435 điểm.\r\n Điểm trung bình 5 bài: 435: 5 = 87 điểm.\r\n→ Đáp án (B) 87",
+    "explanation": "• Tổng điểm 4 bài đầu: 4 × 85 = 340 điểm.\r\n• Tổng điểm 5 bài: 340 + 95 = 435 điểm.\r\n• Điểm trung bình 5 bài: 435: 5 = 87 điểm.\r\n→ Đáp án (B) 87",
     "type": "mc"
   },
   {
@@ -1271,7 +1271,7 @@ const GRADE4_SPECIAL_DB = [
       "(B) 130",
       "(B)130"
     ],
-    "explanation": " Tổng số quả 3 ngày đầu: 3 × 120 = 360 quả.\r\n Tổng số quả 4 ngày: 360 + 160 = 520 quả.\r\n Trung bình mỗi ngày: 520: 4 = 130 quả.\r\n→ Đáp án (B) 130",
+    "explanation": "• Tổng số quả 3 ngày đầu: 3 × 120 = 360 quả.\r\n• Tổng số quả 4 ngày: 360 + 160 = 520 quả.\r\n• Trung bình mỗi ngày: 520: 4 = 130 quả.\r\n→ Đáp án (B) 130",
     "type": "mc"
   },
   {
@@ -1293,7 +1293,7 @@ const GRADE4_SPECIAL_DB = [
       "(B) 47",
       "(B)47"
     ],
-    "explanation": " Tổng số khách 5 ngày đầu: 5 × 42 = 210 người.\r\n Tổng số khách 6 ngày: 210 + 72 = 282 người.\r\n Trung bình 6 ngày: 282: 6 = 47 người.\r\n→ Đáp án (B) 47",
+    "explanation": "• Tổng số khách 5 ngày đầu: 5 × 42 = 210 người.\r\n• Tổng số khách 6 ngày: 210 + 72 = 282 người.\r\n• Trung bình 6 ngày: 282: 6 = 47 người.\r\n→ Đáp án (B) 47",
     "type": "mc"
   },
   {
@@ -1315,7 +1315,7 @@ const GRADE4_SPECIAL_DB = [
       "(A) 9,0",
       "(A)9,0"
     ],
-    "explanation": " Tổng điểm 3 bài đầu: 3 × 8,0 = 24,0 điểm.\r\n Tổng điểm cần đạt sau 4 bài: 4 × 8,25 = 33,0 điểm.\r\n Điểm bài thứ 4 cần đạt: 33,0 − 24,0 = 9,0 điểm.\r\n→ Đáp án (A) 9,0\r\n\r\n(E) 10,0",
+    "explanation": "• Tổng điểm 3 bài đầu: 3 × 8,0 = 24,0 điểm.\r\n• Tổng điểm cần đạt sau 4 bài: 4 × 8,25 = 33,0 điểm.\r\n• Điểm bài thứ 4 cần đạt: 33,0 − 24,0 = 9,0 điểm.\r\n→ Đáp án (A) 9,0\r\n\r\n(E) 10,0",
     "type": "mc"
   },
   {
@@ -1337,7 +1337,7 @@ const GRADE4_SPECIAL_DB = [
       "(B) 17",
       "(B)17"
     ],
-    "explanation": " Tổng số điểm 4 trận đầu: 4 × 15 = 60 điểm.\r\n Tổng số điểm 5 trận: 60 + 25 = 85 điểm.\r\n Trung bình 5 trận: 85: 5 = 17 điểm.\r\n→ Đáp án (B) 17",
+    "explanation": "• Tổng số điểm 4 trận đầu: 4 × 15 = 60 điểm.\r\n• Tổng số điểm 5 trận: 60 + 25 = 85 điểm.\r\n• Trung bình 5 trận: 85: 5 = 17 điểm.\r\n→ Đáp án (B) 17",
     "type": "mc"
   },
   {
@@ -1359,7 +1359,7 @@ const GRADE4_SPECIAL_DB = [
       "(B) 55",
       "(B)55"
     ],
-    "explanation": " Tổng trọng lượng 4 kiện đầu: 4 × 50 = 200 kg.\r\n Tổng trọng lượng 5 kiện: 200 + 75 = 275 kg.\r\n Trọng lượng trung bình 5 kiện: 275: 5 = 55 kg.\r\n→ Đáp án (B) 55",
+    "explanation": "• Tổng trọng lượng 4 kiện đầu: 4 × 50 = 200 kg.\r\n• Tổng trọng lượng 5 kiện: 200 + 75 = 275 kg.\r\n• Trọng lượng trung bình 5 kiện: 275: 5 = 55 kg.\r\n→ Đáp án (B) 55",
     "type": "mc"
   },
   {
@@ -1381,7 +1381,7 @@ const GRADE4_SPECIAL_DB = [
       "(B) 13",
       "(B)13"
     ],
-    "explanation": " Tổng quãng đường 3 giờ đầu: 3 × 12 = 36 km.\r\n Tổng quãng đường 4 giờ: 36 + 16 = 52 km.\r\n Vận tốc trung bình 4 giờ: 52: 4 = 13 km/giờ.\r\n→ Đáp án (B) 13",
+    "explanation": "• Tổng quãng đường 3 giờ đầu: 3 × 12 = 36 km.\r\n• Tổng quãng đường 4 giờ: 36 + 16 = 52 km.\r\n• Vận tốc trung bình 4 giờ: 52: 4 = 13 km/giờ.\r\n→ Đáp án (B) 13",
     "type": "mc"
   },
   {
@@ -1402,7 +1402,7 @@ const GRADE4_SPECIAL_DB = [
       "(B) 82",
       "(B)82"
     ],
-    "explanation": " Tổng điểm 4 bài đầu: 4 × 78 = 312 điểm.\r\n Tổng điểm 5 bài: 312 + 98 = 410 điểm.\r\n Điểm trung bình 5 bài: 410: 5 = 82 điểm.\r\n→ Đáp án (B) 82\r\n\r\n(D) 84\r\n\r\n(E) 85",
+    "explanation": "• Tổng điểm 4 bài đầu: 4 × 78 = 312 điểm.\r\n• Tổng điểm 5 bài: 312 + 98 = 410 điểm.\r\n• Điểm trung bình 5 bài: 410: 5 = 82 điểm.\r\n→ Đáp án (B) 82\r\n\r\n(D) 84\r\n\r\n(E) 85",
     "type": "mc"
   },
   {
@@ -1424,7 +1424,7 @@ const GRADE4_SPECIAL_DB = [
       "(C) 240",
       "(C)240"
     ],
-    "explanation": " Tổng tiền 3 tháng đầu: 3 × 200 = 600 nghìn đồng.\r\n Tổng tiền 4 tháng: 600 + 360 = 960 nghìn đồng.\r\n Trung bình mỗi tháng: 960: 4 = 240 nghìn đồng.\r\n→ Đáp án (C) 240",
+    "explanation": "• Tổng tiền 3 tháng đầu: 3 × 200 = 600 nghìn đồng.\r\n• Tổng tiền 4 tháng: 600 + 360 = 960 nghìn đồng.\r\n• Trung bình mỗi tháng: 960: 4 = 240 nghìn đồng.\r\n→ Đáp án (C) 240",
     "type": "mc"
   },
   {
@@ -1446,7 +1446,7 @@ const GRADE4_SPECIAL_DB = [
       "(C) 10,0",
       "(C)10,0"
     ],
-    "explanation": " Tổng điểm 4 bài đầu: 4 × 8,0 = 32 điểm.\r\n Tổng điểm 5 bài (để TB = 8,4): 5 × 8,4 = 42 điểm.\r\n Điểm bài thứ 5: 42 − 32 = 10,0 điểm.\r\n→ Đáp án (C) 10,0",
+    "explanation": "• Tổng điểm 4 bài đầu: 4 × 8,0 = 32 điểm.\r\n• Tổng điểm 5 bài (để TB = 8,4): 5 × 8,4 = 42 điểm.\r\n• Điểm bài thứ 5: 42 − 32 = 10,0 điểm.\r\n→ Đáp án (C) 10,0",
     "type": "mc"
   },
   {
@@ -1468,7 +1468,7 @@ const GRADE4_SPECIAL_DB = [
       "(B) 34",
       "(B)34"
     ],
-    "explanation": " Tổng doanh thu 4 ngày đầu: 4 × 30 = 120 triệu.\r\n Doanh thu ngày 5: 50 triệu.\r\n Tổng doanh thu 5 ngày: 120 + 50 = 170 triệu.\r\n Trung bình 5 ngày: 170 : 5 = 34 triệu/ngày.\r\n→ Đáp án (B) 34",
+    "explanation": "• Tổng doanh thu 4 ngày đầu: 4 × 30 = 120 triệu.\r\n• Doanh thu ngày 5: 50 triệu.\r\n• Tổng doanh thu 5 ngày: 120 + 50 = 170 triệu.\r\n• Trung bình 5 ngày: 170 : 5 = 34 triệu/ngày.\r\n→ Đáp án (B) 34",
     "type": "mc"
   },
   {
@@ -1489,7 +1489,7 @@ const GRADE4_SPECIAL_DB = [
       "(C) 30",
       "(C)30"
     ],
-    "explanation": " Tổng tuổi 5 người: 5 × 24 = 120.\r\n Tổng tuổi 6 người (TB = 25): 6 × 25 = 150.\r\n Tuổi người mới: 150 − 120 = 30 tuổi.\r\n→ Đáp án (C) 30\r\n\r\n(D) 31\r\n\r\n(E) 32",
+    "explanation": "• Tổng tuổi 5 người: 5 × 24 = 120.\r\n• Tổng tuổi 6 người (TB = 25): 6 × 25 = 150.\r\n• Tuổi người mới: 150 − 120 = 30 tuổi.\r\n→ Đáp án (C) 30\r\n\r\n(D) 31\r\n\r\n(E) 32",
     "type": "mc"
   },
   {
@@ -1511,7 +1511,7 @@ const GRADE4_SPECIAL_DB = [
       "(C) 6,5",
       "(C)6,5"
     ],
-    "explanation": " Tổng điểm 30 học sinh: 30 × 7,0 = 210.\r\n Tổng điểm 10 học sinh (TB 8,0): 10 × 8,0 = 80.\r\n Tổng điểm 20 học sinh còn lại: 210 − 80 = 130.\r\n Trung bình 20 học sinh còn lại: 130 : 20 = 6,5.\r\n→ Đáp án (C) 6,5",
+    "explanation": "• Tổng điểm 30 học sinh: 30 × 7,0 = 210.\r\n• Tổng điểm 10 học sinh (TB 8,0): 10 × 8,0 = 80.\r\n• Tổng điểm 20 học sinh còn lại: 210 − 80 = 130.\r\n• Trung bình 20 học sinh còn lại: 130 : 20 = 6,5.\r\n→ Đáp án (C) 6,5",
     "type": "mc"
   },
   {
@@ -1533,7 +1533,7 @@ const GRADE4_SPECIAL_DB = [
       "(C) 21,5",
       "(C)21,5"
     ],
-    "explanation": " Tổng 10 số ban đầu: 10 × 20 = 200.\r\n Thay một số bằng số lớn hơn 15 đơn vị → tổng mới: 200 + 15 = 215.\r\n Trung bình mới: 215 : 10 = 21,5.\r\n→ Đáp án (C) 21,5",
+    "explanation": "• Tổng 10 số ban đầu: 10 × 20 = 200.\r\n• Thay một số bằng số lớn hơn 15 đơn vị → tổng mới: 200 + 15 = 215.\r\n• Trung bình mới: 215 : 10 = 21,5.\r\n→ Đáp án (C) 21,5",
     "type": "mc"
   },
   {
@@ -1555,7 +1555,7 @@ const GRADE4_SPECIAL_DB = [
       "(C) 52",
       "(C)52"
     ],
-    "explanation": " Tổng sản phẩm 6 ngày đầu: 6 × 40 = 240 sản phẩm.\r\n Tổng sản phẩm 24 ngày còn lại: 24 × 55 = 1320 sản phẩm.\r\n Tổng sản phẩm cả tháng (30 ngày): 240 + 1320 = 1560 sản phẩm.\r\n Trung bình cả tháng: 1560 : 30 = 52 sản phẩm/ngày.\r\n→ Đáp án (C) 52\r\n\r\n(E) 54",
+    "explanation": "• Tổng sản phẩm 6 ngày đầu: 6 × 40 = 240 sản phẩm.\r\n• Tổng sản phẩm 24 ngày còn lại: 24 × 55 = 1320 sản phẩm.\r\n• Tổng sản phẩm cả tháng (30 ngày): 240 + 1320 = 1560 sản phẩm.\r\n• Trung bình cả tháng: 1560 : 30 = 52 sản phẩm/ngày.\r\n→ Đáp án (C) 52\r\n\r\n(E) 54",
     "type": "mc"
   },
   {
@@ -1572,7 +1572,7 @@ const GRADE4_SPECIAL_DB = [
       "93",
       "93"
     ],
-    "explanation": " Số thứ hai là 124 : 2 = 62\r\n Tổng của 3 số là: 124 + 62 + ST3 = 3  ×  ST3 → ST3 = 186 : 2 = 93\r\n→ Đáp án: 93",
+    "explanation": "• Số thứ hai là 124 : 2 = 62\r\n• Tổng của 3 số là: 124 + 62 + ST3 = 3  ×  ST3 → ST3 = 186 : 2 = 93\r\n→ Đáp án: 93",
     "type": "fill"
   },
   {
@@ -1589,7 +1589,7 @@ const GRADE4_SPECIAL_DB = [
       "300",
       "300"
     ],
-    "explanation": " Số thứ hai là 150 × 3 = 450\r\n Tổng của 3 số là: 150 + 450 + ST3 = 3 × ST3 → ST3 = (150 + 450) : 2 = 300\r\n→ Đáp án: 300",
+    "explanation": "• Số thứ hai là 150 × 3 = 450\r\n• Tổng của 3 số là: 150 + 450 + ST3 = 3 × ST3 → ST3 = (150 + 450) : 2 = 300\r\n→ Đáp án: 300",
     "type": "fill"
   },
   {
@@ -1606,7 +1606,7 @@ const GRADE4_SPECIAL_DB = [
       "140",
       "140"
     ],
-    "explanation": " Số thứ hai là 210 : 3 = 70\r\n Tổng của 3 số là: 210 + 70 + ST3 = 3 × ST3 → ST3 = (210 + 70) : 2 = 140\r\n→ Đáp án: 140",
+    "explanation": "• Số thứ hai là 210 : 3 = 70\r\n• Tổng của 3 số là: 210 + 70 + ST3 = 3 × ST3 → ST3 = (210 + 70) : 2 = 140\r\n→ Đáp án: 140",
     "type": "fill"
   },
   {
@@ -1623,7 +1623,7 @@ const GRADE4_SPECIAL_DB = [
       "92",
       "92"
     ],
-    "explanation": " Số thứ hai là 84 + 16 = 100\r\n Tổng của 3 số là: 84 + 100 + ST3 = 3 × ST3 → ST3 = (84 + 100) : 2 = 92\r\n→ Đáp án: 92",
+    "explanation": "• Số thứ hai là 84 + 16 = 100\r\n• Tổng của 3 số là: 84 + 100 + ST3 = 3 × ST3 → ST3 = (84 + 100) : 2 = 92\r\n→ Đáp án: 92",
     "type": "fill"
   },
   {
@@ -1640,7 +1640,7 @@ const GRADE4_SPECIAL_DB = [
       "75",
       "75"
     ],
-    "explanation": " Số thứ hai là 90 : 3 × 2 = 60\r\n Tổng của 3 số là: 90 + 60 + ST3 = 3 × ST3 → ST3 = (90 + 60) : 2 = 75\r\n\r\n→ Đáp án: 75",
+    "explanation": "• Số thứ hai là 90 : 3 × 2 = 60\r\n• Tổng của 3 số là: 90 + 60 + ST3 = 3 × ST3 → ST3 = (90 + 60) : 2 = 75\r\n\r\n→ Đáp án: 75",
     "type": "fill"
   },
   {
@@ -1657,7 +1657,7 @@ const GRADE4_SPECIAL_DB = [
       "90",
       "90"
     ],
-    "explanation": " Số thứ hai là 45 × 2 = 90\r\n Số thứ ba là 45 + 90 = 135\r\n\r\n Tổng của 4 số là: 45 + 90 + 135 + ST4 = 4 × ST4\r\n→ 3 × ST4 = 45 + 90 + 135 = 270 → ST4 = 270 : 3 = 90\r\n→ Đáp án: 90",
+    "explanation": "• Số thứ hai là 45 × 2 = 90\r\n• Số thứ ba là 45 + 90 = 135\r\n\r\n• Tổng của 4 số là: 45 + 90 + 135 + ST4 = 4 × ST4\r\n→ 3 × ST4 = 45 + 90 + 135 = 270 → ST4 = 270 : 3 = 90\r\n→ Đáp án: 90",
     "type": "fill"
   },
   {
@@ -1674,7 +1674,7 @@ const GRADE4_SPECIAL_DB = [
       "60",
       "60"
     ],
-    "explanation": " Số thứ hai là 60 : 2 = 30\r\n Số thứ ba là 30 × 3 = 90\r\n Tổng của 4 số là: 60 + 30 + 90 + ST4 = 4 × ST4\r\n→ 3 × ST4 = 60 + 30 + 90 = 180 → ST4 = 180 : 3 = 60\r\n→ Đáp án: 60",
+    "explanation": "• Số thứ hai là 60 : 2 = 30\r\n• Số thứ ba là 30 × 3 = 90\r\n• Tổng của 4 số là: 60 + 30 + 90 + ST4 = 4 × ST4\r\n→ 3 × ST4 = 60 + 30 + 90 = 180 → ST4 = 180 : 3 = 60\r\n→ Đáp án: 60",
     "type": "fill"
   },
   {
@@ -1691,7 +1691,7 @@ const GRADE4_SPECIAL_DB = [
       "200",
       "200"
     ],
-    "explanation": " Số thứ hai là 75 × 3 = 225\r\n Số thứ ba là 75 + 225 = 300\r\n Tổng của 4 số là: 75 + 225 + 300 + ST4 = 4 × ST4\r\n→ 3 × ST4 = 75 + 225 + 300 = 600 → ST4 = 600 : 3 = 200\r\n→ Đáp án: 200",
+    "explanation": "• Số thứ hai là 75 × 3 = 225\r\n• Số thứ ba là 75 + 225 = 300\r\n• Tổng của 4 số là: 75 + 225 + 300 + ST4 = 4 × ST4\r\n→ 3 × ST4 = 75 + 225 + 300 = 600 → ST4 = 600 : 3 = 200\r\n→ Đáp án: 200",
     "type": "fill"
   },
   {
@@ -1708,7 +1708,7 @@ const GRADE4_SPECIAL_DB = [
       "72",
       "72"
     ],
-    "explanation": " Số thứ hai là 32 × 2 = 64\r\n Số thứ ba là 32 + 64 = 96\r\n Số thứ tư là 32 × 3 = 96\r\n Tổng của 5 số là: 32 + 64 + 96 + 96 + ST5 = 5 × ST5\r\n→ 4 × ST5 = 32 + 64 + 96 + 96 = 288 → ST5 = 288 : 4 = 72\r\n→ Đáp án: 72",
+    "explanation": "• Số thứ hai là 32 × 2 = 64\r\n• Số thứ ba là 32 + 64 = 96\r\n• Số thứ tư là 32 × 3 = 96\r\n• Tổng của 5 số là: 32 + 64 + 96 + 96 + ST5 = 5 × ST5\r\n→ 4 × ST5 = 32 + 64 + 96 + 96 = 288 → ST5 = 288 : 4 = 72\r\n→ Đáp án: 72",
     "type": "fill"
   },
   {
@@ -1725,7 +1725,7 @@ const GRADE4_SPECIAL_DB = [
       "55",
       "55"
     ],
-    "explanation": " Số thứ hai là 40 : 2 = 20\r\n Số thứ ba là 20 × 2 = 40\r\n Số thứ tư là 40 × 3 = 120\r\n Tổng của 5 số là: 40 + 20 + 40 + 120 + ST5 = 5 × ST5\r\n\r\n→ 4 × ST5 = 40 + 20 + 40 + 120 = 220 → ST5 = 220 : 4 = 55\r\n→ Đáp án: 55",
+    "explanation": "• Số thứ hai là 40 : 2 = 20\r\n• Số thứ ba là 20 × 2 = 40\r\n• Số thứ tư là 40 × 3 = 120\r\n• Tổng của 5 số là: 40 + 20 + 40 + 120 + ST5 = 5 × ST5\r\n\r\n→ 4 × ST5 = 40 + 20 + 40 + 120 = 220 → ST5 = 220 : 4 = 55\r\n→ Đáp án: 55",
     "type": "fill"
   },
   {
@@ -1742,7 +1742,7 @@ const GRADE4_SPECIAL_DB = [
       "1800",
       "1800"
     ],
-    "explanation": " Tổng điểm ban đầu của 25 học sinh: 25 × 72 = 1800\r\n Sau khi loại bỏ điểm cao nhất, còn 24 học sinh, tổng điểm: 24 × 71 = 1704\r\n Điểm cao nhất bằng hiệu hai tổng: 1800 − 1704 = 96",
+    "explanation": "• Tổng điểm ban đầu của 25 học sinh: 25 × 72 = 1800\r\n• Sau khi loại bỏ điểm cao nhất, còn 24 học sinh, tổng điểm: 24 × 71 = 1704\r\n• Điểm cao nhất bằng hiệu hai tổng: 1800 − 1704 = 96",
     "type": "fill"
   },
   {
@@ -1759,7 +1759,7 @@ const GRADE4_SPECIAL_DB = [
       "1020",
       "1020"
     ],
-    "explanation": " Tổng điểm của 15 bạn ban đầu: 15 × 68 = 1020\r\n Sau khi thêm bạn mới, nhóm có 16 bạn, tổng điểm: 16 × 69 = 1104\r\n Điểm của bạn mới: 1104 − 1020 = 84",
+    "explanation": "• Tổng điểm của 15 bạn ban đầu: 15 × 68 = 1020\r\n• Sau khi thêm bạn mới, nhóm có 16 bạn, tổng điểm: 16 × 69 = 1104\r\n• Điểm của bạn mới: 1104 − 1020 = 84",
     "type": "fill"
   },
   {
@@ -1852,7 +1852,7 @@ const GRADE4_SPECIAL_DB = [
       "20 con thỏ và 10 con gà",
       "20conthỏvà10congà"
     ],
-    "explanation": " Giả sử tất cả là gà, số chân là 30  ×  2 = 60 chân\r\n Số chân bị thiếu là 100 – 60 = 40\r\n Sự chênh lệch số chân khi coi 1 gà là 1 thỏ là 4 – 2 = 2 (chân)\r\n Số thỏ là 40 : 2 = 20 con\r\n Vậy có 20 con thỏ và 10 con gà.",
+    "explanation": "• Giả sử tất cả là gà, số chân là 30  ×  2 = 60 chân\r\n• Số chân bị thiếu là 100 – 60 = 40\r\n• Sự chênh lệch số chân khi coi 1 gà là 1 thỏ là 4 – 2 = 2 (chân)\r\n• Số thỏ là 40 : 2 = 20 con\r\n• Vậy có 20 con thỏ và 10 con gà.",
     "type": "fill"
   },
   {
@@ -1869,7 +1869,7 @@ const GRADE4_SPECIAL_DB = [
       "10 tờ 2 đô la và 20 tờ 5 đô la",
       "10tờ2đôlavà20tờ5đôla"
     ],
-    "explanation": " Samantha có 30 tờ tiền loại 2 đô la và 5 đô la, tổng 120 đô la.\r\n Giả sử tất cả là tờ 2 đô la, số tiền là 30 × 2 = 60 (đô la)\r\n Số tiền bị thiếu là 120 – 60 = 60 (đô la)\r\n Sự chênh lệch khi đổi 1 tờ 2 đô la thành 1 tờ 5 đô la là 5 – 2 = 3 (đô la)\r\n Số tờ 5 đô la là 60 : 3 = 20 (tờ)\r\n Số tờ 2 đô la là 30 – 20 = 10 (tờ)\r\n Vậy có 10 tờ 2 đô la và 20 tờ 5 đô la.",
+    "explanation": "• Samantha có 30 tờ tiền loại 2 đô la và 5 đô la, tổng 120 đô la.\r\n• Giả sử tất cả là tờ 2 đô la, số tiền là 30 × 2 = 60 (đô la)\r\n• Số tiền bị thiếu là 120 – 60 = 60 (đô la)\r\n• Sự chênh lệch khi đổi 1 tờ 2 đô la thành 1 tờ 5 đô la là 5 – 2 = 3 (đô la)\r\n• Số tờ 5 đô la là 60 : 3 = 20 (tờ)\r\n• Số tờ 2 đô la là 30 – 20 = 10 (tờ)\r\n• Vậy có 10 tờ 2 đô la và 20 tờ 5 đô la.",
     "type": "fill"
   },
   {
@@ -1886,7 +1886,7 @@ const GRADE4_SPECIAL_DB = [
       "10 chiếc xe máy và 14 chiếc ô tô",
       "10chiếcxemáyvà14chiếcôtô"
     ],
-    "explanation": " Giả sử tất cả là xe máy (2 bánh), số bánh xe là 24 × 2 = 48 (bánh)\r\n Số bánh bị thiếu là 76 – 48 = 28 (bánh)\r\n Sự chênh lệch khi coi 1 xe máy là 1 ô tô là 4 – 2 = 2 (bánh)\r\n Số ô tô là 28 : 2 = 14 (chiếc)\r\n Số xe máy là 24 – 14 = 10 (chiếc)\r\n Vậy có 10 chiếc xe máy và 14 chiếc ô tô.",
+    "explanation": "• Giả sử tất cả là xe máy (2 bánh), số bánh xe là 24 × 2 = 48 (bánh)\r\n• Số bánh bị thiếu là 76 – 48 = 28 (bánh)\r\n• Sự chênh lệch khi coi 1 xe máy là 1 ô tô là 4 – 2 = 2 (bánh)\r\n• Số ô tô là 28 : 2 = 14 (chiếc)\r\n• Số xe máy là 24 – 14 = 10 (chiếc)\r\n• Vậy có 10 chiếc xe máy và 14 chiếc ô tô.",
     "type": "fill"
   },
   {
@@ -1903,7 +1903,7 @@ const GRADE4_SPECIAL_DB = [
       "30",
       "30"
     ],
-    "explanation": " Giả sử Valerie trả lời đúng cả 6 câu, số điểm là 6 × 5 = 30 (điểm)\r\n Số điểm bị dư là 30 – 23 = 7 (điểm)\r\n Mỗi lần đổi 1 câu đúng thành 1 câu sai, điểm giảm 5 + 2 = 7 (điểm)\r\n Số câu sai là 7 : 7 = 1 (câu)\r\n Số câu đúng là 6 – 1 = 5 (câu)\r\n Vậy Valerie trả lời đúng 5 câu.",
+    "explanation": "• Giả sử Valerie trả lời đúng cả 6 câu, số điểm là 6 × 5 = 30 (điểm)\r\n• Số điểm bị dư là 30 – 23 = 7 (điểm)\r\n• Mỗi lần đổi 1 câu đúng thành 1 câu sai, điểm giảm 5 + 2 = 7 (điểm)\r\n• Số câu sai là 7 : 7 = 1 (câu)\r\n• Số câu đúng là 6 – 1 = 5 (câu)\r\n• Vậy Valerie trả lời đúng 5 câu.",
     "type": "fill"
   },
   {
@@ -1920,7 +1920,7 @@ const GRADE4_SPECIAL_DB = [
       "20 chiếc ô tô trong bãi đỗ xe (và 10 chiếc xe máy)",
       "20chiếcôtôtrongbãiđỗxe(và10chiếcxemáy)"
     ],
-    "explanation": " Giả sử tất cả là xe máy (2 bánh), số bánh xe là 30 × 2 = 60 (bánh)\r\n Số bánh bị thiếu là 100 – 60 = 40 (bánh)\r\n Sự chênh lệch khi coi 1 xe máy là 1 ô tô là 4 – 2 = 2 (bánh)\r\n Số ô tô là 40 : 2 = 20 (chiếc)\r\n Vậy có 20 chiếc ô tô trong bãi đỗ xe (và 10 chiếc xe máy).",
+    "explanation": "• Giả sử tất cả là xe máy (2 bánh), số bánh xe là 30 × 2 = 60 (bánh)\r\n• Số bánh bị thiếu là 100 – 60 = 40 (bánh)\r\n• Sự chênh lệch khi coi 1 xe máy là 1 ô tô là 4 – 2 = 2 (bánh)\r\n• Số ô tô là 40 : 2 = 20 (chiếc)\r\n• Vậy có 20 chiếc ô tô trong bãi đỗ xe (và 10 chiếc xe máy).",
     "type": "fill"
   },
   {
@@ -1937,7 +1937,7 @@ const GRADE4_SPECIAL_DB = [
       "50",
       "50"
     ],
-    "explanation": " Giả sử tất cả là vé trẻ em, số tiền là 10 × 5 = 50 (đô la)\r\n Số tiền bị thiếu là 74 – 50 = 24 (đô la)\r\n Sự chênh lệch khi đổi 1 vé trẻ em thành 1 vé người lớn là 8 – 5 = 3 (đô la)\r\n Số vé người lớn là 24 : 3 = 8 (vé)\r\n Số vé trẻ em là 10 – 8 = 2 (vé)\r\n Vậy Sean mua 8 vé người lớn và 2 vé trẻ em.",
+    "explanation": "• Giả sử tất cả là vé trẻ em, số tiền là 10 × 5 = 50 (đô la)\r\n• Số tiền bị thiếu là 74 – 50 = 24 (đô la)\r\n• Sự chênh lệch khi đổi 1 vé trẻ em thành 1 vé người lớn là 8 – 5 = 3 (đô la)\r\n• Số vé người lớn là 24 : 3 = 8 (vé)\r\n• Số vé trẻ em là 10 – 8 = 2 (vé)\r\n• Vậy Sean mua 8 vé người lớn và 2 vé trẻ em.",
     "type": "fill"
   },
   {
@@ -1954,7 +1954,7 @@ const GRADE4_SPECIAL_DB = [
       "600",
       "600"
     ],
-    "explanation": " Giả sử tất cả là tem 20 xu, số tiền là 30 × 20 = 600 (xu)\r\n Số tiền bị thiếu là 1200 – 600 = 600 (xu)\r\n Sự chênh lệch khi đổi 1 tem 20 xu thành 1 tem 50 xu là 50 – 20 = 30 (xu)\r\n Số tem 50 xu là 600 : 30 = 20 (con)\r\n Số tem 20 xu là 30 – 20 = 10 (con)\r\n Vậy Clifford có 20 con tem 50 xu và 10 con tem 20 xu.",
+    "explanation": "• Giả sử tất cả là tem 20 xu, số tiền là 30 × 20 = 600 (xu)\r\n• Số tiền bị thiếu là 1200 – 600 = 600 (xu)\r\n• Sự chênh lệch khi đổi 1 tem 20 xu thành 1 tem 50 xu là 50 – 20 = 30 (xu)\r\n• Số tem 50 xu là 600 : 30 = 20 (con)\r\n• Số tem 20 xu là 30 – 20 = 10 (con)\r\n• Vậy Clifford có 20 con tem 50 xu và 10 con tem 20 xu.",
     "type": "fill"
   },
   {
@@ -1971,7 +1971,7 @@ const GRADE4_SPECIAL_DB = [
       "150",
       "150"
     ],
-    "explanation": " Giả sử tất cả là tờ 5 đô la, số tiền là 30 × 5 = 150 (đô la)\r\n Số tiền bị thiếu là 220 – 150 = 70 (đô la)\r\n Sự chênh lệch khi đổi 1 tờ 5 đô la thành 1 tờ 10 đô la là 10 – 5 = 5 (đô la)\r\n Số tờ 10 đô la là 70 : 5 = 14 (tờ)\r\n Vậy Natalie tiết kiệm 14 tờ 10 đô la (và 16 tờ 5 đô la).",
+    "explanation": "• Giả sử tất cả là tờ 5 đô la, số tiền là 30 × 5 = 150 (đô la)\r\n• Số tiền bị thiếu là 220 – 150 = 70 (đô la)\r\n• Sự chênh lệch khi đổi 1 tờ 5 đô la thành 1 tờ 10 đô la là 10 – 5 = 5 (đô la)\r\n• Số tờ 10 đô la là 70 : 5 = 14 (tờ)\r\n• Vậy Natalie tiết kiệm 14 tờ 10 đô la (và 16 tờ 5 đô la).",
     "type": "fill"
   },
   {
@@ -1988,7 +1988,7 @@ const GRADE4_SPECIAL_DB = [
       "12 con nhện và 8 con chuồn chuồn",
       "12connhệnvà8conchuồnchuồn"
     ],
-    "explanation": " Giả sử tất cả là chuồn chuồn, số chân là 20 × 6 = 120 (chân)\r\n Số chân bị thiếu là 144 – 120 = 24 (chân)\r\n Sự chênh lệch khi coi 1 chuồn chuồn là 1 nhện là 8 – 6 = 2 (chân)\r\n Số nhện là 24 : 2 = 12 (con)\r\n Số chuồn chuồn là 20 – 12 = 8 (con)\r\n Vậy có 12 con nhện và 8 con chuồn chuồn.",
+    "explanation": "• Giả sử tất cả là chuồn chuồn, số chân là 20 × 6 = 120 (chân)\r\n• Số chân bị thiếu là 144 – 120 = 24 (chân)\r\n• Sự chênh lệch khi coi 1 chuồn chuồn là 1 nhện là 8 – 6 = 2 (chân)\r\n• Số nhện là 24 : 2 = 12 (con)\r\n• Số chuồn chuồn là 20 – 12 = 8 (con)\r\n• Vậy có 12 con nhện và 8 con chuồn chuồn.",
     "type": "fill"
   },
   {
@@ -2005,7 +2005,7 @@ const GRADE4_SPECIAL_DB = [
       "100",
       "100"
     ],
-    "explanation": " Giả sử John trả lời đúng cả 25 câu, số điểm là 25 × 4 = 100 (điểm)\r\n Số điểm bị dư là 100 – 85 = 15 (điểm)\r\n Mỗi lần đổi 1 câu đúng thành 1 câu sai, điểm giảm 4 + 1 = 5 (điểm)\r\n Số câu sai là 15 : 5 = 3 (câu)\r\n Số câu đúng là 25 – 3 = 22 (câu)\r\n Vậy John trả lời đúng 22 câu.",
+    "explanation": "• Giả sử John trả lời đúng cả 25 câu, số điểm là 25 × 4 = 100 (điểm)\r\n• Số điểm bị dư là 100 – 85 = 15 (điểm)\r\n• Mỗi lần đổi 1 câu đúng thành 1 câu sai, điểm giảm 4 + 1 = 5 (điểm)\r\n• Số câu sai là 15 : 5 = 3 (câu)\r\n• Số câu đúng là 25 – 3 = 22 (câu)\r\n• Vậy John trả lời đúng 22 câu.",
     "type": "fill"
   },
   {
@@ -2022,7 +2022,7 @@ const GRADE4_SPECIAL_DB = [
       "180",
       "180"
     ],
-    "explanation": " Giả sử Henry trả lời đúng cả 45 câu, số điểm là 45 × 4 = 180 (điểm)\r\n Số điểm bị dư là 180 – 150 = 30 (điểm)\r\n Mỗi lần đổi 1 câu đúng thành 1 câu sai, điểm giảm 4 + 2 = 6 (điểm)\r\n Số câu sai là 30 : 6 = 5 (câu)\r\n Vậy Henry trả lời sai 5 câu.",
+    "explanation": "• Giả sử Henry trả lời đúng cả 45 câu, số điểm là 45 × 4 = 180 (điểm)\r\n• Số điểm bị dư là 180 – 150 = 30 (điểm)\r\n• Mỗi lần đổi 1 câu đúng thành 1 câu sai, điểm giảm 4 + 2 = 6 (điểm)\r\n• Số câu sai là 30 : 6 = 5 (câu)\r\n• Vậy Henry trả lời sai 5 câu.",
     "type": "fill"
   },
   {
@@ -2039,7 +2039,7 @@ const GRADE4_SPECIAL_DB = [
       "150",
       "150"
     ],
-    "explanation": " Giả sử Amy trả lời đúng cả 30 câu, số điểm là 30 × 5 = 150 (điểm)\r\n Số điểm bị dư là 150 – 122 = 28 (điểm)\r\n Mỗi lần đổi 1 câu đúng thành 1 câu sai, điểm giảm 5 + 2 = 7 (điểm)\r\n\r\n Số câu sai là 28 : 7 = 4 (câu)\r\n Số câu đúng là 30 – 4 = 26 (câu)\r\n Vậy Amy trả lời đúng 26 câu.",
+    "explanation": "• Giả sử Amy trả lời đúng cả 30 câu, số điểm là 30 × 5 = 150 (điểm)\r\n• Số điểm bị dư là 150 – 122 = 28 (điểm)\r\n• Mỗi lần đổi 1 câu đúng thành 1 câu sai, điểm giảm 5 + 2 = 7 (điểm)\r\n\r\n• Số câu sai là 28 : 7 = 4 (câu)\r\n• Số câu đúng là 30 – 4 = 26 (câu)\r\n• Vậy Amy trả lời đúng 26 câu.",
     "type": "fill"
   },
   {
@@ -2056,7 +2056,7 @@ const GRADE4_SPECIAL_DB = [
       "33 người lớn và có 33 trẻ em",
       "33ngườilớnvàcó33trẻem"
     ],
-    "explanation": " Giả sử tất cả là trẻ em, số lát bánh mì là 66 × 1 = 66 (lát)\r\n Số lát bị thiếu là 99 – 66 = 33 (lát)\r\n Sự chênh lệch khi coi 1 trẻ em là 1 người lớn là 2 – 1 = 1 (lát)\r\n Số người lớn là 33 : 1 = 33 (người)\r\n Số trẻ em là 66 – 33 = 33 (người)\r\n Vậy có 33 người lớn và có 33 trẻ em.",
+    "explanation": "• Giả sử tất cả là trẻ em, số lát bánh mì là 66 × 1 = 66 (lát)\r\n• Số lát bị thiếu là 99 – 66 = 33 (lát)\r\n• Sự chênh lệch khi coi 1 trẻ em là 1 người lớn là 2 – 1 = 1 (lát)\r\n• Số người lớn là 33 : 1 = 33 (người)\r\n• Số trẻ em là 66 – 33 = 33 (người)\r\n• Vậy có 33 người lớn và có 33 trẻ em.",
     "type": "fill"
   },
   {
@@ -2073,7 +2073,7 @@ const GRADE4_SPECIAL_DB = [
       "25 người lớn (và 75 trẻ em)",
       "25ngườilớn(và75trẻem)"
     ],
-    "explanation": " Giả sử tất cả là trẻ em, số bánh ăn là 100 × 1/3 = 100/3 (cái)\r\n Số bánh bị thiếu là 100 – 100/3 = 200/3 (cái)\r\n Sự chênh lệch khi coi 1 trẻ em là 1 người lớn là 3 – 1/3 = 8/3 (cái)\r\n Số người lớn là 200/3 : 8/3 = 25 (người)\r\n Vậy có 25 người lớn (và 75 trẻ em).",
+    "explanation": "• Giả sử tất cả là trẻ em, số bánh ăn là 100 × 1/3 = 100/3 (cái)\r\n• Số bánh bị thiếu là 100 – 100/3 = 200/3 (cái)\r\n• Sự chênh lệch khi coi 1 trẻ em là 1 người lớn là 3 – 1/3 = 8/3 (cái)\r\n• Số người lớn là 200/3 : 8/3 = 25 (người)\r\n• Vậy có 25 người lớn (và 75 trẻ em).",
     "type": "fill"
   },
   {
@@ -2090,7 +2090,7 @@ const GRADE4_SPECIAL_DB = [
       "1 thuyền lớn và 8 thuyền nhỏ, hoặc 4 thuyền lớn",
       "1thuyềnlớnvà8thuyềnnhỏ,hoặc4thuyềnlớn"
     ],
-    "explanation": " Đề không cho tổng số thuyền nên ta hiểu là mỗi thuyền chở đầy người và tìm số\r\nthuyền sao cho vừa đủ 56 người.\r\n\r\n Tổng số thuyền thì chưa biết, nên ta dùng cách thử số thuyền lớn:\r\n- Nếu có 1 thuyền lớn: số người còn lại là 56 – 8 = 48, mà 48 : 6 = 8 (thuyền nhỏ)\r\n- Nếu có 4 thuyền lớn: 56 – 32 = 24, mà 24 : 6 = 4 (thuyền nhỏ)\r\n\r\n Vậy bài này có nhiều đáp án: 1 thuyền lớn và 8 thuyền nhỏ, hoặc 4 thuyền lớn\r\nvà 4 thuyền nhỏ",
+    "explanation": "• Đề không cho tổng số thuyền nên ta hiểu là mỗi thuyền chở đầy người và tìm số\r\nthuyền sao cho vừa đủ 56 người.\r\n\r\n• Tổng số thuyền thì chưa biết, nên ta dùng cách thử số thuyền lớn:\r\n- Nếu có 1 thuyền lớn: số người còn lại là 56 – 8 = 48, mà 48 : 6 = 8 (thuyền nhỏ)\r\n- Nếu có 4 thuyền lớn: 56 – 32 = 24, mà 24 : 6 = 4 (thuyền nhỏ)\r\n\r\n• Vậy bài này có nhiều đáp án: 1 thuyền lớn và 8 thuyền nhỏ, hoặc 4 thuyền lớn\r\nvà 4 thuyền nhỏ",
     "type": "fill"
   },
   {
@@ -2107,7 +2107,7 @@ const GRADE4_SPECIAL_DB = [
       "160",
       "160"
     ],
-    "explanation": " Giả sử Isabelle trả lời đúng cả 20 câu, số điểm là 20 × 8 = 160 (điểm)\r\n Số điểm bị dư là 160 – 100 = 60 (điểm)\r\n Mỗi lần đổi 1 câu đúng thành 1 câu sai, điểm giảm 8 + 4 = 12 (điểm)\r\n Số câu sai là 60 : 12 = 5 (câu)\r\n Số câu đúng là 20 – 5 = 15 (câu)\r\n Vậy Isabelle trả lời đúng 15 câu.\r\n17*. [ĐVH] A PE teacher bought 4 identical basketballs and 5 identical volleyballs for\r\n$230. Each basketball was $8 more expensive than a volleyball. Find the cost of each\r\nbasketball and each volleyball.\r\nMột giáo viên thể dục đã mua 4 quả bóng rổ giống hệt nhau và 5 quả bóng chuyền giống\r\nhệt nhau với giá 230 đô la. Mỗi quả bóng rổ đắt hơn một quả bóng chuyền 8 đô la. Hãy\r\ntìm giá của mỗi quả bóng rổ và mỗi quả bóng chuyền.\r\n\r\n Giả sử cả 9 quả đều có giá bằng bóng chuyền, thì 4 quả bóng rổ cần bớt đi 4 × 8 =\r\n32 (đô la)\r\n\r\n Giá của 9 quả bóng chuyền là 230 – 32 = 198 (đô la)\r\n\r\n Giá mỗi quả bóng chuyền là 198 : 9 = 22 (đô la)\r\n Giá mỗi quả bóng rổ là 22 + 8 = 30 (đô la)\r\n Vậy mỗi quả bóng rổ giá 30 đô la, mỗi quả bóng chuyền giá 22 đô la.",
+    "explanation": "• Giả sử Isabelle trả lời đúng cả 20 câu, số điểm là 20 × 8 = 160 (điểm)\r\n• Số điểm bị dư là 160 – 100 = 60 (điểm)\r\n• Mỗi lần đổi 1 câu đúng thành 1 câu sai, điểm giảm 8 + 4 = 12 (điểm)\r\n• Số câu sai là 60 : 12 = 5 (câu)\r\n• Số câu đúng là 20 – 5 = 15 (câu)\r\n• Vậy Isabelle trả lời đúng 15 câu.\r\n17*. [ĐVH] A PE teacher bought 4 identical basketballs and 5 identical volleyballs for\r\n$230. Each basketball was $8 more expensive than a volleyball. Find the cost of each\r\nbasketball and each volleyball.\r\nMột giáo viên thể dục đã mua 4 quả bóng rổ giống hệt nhau và 5 quả bóng chuyền giống\r\nhệt nhau với giá 230 đô la. Mỗi quả bóng rổ đắt hơn một quả bóng chuyền 8 đô la. Hãy\r\ntìm giá của mỗi quả bóng rổ và mỗi quả bóng chuyền.\r\n\r\n• Giả sử cả 9 quả đều có giá bằng bóng chuyền, thì 4 quả bóng rổ cần bớt đi 4 × 8 =\r\n32 (đô la)\r\n\r\n• Giá của 9 quả bóng chuyền là 230 – 32 = 198 (đô la)\r\n\r\n• Giá mỗi quả bóng chuyền là 198 : 9 = 22 (đô la)\r\n• Giá mỗi quả bóng rổ là 22 + 8 = 30 (đô la)\r\n• Vậy mỗi quả bóng rổ giá 30 đô la, mỗi quả bóng chuyền giá 22 đô la.",
     "type": "fill"
   },
   {
@@ -2124,7 +2124,7 @@ const GRADE4_SPECIAL_DB = [
       "40",
       "40"
     ],
-    "explanation": " Giả sử tất cả là bút, số tiền là 10 × 4 = 40 (đô la)\r\n Số tiền bị thiếu là 64 – 40 = 24 (đô la)\r\n Sự chênh lệch khi đổi 1 bút thành 1 sách là 7 – 4 = 3 (đô la)\r\n Số sách là 24 : 3 = 8 (quyển)\r\n Số bút là 10 – 8 = 2 (cây)\r\n Vậy Samuel mua 2 cây bút và 8 quyển sách.",
+    "explanation": "• Giả sử tất cả là bút, số tiền là 10 × 4 = 40 (đô la)\r\n• Số tiền bị thiếu là 64 – 40 = 24 (đô la)\r\n• Sự chênh lệch khi đổi 1 bút thành 1 sách là 7 – 4 = 3 (đô la)\r\n• Số sách là 24 : 3 = 8 (quyển)\r\n• Số bút là 10 – 8 = 2 (cây)\r\n• Vậy Samuel mua 2 cây bút và 8 quyển sách.",
     "type": "fill"
   },
   {
@@ -2141,7 +2141,7 @@ const GRADE4_SPECIAL_DB = [
       "12",
       "12"
     ],
-    "explanation": " Giả sử tất cả là cọ vẽ, số tiền là 12 × 1 = 12 (đô la)\r\n Số tiền bị thiếu là 28 – 12 = 16 (đô la)\r\n Sự chênh lệch khi đổi 1 cọ vẽ thành 1 bút lông bảng là 3 – 1 = 2 (đô la)\r\n Số bút lông bảng là 16 : 2 = 8 (cây)\r\n Số cọ vẽ là 12 – 8 = 4 (cây)\r\n Vậy giáo viên mua 8 cây bút lông bảng trắng và 4 cây cọ vẽ.",
+    "explanation": "• Giả sử tất cả là cọ vẽ, số tiền là 12 × 1 = 12 (đô la)\r\n• Số tiền bị thiếu là 28 – 12 = 16 (đô la)\r\n• Sự chênh lệch khi đổi 1 cọ vẽ thành 1 bút lông bảng là 3 – 1 = 2 (đô la)\r\n• Số bút lông bảng là 16 : 2 = 8 (cây)\r\n• Số cọ vẽ là 12 – 8 = 4 (cây)\r\n• Vậy giáo viên mua 8 cây bút lông bảng trắng và 4 cây cọ vẽ.",
     "type": "fill"
   },
   {
@@ -2158,7 +2158,7 @@ const GRADE4_SPECIAL_DB = [
       "2",
       "2"
     ],
-    "explanation": " Hiệu số tuổi không đổi theo thời gian nên hiện tại Anh – Em = 2 tuổi\r\n Kết hợp với Anh + Em = 28 tuổi → Anh = 15 tuổi và Em = 13 tuổi",
+    "explanation": "• Hiệu số tuổi không đổi theo thời gian nên hiện tại Anh – Em = 2 tuổi\r\n• Kết hợp với Anh + Em = 28 tuổi → Anh = 15 tuổi và Em = 13 tuổi",
     "type": "fill"
   },
   {
@@ -2175,7 +2175,7 @@ const GRADE4_SPECIAL_DB = [
       "4",
       "4"
     ],
-    "explanation": " Hiệu số tuổi không đổi theo thời gian nên hiện tại Bố – Mẹ = 4 tuổi\r\n Kết hợp với Bố + Mẹ = 70 tuổi → Bố = 37 tuổi và Mẹ = 33 tuổi",
+    "explanation": "• Hiệu số tuổi không đổi theo thời gian nên hiện tại Bố – Mẹ = 4 tuổi\r\n• Kết hợp với Bố + Mẹ = 70 tuổi → Bố = 37 tuổi và Mẹ = 33 tuổi",
     "type": "fill"
   },
   {
@@ -2192,7 +2192,7 @@ const GRADE4_SPECIAL_DB = [
       "8",
       "8"
     ],
-    "explanation": " Hiệu số tuổi không thay đổi, luôn là 8 tuổi\r\n Khi mà Sean gấp 3 lần tuổi của John thì Sean chiếm 3p, John chiếm 1p\r\n→ Hiệu là 2p = 8 nên 1p = 4 tuổi\r\n Tức là khi đó Sean 12 tuổi → Cách đây là 14 năm",
+    "explanation": "• Hiệu số tuổi không thay đổi, luôn là 8 tuổi\r\n• Khi mà Sean gấp 3 lần tuổi của John thì Sean chiếm 3p, John chiếm 1p\r\n→ Hiệu là 2p = 8 nên 1p = 4 tuổi\r\n• Tức là khi đó Sean 12 tuổi → Cách đây là 14 năm",
     "type": "fill"
   },
   {
@@ -2209,7 +2209,7 @@ const GRADE4_SPECIAL_DB = [
       "24",
       "24"
     ],
-    "explanation": " Hiệu số tuổi không thay đổi, luôn là 26 – 2 = 24 (tuổi)\r\n Khi mẹ gấp 3 lần tuổi Xavier thì mẹ chiếm 3p, Xavier chiếm 1p\r\n Hiệu là 2p = 24 nên 1p = 12 tuổi\r\n Tức là khi đó Xavier 12 tuổi, mẹ 36 tuổi\r\n Sau số năm là 12 – 2 = 10 (năm)\r\n Vậy sau 10 năm nữa tuổi mẹ gấp ba lần tuổi Xavier.",
+    "explanation": "• Hiệu số tuổi không thay đổi, luôn là 26 – 2 = 24 (tuổi)\r\n• Khi mẹ gấp 3 lần tuổi Xavier thì mẹ chiếm 3p, Xavier chiếm 1p\r\n• Hiệu là 2p = 24 nên 1p = 12 tuổi\r\n• Tức là khi đó Xavier 12 tuổi, mẹ 36 tuổi\r\n• Sau số năm là 12 – 2 = 10 (năm)\r\n• Vậy sau 10 năm nữa tuổi mẹ gấp ba lần tuổi Xavier.",
     "type": "fill"
   },
   {
@@ -2226,7 +2226,7 @@ const GRADE4_SPECIAL_DB = [
       "20",
       "20"
     ],
-    "explanation": " Hiệu số tuổi không đổi theo thời gian nên hiện tại Bố – John = 20 tuổi\r\n Kết hợp với Bố + John = 44 tuổi\r\n Bố = (44 + 20) : 2 = 32 tuổi\r\n John = (44 – 20) : 2 = 12 tuổi\r\n Vậy hiện nay bố 32 tuổi và John 12 tuổi.",
+    "explanation": "• Hiệu số tuổi không đổi theo thời gian nên hiện tại Bố – John = 20 tuổi\r\n• Kết hợp với Bố + John = 44 tuổi\r\n• Bố = (44 + 20) : 2 = 32 tuổi\r\n• John = (44 – 20) : 2 = 12 tuổi\r\n• Vậy hiện nay bố 32 tuổi và John 12 tuổi.",
     "type": "fill"
   },
   {
@@ -2243,7 +2243,7 @@ const GRADE4_SPECIAL_DB = [
       "8",
       "8"
     ],
-    "explanation": " Gọi x là hiệu số tuổi của hai mẹ con, x sẽ không thay đổi\r\n Khi con 8 tuổi thì hiện tại tuổi mẹ là 8 + x\r\n Khi con bằng mẹ hiện tại (tức 8 + x) thì tuổi mẹ là (8 + x) + x = 8 + 2x\r\n Theo bài thì 8 + 2x = 54 → x = 23\r\n Vậy hiện tại Mẹ 31 tuổi.",
+    "explanation": "• Gọi x là hiệu số tuổi của hai mẹ con, x sẽ không thay đổi\r\n• Khi con 8 tuổi thì hiện tại tuổi mẹ là 8 + x\r\n• Khi con bằng mẹ hiện tại (tức 8 + x) thì tuổi mẹ là (8 + x) + x = 8 + 2x\r\n• Theo bài thì 8 + 2x = 54 → x = 23\r\n• Vậy hiện tại Mẹ 31 tuổi.",
     "type": "fill"
   },
   {
@@ -2260,7 +2260,7 @@ const GRADE4_SPECIAL_DB = [
       "40",
       "40"
     ],
-    "explanation": " Bốn năm trước, mẹ có số tuổi là 44 – 4 = 40 (tuổi)\r\n Khi đó mẹ chiếm 4p, Isabelle chiếm 1p\r\n 4p = 40 nên 1p = 10 tuổi\r\n Tức là bốn năm trước Isabelle 10 tuổi, nên hiện nay Isabelle 10 + 4 = 14 (tuổi)\r\n Vậy Isabelle 14 tuổi.",
+    "explanation": "• Bốn năm trước, mẹ có số tuổi là 44 – 4 = 40 (tuổi)\r\n• Khi đó mẹ chiếm 4p, Isabelle chiếm 1p\r\n• 4p = 40 nên 1p = 10 tuổi\r\n• Tức là bốn năm trước Isabelle 10 tuổi, nên hiện nay Isabelle 10 + 4 = 14 (tuổi)\r\n• Vậy Isabelle 14 tuổi.",
     "type": "fill"
   },
   {
@@ -2277,7 +2277,7 @@ const GRADE4_SPECIAL_DB = [
       "26",
       "26"
     ],
-    "explanation": " Hiệu số tuổi không thay đổi, luôn là 34 – 8 = 26 (tuổi)\r\n Khi mẹ gấp 3 lần tuổi Joel thì mẹ chiếm 3p, Joel chiếm 1p\r\n Hiệu là 2p = 26 nên 1p = 13 tuổi\r\n\r\n Tức là khi đó Joel 13 tuổi, sau số năm là 13 – 8 = 5 (năm)\r\n Vậy sau 5 năm nữa.",
+    "explanation": "• Hiệu số tuổi không thay đổi, luôn là 34 – 8 = 26 (tuổi)\r\n• Khi mẹ gấp 3 lần tuổi Joel thì mẹ chiếm 3p, Joel chiếm 1p\r\n• Hiệu là 2p = 26 nên 1p = 13 tuổi\r\n\r\n• Tức là khi đó Joel 13 tuổi, sau số năm là 13 – 8 = 5 (năm)\r\n• Vậy sau 5 năm nữa.",
     "type": "fill"
   },
   {
@@ -2294,7 +2294,7 @@ const GRADE4_SPECIAL_DB = [
       "24",
       "24"
     ],
-    "explanation": " Hiệu số tuổi không thay đổi, luôn là 34 – 10 = 24 (tuổi)\r\n Khi bố gấp 4 lần tuổi Beatrice thì bố chiếm 4p, Beatrice chiếm 1p\r\n Hiệu là 3p = 24 nên 1p = 8 tuổi\r\n Tức là khi đó Beatrice 8 tuổi, cách đây 10 – 8 = 2 (năm)\r\n Vậy cách đây 2 năm.",
+    "explanation": "• Hiệu số tuổi không thay đổi, luôn là 34 – 10 = 24 (tuổi)\r\n• Khi bố gấp 4 lần tuổi Beatrice thì bố chiếm 4p, Beatrice chiếm 1p\r\n• Hiệu là 3p = 24 nên 1p = 8 tuổi\r\n• Tức là khi đó Beatrice 8 tuổi, cách đây 10 – 8 = 2 (năm)\r\n• Vậy cách đây 2 năm.",
     "type": "fill"
   },
   {
@@ -2311,7 +2311,7 @@ const GRADE4_SPECIAL_DB = [
       "72",
       "72"
     ],
-    "explanation": " Ba năm sau, tổng số tuổi của hai người là 66 + 3 × 2 = 72 (tuổi)\r\n Khi đó ông chiếm 8p, Jimmy chiếm 1p, tổng là 9p = 72 nên 1p = 8 tuổi\r\n Ba năm sau Jimmy 8 tuổi, ông 8 × 8 = 64 tuổi\r\n Hiện nay Jimmy 8 – 3 = 5 (tuổi), ông 64 – 3 = 61 (tuổi)\r\n Vậy Jimmy 5 tuổi và ông nội 61 tuổi.",
+    "explanation": "• Ba năm sau, tổng số tuổi của hai người là 66 + 3 × 2 = 72 (tuổi)\r\n• Khi đó ông chiếm 8p, Jimmy chiếm 1p, tổng là 9p = 72 nên 1p = 8 tuổi\r\n• Ba năm sau Jimmy 8 tuổi, ông 8 × 8 = 64 tuổi\r\n• Hiện nay Jimmy 8 – 3 = 5 (tuổi), ông 64 – 3 = 61 (tuổi)\r\n• Vậy Jimmy 5 tuổi và ông nội 61 tuổi.",
     "type": "fill"
   },
   {
@@ -2328,7 +2328,7 @@ const GRADE4_SPECIAL_DB = [
       "51",
       "51"
     ],
-    "explanation": " Hiệu số tuổi không thay đổi, luôn là 64 – 13 = 51 (tuổi)\r\n Khi bà gấp 4 lần tuổi Samuel thì bà chiếm 4p, Samuel chiếm 1p\r\n Hiệu là 3p = 51 nên 1p = 17 tuổi\r\n Tức là khi đó Samuel 17 tuổi, sau số năm là 17 – 13 = 4 (năm)\r\n Vậy sau 4 năm nữa.",
+    "explanation": "• Hiệu số tuổi không thay đổi, luôn là 64 – 13 = 51 (tuổi)\r\n• Khi bà gấp 4 lần tuổi Samuel thì bà chiếm 4p, Samuel chiếm 1p\r\n• Hiệu là 3p = 51 nên 1p = 17 tuổi\r\n• Tức là khi đó Samuel 17 tuổi, sau số năm là 17 – 13 = 4 (năm)\r\n• Vậy sau 4 năm nữa.",
     "type": "fill"
   },
   {
@@ -2345,7 +2345,7 @@ const GRADE4_SPECIAL_DB = [
       "30",
       "30"
     ],
-    "explanation": " Hiệu số tuổi không thay đổi, luôn là 38 – 8 = 30 (tuổi)\r\n Khi mẹ gấp 3 lần tuổi con thì mẹ chiếm 3p, con chiếm 1p\r\n Hiệu là 2p = 30 nên 1p = 15 tuổi\r\n Tức là khi đó con gái 15 tuổi, sau số năm là 15 – 8 = 7 (năm)\r\n Vậy sau 7 năm nữa.",
+    "explanation": "• Hiệu số tuổi không thay đổi, luôn là 38 – 8 = 30 (tuổi)\r\n• Khi mẹ gấp 3 lần tuổi con thì mẹ chiếm 3p, con chiếm 1p\r\n• Hiệu là 2p = 30 nên 1p = 15 tuổi\r\n• Tức là khi đó con gái 15 tuổi, sau số năm là 15 – 8 = 7 (năm)\r\n• Vậy sau 7 năm nữa.",
     "type": "fill"
   },
   {
@@ -2362,7 +2362,7 @@ const GRADE4_SPECIAL_DB = [
       "5",
       "5"
     ],
-    "explanation": " Hiệu số tuổi không đổi theo thời gian nên hiện tại Melanie – Anh/em = 5 tuổi\r\n Kết hợp với Melanie + Anh/em = 35 tuổi\r\n Melanie = (35 + 5) : 2 = 20 tuổi\r\n Anh/em trai = (35 – 5) : 2 = 15 tuổi\r\n Vậy Melanie 20 tuổi và anh/em trai 15 tuổi.",
+    "explanation": "• Hiệu số tuổi không đổi theo thời gian nên hiện tại Melanie – Anh/em = 5 tuổi\r\n• Kết hợp với Melanie + Anh/em = 35 tuổi\r\n• Melanie = (35 + 5) : 2 = 20 tuổi\r\n• Anh/em trai = (35 – 5) : 2 = 15 tuổi\r\n• Vậy Melanie 20 tuổi và anh/em trai 15 tuổi.",
     "type": "fill"
   },
   {
@@ -2379,7 +2379,7 @@ const GRADE4_SPECIAL_DB = [
       "24",
       "24"
     ],
-    "explanation": " Tổng số tuổi hiện nay là 10 + 14 = 24 (tuổi)\r\n Số tuổi cần tăng thêm là 50 – 24 = 26 (tuổi)\r\n Mỗi năm, mỗi người tăng 1 tuổi nên tổng tăng 2 tuổi\r\n Số năm cần thêm là 26 : 2 = 13 (năm)\r\n Jonathan: 10 + 13 = 23 (tuổi); Joseph: 14 + 13 = 27 (tuổi)\r\n Vậy Jonathan 23 tuổi và Joseph 27 tuổi.",
+    "explanation": "• Tổng số tuổi hiện nay là 10 + 14 = 24 (tuổi)\r\n• Số tuổi cần tăng thêm là 50 – 24 = 26 (tuổi)\r\n• Mỗi năm, mỗi người tăng 1 tuổi nên tổng tăng 2 tuổi\r\n• Số năm cần thêm là 26 : 2 = 13 (năm)\r\n• Jonathan: 10 + 13 = 23 (tuổi); Joseph: 14 + 13 = 27 (tuổi)\r\n• Vậy Jonathan 23 tuổi và Joseph 27 tuổi.",
     "type": "fill"
   },
   {
@@ -2396,7 +2396,7 @@ const GRADE4_SPECIAL_DB = [
       "55",
       "55"
     ],
-    "explanation": " Hiệu số tuổi không thay đổi, luôn là 60 – 5 = 55 (tuổi)\r\n Khi bà gấp 6 lần tuổi Kelly thì bà chiếm 6p, Kelly chiếm 1p\r\n Hiệu là 5p = 55 nên 1p = 11 tuổi\r\n Tức là khi đó Kelly 11 tuổi, sau số năm là 11 – 5 = 6 (năm)\r\n Vậy sau 6 năm nữa.",
+    "explanation": "• Hiệu số tuổi không thay đổi, luôn là 60 – 5 = 55 (tuổi)\r\n• Khi bà gấp 6 lần tuổi Kelly thì bà chiếm 6p, Kelly chiếm 1p\r\n• Hiệu là 5p = 55 nên 1p = 11 tuổi\r\n• Tức là khi đó Kelly 11 tuổi, sau số năm là 11 – 5 = 6 (năm)\r\n• Vậy sau 6 năm nữa.",
     "type": "fill"
   },
   {
@@ -2413,7 +2413,7 @@ const GRADE4_SPECIAL_DB = [
       "26",
       "26"
     ],
-    "explanation": " Hiệu số tuổi không thay đổi, luôn là 50 – 24 = 26 (tuổi)\r\n Khi cha gấp 3 lần tuổi con thì cha chiếm 3p, con chiếm 1p\r\n Hiệu là 2p = 26 nên 1p = 13 tuổi\r\n Tức là khi đó con trai 13 tuổi, cách đây 24 – 13 = 11 (năm)\r\n Vậy cách đây 11 năm.",
+    "explanation": "• Hiệu số tuổi không thay đổi, luôn là 50 – 24 = 26 (tuổi)\r\n• Khi cha gấp 3 lần tuổi con thì cha chiếm 3p, con chiếm 1p\r\n• Hiệu là 2p = 26 nên 1p = 13 tuổi\r\n• Tức là khi đó con trai 13 tuổi, cách đây 24 – 13 = 11 (năm)\r\n• Vậy cách đây 11 năm.",
     "type": "fill"
   },
   {
@@ -2430,7 +2430,7 @@ const GRADE4_SPECIAL_DB = [
       "10",
       "10"
     ],
-    "explanation": " Gọi x là hiệu số tuổi của cô giáo và Jene, x sẽ không thay đổi\r\n Hiện tại Jene 10 tuổi thì tuổi cô giáo là 10 + x\r\n Khi Jene bằng tuổi cô hiện nay (tức 10 + x) thì tuổi cô là (10 + x) + x = 10 + 2x\r\n Theo bài thì 10 + 2x = 58 → 2x = 48 → x = 24\r\n Vậy hiện tại cô giáo 10 + 24 = 34 (tuổi)\r\n Vậy cô giáo 34 tuổi.",
+    "explanation": "• Gọi x là hiệu số tuổi của cô giáo và Jene, x sẽ không thay đổi\r\n• Hiện tại Jene 10 tuổi thì tuổi cô giáo là 10 + x\r\n• Khi Jene bằng tuổi cô hiện nay (tức 10 + x) thì tuổi cô là (10 + x) + x = 10 + 2x\r\n• Theo bài thì 10 + 2x = 58 → 2x = 48 → x = 24\r\n• Vậy hiện tại cô giáo 10 + 24 = 34 (tuổi)\r\n• Vậy cô giáo 34 tuổi.",
     "type": "fill"
   },
   {
@@ -2447,7 +2447,7 @@ const GRADE4_SPECIAL_DB = [
       "12",
       "12"
     ],
-    "explanation": " Gọi x là hiệu số tuổi của Dì Zoe và Cindy, x sẽ không thay đổi\r\n Hiện tại Cindy 12 tuổi thì tuổi Dì Zoe là 12 + x\r\n Khi Cindy bằng tuổi Dì hiện nay (tức 12 + x) thì tuổi Dì là (12 + x) + x = 12 + 2x\r\n Theo bài thì 12 + 2x = 62 → 2x = 50 → x = 25\r\n Vậy hiện tại Dì Zoe 12 + 25 = 37 (tuổi)\r\n Vậy Dì Zoe 37 tuổi.",
+    "explanation": "• Gọi x là hiệu số tuổi của Dì Zoe và Cindy, x sẽ không thay đổi\r\n• Hiện tại Cindy 12 tuổi thì tuổi Dì Zoe là 12 + x\r\n• Khi Cindy bằng tuổi Dì hiện nay (tức 12 + x) thì tuổi Dì là (12 + x) + x = 12 + 2x\r\n• Theo bài thì 12 + 2x = 62 → 2x = 50 → x = 25\r\n• Vậy hiện tại Dì Zoe 12 + 25 = 37 (tuổi)\r\n• Vậy Dì Zoe 37 tuổi.",
     "type": "fill"
   },
   {
@@ -2464,7 +2464,7 @@ const GRADE4_SPECIAL_DB = [
       "44",
       "44"
     ],
-    "explanation": " Tám năm trước, tổng số tuổi của hai người là 60 – 8 × 2 = 44 (tuổi)\r\n Khi đó cha chiếm 3p, con chiếm 1p, tổng là 4p = 44 nên 1p = 11 tuổi\r\n Tám năm trước con 11 tuổi, cha 11 × 3 = 33 tuổi\r\n Hiện nay con 11 + 8 = 19 (tuổi), cha 33 + 8 = 41 (tuổi)\r\n Vậy cha 41 tuổi và con trai 19 tuổi.",
+    "explanation": "• Tám năm trước, tổng số tuổi của hai người là 60 – 8 × 2 = 44 (tuổi)\r\n• Khi đó cha chiếm 3p, con chiếm 1p, tổng là 4p = 44 nên 1p = 11 tuổi\r\n• Tám năm trước con 11 tuổi, cha 11 × 3 = 33 tuổi\r\n• Hiện nay con 11 + 8 = 19 (tuổi), cha 33 + 8 = 41 (tuổi)\r\n• Vậy cha 41 tuổi và con trai 19 tuổi.",
     "type": "fill"
   },
   {
@@ -2481,7 +2481,7 @@ const GRADE4_SPECIAL_DB = [
       "60",
       "60"
     ],
-    "explanation": " Năm năm nữa, tổng số tuổi của hai người là 50 + 5 × 2 = 60 (tuổi)\r\n Khi đó cha chiếm 3p, con gái chiếm 1p, tổng là 4p = 60 nên 1p = 15 tuổi\r\n Năm năm nữa con gái 15 tuổi, cha 15 × 3 = 45 tuổi\r\n Hiện nay con gái 15 – 5 = 10 (tuổi), cha 45 – 5 = 40 (tuổi)\r\n Vậy cha 40 tuổi và con gái 10 tuổi.",
+    "explanation": "• Năm năm nữa, tổng số tuổi của hai người là 50 + 5 × 2 = 60 (tuổi)\r\n• Khi đó cha chiếm 3p, con gái chiếm 1p, tổng là 4p = 60 nên 1p = 15 tuổi\r\n• Năm năm nữa con gái 15 tuổi, cha 15 × 3 = 45 tuổi\r\n• Hiện nay con gái 15 – 5 = 10 (tuổi), cha 45 – 5 = 40 (tuổi)\r\n• Vậy cha 40 tuổi và con gái 10 tuổi.",
     "type": "fill"
   },
   {
@@ -2498,7 +2498,7 @@ const GRADE4_SPECIAL_DB = [
       "30",
       "30"
     ],
-    "explanation": " Hiệu số tuổi không thay đổi, luôn là 30 tuổi\r\n Khi mẹ gấp 4 lần tuổi David thì mẹ chiếm 4p, David chiếm 1p\r\n Hiệu là 3p = 30 nên 1p = 10 tuổi\r\n Tức là tám năm sau David 10 tuổi, nên hiện nay David 10 – 8 = 2 (tuổi)\r\n Vậy David 2 tuổi.",
+    "explanation": "• Hiệu số tuổi không thay đổi, luôn là 30 tuổi\r\n• Khi mẹ gấp 4 lần tuổi David thì mẹ chiếm 4p, David chiếm 1p\r\n• Hiệu là 3p = 30 nên 1p = 10 tuổi\r\n• Tức là tám năm sau David 10 tuổi, nên hiện nay David 10 – 8 = 2 (tuổi)\r\n• Vậy David 2 tuổi.",
     "type": "fill"
   },
   {
@@ -2515,7 +2515,7 @@ const GRADE4_SPECIAL_DB = [
       "50",
       "50"
     ],
-    "explanation": " Hiệu số tuổi không thay đổi, luôn là 50 tuổi\r\n Khi ông gấp 6 lần tuổi Raymond thì ông chiếm 6p, Raymond chiếm 1p\r\n Hiệu là 5p = 50 nên 1p = 10 tuổi\r\n Tức là sáu năm trước Raymond 10 tuổi, ông 10 × 6 = 60 tuổi\r\n Hiện nay ông nội 60 + 6 = 66 (tuổi)\r\n Vậy ông nội của Raymond hiện 66 tuổi (và Raymond 16 tuổi).",
+    "explanation": "• Hiệu số tuổi không thay đổi, luôn là 50 tuổi\r\n• Khi ông gấp 6 lần tuổi Raymond thì ông chiếm 6p, Raymond chiếm 1p\r\n• Hiệu là 5p = 50 nên 1p = 10 tuổi\r\n• Tức là sáu năm trước Raymond 10 tuổi, ông 10 × 6 = 60 tuổi\r\n• Hiện nay ông nội 60 + 6 = 66 (tuổi)\r\n• Vậy ông nội của Raymond hiện 66 tuổi (và Raymond 16 tuổi).",
     "type": "fill"
   },
   {
@@ -2532,7 +2532,7 @@ const GRADE4_SPECIAL_DB = [
       "260",
       "260"
     ],
-    "explanation": " Sau 4 giờ xe A đi được quãng đường là 65  ×  4 = 260 km\r\n Sau 4 giờ xe B đi được quãng đường là 80  ×  4 = 320 km\r\n Khoảng cách giữa hai thị trấn là 260 + 320 = 580 km",
+    "explanation": "• Sau 4 giờ xe A đi được quãng đường là 65  ×  4 = 260 km\r\n• Sau 4 giờ xe B đi được quãng đường là 80  ×  4 = 320 km\r\n• Khoảng cách giữa hai thị trấn là 260 + 320 = 580 km",
     "type": "fill"
   },
   {
@@ -2549,7 +2549,7 @@ const GRADE4_SPECIAL_DB = [
       "300",
       "300"
     ],
-    "explanation": " Sau 5 phút Peter đi được quãng đường là 60 × 5 = 300 m\r\n Sau 5 phút Jane đi được quãng đường là 50 × 5 = 250 m\r\n Khoảng cách giữa thư viện và trung tâm mua sắm là 300 + 250 = 550 m",
+    "explanation": "• Sau 5 phút Peter đi được quãng đường là 60 × 5 = 300 m\r\n• Sau 5 phút Jane đi được quãng đường là 50 × 5 = 250 m\r\n• Khoảng cách giữa thư viện và trung tâm mua sắm là 300 + 250 = 550 m",
     "type": "fill"
   },
   {
@@ -2566,7 +2566,7 @@ const GRADE4_SPECIAL_DB = [
       "150",
       "150"
     ],
-    "explanation": " Tốc độ chạy của Shawn là 75 × 2 = 150 m/phút\r\n Quãng đường từ nhà đến trường là 75 × 24 = 1800 m\r\n Một nửa quãng đường là 1800 : 2 = 900 m\r\n Thời gian đi bộ một nửa quãng đường là 900 : 75 = 12 phút\r\n Thời gian chạy một nửa quãng đường là 900 : 150 = 6 phút\r\n Thời gian cậu ấy đi hết quãng đường là 12 + 6 = 18 phút",
+    "explanation": "• Tốc độ chạy của Shawn là 75 × 2 = 150 m/phút\r\n• Quãng đường từ nhà đến trường là 75 × 24 = 1800 m\r\n• Một nửa quãng đường là 1800 : 2 = 900 m\r\n• Thời gian đi bộ một nửa quãng đường là 900 : 75 = 12 phút\r\n• Thời gian chạy một nửa quãng đường là 900 : 150 = 6 phút\r\n• Thời gian cậu ấy đi hết quãng đường là 12 + 6 = 18 phút",
     "type": "fill"
   },
   {
@@ -2583,7 +2583,7 @@ const GRADE4_SPECIAL_DB = [
       "30",
       "30"
     ],
-    "explanation": " Peter chậm hơn Jane nên Peter đi chưa tới trung điểm, còn Jane đã đi qua trung\r\nđiểm.\r\n Peter cách trung điểm 15 m và Jane qua trung điểm 15 m nên Jane đi nhiều hơn\r\nPeter 15 + 15 = 30 m\r\n Mỗi phút Jane đi nhiều hơn Peter 70 − 60 = 10 m\r\n Thời gian hai người đi đến khi gặp nhau là 30 : 10 = 3 phút\r\n\r\n Sau 3 phút Peter đi được 60 × 3 = 180 m\r\n Sau 3 phút Jane đi được 70 × 3 = 210 m\r\n Khoảng cách cần tìm là 180 + 210 = 390 m",
+    "explanation": "• Peter chậm hơn Jane nên Peter đi chưa tới trung điểm, còn Jane đã đi qua trung\r\nđiểm.\r\n• Peter cách trung điểm 15 m và Jane qua trung điểm 15 m nên Jane đi nhiều hơn\r\nPeter 15 + 15 = 30 m\r\n• Mỗi phút Jane đi nhiều hơn Peter 70 − 60 = 10 m\r\n• Thời gian hai người đi đến khi gặp nhau là 30 : 10 = 3 phút\r\n\r\n• Sau 3 phút Peter đi được 60 × 3 = 180 m\r\n• Sau 3 phút Jane đi được 70 × 3 = 210 m\r\n• Khoảng cách cần tìm là 180 + 210 = 390 m",
     "type": "fill"
   },
   {
@@ -2600,7 +2600,7 @@ const GRADE4_SPECIAL_DB = [
       "6",
       "6"
     ],
-    "explanation": " Mark chậm hơn Nick nên Nick đi nhiều hơn Mark 3 + 3 = 6 km\r\n Mỗi giờ Nick đi nhiều hơn Mark 15 − 12 = 3 km\r\n Thời gian hai người đi đến khi gặp nhau là 6 : 3 = 2 giờ\r\n Sau 2 giờ Mark đi được 12 × 2 = 24 km\r\n Sau 2 giờ Nick đi được 15 × 2 = 30 km\r\n Khoảng cách giữa Thị trấn A và Thị trấn B là 24 + 30 = 54 km\r\n\r\n6*.\r\n\r\n[ĐVH] Một chiếc xe tải đi từ Thị trấn A đến Thị trấn B với tốc độ 60 km/h. Cùng\r\nlúc đó, một chiếc ô tô đi từ Thị trấn B đến Thị trấn A với tốc độ 80 km/h. Chúng\r\ngặp nhau tại điểm cách trung điểm của hai thị trấn 30 km. Tìm khoảng cách giữa\r\nhai thị trấn.\r\n Xe tải chậm hơn ô tô nên ô tô đi nhiều hơn xe tải 30 + 30 = 60 km\r\n Mỗi giờ ô tô đi nhiều hơn xe tải 80 − 60 = 20 km\r\n Thời gian hai xe đi đến khi gặp nhau là 60 : 20 = 3 giờ\r\n Sau 3 giờ xe tải đi được 60 × 3 = 180 km\r\n Sau 3 giờ ô tô đi được 80 × 3 = 240 km\r\n Khoảng cách giữa hai thị trấn là 180 + 240 = 420 km",
+    "explanation": "• Mark chậm hơn Nick nên Nick đi nhiều hơn Mark 3 + 3 = 6 km\r\n• Mỗi giờ Nick đi nhiều hơn Mark 15 − 12 = 3 km\r\n• Thời gian hai người đi đến khi gặp nhau là 6 : 3 = 2 giờ\r\n• Sau 2 giờ Mark đi được 12 × 2 = 24 km\r\n• Sau 2 giờ Nick đi được 15 × 2 = 30 km\r\n• Khoảng cách giữa Thị trấn A và Thị trấn B là 24 + 30 = 54 km\r\n\r\n6*.\r\n\r\n[ĐVH] Một chiếc xe tải đi từ Thị trấn A đến Thị trấn B với tốc độ 60 km/h. Cùng\r\nlúc đó, một chiếc ô tô đi từ Thị trấn B đến Thị trấn A với tốc độ 80 km/h. Chúng\r\ngặp nhau tại điểm cách trung điểm của hai thị trấn 30 km. Tìm khoảng cách giữa\r\nhai thị trấn.\r\n• Xe tải chậm hơn ô tô nên ô tô đi nhiều hơn xe tải 30 + 30 = 60 km\r\n• Mỗi giờ ô tô đi nhiều hơn xe tải 80 − 60 = 20 km\r\n• Thời gian hai xe đi đến khi gặp nhau là 60 : 20 = 3 giờ\r\n• Sau 3 giờ xe tải đi được 60 × 3 = 180 km\r\n• Sau 3 giờ ô tô đi được 80 × 3 = 240 km\r\n• Khoảng cách giữa hai thị trấn là 180 + 240 = 420 km",
     "type": "fill"
   },
   {
@@ -2617,7 +2617,7 @@ const GRADE4_SPECIAL_DB = [
       "6",
       "6"
     ],
-    "explanation": " Weiling xuất phát sau Qiqi 2 phút nhưng đến trước 4 phút nên thời gian \r\nWeiling đi ít hơn thời gian Qiqi đi là 2 + 4 = 6 phút\r\n Tỉ số tốc độ của Qiqi và Weiling là 60 : 72 = 5 : 6\r\n Trên cùng một quãng đường, tỉ số thời gian của Qiqi và Weiling là 6 : 5\r\n Hiệu số phần bằng nhau là 6 − 5 = 1 phần, ứng với 6 phút\r\n Thời gian Qiqi đi là 6 × 6 = 36 phút\r\n Khoảng cách giữa thư viện và trường học là 60 × 36 = 2160 m",
+    "explanation": "• Weiling xuất phát sau Qiqi 2 phút nhưng đến trước 4 phút nên thời gian •\r\nWeiling đi ít hơn thời gian Qiqi đi là 2 + 4 = 6 phút\r\n• Tỉ số tốc độ của Qiqi và Weiling là 60 : 72 = 5 : 6\r\n• Trên cùng một quãng đường, tỉ số thời gian của Qiqi và Weiling là 6 : 5\r\n• Hiệu số phần bằng nhau là 6 − 5 = 1 phần, ứng với 6 phút\r\n• Thời gian Qiqi đi là 6 × 6 = 36 phút\r\n• Khoảng cách giữa thư viện và trường học là 60 × 36 = 2160 m",
     "type": "fill"
   },
   {
@@ -2634,7 +2634,7 @@ const GRADE4_SPECIAL_DB = [
       "3 giờ",
       "3giờ"
     ],
-    "explanation": " Tổng vận tốc: 50 + 40 = 90 (km/h).\r\n Thời gian gặp nhau: 270 : 90 = 3 (giờ).\r\n Đáp số: 3 giờ.",
+    "explanation": "• Tổng vận tốc: 50 + 40 = 90 (km/h).\r\n• Thời gian gặp nhau: 270 : 90 = 3 (giờ).\r\n• Đáp số: 3 giờ.",
     "type": "fill"
   },
   {
@@ -2651,7 +2651,7 @@ const GRADE4_SPECIAL_DB = [
       "lúc 10 giờ, cách X 165 km",
       "lúc10giờ,cáchX165km"
     ],
-    "explanation": " Tổng vận tốc: 55 + 65 = 120 (km/h).\r\n Thời gian gặp nhau: 360 : 120 = 3 (giờ). Lúc gặp nhau: 7 + 3 = 10 (giờ).\r\n Chỗ gặp cách X: 55 x 3 = 165 (km).\r\n Đáp số: lúc 10 giờ, cách X 165 km.",
+    "explanation": "• Tổng vận tốc: 55 + 65 = 120 (km/h).\r\n• Thời gian gặp nhau: 360 : 120 = 3 (giờ). Lúc gặp nhau: 7 + 3 = 10 (giờ).\r\n• Chỗ gặp cách X: 55 x 3 = 165 (km).\r\n• Đáp số: lúc 10 giờ, cách X 165 km.",
     "type": "fill"
   },
   {
@@ -2668,7 +2668,7 @@ const GRADE4_SPECIAL_DB = [
       "50 km/h",
       "50km/h"
     ],
-    "explanation": " Tổng vận tốc hai xe: 420 : 4 = 105 (km/h).\r\n Vận tốc xe thứ hai: 105 – 55 = 50 (km/h).\r\n Đáp số: 50 km/h.",
+    "explanation": "• Tổng vận tốc hai xe: 420 : 4 = 105 (km/h).\r\n• Vận tốc xe thứ hai: 105 – 55 = 50 (km/h).\r\n• Đáp số: 50 km/h.",
     "type": "fill"
   },
   {
@@ -2685,7 +2685,7 @@ const GRADE4_SPECIAL_DB = [
       "11 giờ",
       "11giờ"
     ],
-    "explanation": " Lúc 8 giờ, xe A đã đi được: 40  ×  2 = 80 (km).\r\n Quãng đường còn lại giữa hai xe: 350 – 80 = 270 (km).\r\n Tổng vận tốc: 40 + 50 = 90 (km/h).\r\n Thời gian gặp nhau kể từ 8 giờ: 270 : 90 = 3 (giờ).\r\n Lúc gặp nhau: 8 + 3 = 11 (giờ).\r\n Đáp số: 11 giờ.",
+    "explanation": "• Lúc 8 giờ, xe A đã đi được: 40  ×  2 = 80 (km).\r\n• Quãng đường còn lại giữa hai xe: 350 – 80 = 270 (km).\r\n• Tổng vận tốc: 40 + 50 = 90 (km/h).\r\n• Thời gian gặp nhau kể từ 8 giờ: 270 : 90 = 3 (giờ).\r\n• Lúc gặp nhau: 8 + 3 = 11 (giờ).\r\n• Đáp số: 11 giờ.",
     "type": "fill"
   },
   {
@@ -2702,7 +2702,7 @@ const GRADE4_SPECIAL_DB = [
       "3 giờ",
       "3giờ"
     ],
-    "explanation": " Mỗi giờ hai xe rời xa nhau: 48 + 52 = 100 (km).\r\n Thời gian: 300 : 100 = 3 (giờ).\r\n Đáp số: 3 giờ.",
+    "explanation": "• Mỗi giờ hai xe rời xa nhau: 48 + 52 = 100 (km).\r\n• Thời gian: 300 : 100 = 3 (giờ).\r\n• Đáp số: 3 giờ.",
     "type": "fill"
   },
   {
@@ -2719,7 +2719,7 @@ const GRADE4_SPECIAL_DB = [
       "345 km",
       "345km"
     ],
-    "explanation": " Đến 12 giờ, xe A đã đi: 12 – 8 = 4 (giờ), được 45  ×  4 = 180 (km).\r\n Xe B đã đi: 12 – 9 = 3 (giờ), được 55  ×  3 = 165 (km).\r\n Vì hai xe đi ngược hướng nên khoảng cách là: 180 + 165 = 345 (km).\r\n Đáp số: 345 km.",
+    "explanation": "• Đến 12 giờ, xe A đã đi: 12 – 8 = 4 (giờ), được 45  ×  4 = 180 (km).\r\n• Xe B đã đi: 12 – 9 = 3 (giờ), được 55  ×  3 = 165 (km).\r\n• Vì hai xe đi ngược hướng nên khoảng cách là: 180 + 165 = 345 (km).\r\n• Đáp số: 345 km.",
     "type": "fill"
   },
   {
@@ -2736,7 +2736,7 @@ const GRADE4_SPECIAL_DB = [
       "72 km/h và 60 km/h",
       "72km/hvà60km/h"
     ],
-    "explanation": " Tổng vận tốc: 396 : 3 = 132 (km/h).\r\n Vận tốc xe thứ hai: (132 – 12) : 2 = 60 (km/h).\r\n Vận tốc xe thứ nhất: 60 + 12 = 72 (km/h).\r\n Đáp số: 72 km/h và 60 km/h.",
+    "explanation": "• Tổng vận tốc: 396 : 3 = 132 (km/h).\r\n• Vận tốc xe thứ hai: (132 – 12) : 2 = 60 (km/h).\r\n• Vận tốc xe thứ nhất: 60 + 12 = 72 (km/h).\r\n• Đáp số: 72 km/h và 60 km/h.",
     "type": "fill"
   },
   {
@@ -2753,7 +2753,7 @@ const GRADE4_SPECIAL_DB = [
       "120",
       "120"
     ],
-    "explanation": " Tổng vận tốc: 50 + 70 = 120 (km/h).\r\n Trường hợp 1 (chưa gặp nhau): hai xe đã đến gần nhau thêm 240 – 60 = 180\r\n(km), thời gian: 180 : 120 = 1,5 (giờ).\r\n Trường hợp 2 (đã gặp nhau và đi qua nhau): hai xe đã đi tổng cộng 240 + 60 =\r\n300 (km), thời gian: 300 : 120 = 2,5 (giờ).\r\n Đáp số: sau 1,5 giờ (1 giờ 30 phút) hoặc sau 2,5 giờ (2 giờ 30 phút).",
+    "explanation": "• Tổng vận tốc: 50 + 70 = 120 (km/h).\r\n• Trường hợp 1 (chưa gặp nhau): hai xe đã đến gần nhau thêm 240 – 60 = 180\r\n(km), thời gian: 180 : 120 = 1,5 (giờ).\r\n• Trường hợp 2 (đã gặp nhau và đi qua nhau): hai xe đã đi tổng cộng 240 + 60 =\r\n300 (km), thời gian: 300 : 120 = 2,5 (giờ).\r\n• Đáp số: sau 1,5 giờ (1 giờ 30 phút) hoặc sau 2,5 giờ (2 giờ 30 phút).",
     "type": "fill"
   },
   {
@@ -2770,7 +2770,7 @@ const GRADE4_SPECIAL_DB = [
       "XY = 330 km; vận tốc hai xe là 50 km/h và 60 km/h",
       "XY=330km;vậntốchaixelà50km/hvà60km/h"
     ],
-    "explanation": " Quãng đường XY: 150 + 180 = 330 (km).\r\n Vận tốc xe đi từ X: 150 : 3 = 50 (km/h).\r\n Vận tốc xe đi từ Y: 180 : 3 = 60 (km/h).\r\n Đáp số: XY = 330 km; vận tốc hai xe là 50 km/h và 60 km/h.",
+    "explanation": "• Quãng đường XY: 150 + 180 = 330 (km).\r\n• Vận tốc xe đi từ X: 150 : 3 = 50 (km/h).\r\n• Vận tốc xe đi từ Y: 180 : 3 = 60 (km/h).\r\n• Đáp số: XY = 330 km; vận tốc hai xe là 50 km/h và 60 km/h.",
     "type": "fill"
   },
   {
@@ -2787,7 +2787,7 @@ const GRADE4_SPECIAL_DB = [
       "xe A đi thêm 6 giờ, xe B đi thêm 1,5 giờ (1 giờ 30 phút)",
       "xeAđithêm6giờ,xeBđithêm1,5giờ(1giờ30phút)"
     ],
-    "explanation": " Tổng vận tốc: 40 + 80 = 120 (km/h).\r\n Thời gian gặp nhau: 360 : 120 = 3 (giờ).\r\n Lúc gặp nhau, xe A đã đi: 40  ×  3 = 120 (km) và xe B đã đi: 80  ×  3 = 240 (km).\r\n Xe A còn phải đi đoạn bằng quãng đường xe B đã đi (240 km): 240 : 40 = 6 (giờ).\r\n Xe B còn phải đi đoạn bằng quãng đường xe A đã đi (120 km): 120 : 80 = 1,5\r\n(giờ).\r\n Đáp số: xe A đi thêm 6 giờ, xe B đi thêm 1,5 giờ (1 giờ 30 phút).",
+    "explanation": "• Tổng vận tốc: 40 + 80 = 120 (km/h).\r\n• Thời gian gặp nhau: 360 : 120 = 3 (giờ).\r\n• Lúc gặp nhau, xe A đã đi: 40  ×  3 = 120 (km) và xe B đã đi: 80  ×  3 = 240 (km).\r\n• Xe A còn phải đi đoạn bằng quãng đường xe B đã đi (240 km): 240 : 40 = 6 (giờ).\r\n• Xe B còn phải đi đoạn bằng quãng đường xe A đã đi (120 km): 120 : 80 = 1,5\r\n(giờ).\r\n• Đáp số: xe A đi thêm 6 giờ, xe B đi thêm 1,5 giờ (1 giờ 30 phút).",
     "type": "fill"
   },
   {
@@ -2804,7 +2804,7 @@ const GRADE4_SPECIAL_DB = [
       "240",
       "240"
     ],
-    "explanation": " Sau 4 giờ xe A đi được quãng đường là 60  ×  4 = 240 km = XZ\r\n Xe B xuất phát sau nên khi xe A đi 4 giờ thì xe B đi 3 giờ, quãng đường mà xe B\r\nđi được là 45  ×  3 = 135 km = YZ\r\n Hai xe gặp nhau tại điểm Z như hình vẽ\r\n Ta dễ thấy XY = 240 – 135 = 105 km",
+    "explanation": "• Sau 4 giờ xe A đi được quãng đường là 60  ×  4 = 240 km = XZ\r\n• Xe B xuất phát sau nên khi xe A đi 4 giờ thì xe B đi 3 giờ, quãng đường mà xe B\r\nđi được là 45  ×  3 = 135 km = YZ\r\n• Hai xe gặp nhau tại điểm Z như hình vẽ\r\n• Ta dễ thấy XY = 240 – 135 = 105 km",
     "type": "fill"
   },
   {
@@ -2821,7 +2821,7 @@ const GRADE4_SPECIAL_DB = [
       "300",
       "300"
     ],
-    "explanation": " Sau 6 giờ xe A đi được quãng đường là 50 × 6 = 300 km = MZ\r\n Xe B xuất phát sau nên khi xe A đi 6 giờ thì xe B đi 4 giờ, quãng đường mà xe B\r\nđi được là 40 × 4 = 160 km = NZ\r\n Hai xe gặp nhau tại điểm Z\r\n Ta dễ thấy MN = 300 − 160 = 140 km",
+    "explanation": "• Sau 6 giờ xe A đi được quãng đường là 50 × 6 = 300 km = MZ\r\n• Xe B xuất phát sau nên khi xe A đi 6 giờ thì xe B đi 4 giờ, quãng đường mà xe B\r\nđi được là 40 × 4 = 160 km = NZ\r\n• Hai xe gặp nhau tại điểm Z\r\n• Ta dễ thấy MN = 300 − 160 = 140 km",
     "type": "fill"
   },
   {
@@ -2838,7 +2838,7 @@ const GRADE4_SPECIAL_DB = [
       "504",
       "504"
     ],
-    "explanation": " Sau 7 giờ ô tô A đi được quãng đường là 72 × 7 = 504 km = PZ\r\n Ô tô B xuất phát sau nên khi ô tô A đi 7 giờ thì ô tô B đi 6 giờ, quãng đường mà\r\nô tô B đi được là 60 × 6 = 360 km = QZ\r\n Hai xe gặp nhau tại điểm Z\r\n Ta dễ thấy PQ = 504 − 360 = 144 km",
+    "explanation": "• Sau 7 giờ ô tô A đi được quãng đường là 72 × 7 = 504 km = PZ\r\n• Ô tô B xuất phát sau nên khi ô tô A đi 7 giờ thì ô tô B đi 6 giờ, quãng đường mà\r\nô tô B đi được là 60 × 6 = 360 km = QZ\r\n• Hai xe gặp nhau tại điểm Z\r\n• Ta dễ thấy PQ = 504 − 360 = 144 km",
     "type": "fill"
   },
   {
@@ -2855,7 +2855,7 @@ const GRADE4_SPECIAL_DB = [
       "450",
       "450"
     ],
-    "explanation": " Sau 5 giờ xe khách đi được quãng đường là 90 × 5 = 450 km = HZ\r\n Xe tải xuất phát sau nên khi xe khách đi 5 giờ thì xe tải đi 3 giờ, quãng đường\r\nmà xe tải đi được là 70 × 3 = 210 km = KZ\r\n Hai xe gặp nhau tại điểm Z\r\n Ta dễ thấy HK = 450 − 210 = 240 km",
+    "explanation": "• Sau 5 giờ xe khách đi được quãng đường là 90 × 5 = 450 km = HZ\r\n• Xe tải xuất phát sau nên khi xe khách đi 5 giờ thì xe tải đi 3 giờ, quãng đường\r\nmà xe tải đi được là 70 × 3 = 210 km = KZ\r\n• Hai xe gặp nhau tại điểm Z\r\n• Ta dễ thấy HK = 450 − 210 = 240 km",
     "type": "fill"
   },
   {
@@ -2872,7 +2872,7 @@ const GRADE4_SPECIAL_DB = [
       "225",
       "225"
     ],
-    "explanation": " Sau 5 giờ xe A đi được quãng đường là 45 × 5 = 225 km = CZ\r\n Xe B xuất phát sau nên khi xe A đi 5 giờ thì xe B đi 4 giờ, quãng đường mà xe B\r\nđi được là 36 × 4 = 144 km = DZ\r\n Hai xe gặp nhau tại điểm Z\r\n Ta dễ thấy CD = 225 − 144 = 81 km",
+    "explanation": "• Sau 5 giờ xe A đi được quãng đường là 45 × 5 = 225 km = CZ\r\n• Xe B xuất phát sau nên khi xe A đi 5 giờ thì xe B đi 4 giờ, quãng đường mà xe B\r\nđi được là 36 × 4 = 144 km = DZ\r\n• Hai xe gặp nhau tại điểm Z\r\n• Ta dễ thấy CD = 225 − 144 = 81 km",
     "type": "fill"
   },
   {
@@ -2889,7 +2889,7 @@ const GRADE4_SPECIAL_DB = [
       "672",
       "672"
     ],
-    "explanation": " Sau 8 giờ xe A đi được quãng đường là 84 × 8 = 672 km = EZ\r\n Xe B xuất phát sau nên khi xe A đi 8 giờ thì xe B đi 5 giờ, quãng đường mà xe B\r\nđi được là 65 × 5 = 325 km = FZ\r\n Hai xe gặp nhau tại điểm Z\r\n Ta dễ thấy EF = 672 − 325 = 347 km",
+    "explanation": "• Sau 8 giờ xe A đi được quãng đường là 84 × 8 = 672 km = EZ\r\n• Xe B xuất phát sau nên khi xe A đi 8 giờ thì xe B đi 5 giờ, quãng đường mà xe B\r\nđi được là 65 × 5 = 325 km = FZ\r\n• Hai xe gặp nhau tại điểm Z\r\n• Ta dễ thấy EF = 672 − 325 = 347 km",
     "type": "fill"
   },
   {
@@ -2906,7 +2906,7 @@ const GRADE4_SPECIAL_DB = [
       "385",
       "385"
     ],
-    "explanation": " Sau 7 giờ xe A đi được quãng đường là 55 × 7 = 385 km = GZ\r\n Xe B xuất phát sau nên khi xe A đi 7 giờ thì xe B đi 5 giờ, quãng đường mà xe B\r\nđi được là 45 × 5 = 225 km = LZ\r\n Hai xe gặp nhau tại điểm Z\r\n Ta dễ thấy GL = 385 − 225 = 160 km",
+    "explanation": "• Sau 7 giờ xe A đi được quãng đường là 55 × 7 = 385 km = GZ\r\n• Xe B xuất phát sau nên khi xe A đi 7 giờ thì xe B đi 5 giờ, quãng đường mà xe B\r\nđi được là 45 × 5 = 225 km = LZ\r\n• Hai xe gặp nhau tại điểm Z\r\n• Ta dễ thấy GL = 385 − 225 = 160 km",
     "type": "fill"
   },
   {
@@ -2923,7 +2923,7 @@ const GRADE4_SPECIAL_DB = [
       "900",
       "900"
     ],
-    "explanation": " Sau 9 giờ xe A đi được quãng đường là 100 × 9 = 900 km = SZ\r\n Xe B xuất phát sau nên khi xe A đi 9 giờ thì xe B đi 8 giờ, quãng đường mà xe B\r\nđi được là 85 × 8 = 680 km = TZ\r\n Hai xe gặp nhau tại điểm Z\r\n Ta dễ thấy ST = 900 − 680 = 220 km",
+    "explanation": "• Sau 9 giờ xe A đi được quãng đường là 100 × 9 = 900 km = SZ\r\n• Xe B xuất phát sau nên khi xe A đi 9 giờ thì xe B đi 8 giờ, quãng đường mà xe B\r\nđi được là 85 × 8 = 680 km = TZ\r\n• Hai xe gặp nhau tại điểm Z\r\n• Ta dễ thấy ST = 900 − 680 = 220 km",
     "type": "fill"
   },
   {
@@ -2940,7 +2940,7 @@ const GRADE4_SPECIAL_DB = [
       "480",
       "480"
     ],
-    "explanation": " Sau 10 giờ xe A đi được quãng đường là 48 × 10 = 480 km = UZ\r\n Xe B xuất phát sau nên khi xe A đi 10 giờ thì xe B đi 7 giờ, quãng đường mà xe\r\nB đi được là 40 × 7 = 280 km = VZ\r\n Hai xe gặp nhau tại điểm Z\r\n Ta dễ thấy UV = 480 − 280 = 200 km",
+    "explanation": "• Sau 10 giờ xe A đi được quãng đường là 48 × 10 = 480 km = UZ\r\n• Xe B xuất phát sau nên khi xe A đi 10 giờ thì xe B đi 7 giờ, quãng đường mà xe\r\nB đi được là 40 × 7 = 280 km = VZ\r\n• Hai xe gặp nhau tại điểm Z\r\n• Ta dễ thấy UV = 480 − 280 = 200 km",
     "type": "fill"
   },
   {
@@ -2957,7 +2957,7 @@ const GRADE4_SPECIAL_DB = [
       "528",
       "528"
     ],
-    "explanation": " Sau 8 giờ xe A đi được quãng đường là 66 × 8 = 528 km = ZZ′ (với Z′ là điểm gặp\r\nnhau, gọi là điểm P)\r\n Để tránh trùng tên điểm, gọi điểm hai xe gặp nhau là P:\r\n Sau 8 giờ xe A đi được quãng đường là 66 × 8 = 528 km = ZP\r\n Xe B xuất phát sau nên khi xe A đi 8 giờ thì xe B đi 6 giờ, quãng đường mà xe B\r\nđi được là 54 × 6 = 324 km = WP\r\n Hai xe gặp nhau tại điểm P\r\n Ta dễ thấy ZW = 528 − 324 = 204 km",
+    "explanation": "• Sau 8 giờ xe A đi được quãng đường là 66 × 8 = 528 km = ZZ′ (với Z′ là điểm gặp\r\nnhau, gọi là điểm P)\r\n• Để tránh trùng tên điểm, gọi điểm hai xe gặp nhau là P:\r\n• Sau 8 giờ xe A đi được quãng đường là 66 × 8 = 528 km = ZP\r\n• Xe B xuất phát sau nên khi xe A đi 8 giờ thì xe B đi 6 giờ, quãng đường mà xe B\r\nđi được là 54 × 6 = 324 km = WP\r\n• Hai xe gặp nhau tại điểm P\r\n• Ta dễ thấy ZW = 528 − 324 = 204 km",
     "type": "fill"
   },
   {
@@ -2974,7 +2974,7 @@ const GRADE4_SPECIAL_DB = [
       "10",
       "10"
     ],
-    "explanation": " Xe A chạy nhanh hơn xe B, mỗi giờ xe A đuổi gần được xe B là 60 − 50 = 10 km\r\n Khoảng cách ban đầu giữa hai xe là 40 km\r\n Thời gian xe A đuổi kịp xe B là 40 : 10 = 4 giờ\r\n Hai xe sẽ gặp nhau lúc 7 + 4 = 11 giờ",
+    "explanation": "• Xe A chạy nhanh hơn xe B, mỗi giờ xe A đuổi gần được xe B là 60 − 50 = 10 km\r\n• Khoảng cách ban đầu giữa hai xe là 40 km\r\n• Thời gian xe A đuổi kịp xe B là 40 : 10 = 4 giờ\r\n• Hai xe sẽ gặp nhau lúc 7 + 4 = 11 giờ",
     "type": "fill"
   },
   {
@@ -2991,7 +2991,7 @@ const GRADE4_SPECIAL_DB = [
       "420",
       "420"
     ],
-    "explanation": " Sau 6 giờ xe A đi được quãng đường là 70 × 6 = 420 km = XZ\r\n Xe B xuất phát sau 2 giờ nên khi xe A đi 6 giờ thì xe B đi 6 − 2 = 4 giờ\r\n Hai xe gặp nhau tại điểm Z như hình vẽ\r\n Ta dễ thấy quãng đường xe B đi được là YZ = 420 − 200 = 220 km\r\n Vận tốc xe B là 220 : 4 = 55 km/h",
+    "explanation": "• Sau 6 giờ xe A đi được quãng đường là 70 × 6 = 420 km = XZ\r\n• Xe B xuất phát sau 2 giờ nên khi xe A đi 6 giờ thì xe B đi 6 − 2 = 4 giờ\r\n• Hai xe gặp nhau tại điểm Z như hình vẽ\r\n• Ta dễ thấy quãng đường xe B đi được là YZ = 420 − 200 = 220 km\r\n• Vận tốc xe B là 220 : 4 = 55 km/h",
     "type": "fill"
   },
   {
@@ -3008,7 +3008,7 @@ const GRADE4_SPECIAL_DB = [
       "480",
       "480"
     ],
-    "explanation": " Sau 6 giờ xe A đi được quãng đường là 80 × 6 = 480 km = XZ\r\n Hai xe gặp nhau tại điểm Z như hình vẽ\r\n Ta dễ thấy quãng đường xe B đi được là YZ = 480 − 60 = 420 km\r\n Thời gian xe B đi là 420 : 60 = 7 giờ\r\n Xe B đi nhiều hơn xe A là 7 − 6 = 1 giờ\r\n Vậy xe B rời Y trước xe A 1 giờ",
+    "explanation": "• Sau 6 giờ xe A đi được quãng đường là 80 × 6 = 480 km = XZ\r\n• Hai xe gặp nhau tại điểm Z như hình vẽ\r\n• Ta dễ thấy quãng đường xe B đi được là YZ = 480 − 60 = 420 km\r\n• Thời gian xe B đi là 420 : 60 = 7 giờ\r\n• Xe B đi nhiều hơn xe A là 7 − 6 = 1 giờ\r\n• Vậy xe B rời Y trước xe A 1 giờ",
     "type": "fill"
   },
   {
@@ -3025,7 +3025,7 @@ const GRADE4_SPECIAL_DB = [
       "90",
       "90"
     ],
-    "explanation": " Từ 8 giờ đến 10 giờ xe A đi được quãng đường là 45 × 2 = 90 km\r\n Mỗi giờ xe B đuổi gần được xe A là 60 − 45 = 15 km\r\n Thời gian xe B đuổi kịp xe A là 90 : 15 = 6 giờ\r\n Xe B đuổi kịp xe A lúc 10 + 6 = 16 giờ\r\n Nơi gặp nhau cách bến là 60 × 6 = 360 km",
+    "explanation": "• Từ 8 giờ đến 10 giờ xe A đi được quãng đường là 45 × 2 = 90 km\r\n• Mỗi giờ xe B đuổi gần được xe A là 60 − 45 = 15 km\r\n• Thời gian xe B đuổi kịp xe A là 90 : 15 = 6 giờ\r\n• Xe B đuổi kịp xe A lúc 10 + 6 = 16 giờ\r\n• Nơi gặp nhau cách bến là 60 × 6 = 360 km",
     "type": "fill"
   },
   {
@@ -3042,7 +3042,7 @@ const GRADE4_SPECIAL_DB = [
       "12",
       "12"
     ],
-    "explanation": " Mỗi giờ xe A đuổi gần được xe B là 72 − 60 = 12 km\r\n Sau 7 giờ xe A đuổi gần được xe B là 12 × 7 = 84 km\r\n Khoảng cách ban đầu là 48 km nên xe A đã đuổi kịp và vượt xe B\r\n Lúc đó hai xe cách nhau là 84 − 48 = 36 km (xe A ở phía trước)",
+    "explanation": "• Mỗi giờ xe A đuổi gần được xe B là 72 − 60 = 12 km\r\n• Sau 7 giờ xe A đuổi gần được xe B là 12 × 7 = 84 km\r\n• Khoảng cách ban đầu là 48 km nên xe A đã đuổi kịp và vượt xe B\r\n• Lúc đó hai xe cách nhau là 84 − 48 = 36 km (xe A ở phía trước)",
     "type": "fill"
   },
   {
@@ -3059,7 +3059,7 @@ const GRADE4_SPECIAL_DB = [
       "9",
       "9"
     ],
-    "explanation": " Mỗi giờ xe A đuổi gần được xe B là 54 − 45 = 9 km\r\n Khoảng cách ban đầu là 36 km\r\n Thời gian xe A đuổi kịp xe B là 36 : 9 = 4 giờ\r\n Quãng đường xe A đã đi là 54 × 4 = 216 km\r\n\r\n17*.\r\n\r\n[ĐVH] Lúc 6 giờ, xe B rời bến. Đến 9 giờ, xe A rời cùng bến đó, đi cùng chiều và\r\nđuổi kịp xe B lúc 15 giờ. Biết vận tốc xe A lớn hơn vận tốc xe B là 15 km/h. Tính\r\nvận tốc mỗi xe.\r\n Từ 6 giờ đến 9 giờ xe B đi được 3 giờ\r\n Xe A đuổi kịp xe B lúc 15 giờ nên thời gian xe A đi là 15 − 9 = 6 giờ\r\n Thời gian xe B đi là 15 − 6 = 9 giờ\r\n Cùng một quãng đường, thời gian của xe A và xe B có tỉ số 6 : 9 = 2 : 3\r\n Nên tỉ số vận tốc của xe A và xe B là 3 : 2\r\n Hiệu số phần bằng nhau là 3 − 2 = 1 phần, ứng với 15 km/h\r\n Vận tốc xe B là 15 × 2 = 30 km/h\r\n Vận tốc xe A là 15 × 3 = 45 km/h",
+    "explanation": "• Mỗi giờ xe A đuổi gần được xe B là 54 − 45 = 9 km\r\n• Khoảng cách ban đầu là 36 km\r\n• Thời gian xe A đuổi kịp xe B là 36 : 9 = 4 giờ\r\n• Quãng đường xe A đã đi là 54 × 4 = 216 km\r\n\r\n17*.\r\n\r\n[ĐVH] Lúc 6 giờ, xe B rời bến. Đến 9 giờ, xe A rời cùng bến đó, đi cùng chiều và\r\nđuổi kịp xe B lúc 15 giờ. Biết vận tốc xe A lớn hơn vận tốc xe B là 15 km/h. Tính\r\nvận tốc mỗi xe.\r\n• Từ 6 giờ đến 9 giờ xe B đi được 3 giờ\r\n• Xe A đuổi kịp xe B lúc 15 giờ nên thời gian xe A đi là 15 − 9 = 6 giờ\r\n• Thời gian xe B đi là 15 − 6 = 9 giờ\r\n• Cùng một quãng đường, thời gian của xe A và xe B có tỉ số 6 : 9 = 2 : 3\r\n• Nên tỉ số vận tốc của xe A và xe B là 3 : 2\r\n• Hiệu số phần bằng nhau là 3 − 2 = 1 phần, ứng với 15 km/h\r\n• Vận tốc xe B là 15 × 2 = 30 km/h\r\n• Vận tốc xe A là 15 × 3 = 45 km/h",
     "type": "fill"
   },
   {
