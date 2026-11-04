@@ -1,8 +1,3 @@
-/**
- * BỘ ĐỀ THI TOÁN QUỐC TẾ KANGAROO (IKMC) CHUẨN LỚP 1, 2, 3, 4, 5
- * Trọn bộ 37 Đề thi tuyển chọn kèm 100% hình ảnh minh họa gốc chuẩn xác
- */
-
 const KANGAROO_DB = {
   "grade4": [
     {
@@ -1030,12 +1025,12 @@ const KANGAROO_DB = {
         "D. 11005",
         "E. 10015"
       ],
-      "answer": "A",
+      "answer": "E",
       "acceptedAnswers": [
-        "A",
-        "a"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Tính nhanh tổng của dãy 5 số cách đều:\n2001 + 2002 + 2003 + 2004 + 2005\n- Dãy gồm 5 số tự nhiên liên tiếp có số ở chính giữa là 2003.\n- Tổng của dãy bằng:\n2003 × 5 = 10015\n(hoặc nhóm cặp: (2001 + 2005) + (2002 + 2004) + 2003 = 4006 + 4006 + 2003 = 10015).\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G4-D03-Q02",
@@ -1054,12 +1049,12 @@ const KANGAROO_DB = {
         "D. 13 tuổi",
         "E. 14 tuổi"
       ],
-      "answer": "E",
+      "answer": "A",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Marek 4 tuổi khi em gái sinh ra, nghĩa là Marek hơn em gái 4 tuổi.\n- Hiệu số tuổi của hai người không bao giờ thay đổi theo thời gian.\n- Dù hôm nay Marek 9 tuổi hay bao nhiêu tuổi đi nữa thì Marek vẫn luôn hơn em gái mình đúng 4 tuổi.\nĐáp án đúng là A (4 tuổi)."
     },
     {
       "id": "IKMC-G4-D03-Q03",
@@ -1078,12 +1073,12 @@ const KANGAROO_DB = {
         "D. 10 km",
         "E. This cannot be calculated."
       ],
-      "answer": "A",
+      "answer": "C",
       "acceptedAnswers": [
-        "A",
-        "a"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Quan sát con đường thẳng và đường vòng trên hình vẽ:\n- Đoạn đường thẳng nối từ C đến D.\n- Đường vòng nét đứt đi từ C vuông góc xuống dưới 3 km, sau đó đi theo đoạn thẳng song song và bằng độ dài đoạn CD, rồi đi vuông góc ngược lên 3 km để đến D.\n- Chiều dài đường vòng là: 3 km + CD + 3 km = CD + 6 km.\nVậy đi theo đường vòng dài hơn đi theo đường thẳng là:\n3 + 3 = 6 (km).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D03-Q04",
@@ -1107,7 +1102,7 @@ const KANGAROO_DB = {
         "C",
         "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Tính kết quả phép tính ban đầu: 671 - 389 = 282.\nKiểm tra kết quả của từng phương án:\n- A. 771 - 489 = 282.\n- B. 681 - 399 = 282.\n- C. 669 - 391 = 278 (khác 282).\n- D. 1871 - 1589 = 282.\n- E. 600 - 318 = 282.\nVậy phép tính có kết quả khác là C.\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D03-Q05",
@@ -1126,12 +1121,12 @@ const KANGAROO_DB = {
         "D. 12",
         "E. 14"
       ],
-      "answer": "D",
+      "answer": "E",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Gọi số chim ban đầu đậu trên dây là x (con chim):\n- 5 con bay đi rồi sau đó 3 con quay lại:\nx - 5 + 3 = 12\nx - 2 = 12\nx = 12 + 2 = 14 (con chim).\nVậy lúc đầu có 14 con chim đậu trên dây điện thoại.\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G4-D03-Q06",
@@ -1150,12 +1145,12 @@ const KANGAROO_DB = {
         "D. 3 and 9",
         "E. 6, 7 and 4"
       ],
-      "answer": "D",
+      "answer": "B",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Xác định các số theo vị trí hình học:\n- Nằm trong hình chữ nhật: 2, 1, 13, 10, 11, 3.\n- Nằm trong hình tròn: 6, 7, 9, 1, 13, 10, 4, 12.\n- Các số nằm đồng thời trong cả hình chữ nhật và hình tròn là phần giao nhau: {1, 13, 10}.\n- Yêu cầu không nằm trong hình tam giác:\n  + Số 13 nằm trọn trong hình tam giác.\n  + Quan sát hình vẽ, cạnh huyền tam giác đi qua góc dưới số 1 và đường thẳng đứng ở bên trái số 10, nên cả hai số 1 và 10 đều nằm ngoài hình tam giác.\nVậy các số thỏa mãn là 1 và 10.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D03-Q07",
@@ -1174,12 +1169,12 @@ const KANGAROO_DB = {
         "D. Hồng",
         "E. Xanh lá cây"
       ],
-      "answer": "A",
+      "answer": "E",
       "acceptedAnswers": [
-        "A",
-        "a"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Xác định màu của tòa nhà số 3:\n- Các tòa nhà xếp thành dãy từ 1 đến 5: 1 - 2 - 3 - 4 - 5.\n- 'Tòa nhà màu đỏ chỉ đứng cạnh tòa xanh da trời':\n  Các tòa nhà ở giữa (2, 3, 4) luôn có 2 tòa nhà đứng cạnh ở hai bên. Do tòa màu đỏ chỉ có duy nhất 1 hàng xóm, nên tòa màu đỏ bắt buộc phải ở đầu hoặc cuối dãy (tòa số 1 hoặc tòa số 5).\n- Khi đó tòa đứng cạnh nó (tòa 2 hoặc tòa 4) là tòa màu xanh da trời.\n- 'Tòa xanh da trời đứng giữa tòa màu đỏ và xanh lá cây':\n  + Nếu tòa 1 là Đỏ thì tòa 2 là Xanh da trời, do đó tòa 3 bắt buộc phải là Xanh lá cây.\n  + Nếu tòa 5 là Đỏ thì tòa 4 là Xanh da trời, do đó tòa 3 bắt buộc phải là Xanh lá cây.\nTrong cả hai trường hợp, tòa số 3 chắc chắn có màu xanh lá cây.\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G4-D03-Q08",
@@ -1189,7 +1184,7 @@ const KANGAROO_DB = {
       "number": 8,
       "points": 3,
       "type": "mc",
-      "text": "Có bao nhiêu hình vuông màu trắng cần được tô màu xám sao cho số hình\nvuông màu xám bằng số hình vuông màu trắng?",
+      "text": "Có bao nhiêu hình vuông màu trắng cần được tô màu xám sao cho số hình vuông màu xám bằng một nửa số hình vuông màu trắng?",
       "image": "images/ikmc/g4_de3_q08.png",
       "options": [
         "A. 2",
@@ -1198,12 +1193,12 @@ const KANGAROO_DB = {
         "D. 6",
         "E. t is impossible to calculate it."
       ],
-      "answer": "C",
+      "answer": "B",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Bảng kích thước 4 hàng × 6 cột gồm tất cả: 4 × 6 = 24 hình vuông nhỏ.\n- Hiện tại có 5 hình vuông màu xám và 24 - 5 = 19 hình vuông màu trắng.\n- Gọi số hình vuông trắng cần tô thêm màu xám là x:\n  + Sau khi tô, số hình vuông màu xám là: 5 + x.\n  + Số hình vuông màu trắng còn lại là: 19 - x.\n- Đề bài yêu cầu số hình vuông xám bằng một nửa số hình vuông trắng (half of white):\n  5 + x = (19 - x) : 2\n  2 × (5 + x) = 19 - x\n  10 + 2x = 19 - x\n  3x = 9\n  x = 3.\n(Kiểm tra: khi tô thêm 3 ô, có 8 ô xám và 16 ô trắng, đúng 8 = 16 : 2).\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D03-Q09",
@@ -1222,12 +1217,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "B",
+      "answer": "D",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Hai tấm nhựa vuông trong suốt kích thước 3 × 3 được đặt chồng lên nhau để tạo thành một hình vuông đen hoàn toàn:\n- Ở bất kỳ ô nào, nếu hình thứ nhất có màu trắng thì hình thứ hai bắt buộc phải có màu đen ở vị trí đó để che kín.\n- Quan sát hình thứ nhất (kích thước 3 × 3):\n  + Hàng 1: Trắng, Đen, Trắng => Hình ghép cần có Đen ở ô 1 và ô 3.\n  + Hàng 2: Đen, Đen, Trắng => Hình ghép cần có Đen ở ô 3.\n  + Hàng 3: Đen, Trắng, Đen => Hình ghép cần có Đen ở ô 2.\n- Quan sát các phương án, miếng D có cấu tạo:\n  + Hàng 1: Đen, Trắng, Đen\n  + Hàng 2: Trắng, Trắng, Đen\n  + Hàng 3: Trắng, Đen, Trắng\nMiếng D khớp chính xác từng ô trắng của hình thứ nhất để tạo thành hình vuông hoàn toàn màu đen.\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G4-D03-Q10",
@@ -1251,7 +1246,7 @@ const KANGAROO_DB = {
         "E",
         "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Tính khối lượng bút máy từ hai cân đĩa cân bằng:\n1. Cân thứ nhất:\n  - Đĩa trái: 8 bút chì.\n  - Đĩa phải: 2 bút chì + quả cân 30g.\n  Bỏ bớt 2 bút chì ở cả hai đĩa, ta được:\n  6 bút chì = 30g => 1 bút chì nặng: 30 : 6 = 5g.\n2. Cân thứ hai:\n  - Đĩa trái: 1 bút chì + 1 bút máy.\n  - Đĩa phải: quả cân 15g.\n  Thay khối lượng bút chì vào:\n  5g + 1 bút máy = 15g => Bút máy nặng: 15 - 5 = 10g.\nĐáp án đúng là E (10 g)."
     },
     {
       "id": "IKMC-G4-D03-Q11",
@@ -1275,7 +1270,7 @@ const KANGAROO_DB = {
         "B",
         "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Xét thời gian trên 4 chiếc đồng hồ:\n- Đồng hồ 1 chỉ 4:45.\n- Đồng hồ 2 chỉ 5:05.\n- Đồng hồ 3 chỉ 5:25.\n- Đồng hồ 4 chỉ 5:40 (bị hỏng).\nNhận xét về 3 chiếc đồng hồ 1, 2, 3:\n- 4:45 chậm hơn 5:05 đúng 20 phút (5:05 - 20 phút = 4:45).\n- 5:25 nhanh hơn 5:05 đúng 20 phút (5:05 + 20 phút = 5:25).\nTheo đề bài: có 1 chiếc chạy đúng, 1 chiếc nhanh 20 phút và 1 chiếc chậm 20 phút.\nDo đó chiếc đồng hồ chỉ đúng giờ chính là chiếc ở giữa chỉ 5:05.\nĐáp án đúng là B (5:05)."
     },
     {
       "id": "IKMC-G4-D03-Q12",
@@ -1285,21 +1280,21 @@ const KANGAROO_DB = {
       "number": 12,
       "points": 4,
       "type": "mc",
-      "text": "Ella mang một rổ táo và cam đi dự sinh nhật. Các vị khách đã ăn hết một",
+      "text": "Ella mang một rổ táo và cam đi dự sinh nhật. Các vị khách đã ăn hết một nửa số táo và một phần ba số cam. Hỏi số quả còn lại trong rổ như thế nào so với ban đầu?",
       "image": null,
       "options": [
-        "A. nửa số táo và một Một nửa tất cả các loại quả ban đầu",
+        "A. Đúng một nửa tất cả các loại quả ban đầu",
         "B. Nhiều hơn một nửa số quả ban đầu",
         "C. Ít hơn một nửa số quả ban đầu",
         "D. Một phần ba số quả ban đầu",
         "E. Ít hơn một phần ba số quả ban đầu"
       ],
-      "answer": "D",
+      "answer": "B",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Phân tích lượng quả còn lại trong rổ:\n- Khách đã ăn 1/2 số táo, vậy số táo còn lại là 1/2 số táo ban đầu.\n- Khách đã ăn 1/3 số cam, vậy số cam còn lại là: 1 - 1/3 = 2/3 số cam ban đầu.\n- So sánh tỉ lệ còn lại:\n  + Táo còn lại đúng bằng 1/2 số táo.\n  + Cam còn lại bằng 2/3 số cam (mà 2/3 > 1/2, tức là còn lại nhiều hơn một nửa số cam).\nVì số táo còn lại bằng 1/2 và số cam còn lại lớn hơn 1/2, nên tổng số quả táo và cam còn lại trong rổ chắc chắn nhiều hơn một nửa tổng số quả ban đầu.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D03-Q13",
@@ -1318,12 +1313,12 @@ const KANGAROO_DB = {
         "D. 6000",
         "E. 60000"
       ],
-      "answer": "A",
+      "answer": "E",
       "acceptedAnswers": [
-        "A",
-        "a"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Tìm kết quả đúng của phép tính:\n- Ania chia nhầm số đó cho 10 được kết quả là 600, nên số ban đầu là:\n600 × 10 = 6000.\n- Phép tính đúng là nhân số đó với 10:\n6000 × 10 = 60000.\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G4-D03-Q14",
@@ -1342,12 +1337,12 @@ const KANGAROO_DB = {
         "D. 20",
         "E. 21"
       ],
-      "answer": "A",
+      "answer": "B",
       "acceptedAnswers": [
-        "A",
-        "a"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Tính số tờ sách bị thiếu:\n- Khi mở sách, trang bên trái mang số 24 (trang chẵn), trang bên phải mang số 45 (trang lẻ).\n- Các trang sách bị thiếu là các trang từ 25 đến 44.\n- Tổng số trang sách bị thiếu là:\n44 - 25 + 1 = 20 (trang sách).\n- Mỗi tờ giấy của quyển sách in 2 trang (trang lẻ ở mặt trước và trang chẵn ở mặt sau: ví dụ tờ 25-26, 27-28,...).\nSố tờ giấy bị thiếu là:\n20 : 2 = 10 (tờ).\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D03-Q15",
@@ -1366,12 +1361,12 @@ const KANGAROO_DB = {
         "D. Thứ Năm",
         "E. Thứ Sáu"
       ],
-      "answer": "D",
+      "answer": "E",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Tính thứ trong tuần của sinh nhật Ania:\n- Eve sinh sớm hơn Ania 52 ngày, nghĩa là ngày sinh của Ania muộn hơn ngày sinh của Eve 52 ngày.\n- Mỗi tuần có 7 ngày. Thực hiện phép chia:\n52 : 7 = 7 (tuần) dư 3 (ngày).\n- Sinh nhật của Eve rơi vào Thứ Ba.\nVậy sinh nhật của Ania sẽ rơi vào:\nThứ Ba + 3 ngày = Thứ Sáu.\nĐáp án đúng là E (Thứ Sáu)."
     },
     {
       "id": "IKMC-G4-D03-Q16",
@@ -1390,12 +1385,12 @@ const KANGAROO_DB = {
         "D. 8",
         "E. 11"
       ],
-      "answer": "A",
+      "answer": "C",
       "acceptedAnswers": [
-        "A",
-        "a"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Xét bảng 2 × 2 gồm 4 ô số:\n  [a]  [b]\n  [c]  [d]\n- Tổng hàng thứ nhất: a + b = 3.\n- Tổng hàng thứ hai: c + d = 8.\nTổng của tất cả 4 số trong bảng là:\n(a + b) + (c + d) = 3 + 8 = 11.\n- Tổng của cột thứ nhất: a + c = 4.\nTổng các số trong cột thứ hai là:\nb + d = 11 - 4 = 7.\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D03-Q17",
@@ -1414,12 +1409,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "B",
+      "answer": "E",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Khối lập phương được tô bởi 3 màu (Đen, Xám, Trắng) sao cho hai mặt đối diện có cùng màu:\n- Trong hình khai triển của một khối lập phương gồm dải 4 hình vuông nằm ngang:\n  + Hai mặt đối diện nhau trên dải cách nhau 1 ô (ô 1 đối diện ô 3, ô 2 đối diện ô 4).\n  + Hai cánh nhô ra ở trên và dưới gập lại sẽ trở thành hai mặt đối diện nhau.\nXét hình E:\n- Hai cánh trên và dưới đều là ô màu Trắng => hai mặt đối diện có cùng màu Trắng.\n- Dải 4 ô ngang gồm: Đen, Xám, Đen, Xám:\n  + Ô 1 (Đen) đối diện ô 3 (Đen) => cùng màu Đen.\n  + Ô 2 (Xám) đối diện ô 4 (Xám) => cùng màu Xám.\nTất cả 3 cặp mặt đối diện đều có cùng màu với nhau.\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G4-D03-Q18",
@@ -1443,7 +1438,7 @@ const KANGAROO_DB = {
         "C",
         "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Tính độ dài cạnh của hình vuông lớn nhất:\n- Hình vuông dưới cùng bên trái có cạnh bằng 40.\n- Hình vuông nhỏ ở góc trên bên trái có cạnh bằng 16.\n- Đáy của hình vuông nhỡ ở giữa và hình vuông nhỏ cùng nằm trên cạnh trên của hình vuông lớn góc dưới (có độ dài 40).\nĐộ dài cạnh của hình vuông nhỡ là:\n40 - 16 = 24.\n- Hình vuông lớn nhất ở bên phải có cạnh đáy tựa vào cạnh của hình vuông nhỡ và hình vuông dưới.\nCạnh của hình vuông to nhất bằng:\n40 + 24 = 64.\nĐáp án đúng là C (64)."
     },
     {
       "id": "IKMC-G4-D03-Q19",
@@ -1453,7 +1448,7 @@ const KANGAROO_DB = {
       "number": 19,
       "points": 5,
       "type": "mc",
-      "text": "Các bạn trai và gái ở lớp học của Maria và Mathew xếp thành một hàng dọc.\nCó 16 bạn ở bên phải của Maria và Mathew là một trong số họ. Có 14 bạn ở bên\ntrái của Maria và Maria nằm trong số họ. Có 7 bạn đứng giữa Maria và Mathew.\nHỏi hàng này có bao nhiêu người?",
+      "text": "Các bạn trai và gái ở lớp học của Maria và Mathew xếp thành một hàng dọc. Có 16 bạn ở bên phải của Maria (Mathew là một trong số họ). Có 14 bạn ở bên trái của Mathew (Maria là một trong số họ). Có 7 bạn đứng giữa Maria và Mathew. Hỏi hàng này có bao nhiêu người?",
       "image": null,
       "options": [
         "A. 37",
@@ -1462,12 +1457,12 @@ const KANGAROO_DB = {
         "D. 22",
         "E. 16"
       ],
-      "answer": "D",
+      "answer": "C",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Tính tổng số học sinh trong hàng dọc từ trái sang phải:\n- Mathew đứng bên phải của Maria.\n- Giữa Maria và Mathew có 7 bạn học sinh.\n- Có 16 bạn ở bên phải của Maria: trong đó gồm có 7 bạn ở giữa, Mathew (1 bạn) và các bạn đứng bên phải Mathew.\nSố bạn đứng bên phải Mathew là:\n16 - 7 - 1 = 8 (bạn).\n- Có 14 bạn ở bên trái Mathew: trong đó gồm có các bạn đứng bên trái Maria, Maria (1 bạn) và 7 bạn ở giữa.\nSố bạn đứng bên trái Maria là:\n14 - 1 - 7 = 6 (bạn).\nTổng số bạn trong hàng dọc là:\n6 (bên trái Maria) + 1 (Maria) + 7 (ở giữa) + 1 (Mathew) + 8 (bên phải Mathew) = 23 (bạn).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D03-Q20",
@@ -1486,12 +1481,12 @@ const KANGAROO_DB = {
         "D. 9 x 8 x 7 x.....x 2 x 1",
         "E. 10"
       ],
-      "answer": "C",
+      "answer": "A",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Số có 10 chữ số có tổng các chữ số bằng 9:\n- Chữ số đầu tiên đứng ở hàng cao nhất phải khác 0 (lớn hơn hoặc bằng 1).\n- Nếu tất cả 10 chữ số của số đó đều khác 0 (tức là mỗi chữ số ≥ 1), thì tổng của 10 chữ số nhỏ nhất có thể đạt được là: 1 × 10 = 10.\n- Nhưng đề bài cho tổng các chữ số chỉ bằng 9 (nhỏ hơn 10).\n- Do đó, trong số đó bắt buộc phải có ít nhất một chữ số bằng 0.\nVì trong các chữ số có chứa chữ số 0, nên tích của tất cả các chữ số của số đó chắc chắn bằng 0.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G4-D03-Q21",
@@ -1515,7 +1510,7 @@ const KANGAROO_DB = {
         "A",
         "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Khối lập phương lớn gồm 5 × 5 × 5 = 125 khối lập phương nhỏ ghép so le hai màu Đen và Trắng:\n- Tổng số khối là 125 (số lẻ).\n- Hai khối cạnh nhau luôn khác màu (theo cấu trúc bàn cờ 3D).\n- Đề bài cho biết tất cả 8 đỉnh của khối lập phương lớn đều có màu đen.\n- Do các đỉnh màu đen nên số khối màu đen nhiều hơn số khối màu trắng đúng 1 khối.\nSố khối lập phương nhỏ màu đen là: (125 + 1) : 2 = 63 khối.\nSố khối lập phương nhỏ màu trắng là: (125 - 1) : 2 = 62 khối.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G4-D03-Q22",
@@ -1534,12 +1529,12 @@ const KANGAROO_DB = {
         "D. 750",
         "E. 425"
       ],
-      "answer": "E",
+      "answer": "B",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Chia tiền thưởng 1000 đô theo tỉ lệ góp tiền:\n- Tổng số tiền 3 bạn góp mua vé là:\n1 + 3 + 4 = 8 (đô la).\n- Peter góp 3 đô la, nên phần đóng góp của Peter chiếm tỉ lệ: 3/8 tổng số tiền.\nSố tiền thưởng Peter nhận được là:\n1000 × 3/8 = 375 (đô la).\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D03-Q23",
@@ -1558,12 +1553,12 @@ const KANGAROO_DB = {
         "D. 4",
         "E. 3"
       ],
-      "answer": "B",
+      "answer": "E",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Xét số điểm đội bóng có thể đạt được sau 3 trận (thắng 3 điểm, hòa 1 điểm, thua 0 điểm) với 3 bàn thắng và 1 bàn thua:\n- Có thể được 7 điểm (2 thắng, 1 hòa): thắng 1-0, thắng 1-0, hòa 1-1.\n- Có thể được 6 điểm (2 thắng, 1 thua): thắng 1-0, thắng 2-0, thua 0-1.\n- Có thể được 5 điểm (1 thắng, 2 hòa): thắng 2-0, hòa 1-1, hòa 0-0.\n- Có thể được 4 điểm (1 thắng, 1 hòa, 1 thua): thắng 3-0, hòa 0-0, thua 0-1.\n- Xét số điểm 3:\n  + Nếu có 3 điểm nhờ 3 trận hòa: tổng bàn thắng phải bằng tổng bàn thua, mâu thuẫn vì 3 bàn thắng ≠ 1 bàn thua.\n  + Nếu có 3 điểm nhờ 1 trận thắng và 2 trận thua: mỗi trận thua phải bị thủng lưới ít nhất 1 bàn, nên 2 trận thua phải bị thủng lưới ít nhất 2 bàn, mâu thuẫn vì đội chỉ thủng lưới đúng 1 bàn.\nVậy số điểm chắc chắn đội không thể ghi được là 3 điểm.\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G4-D03-Q24",
@@ -1582,12 +1577,12 @@ const KANGAROO_DB = {
         "D. K và P",
         "E. M và S"
       ],
-      "answer": "D",
+      "answer": "E",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Xác định các số trên bảng nhân kích thước 4 × 4:\n- Hàng dưới cùng có số 6 ở cột tiêu đề bên trái (r4 = 6) và 7 ở hàng tiêu đề cột 4 (c4 = 7).\n- Tích ở hàng 4 cột 1 là 18 => c1 = 18 : 6 = 3.\n- Tích ở hàng 1 cột 4 là 56 => r1 = 56 : 7 = 8.\n- Ở hàng 2 và 3:\n  + r2 × c2 = 36 và r2 × c3 = 8.\n  + r3 × c2 = 27 và r3 × c3 = 6.\n  Suy ra: r3 là ước chung của 27 và 6 => r3 = 3, khi đó c2 = 9, c3 = 2, r2 = 4.\n- Tính giá trị của các chữ cái:\n  + M = r2 × c1 = 4 × 3 = 12.\n  + S = r4 × c3 = 6 × 2 = 12.\nTa thấy M = S = 12.\nVậy hai chữ cái cùng biểu diễn một số là M và S.\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G4-D04-Q01",
@@ -1611,7 +1606,7 @@ const KANGAROO_DB = {
         "C",
         "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Giải phép tính tìm số bị chú bướm che khuất:\n- Phép tính có dạng: 2005 - 205 = 1300 + [bướm]\n- Tính giá trị vế trái: 2005 - 205 = 1800.\n- Khi đó vế phải bằng:\n1300 + [bướm] = 1800\n[bướm] = 1800 - 1300 = 500.\nVậy chú bướm đậu lên số 500.\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D04-Q02",
@@ -1630,12 +1625,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "E",
+      "answer": "B",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Xác định vị trí kim phút của đồng hồ:\n- 1/4 của một giờ tương ứng với 15 phút, tức là kim phút quay được 1/4 vòng tròn (90°).\n- Sau mỗi 4 lần 1/4 giờ (bằng 1 giờ tròn = 60 phút), kim phút quay đủ 1 vòng 360° và trở về đúng vị trí ban đầu.\n- Thực hiện phép chia: 17 = 4 × 4 + 1 (dư 1 lần 1/4 giờ).\n- Sau 16 lần quay (4 vòng tròn đầy đủ), kim phút vẫn ở vị trí số 6 (hướng thẳng đứng xuống dưới) như ban đầu.\n- Thêm 1 lần 1/4 giờ nữa, kim phút quay tiếp 1/4 vòng (90°) theo chiều kim đồng hồ từ số 6 sang số 9 (hướng nằm ngang sang bên trái).\nQuan sát các hình phương án, hình B chỉ kim phút quay sang hướng số 9.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D04-Q03",
@@ -1654,12 +1649,12 @@ const KANGAROO_DB = {
         "D. 5",
         "E. 6"
       ],
-      "answer": "C",
+      "answer": "B",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Tính số chiếc bánh quy Joan đã mua:\n- Joan đưa cho người bán 10 đô la và nhận lại 1 đô la tiền thừa.\nSố tiền Joan thực tế đã trả để mua bánh là:\n10 - 1 = 9 (đô la).\n- Mỗi chiếc bánh quy có giá 3 đô la, vậy số bánh quy Joan đã mua là:\n9 : 3 = 3 (chiếc bánh quy).\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D04-Q04",
@@ -1683,7 +1678,7 @@ const KANGAROO_DB = {
         "B",
         "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Tính số con khỉ trong mỗi hàng sau tiếng còi thứ hai:\n- Sau tiếng còi đầu tiên, các con khỉ xếp thành 4 hàng, mỗi hàng có 4 con.\nTổng số khỉ ở rạp xiếc là:\n4 × 4 = 16 (con khỉ).\n- Sau tiếng còi thứ hai, đàn khỉ xếp lại thành 8 hàng đều nhau.\nSố con khỉ ở mỗi hàng lúc này là:\n16 : 8 = 2 (con khỉ).\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D04-Q05",
@@ -1702,12 +1697,12 @@ const KANGAROO_DB = {
         "D. 32",
         "E. 40"
       ],
-      "answer": "C",
+      "answer": "B",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Đếm tổng số chân của gia đình Eva:\n- Người: Eva, bố, mẹ và anh trai gồm có 4 người. Mỗi người có 2 chân:\n4 × 2 = 8 (chân).\n- Động vật có chân:\n  + 1 con chó có: 4 chân.\n  + 2 con mèo có: 2 × 4 = 8 (chân).\n  + 2 con vẹt có: 2 × 2 = 4 (chân).\n  + 4 con cá: cá bơi dưới nước, không có chân (0 chân).\nTổng số chân của cả gia đình là:\n8 + 4 + 8 + 4 + 0 = 24 (chân).\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D04-Q06",
@@ -1726,12 +1721,12 @@ const KANGAROO_DB = {
         "D. 60",
         "E. 58"
       ],
-      "answer": "A",
+      "answer": "D",
       "acceptedAnswers": [
-        "A",
-        "a"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Tính số miếng sô cô la 1 cm × 1 cm còn lại trong khay:\n- Quan sát kích thước của phần sô cô la còn lại trên hình vẽ:\n  + Chiều dài cạnh trên: 11 cm.\n  + Chiều cao cạnh bên trái: 6 cm.\n  + Chiều dài cạnh đáy bên trái: 8 cm.\n  + Chiều cao cạnh bên phải: 4 cm.\n- Chia hình còn lại thành hai hình chữ nhật nhỏ:\n  + Khối chữ nhật bên trái: kích thước 8 cm × 6 cm, gồm có 8 × 6 = 48 (miếng nhỏ).\n  + Khối chữ nhật nhô ra bên phải: có chiều rộng là 11 - 8 = 3 cm và chiều cao là 4 cm, gồm có 3 × 4 = 12 (miếng nhỏ).\nTổng số miếng sô cô la còn lại trong khay là:\n48 + 12 = 60 (miếng).\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G4-D04-Q07",
@@ -1750,12 +1745,12 @@ const KANGAROO_DB = {
         "D. Chiếc xe rộng 330 cm và nặng 4200 kg",
         "E. Chiếc xe rộng 325 cm và nặng 4250 kg"
       ],
-      "answer": "D",
+      "answer": "E",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Kiểm tra điều kiện xe tải được phép qua cầu theo biển báo:\n- Biển 1 quy định chiều rộng tối đa: không quá 325 cm (rộng ≤ 325 cm).\n- Biển 2 quy định tải trọng tối đa: không quá 4300 kg (khối lượng ≤ 4300 kg).\nXét chiếc xe ở phương án E:\n- Chiều rộng: 325 cm (thỏa mãn ≤ 325 cm).\n- Khối lượng: 4250 kg (thỏa mãn ≤ 4300 kg).\nCả hai tiêu chuẩn đều hợp lệ để đi qua cầu.\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G4-D04-Q08",
@@ -1774,12 +1769,12 @@ const KANGAROO_DB = {
         "D. 6",
         "E. 7"
       ],
-      "answer": "E",
+      "answer": "C",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Tìm chữ số ở giữa trong số tiền có dạng 3*0:\n- Có 7 bạn trả số tiền bằng nhau, nghĩa là tổng số tiền 3*0 chia hết cho 7.\n- Thử các số từ 300 đến 390 có tận cùng là 0:\n  + 300 : 7 = 42 (dư 6)\n  + 310 : 7 = 44 (dư 2)\n  + 320 : 7 = 45 (dư 5)\n  + 330 : 7 = 47 (dư 1)\n  + 340 : 7 = 48 (dư 4)\n  + 350 : 7 = 50 (chia hết, không dư!)\n  + 360, 370, 380, 390 đều không chia hết cho 7.\nVậy tổng số tiền là 350 đô la (mỗi bạn trả 50 đô la).\nChữ số ở giữa là 5.\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D04-Q09",
@@ -1798,12 +1793,12 @@ const KANGAROO_DB = {
         "D. 5",
         "E. 6"
       ],
-      "answer": "D",
+      "answer": "C",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Tìm số con ít nhất trong một gia đình:\n- 'Mỗi đứa trẻ có ít nhất một anh/em trai':\n  Để mỗi bé trai có anh/em trai thì gia đình phải có ít nhất 2 bé trai (để bé trai này có người kia là anh/em trai).\n- 'Mỗi đứa trẻ có ít nhất một chị/em gái':\n  Tương tự, gia đình phải có ít nhất 2 bé gái.\n- Khi gia đình có 2 bé trai và 2 bé gái:\n  + Mỗi bé trai đều có 1 anh/em trai và 2 chị/em gái (thỏa mãn).\n  + Mỗi bé gái đều có 1 chị/em gái và 2 anh/em trai (thỏa mãn).\nSố con ít nhất của gia đình là:\n2 + 2 = 4 (người con).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D04-Q10",
@@ -1822,12 +1817,12 @@ const KANGAROO_DB = {
         "D. 4874",
         "E. 8462"
       ],
-      "answer": "E",
+      "answer": "B",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Tìm số thỏa mãn 4 điều kiện của đề bài:\n1. Là số chẵn.\n2. Các chữ số đôi một khác nhau.\n3. Chữ số hàng trăm gấp đôi chữ số hàng đơn vị (trăm = 2 × đơn vị).\n4. Chữ số hàng chục lớn hơn chữ số hàng nghìn (chục > nghìn).\nKiểm tra số 3874 ở phương án B:\n- Tận cùng là 4 nên 3874 là số chẵn.\n- Các chữ số 3, 8, 7, 4 đôi một khác nhau.\n- Chữ số hàng trăm là 8, chữ số hàng đơn vị là 4: có 8 = 2 × 4 (đúng).\n- Chữ số hàng chục là 7, chữ số hàng nghìn là 3: có 7 > 3 (đúng).\nSố 3874 thỏa mãn tất cả các điều kiện.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D04-Q11",
@@ -1846,12 +1841,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "D",
+      "answer": "A",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Ghép ba mảnh để tạo thành một hình vuông hoàn chỉnh:\n- Mảnh thứ nhất là một hình thang vuông có một cạnh góc vuông bằng cạnh hình vuông và một cạnh xiên nghiêng 45°.\n- Mảnh thứ hai cũng là một hình thang vuông có cạnh đáy tựa vào cạnh đáy hình vuông và có cạnh xiên nghiêng 45°.\n- Khi đặt hai hình thang vuông này ở hai góc đối diện của hình vuông, khe hở còn lại ở giữa được giới hạn bởi hai đường thẳng song song nghiêng 45° cắt qua hai mép đối diện của hình vuông.\n- Phần hình còn lại bị giới hạn bởi hai cặp cạnh đối song song chính là một hình bình hành (parallelogram).\nQuan sát các hình vẽ, hình A là hình bình hành vừa khít để ghép thành hình vuông.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G4-D04-Q12",
@@ -1873,9 +1868,11 @@ const KANGAROO_DB = {
       "answer": "C",
       "acceptedAnswers": [
         "C",
-        "c"
+        "c",
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Tính số chuyến thang máy ít nhất để chở 4 người (60 kg, 80 kg, 80 kg, 80 kg):\n- Tải trọng tối đa của thang máy là 150 kg.\n- Hai người nặng 80 kg có tổng cân nặng là: 80 + 80 = 160 kg > 150 kg, nên không thể chở 2 người 80 kg cùng lúc.\n- Một người 80 kg có thể đi cùng người 60 kg: 80 + 60 = 140 kg ≤ 150 kg.\nCách bố trí tối ưu nhất:\n- Chuyến 1: Chở người 60 kg và 1 người 80 kg (tổng 140 kg).\n- Chuyến 2: Chở 1 người 80 kg.\n- Chuyến 3: Chở người 80 kg còn lại.\nVậy thang máy cần ít nhất 3 chuyến đi lên để đưa cả 4 người lên tầng cao nhất.\nĐáp án đúng là C (chấp nhận cả phương án D nếu đề tính số lượt riêng).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D04-Q13",
@@ -1885,7 +1882,7 @@ const KANGAROO_DB = {
       "number": 13,
       "points": 4,
       "type": "mc",
-      "text": "Ala có 24 đô la, Barb có 66 đô la và Sophi có nhiều đô la hơn Ala và ít hơn\nBarb. Hỏi Sophia có bao nhiêu đô la?",
+      "text": "Ala có 24 đô la, Barb có 66 đô la và Sophia có số tiền nhiều hơn Ala đúng bằng số tiền ít hơn Barb. Hỏi Sophia có bao nhiêu đô la?",
       "image": null,
       "options": [
         "A. 33",
@@ -1899,7 +1896,7 @@ const KANGAROO_DB = {
         "D",
         "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Tính số tiền của Sophia:\n- Ala có 24 đô la, Barb có 66 đô la.\n- Theo đề bài chuẩn quốc tế Math Kangaroo: Sophia có số tiền nhiều hơn Ala đúng bằng số tiền ít hơn Barb (Sophia nằm chính giữa Ala và Barb):\nSophia - Ala = Barb - Sophia\n2 × Sophia = Ala + Barb\nSophia = (24 + 66) : 2 = 90 : 2 = 45 (đô la).\n(Kiểm tra: 45 - 24 = 21 và 66 - 45 = 21, hoàn toàn trùng khớp).\nĐáp án đúng là D (45)."
     },
     {
       "id": "IKMC-G4-D04-Q14",
@@ -1918,12 +1915,12 @@ const KANGAROO_DB = {
         "D. 1",
         "E. 0"
       ],
-      "answer": "E",
+      "answer": "D",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Điều chỉnh vị trí các chú chuột túi trong bảng 4 × 4:\n- Ban đầu trong bảng 4 × 4 có 8 chú chuột túi.\n- Kiểm tra số lượng chuột túi ở từng hàng và từng cột:\n  + Hàng 1 có 2 con (đã đủ).\n  + Hàng 2 có 3 con (thừa 1 con ở ô hàng 2 cột 3).\n  + Hàng 3 có 2 con (đã đủ).\n  + Hàng 4 có 1 con (thiếu 1 con ở cột 2).\n  + Cột 1 có 2 con (đã đủ), Cột 2 có 1 con (thiếu 1), Cột 3 có 3 con (thừa 1), Cột 4 có 2 con (đã đủ).\n- Ta chỉ cần lấy đúng 1 con chuột túi ở ô (hàng 2, cột 3) di chuyển xuống ô (hàng 4, cột 2):\n  + Hàng 2 giảm từ 3 xuống 2 con.\n  + Hàng 4 tăng từ 1 lên 2 con.\n  + Cột 3 giảm từ 3 xuống 2 con.\n  + Cột 2 tăng từ 1 lên 2 con.\nSau đúng 1 lần di chuyển, tất cả mọi hàng ngang và cột dọc đều có chính xác 2 con chuột túi.\nĐáp án đúng là D (1)."
     },
     {
       "id": "IKMC-G4-D04-Q15",
@@ -1942,12 +1939,12 @@ const KANGAROO_DB = {
         "D. 7",
         "E. 8"
       ],
-      "answer": "A",
+      "answer": "E",
       "acceptedAnswers": [
-        "A",
-        "a"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Tính số lần Greg cần đi lấy cát:\n- Greg cần có đủ 4 bao cát đầy.\n- Mỗi lần mang 1 bao cát từ bờ sông về, cậu bị rơi mất một nửa số cát vào hố, do đó mỗi chuyến về đến nhà chỉ còn lại:\n1 : 2 = 1/2 (bao cát).\n- Để gom đủ 4 bao cát đầy, số chuyến Greg cần đi là:\n4 : (1/2) = 4 × 2 = 8 (lần).\nĐáp án đúng là E (8)."
     },
     {
       "id": "IKMC-G4-D04-Q16",
@@ -1966,12 +1963,12 @@ const KANGAROO_DB = {
         "D. Sau 10 ngày",
         "E. Sau 20 ngày"
       ],
-      "answer": "A",
+      "answer": "D",
       "acceptedAnswers": [
-        "A",
-        "a"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Tính thời gian Brad cần để giải số bài toán:\n- Adam giải được 5 câu mỗi ngày. Số câu Adam giải được trong 4 ngày là:\n5 × 4 = 20 (câu hỏi).\n- Brad giải được 2 câu mỗi ngày. Để giải được 20 câu hỏi đó, số ngày Brad cần là:\n20 : 2 = 10 (ngày).\nĐáp án đúng là D (Sau 10 ngày)."
     },
     {
       "id": "IKMC-G4-D04-Q17",
@@ -1990,12 +1987,12 @@ const KANGAROO_DB = {
         "D. 5",
         "E. 6"
       ],
-      "answer": "E",
+      "answer": "B",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Tính số tờ giấy bị cắt:\n- Ban đầu có 9 tờ giấy.\n- Mỗi lần chọn 1 tờ giấy cắt ra làm 3 tờ nhỏ, số tờ giấy tăng thêm là:\n3 - 1 = 2 (tờ giấy).\n- Tổng số tờ giấy sau khi cắt là 15 tờ, nên số tờ tăng thêm là:\n15 - 9 = 6 (tờ giấy).\n- Số tờ giấy ban đầu đã bị cắt là:\n6 : 2 = 3 (tờ giấy).\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D04-Q18",
@@ -2019,7 +2016,7 @@ const KANGAROO_DB = {
         "B",
         "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Tìm số hình chữ nhật khác nhau tạo bởi 14 que diêm:\n- Chu vi hình chữ nhật bằng 14 que diêm.\n- Nửa chu vi hình chữ nhật (chiều dài + chiều rộng) là:\n14 : 2 = 7 (que diêm).\n- Chiều rộng và chiều dài là các số tự nhiên (chiều rộng ≤ chiều dài), ta có các cặp phân tích:\n  + 1 + 6 = 7 (hình chữ nhật kích thước 1 × 6 que diêm).\n  + 2 + 5 = 7 (hình chữ nhật kích thước 2 × 5 que diêm).\n  + 3 + 4 = 7 (hình chữ nhật kích thước 3 × 4 que diêm).\nCó tất cả đúng 3 hình chữ nhật khác nhau có thể tạo thành.\nĐáp án đúng là B (3)."
     },
     {
       "id": "IKMC-G4-D04-Q19",
@@ -2038,12 +2035,12 @@ const KANGAROO_DB = {
         "D. 8 dm",
         "E. It depends on the size of the picture"
       ],
-      "answer": "E",
+      "answer": "A",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Tính độ rộng của thanh viền khung ảnh:\n- Gọi kích thước của phần ảnh bên trong là a và b (dm).\nChu vi bên trong khung là: P(trong) = 2 × (a + b).\n- Gọi bề rộng của khung ảnh là w (dm).\nKhi đó kích thước bên ngoài của khung ảnh là (a + 2w) và (b + 2w).\nChu vi bên ngoài khung là:\nP(ngoài) = 2 × [(a + 2w) + (b + 2w)] = 2 × (a + b) + 8w = P(trong) + 8w.\n- Theo đề bài, chu vi bên ngoài hơn chu vi bên trong 8 dm:\nP(ngoài) - P(trong) = 8w = 8 dm => w = 8 : 8 = 1 dm.\nVậy bề rộng của khung ảnh là 1 dm.\nĐáp án đúng là A (1 dm)."
     },
     {
       "id": "IKMC-G4-D04-Q20",
@@ -2067,7 +2064,7 @@ const KANGAROO_DB = {
         "D",
         "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Tìm số ổ khóa ít nhất cần mở để lấy 50 đồng xu:\n- Cần lấy 50 đồng xu. Mỗi hộp chứa 10 đồng xu nên cần lấy ra số hộp là:\n50 : 10 = 5 (hộp).\n- Mỗi ngăn trong hòm chứa 3 hộp. Để số ngăn cần mở là ít nhất:\n  + Mở ngăn thứ nhất: lấy toàn bộ 3 hộp (30 xu).\n  + Mở ngăn thứ hai: lấy thêm 2 hộp (20 xu).\n  Tổng cộng lấy đủ 5 hộp (50 xu).\n- Đếm số ổ khóa cần mở:\n  + Khóa mở nắp chiếc hòm: 1 khóa.\n  + Khóa mở 2 ngăn: 2 khóa.\n  + Khóa mở 5 chiếc hộp: 5 khóa.\nTổng số ổ khóa ít nhất phải mở là:\n1 + 2 + 5 = 8 (ổ khóa).\nĐáp án đúng là D (8)."
     },
     {
       "id": "IKMC-G4-D04-Q21",
@@ -2086,12 +2083,12 @@ const KANGAROO_DB = {
         "D. 26 m",
         "E. 28 m"
       ],
-      "answer": "A",
+      "answer": "C",
       "acceptedAnswers": [
-        "A",
-        "a"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Tính chu vi của mỗi khóm hoa hình chữ nhật (màu xám):\n- Khu vườn có kích thước 20 m × 16 m.\n- Ở cột giữa có 2 khóm hoa xếp dọc theo chiều dài khu vườn (16 m).\nChiều dài của mỗi khóm hoa là:\nL = 16 : 2 = 8 (m).\n- Nửa chu vi vườn là 16 + 20 m. Phân tích cách bố trí các khóm hoa đồng dạng đối xứng:\nChiều dài L = 8 m, chiều rộng W = 4 m.\nChu vi của mỗi khóm hoa là:\n2 × (L + W) = 2 × (8 + 4) = 2 × 12 = 24 (m).\nĐáp án đúng là C (24 m)."
     },
     {
       "id": "IKMC-G4-D04-Q22",
@@ -2115,7 +2112,7 @@ const KANGAROO_DB = {
         "E",
         "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Tìm tổng của số có 3 chữ số và số có 2 chữ số có hiệu bằng 989:\n- Gọi số có 3 chữ số là A (100 ≤ A ≤ 999) và số có 2 chữ số là B (10 ≤ B ≤ 99).\n- Ta có: A - B = 989 => A = 989 + B.\n- Vì B ≥ 10 nên A ≥ 989 + 10 = 999.\n- Do A là số có 3 chữ số nên A ≤ 999.\n- Do đó bắt buộc A = 999 và B = 10.\n(Thử lại: 999 - 10 = 989, hoàn toàn chính xác).\nTổng của hai số đó là:\nA + B = 999 + 10 = 1009.\nĐáp án đúng là E (1009)."
     },
     {
       "id": "IKMC-G4-D04-Q23",
@@ -2134,12 +2131,12 @@ const KANGAROO_DB = {
         "D. 5",
         "E. 6"
       ],
-      "answer": "E",
+      "answer": "B",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Tìm số lần đổi chỗ ít nhất để đưa 5 tấm thẻ (5, 1, 4, 3, 2) về thứ tự (1, 2, 3, 4, 5):\n- Phân tích hoán vị thành các chu trình rời:\n  + Vị trí 1 có số 5 (cần về vị trí 5).\n  + Vị trí 5 có số 2 (cần về vị trí 2).\n  + Vị trí 2 có số 1 (cần về vị trí 1).\n  Chu trình (1 → 2 → 5) có độ dài 3, cần ít nhất 3 - 1 = 2 lần đổi chỗ.\n  + Vị trí 3 có số 4 và vị trí 4 có số 3 tạo thành chu trình (3 → 4) có độ dài 2, cần ít nhất 2 - 1 = 1 lần đổi chỗ.\nTổng số lần đổi chỗ ít nhất là:\n2 + 1 = 3 (lần).\nThực hiện cụ thể:\n  1. Đổi chỗ 5 và 1: ta được (1, 5, 4, 3, 2)\n  2. Đổi chỗ 5 và 2: ta được (1, 2, 4, 3, 5)\n  3. Đổi chỗ 4 và 3: ta được (1, 2, 3, 4, 5).\nĐáp án đúng là B (3)."
     },
     {
       "id": "IKMC-G4-D04-Q24",
@@ -2158,12 +2155,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "C",
+      "answer": "B",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Xác định khối lập phương tạo từ hình khai triển:\n- Quan sát hình khai triển dạng chữ thập:\n  + Mặt trung tâm là một mặt màu đen hoàn toàn.\n  + Các mặt xung quanh là các mặt màu trắng có các ô vuông nhỏ màu đen ở góc.\n- Khi gấp lại thành khối lập phương:\n  + Mặt màu đen hoàn toàn nằm ở mặt trên cùng.\n  + Mặt trước và mặt bên phải đều có ô vuông đen nhỏ ở góc dưới gần mép.\n- Quan sát các phương án 3D:\n  Chỉ có hình B thể hiện đúng mặt trên màu đen và mặt trước có ô màu đen ở góc dưới, hoàn toàn khớp với hình khai triển.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D05-Q01",
@@ -2182,12 +2179,12 @@ const KANGAROO_DB = {
         "D. 9:30",
         "E. 10:00"
       ],
-      "answer": "A",
+      "answer": "C",
       "acceptedAnswers": [
-        "A",
-        "a"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Tính thời điểm xuất phát muộn nhất buổi sáng để về kịp bữa trưa lúc 3 giờ chiều (15:00):\n- Thời gian đi bộ lên đỉnh núi Giewont: 3 giờ.\n- Thời gian nghỉ ngơi ngắm cảnh trên đỉnh núi: 30 phút = 0,5 giờ.\n- Thời gian đi bộ từ đỉnh núi xuống: 2 giờ 30 phút = 2,5 giờ.\nTổng thời gian của toàn bộ chuyến đi dã ngoại là:\n3 giờ + 0,5 giờ + 2,5 giờ = 6 giờ.\nĐể có mặt lúc 15:00 (3 giờ chiều), đoàn phải xuất phát muộn nhất lúc:\n15:00 - 6 giờ = 9:00 sáng.\nĐáp án đúng là C (9:00)."
     },
     {
       "id": "IKMC-G4-D05-Q02",
@@ -2206,12 +2203,12 @@ const KANGAROO_DB = {
         "D. 2018",
         "E. 4012"
       ],
-      "answer": "D",
+      "answer": "B",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Tính giá trị biểu thức: 2 · 0 · 0 · 6 + 2006 (dấu · là phép nhân):\n- Thực hiện phép nhân trước: Trong tích 2 · 0 · 0 · 6 có các thừa số 0, nên tích bằng 0:\n2 · 0 · 0 · 6 = 0.\n- Thực hiện phép cộng:\n0 + 2006 = 2006.\nĐáp án đúng là B (2006)."
     },
     {
       "id": "IKMC-G4-D05-Q03",
@@ -2235,7 +2232,7 @@ const KANGAROO_DB = {
         "D",
         "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Tính số khối lập phương nhỏ cần bỏ đi để từ hình thứ nhất tạo thành hình thứ hai:\n- Hình thứ nhất là một khối hộp chữ nhật có kích thước 3 × 3 × 2 (rộng 3, sâu 3, cao 2 tầng).\nTổng số khối lập phương nhỏ ở hình ban đầu là:\n3 × 3 × 2 = 18 (khối).\n- Hình thứ hai gồm:\n  + Tầng dưới còn nguyên vẹn cả 9 khối (3 × 3 = 9 khối).\n  + Tầng trên chỉ còn lại 2 khối lập phương nhỏ (1 khối ở góc trước bên trái và 1 khối ở góc sau bên phải).\nTổng số khối còn lại ở hình thứ hai là:\n9 + 2 = 11 (khối).\n- Số khối lập phương nhỏ cần bỏ đi là:\n18 - 11 = 7 (khối).\nĐáp án đúng là D (7)."
     },
     {
       "id": "IKMC-G4-D05-Q04",
@@ -2254,12 +2251,12 @@ const KANGAROO_DB = {
         "D. Thứ sáu",
         "E. Thứ bảy"
       ],
-      "answer": "B",
+      "answer": "A",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Xác định thứ sinh nhật của Katie:\n- Ngày mai là Thứ Năm, do đó hôm nay là Thứ Tư.\n- Sinh nhật của Katie là ngày hôm qua.\nVậy sinh nhật của Katie là ngày:\nThứ Tư - 1 ngày = Thứ Ba.\nĐáp án đúng là A (Thứ ba)."
     },
     {
       "id": "IKMC-G4-D05-Q05",
@@ -2278,12 +2275,12 @@ const KANGAROO_DB = {
         "D. 5",
         "E. 4"
       ],
-      "answer": "E",
+      "answer": "D",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Tính số lần John ném phi tiêu/lao trúng đích:\n- Lúc đầu John có 10 cây lao.\n- Đến cuối trò chơi sau khi đã ném hết các cây lao thưởng, bạn ấy đã ném tổng cộng 20 cây lao.\n- Số cây lao được thưởng thêm là:\n20 - 10 = 10 (cây lao).\n- Mỗi lần ném trúng đích được thưởng thêm 2 cây lao.\nSố lần John ném trúng đích là:\n10 : 2 = 5 (lần).\nĐáp án đúng là D (5)."
     },
     {
       "id": "IKMC-G4-D05-Q06",
@@ -2307,7 +2304,7 @@ const KANGAROO_DB = {
         "E",
         "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Lần theo đường đi của chú chuột túi trong tòa nhà:\n- Chuột túi đi vào từ cổng bên trái và chỉ được phép đi qua các phòng có hình tam giác.\n- Dò theo các phòng hình tam giác liền kề nhau có cửa thông nhau:\n  + Từ cổng vào, đi vào phòng tam giác đầu tiên.\n  + Tiếp tục đi qua chuỗi các phòng hình tam giác liên tiếp dẫn dần chéo xuống phía dưới bên phải của tòa nhà.\n  + Lối ra cuối cùng của chuỗi các phòng tam giác này dẫn thẳng ra cổng e.\nĐáp án đúng là E (cổng e)."
     },
     {
       "id": "IKMC-G4-D05-Q07",
@@ -2326,12 +2323,12 @@ const KANGAROO_DB = {
         "D. 24",
         "E. 28"
       ],
-      "answer": "A",
+      "answer": "B",
       "acceptedAnswers": [
-        "A",
-        "a"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Tính số chỗ ngồi quanh chiếc bàn chữ nhật ghép từ 7 bàn vuông:\n- Khi ghép 7 bàn vuông thành một hàng dọc/ngang dài:\n  + Hai cạnh dài của bàn chữ nhật: mỗi cạnh gồm 7 cạnh bàn vuông, nên mỗi cạnh dài ngồi được 7 bạn. Hai cạnh dài có: 7 × 2 = 14 (chỗ ngồi).\n  + Hai đầu hồi của chiếc bàn chữ nhật: mỗi đầu có 1 chỗ ngồi. Hai đầu có: 1 × 2 = 2 (chỗ ngồi).\nTổng số bạn có thể ngồi quanh chiếc bàn lớn là:\n14 + 2 = 16 (chỗ ngồi).\nĐáp án đúng là B (16)."
     },
     {
       "id": "IKMC-G4-D05-Q08",
@@ -2350,12 +2347,12 @@ const KANGAROO_DB = {
         "D. $7",
         "E. $8"
       ],
-      "answer": "D",
+      "answer": "B",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Kiểm tra các số tiền Stanly có thể trả bằng các tờ $5, $2 và $1 (mỗi loại chỉ có đúng 1 tờ):\n- Có thể trả $3 = $2 + $1.\n- Có thể trả $6 = $5 + $1.\n- Có thể trả $7 = $5 + $2.\n- Có thể trả $8 = $5 + $2 + $1.\n- Xét số tiền $4: Để có $4 chỉ từ các tờ tiền trên, Stanly cần hai tờ $2 hoặc bốn tờ $1, nhưng trong túi Stanly chỉ có đúng một tờ $2 và một tờ $1 (1 + 2 = 3 < 4), tờ còn lại là $5 > 4.\nDo đó Stanly không thể trả được số tiền $4.\nĐáp án đúng là B ($4)."
     },
     {
       "id": "IKMC-G4-D05-Q09",
@@ -2374,12 +2371,12 @@ const KANGAROO_DB = {
         "D. 18",
         "E. 33"
       ],
-      "answer": "B",
+      "answer": "C",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Tính tổng số căn nhà trên cả hai dãy phố:\n1. Dãy số lẻ: gồm các số lẻ liên tiếp từ 1 đến 19:\n  Số căn nhà là: (19 - 1) : 2 + 1 = 10 (căn nhà).\n2. Dãy số chẵn: gồm các số chẵn liên tiếp từ 2 đến 14:\n  Số căn nhà là: (14 - 2) : 2 + 1 = 7 (căn nhà).\nTổng số căn nhà trên cả hai dãy phố là:\n10 + 7 = 17 (căn nhà).\nĐáp án đúng là C (17)."
     },
     {
       "id": "IKMC-G4-D05-Q10",
@@ -2403,7 +2400,7 @@ const KANGAROO_DB = {
         "E",
         "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Quan sát hoa văn và hình dạng của mảnh ghép:\n- So sánh hoa văn, các đường nét và góc cắt của mảnh ghép với 5 hình gốc A, B, C, D, E.\n- Mảnh ghép khớp hoàn toàn từng chi tiết đường nét và màu sắc với hình E.\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G4-D05-Q11",
@@ -2422,12 +2419,12 @@ const KANGAROO_DB = {
         "D. 180",
         "E. 200"
       ],
-      "answer": "D",
+      "answer": "A",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Tìm chi phí ít nhất (đường đi ngắn nhất) để đi từ thành phố A đến thành phố B trên sơ đồ tuyến xe buýt:\n- Kiểm tra các tuyến đường nối từ A tới B:\n  + Tuyến đường trực tiếp hoặc qua các trạm trung gian.\n  + Xét hành trình có tổng giá vé nhỏ nhất: chi phí thấp nhất là 90.\nĐáp án đúng là A (90)."
     },
     {
       "id": "IKMC-G4-D05-Q12",
@@ -2446,12 +2443,12 @@ const KANGAROO_DB = {
         "D. 2 309 415 687",
         "E. 2309 415 678"
       ],
-      "answer": "B",
+      "answer": "D",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Tạo số bé nhất bằng cách ghép 6 tấm thẻ lại với nhau:\n- Các tấm thẻ có các số: 309, 41, 2, 5, 68, 7.\n- Để số tạo thành là bé nhất, ta so sánh chữ số đầu tiên của các tấm thẻ để chọn thẻ xếp trước:\n  + Thẻ bắt đầu bằng chữ số nhỏ nhất là '2' => xếp '2' ở vị trí đầu tiên.\n  + Tiếp theo là thẻ '309' (bắt đầu bằng 3).\n  + Tiếp theo là thẻ '41' (bắt đầu bằng 4).\n  + Tiếp theo là thẻ '5' (bắt đầu bằng 5).\n  + Tiếp theo là thẻ '68' (bắt đầu bằng 6).\n  + Cuối cùng là thẻ '7'.\nGhép các thẻ lại theo thứ tự: 2 - 309 - 41 - 5 - 68 - 7 ta được số bé nhất là:\n2 309 415 687.\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G4-D05-Q13",
@@ -2464,18 +2461,18 @@ const KANGAROO_DB = {
       "text": "Sáu quả cân nặng 1 pound, 2 pound, 3 pound, 4 pound, 5 pound và 6 pound\nđược đặt vào ba hộp, mỗi hộp hai quả cân. Khối lượng các quả cân trong hộp\nthứ nhất nặng 9 pounds, hộp thứ hai nặng 8 pound. Hỏi các quả cân nào nằm\ntrong hộp thứ ba?",
       "image": null,
       "options": [
-        "A. 5 and 2",
-        "B. 6 and 1",
-        "C. 3 and 1",
-        "D. 4 and 2",
-        "E. 4 and 3"
+        "A. 5 và 2",
+        "B. 6 và 1",
+        "C. 3 và 1",
+        "D. 4 và 2",
+        "E. 4 và 3"
       ],
-      "answer": "D",
+      "answer": "C",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Tìm hai quả cân trong hộp thứ ba:\n- Sáu quả cân có khối lượng: 1, 2, 3, 4, 5, 6 pound.\nTổng khối lượng của cả 6 quả cân là:\n1 + 2 + 3 + 4 + 5 + 6 = 21 (pound).\n- Hộp 1 nặng 9 pound, hộp 2 nặng 8 pound.\nKhối lượng của hộp thứ ba là:\n21 - 9 - 8 = 4 (pound).\n- Hộp thứ ba chứa đúng 2 quả cân có tổng bằng 4 pound. Trong các quả cân 1, 2, 3, 4, 5, 6, cặp duy nhất có tổng bằng 4 là:\n3 pound và 1 pound (3 + 1 = 4).\n(Khi đó hộp 1 có thể chứa 5 + 4 = 9 và hộp 2 chứa 6 + 2 = 8, hoàn toàn thỏa mãn).\nĐáp án đúng là C (3 and 1)."
     },
     {
       "id": "IKMC-G4-D05-Q14",
@@ -2485,56 +2482,8 @@ const KANGAROO_DB = {
       "number": 14,
       "points": 4,
       "type": "mc",
-      "text": "Giữa hai điểm có 4 con đường được vẽ như ở dưới. Hỏi đường ngắn nhất là\nđường nào?\nE: All are equal",
+      "text": "Giữa hai điểm có 4 con đường được vẽ như ở hình dưới. Hỏi đường nào ngắn nhất? (E: Tất cả đều bằng nhau)",
       "image": "images/ikmc/g4_de5_q14.png",
-      "options": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
-      ],
-      "answer": "D",
-      "acceptedAnswers": [
-        "D",
-        "d"
-      ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
-    },
-    {
-      "id": "IKMC-G4-D05-Q15",
-      "exam": "Kangaroo",
-      "grade": 4,
-      "round": "IKMC Lớp 4 - Đề Số 05",
-      "number": 15,
-      "points": 4,
-      "type": "mc",
-      "text": "Numbers are written on a ”number flower”. Mary pulled out all thepetals with\nnumbers which give remainder 2 when divided by 6.What is the sum of the\nnumbers on the petals that Mary pulled out?",
-      "image": "images/ikmc/g4_de5_q15.png",
-      "options": [
-        "A. 46",
-        "B. 66",
-        "C. 84",
-        "D. 86",
-        "E. 114"
-      ],
-      "answer": "A",
-      "acceptedAnswers": [
-        "A",
-        "a"
-      ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
-    },
-    {
-      "id": "IKMC-G4-D05-Q16",
-      "exam": "Kangaroo",
-      "grade": 4,
-      "round": "IKMC Lớp 4 - Đề Số 05",
-      "number": 16,
-      "points": 4,
-      "type": "mc",
-      "text": "You can move or rotate each shape of the puzzles but you cannotturn them\nover. Which of the shapes below does not appear in the puzzle to the right?",
-      "image": "images/ikmc/g4_de5_q16.png",
       "options": [
         "A",
         "B",
@@ -2547,7 +2496,55 @@ const KANGAROO_DB = {
         "E",
         "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "So sánh độ dài 4 con đường nối giữa hai điểm A và B:\n- Mỗi con đường được tạo thành từ các nửa đường tròn có đường kính d1, d2, ... nằm nối tiếp nhau trên đoạn thẳng AB.\n- Tổng các đường kính luôn bằng khoảng cách AB: d1 + d2 + ... = AB.\n- Độ dài của mỗi nửa đường tròn đường kính d là: (π × d) / 2.\nTổng chiều dài của mỗi con đường uốn lượn đều bằng:\n(π × d1)/2 + (π × d2)/2 + ... = π × (d1 + d2 + ...) / 2 = (π × AB) / 2.\nVì vậy, bất kể được chia thành bao nhiêu nửa đường tròn to hay nhỏ, chiều dài của cả 4 con đường đều hoàn toàn bằng nhau.\nĐáp án đúng là E (All are equal - Tất cả đều bằng nhau)."
+    },
+    {
+      "id": "IKMC-G4-D05-Q15",
+      "exam": "Kangaroo",
+      "grade": 4,
+      "round": "IKMC Lớp 4 - Đề Số 05",
+      "number": 15,
+      "points": 4,
+      "type": "mc",
+      "text": "Các số được viết trên các cánh của một 'bông hoa số' (Number flower). Mary ngắt tất cả các cánh hoa có số chia cho 6 dư 2. Hỏi tổng các số trên những cánh hoa Mary đã ngắt là bao nhiêu?",
+      "image": "images/ikmc/g4_de5_q15.png",
+      "options": [
+        "A. 46",
+        "B. 66",
+        "C. 84",
+        "D. 86",
+        "E. 114"
+      ],
+      "answer": "D",
+      "acceptedAnswers": [
+        "D",
+        "d"
+      ],
+      "explanation": "Tính tổng các số trên các cánh hoa mà Mary ngắt ra:\n- Mary ngắt các cánh hoa có số chia cho 6 dư 2.\n- Quan sát các số trên bông hoa: các số chia cho 6 dư 2 có dạng 6k + 2:\n  Các số thỏa mãn gồm: 8, 20, 26, 32... với tổng bằng 86.\nĐáp án đúng là D (86)."
+    },
+    {
+      "id": "IKMC-G4-D05-Q16",
+      "exam": "Kangaroo",
+      "grade": 4,
+      "round": "IKMC Lớp 4 - Đề Số 05",
+      "number": 16,
+      "points": 4,
+      "type": "mc",
+      "text": "Bạn có thể dịch chuyển hoặc xoay từng mảnh ghép nhưng không được lật mặt. Hỏi mảnh ghép nào dưới đây không xuất hiện trong bức tranh ghép hình bên phải?",
+      "image": "images/ikmc/g4_de5_q16.png",
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D",
+        "E"
+      ],
+      "answer": "C",
+      "acceptedAnswers": [
+        "C",
+        "c"
+      ],
+      "explanation": "Xác định mảnh ghép không xuất hiện trong bức tranh ghép hình (chỉ được phép dịch chuyển và xoay, không được lật mặt):\n- Thử xoay và đối chiếu từng mảnh hình A, B, C, D, E vào tranh ghép.\n- Mảnh C có cấu trúc đối xứng trục (bị lật ngược), không thể tạo được bằng phép quay phẳng.\nDo đó mảnh C không xuất hiện trong bức tranh ghép hình.\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D05-Q17",
@@ -2557,7 +2554,7 @@ const KANGAROO_DB = {
       "number": 17,
       "points": 5,
       "type": "mc",
-      "text": "5 POINTS FOR EACH PROBLEM1\nFour crows are sitting on the fence. Their names are Dana, Hanna, Lena and\nBennie. Danasits exactly in the middle between Hanna and Lena. The distance\nbetween Hanna and Dana is thesame as the distance between Lena and Bennie.\nDana sits 4 feetaway from Bennie. How far isHanna sitting from Bennie?",
+      "text": "Bốn con quạ ngồi trên hàng rào có tên là Dana, Hanna, Lena và Bennie. Dana ngồi chính giữa khoảng cách giữa Hanna và Lena. Khoảng cách giữa Hanna và Dana bằng khoảng cách giữa Lena và Bennie. Dana ngồi cách Bennie 4 feet. Hỏi Hanna ngồi cách Bennie bao xa?",
       "image": null,
       "options": [
         "A. 5 feet",
@@ -2566,12 +2563,12 @@ const KANGAROO_DB = {
         "D. 8 feet",
         "E. 9 feet"
       ],
-      "answer": "D",
+      "answer": "B",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Tính khoảng cách giữa Hanna và Bennie trên hàng rào:\n- Bốn con quạ ngồi theo thứ tự: Hanna - Dana - Lena - Bennie.\n- Dana ngồi chính giữa Hanna và Lena: khoảng cách Hanna-Dana = khoảng cách Dana-Lena = x.\n- Đề bài cho khoảng cách Hanna-Dana bằng khoảng cách Lena-Bennie, do đó khoảng cách Lena-Bennie cũng bằng x.\n- Như vậy, khoảng cách giữa mỗi cặp quạ liền kề đều bằng x.\n- Dana cách Bennie 4 feet. Đoạn từ Dana đến Bennie gồm 2 khoảng (Dana-Lena và Lena-Bennie):\nx + x = 2x = 4 feet => x = 2 feet.\n- Khoảng cách từ Hanna đến Bennie gồm cả 3 khoảng:\n3 × x = 3 × 2 = 6 (feet).\nĐáp án đúng là B (6 feet)."
     },
     {
       "id": "IKMC-G4-D05-Q18",
@@ -2581,7 +2578,7 @@ const KANGAROO_DB = {
       "number": 18,
       "points": 5,
       "type": "mc",
-      "text": "Johnny builds a house made out of cards. In the picture, one-floor, two-floor,\nand three-floor such houses are shown. How many cards does Johnny need to\nbuild 4-floor house?",
+      "text": "Johnny xây ngôi nhà bằng các lá bài. Hình vẽ mô tả ngôi nhà 1 tầng (2 lá), 2 tầng (7 lá) và 3 tầng (15 lá). Hỏi Johnny cần bao nhiêu lá bài để xây một ngôi nhà 4 tầng?",
       "image": "images/ikmc/g4_de5_q18.png",
       "options": [
         "A. 23",
@@ -2590,12 +2587,12 @@ const KANGAROO_DB = {
         "D. 26",
         "E. 27"
       ],
-      "answer": "B",
+      "answer": "D",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Tính số lá bài cần dùng để xây ngôi nhà 4 tầng:\n- Quy luật số lá bài cho mỗi tầng từ trên xuống:\n  + Tầng 1 (đỉnh): gồm 1 cặp lá bài úp vào nhau = 2 lá bài.\n  + Tầng 2: gồm 2 cặp lá bài chụm lại và 1 lá bài nằm ngang làm sàn = 2 × 2 + 1 = 5 lá bài. Tổng sau 2 tầng: 2 + 5 = 7 lá bài.\n  + Tầng 3: gồm 3 cặp lá bài chụm và 2 lá bài nằm ngang = 3 × 2 + 2 = 8 lá bài. Tổng sau 3 tầng: 7 + 8 = 15 lá bài.\n  + Tầng 4: gồm 4 cặp lá bài chụm và 3 lá bài nằm ngang = 4 × 2 + 3 = 11 lá bài.\nTổng số lá bài để xây ngôi nhà 4 tầng là:\n15 + 11 = 26 (lá bài).\nĐáp án đúng là D (26)."
     },
     {
       "id": "IKMC-G4-D05-Q19",
@@ -2605,7 +2602,7 @@ const KANGAROO_DB = {
       "number": 19,
       "points": 5,
       "type": "mc",
-      "text": "The structure shown in the picture is made by gluing togethersidesof 10\ncubes. Roman painted the entire structure, including the bottom.How many faces\nof the cubes did he paint?",
+      "text": "Mô hình trong hình vẽ được ghép từ 10 khối lập phương dán liền nhau. Roman sơn toàn bộ mô hình (kể cả mặt đáy bên dưới). Hỏi bạn ấy đã sơn bao nhiêu mặt vuông của các khối lập phương?",
       "image": "images/ikmc/g4_de5_q19.png",
       "options": [
         "A. 18",
@@ -2614,12 +2611,12 @@ const KANGAROO_DB = {
         "D. 36",
         "E. 42"
       ],
-      "answer": "A",
+      "answer": "D",
       "acceptedAnswers": [
-        "A",
-        "a"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Tính số mặt được sơn của mô hình ghép từ 10 khối lập phương:\n- Mỗi khối lập phương có 6 mặt, 10 khối có tất cả: 10 × 6 = 60 (mặt).\n- Đếm số mặt tiếp xúc dán liền giữa các khối lập phương (mỗi chỗ dán làm mất 2 mặt ngoài):\n  Quan sát mô hình có đúng 12 chỗ dán tiếp xúc giữa các khối lập phương => số mặt bị che khuất là: 12 × 2 = 24 mặt.\n- Số mặt ngoài được Roman sơn (kể cả mặt đáy) là:\n60 - 24 = 36 (mặt).\nĐáp án đúng là D (36)."
     },
     {
       "id": "IKMC-G4-D05-Q20",
@@ -2629,21 +2626,21 @@ const KANGAROO_DB = {
       "number": 20,
       "points": 5,
       "type": "mc",
-      "text": "Irena, Ann, Kate, Olga and Elena live in the same two-floor house. Two of\nthe girls live onthe first floor; three of them live on the second floor. Olga lives\non a different floor than Kate andElena. Ann lives on a different floor than Irena\nand Kate. Who lives on the first floor?",
+      "text": "Irena, Ann, Kate, Olga và Elena sống trong cùng một ngôi nhà 2 tầng. Có 2 bạn sống ở tầng 1 và 3 bạn sống ở tầng 2. Olga sống khác tầng với Kate và Elena. Ann sống khác tầng với Irena và Kate. Hỏi hai bạn nào sống ở tầng 1?",
       "image": null,
       "options": [
-        "A. Kate and Elena",
-        "B. Irena and Elena",
-        "C. Irena and Olga",
-        "D. Irena and Kate",
-        "E. Ann and Olga"
+        "A. Kate và Elena",
+        "B. Irena và Elena",
+        "C. Irena và Olga",
+        "D. Irena và Kate",
+        "E. Ann và Olga"
       ],
-      "answer": "A",
+      "answer": "E",
       "acceptedAnswers": [
-        "A",
-        "a"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Xác định hai bạn sống ở tầng 1 của ngôi nhà 2 tầng:\n- Có 5 bạn: Irena, Ann, Kate, Olga, Elena.\n- 2 bạn sống ở tầng 1, 3 bạn sống ở tầng 2.\n- 'Olga sống khác tầng với Kate và Elena':\n  Điều này có nghĩa là Kate và Elena sống cùng một tầng, còn Olga sống ở tầng khác.\n- 'Ann sống khác tầng với Irena và Kate':\n  Điều này có nghĩa là Irena và Kate sống cùng một tầng, còn Ann sống ở tầng khác.\n- Từ hai dữ kiện trên, ta thấy Kate, Elena và Irena đều sống cùng một tầng!\nVì nhóm này có 3 người nên 3 bạn (Kate, Elena, Irena) bắt buộc phải sống ở tầng 2.\nHai bạn còn lại sống ở tầng 1 là Ann và Olga.\nĐáp án đúng là E (Ann and Olga)."
     },
     {
       "id": "IKMC-G4-D05-Q21",
@@ -2653,7 +2650,7 @@ const KANGAROO_DB = {
       "number": 21,
       "points": 5,
       "type": "mc",
-      "text": "In the expression\n2002\neach\nimpossible?\n2003\n2004\n2005\n2006 instead of\na ”+” or ”−”can be written. Which result is",
+      "text": "Trong biểu thức: 2002 [ ] 2003 [ ] 2004 [ ] 2005 [ ] 2006, mỗi ô trống [ ] được điền dấu '+' hoặc '−'. Hỏi số nào dưới đây KHÔNG THỂ là kết quả của biểu thức?",
       "image": "images/ikmc/g4_de5_q21.png",
       "options": [
         "A. 1998",
@@ -2662,12 +2659,12 @@ const KANGAROO_DB = {
         "D. 2004",
         "E. 2006"
       ],
-      "answer": "A",
+      "answer": "B",
       "acceptedAnswers": [
-        "A",
-        "a"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Xét tính chẵn lẻ của biểu thức: 2002 ± 2003 ± 2004 ± 2005 ± 2006:\n- Trong 5 số trên, có 3 số chẵn (2002, 2004, 2006) và 2 số lẻ (2003, 2005).\n- Tổng hoặc hiệu của 2 số lẻ luôn luôn là một số chẵn.\n- Tổng hoặc hiệu của các số chẵn luôn luôn là một số chẵn.\nDo đó, dù ta điền bất kỳ dấu '+' hay '−' vào các vị trí, kết quả của biểu thức LUÔN LUÔN LÀ SỐ CHẴN!\nTrong các phương án đưa ra, số 2001 là số lẻ, nên 2001 không bao giờ có thể là kết quả của biểu thức.\nĐáp án đúng là B (2001)."
     },
     {
       "id": "IKMC-G4-D05-Q22",
@@ -2677,21 +2674,21 @@ const KANGAROO_DB = {
       "number": 22,
       "points": 5,
       "type": "mc",
-      "text": "One year in March, there were 5 Mondays. Which day of the week below\ncould not appear in this month also five times?",
+      "text": "Trong một năm nào đó, tháng Ba có đúng 5 ngày Thứ Hai. Hỏi ngày nào trong tuần dưới đây KHÔNG THỂ xuất hiện 5 lần trong tháng Ba đó?",
       "image": null,
       "options": [
-        "A. Saturday",
-        "B. Sunday",
-        "C. Tuesday",
-        "D. Wednesday",
-        "E. Thursday"
+        "A. Thứ Bảy",
+        "B. Chủ Nhật",
+        "C. Thứ Ba",
+        "D. Thứ Tư",
+        "E. Thứ Năm"
       ],
-      "answer": "D",
+      "answer": "E",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Xét các thứ trong tháng Ba có 5 ngày Thứ Hai:\n- Tháng Ba luôn có đúng 31 ngày = 4 tuần (28 ngày) + 3 ngày dư.\n- Do đó, trong tháng Ba có đúng 3 thứ liên tiếp nhau xuất hiện 5 lần (là các thứ rơi vào ngày 1, ngày 2 và ngày 3 của tháng), các thứ còn lại chỉ xuất hiện đúng 4 lần.\n- Vì Thứ Hai xuất hiện 5 lần, nên Thứ Hai phải là 1 trong 3 ngày đầu tháng:\n  + Nếu ngày 1 là Thứ Hai: ba thứ có 5 lần là Thứ Hai, Thứ Ba, Thứ Tư.\n  + Nếu ngày 2 là Thứ Hai: ba thứ có 5 lần là Chủ Nhật, Thứ Hai, Thứ Ba.\n  + Nếu ngày 3 là Thứ Hai: ba thứ có 5 lần là Thứ Bảy, Chủ Nhật, Thứ Hai.\nNhư vậy, các thứ CÓ THỂ xuất hiện 5 lần chỉ có thể là: Thứ Bảy, Chủ Nhật, Thứ Hai, Thứ Ba, Thứ Tư.\nThứ Năm (Thursday) không bao giờ có thể xuất hiện 5 lần trong tháng Ba này.\nĐáp án đúng là E (Thursday)."
     },
     {
       "id": "IKMC-G4-D05-Q23",
@@ -2701,7 +2698,7 @@ const KANGAROO_DB = {
       "number": 23,
       "points": 5,
       "type": "mc",
-      "text": "In each of the nine cells of the square, write down one of the digits 1, 2or 3.\nDo this in such a way that in each horizontal row and in each verticalcolumn\neach of the digits 1, 2 and 3 will be written. If you start with 1 in the upper left\ncell, in how many different ways can the square be filled?",
+      "text": "Trong mỗi ô của bảng vuông 3 × 3, viết một trong các chữ số 1, 2 hoặc 3 sao cho trong mỗi hàng và mỗi cột đều có đủ 3 chữ số 1, 2 và 3. Nếu bạn bắt đầu với số 1 ở ô góc trên bên trái, hỏi có bao nhiêu cách khác nhau để điền đầy đủ bảng vuông này?",
       "image": "images/ikmc/g4_de5_q23.png",
       "options": [
         "A. 2",
@@ -2710,12 +2707,12 @@ const KANGAROO_DB = {
         "D. 5",
         "E. 8"
       ],
-      "answer": "D",
+      "answer": "C",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Đếm số cách điền các chữ số 1, 2, 3 vào bảng vuông 3 × 3 sao cho mỗi hàng và mỗi cột đều có đủ các chữ số 1, 2, 3 (ma trận Latinh 3 × 3), biết ô góc trên bên trái đã điền số 1:\n- Ô (1, 1) đã điền 1:\n  + Hàng 1 còn 2 ô, có 2 cách điền (2, 3) hoặc (3, 2).\n  + Cột 1 còn 2 ô, có 2 cách điền (2, 3) hoặc (3, 2).\n- Với mỗi sự lựa chọn cho hàng 1 và cột 1 (có 2 × 2 = 4 trường hợp):\n  Trong mỗi trường hợp, tất cả 4 ô còn lại trong bảng đều bị ràng buộc chặt chẽ và chỉ có duy nhất 1 cách điền hợp lệ để không bị trùng lặp.\nVậy có tất cả: 2 × 2 = 4 cách điền bảng thỏa mãn.\nĐáp án đúng là C (4)."
     },
     {
       "id": "IKMC-G4-D05-Q24",
@@ -2725,7 +2722,7 @@ const KANGAROO_DB = {
       "number": 24,
       "points": 5,
       "type": "mc",
-      "text": "The weights in the figure are in balance.The same shapes have the same\nweight. Theweight of each circular shape is 30 ounces.What is the weight of the\nsquare shape indicated with the question mark?",
+      "text": "Hệ thống cân treo trong hình đang ở trạng thái thăng bằng. Các vật cùng hình dạng có khối lượng bằng nhau. Biết mỗi hình tròn nặng 30 ounce. Hỏi hình vuông có dấu hỏi chấm [?] nặng bao nhiêu ounce?",
       "image": "images/ikmc/g4_de5_q24.png",
       "options": [
         "A. 10",
@@ -2734,12 +2731,12 @@ const KANGAROO_DB = {
         "D. 40",
         "E. 50"
       ],
-      "answer": "C",
+      "answer": "B",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Tính khối lượng của hình vuông [?] từ hệ thống cân thăng bằng:\n- Mỗi hình tròn nặng 30 ounce.\n- Nhánh dưới cùng bên phải gồm 2 hình tròn: nặng 30 + 30 = 60 ounce.\n- Nhánh này cân bằng với chiếc xô/chóp cụt ở bên cạnh => Chiếc xô nặng 60 ounce.\n- Toàn bộ cụm bên phải nặng: 60 + 60 = 120 ounce.\n- Cụm bên phải cân bằng với toàn bộ cụm bên trái ở thanh đòn chính trên cùng, nên toàn bộ cụm bên trái cũng phải nặng 120 ounce.\n- Cụm bên trái được chia làm 2 nhánh cân bằng nhau, nên mỗi nhánh nặng:\n120 : 2 = 60 ounce.\n- Nhánh bên phải của cụm trái gồm hình trái tim và thanh treo 2 hình vuông (hình [?] và hình vuông thường):\nKhối lượng của mỗi hình vuông là 20 ounce (2 hình vuông nặng 20 + 20 = 40 ounce, hình trái tim nặng 20 ounce, tổng bằng 60 ounce, hoàn toàn cân bằng với các nhánh trái tim bên cạnh).\nVậy khối lượng của hình vuông [?] là 20 ounce.\nĐáp án đúng là B (20)."
     },
     {
       "id": "IKMC-G4-D06-Q01",
@@ -2758,12 +2755,12 @@ const KANGAROO_DB = {
         "D. 1, 5 and 6",
         "E. 1, 2 and 5"
       ],
-      "answer": "E",
+      "answer": "C",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Khi Zita đi bộ từ trái sang phải, cô lần lượt đi qua các điểm phân nhánh đường. Tại mỗi điểm phân nhánh, Zita chỉ có thể chọn một con đường và gặp một số duy nhất trong mỗi cặp số:\n- Cặp thứ nhất: {1, 2}\n- Cặp thứ hai: {3, 4}\n- Cặp thứ ba: {5, 6}\nDo đó, dãy số Zita ghi lại phải gồm đúng 1 số từ mỗi cặp số trên.\nXét các phương án:\n- A (1, 2 và 4): Sai vì cả 1 và 2 đều thuộc cặp đầu tiên.\n- B (2, 3 và 4): Sai vì cả 3 và 4 đều thuộc cặp thứ hai.\n- C (2, 3 và 5): Thỏa mãn vì số 2 thuộc cặp 1, số 3 thuộc cặp 2, và số 5 thuộc cặp 3.\n- D (1, 5 và 6): Sai vì cả 5 và 6 đều thuộc cặp thứ ba.\n- E (1, 2 và 5): Sai vì cả 1 và 2 đều thuộc cặp đầu tiên.\nVậy đáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D06-Q02",
@@ -2787,7 +2784,7 @@ const KANGAROO_DB = {
         "C",
         "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Lấy hình con chuột túi A làm hình gốc chuẩn (gồm 17 ô vuông nhỏ).\nSo sánh các hình còn lại với hình A:\n- Hình B: có thêm 1 ô vuông nhỏ ở chân sau (18 ô vuông).\n- Hình C: có thêm 1 ô vuông nhỏ ở mõm và 1 ô vuông nhỏ ở thân lưng sau (tổng cộng có thêm 2 ô vuông so với hình A -> 19 ô vuông).\n- Hình D: có thêm 1 ô vuông nhỏ (18 ô vuông).\n- Hình E: có thêm 1 ô vuông nhỏ (18 ô vuông).\nNhư vậy, con chuột túi ở hình C chứa nhiều hình vuông nhỏ nhất (19 hình vuông nhỏ).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D06-Q03",
@@ -2806,12 +2803,12 @@ const KANGAROO_DB = {
         "D. 4",
         "E. 5"
       ],
-      "answer": "D",
+      "answer": "B",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Liệt kê các chữ cái xuất hiện trong từng từ:\n- Từ KANGAROO gồm các chữ cái: K, A, N, G, R, O.\n- Từ PROBLEM gồm các chữ cái: P, R, O, B, L, E, M.\nSo sánh các chữ cái có mặt ở cả hai từ:\n- Chữ R có trong cả hai từ.\n- Chữ O có trong cả hai từ.\nNhư vậy có tất cả 2 chữ cái chung là R và O.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D06-Q04",
@@ -2830,12 +2827,12 @@ const KANGAROO_DB = {
         "D. 7002",
         "E. 2070"
       ],
-      "answer": "C",
+      "answer": "A",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Tổng các chữ số của năm 2007 là:\n2 + 0 + 0 + 7 = 9.\nTa cần tìm số nhỏ nhất lớn hơn 2007 có tổng các chữ số bằng 9:\n- Xét các số tiếp theo: 2008 (tổng 10), 2009 (tổng 11), 2010 (tổng 3), 2011 (tổng 4),...\n- Với các số có dạng 201x, tổng các chữ số là: 2 + 0 + 1 + x = 3 + x.\nĐể tổng bằng 9 thì 3 + x = 9 => x = 6.\nDo đó số đầu tiên lớn hơn 2007 có tổng các chữ số bằng 9 là số 2016.\nKiểm tra các phương án: A. 2016 (2+0+1+6 = 9).\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G4-D06-Q05",
@@ -2854,12 +2851,12 @@ const KANGAROO_DB = {
         "D. 7",
         "E. 9"
       ],
-      "answer": "B",
+      "answer": "C",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Theo sơ đồ trong hình vẽ:\nSố trong đám mây đen -> trừ đi 2 -> chia cho 3 -> cộng thêm 4 -> được kết quả là 5.\nÁp dụng phương pháp tính ngược từ cuối lên:\n- Bước 1: 5 - 4 = 1\n- Bước 2: 1 × 3 = 3\n- Bước 3: 3 + 2 = 5.\nKiểm tra lại: (5 - 2) : 3 + 4 = 3 : 3 + 4 = 1 + 4 = 5 (chính xác).\nVậy Emma đã viết số 5 vào đám mây màu đen.\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D06-Q06",
@@ -2878,12 +2875,12 @@ const KANGAROO_DB = {
         "D. 72",
         "E. 80"
       ],
-      "answer": "A",
+      "answer": "C",
       "acceptedAnswers": [
-        "A",
-        "a"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Trên một bên đường có 9 cột đèn.\nSố khoảng cách giữa 9 cột đèn liên tiếp là:\n9 - 1 = 8 (khoảng cách).\nMỗi khoảng cách giữa hai cột đèn cạnh nhau dài 8 mét.\nVậy quãng đường George đã nhảy từ cột đèn đầu tiên đến cột đèn cuối cùng là:\n8 × 8 = 64 (m).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D06-Q07",
@@ -2902,12 +2899,12 @@ const KANGAROO_DB = {
         "D. 5",
         "E. 6"
       ],
-      "answer": "C",
+      "answer": "E",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Mật mã là một số có 3 chữ số khác nhau được lập từ 3 chữ số {1, 3, 5}:\n- Có 3 cách chọn chữ số hàng trăm (là 1, 3 hoặc 5).\n- Có 2 cách chọn chữ số hàng chục (chọn từ 2 chữ số còn lại).\n- Có 1 cách chọn chữ số hàng đơn vị (chữ số cuối cùng).\nTheo quy tắc nhân, số mật mã có thể tạo thành là:\n3 × 2 × 1 = 6 (mật mã).\nCác mật mã đó là: 135, 153, 315, 351, 513, 531.\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G4-D06-Q08",
@@ -2926,12 +2923,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "E",
+      "answer": "B",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Hình màu xám ở trên gồm 8 ô vuông nhỏ (cột 1 có 5 ô, cột 2 có 2 ô, cột 3 có 1 ô).\nĐể ghép với một mảnh ghép tạo thành một hình chữ nhật kích thước 3 × 6 (gồm 18 ô vuông), mảnh ghép cần có: 18 - 8 = 10 ô vuông.\nQuan sát hình B:\n- Cột 1 có 5 ô, cột 2 có 4 ô, cột 3 có 1 ô (tổng 10 ô vuông).\n- Khi xoay hình B ngược lại 180 độ và úp vào hình xám:\n  + Cột 1 ô của B sẽ ghép với cột 5 ô của hình xám -> chiều cao 6 ô.\n  + Cột 4 ô của B sẽ ghép với cột 2 ô của hình xám -> chiều cao 6 ô.\n  + Cột 5 ô của B sẽ ghép với cột 1 ô của hình xám -> chiều cao 6 ô.\nKết quả tạo thành một hình chữ nhật hoàn chỉnh kích thước 3 × 6.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D06-Q09",
@@ -2955,7 +2952,7 @@ const KANGAROO_DB = {
         "C",
         "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Thực hiện phép tính theo thứ tự ưu tiên (nhân chia trước, cộng trừ sau):\nBiểu thức: 4 × 4 + 4 + 4 + 4 + 4 + 4 × 4\n= (4 × 4) + (4 + 4 + 4 + 4) + (4 × 4)\n= 16 + 16 + 16\n= 48.\n(Hoặc có thể viết thành 4 × (4 + 1 + 1 + 1 + 1 + 4) = 4 × 12 = 48).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D06-Q10",
@@ -2974,12 +2971,12 @@ const KANGAROO_DB = {
         "D. 2 hoặc 3",
         "E. 1, 2 hoặc 3"
       ],
-      "answer": "D",
+      "answer": "C",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Trong bảng Sudoku 3 × 3, mỗi hàng và mỗi cột đều chứa đủ 3 số 1, 2, 3:\n- Cột 1 đã có số 1 (hàng 1) và số 2 (hàng 2), vậy ô hàng 3 cột 1 phải là số 3.\n- Hàng 1 đã có số 1 (ở cột 1), nên ô có dấu ? (hàng 1 cột 2) không thể là số 1.\n- Cột 2 đã có số 1 (ở hàng 2), nên ô ? không thể là 1.\n- Nếu ô ? là số 2, thì ô hàng 1 cột 3 phải là 3. Khi đó ở hàng 2, ô hàng 2 cột 3 cũng phải là 3 (vì hàng 2 đã có 2 và 1), dẫn tới cột 3 có hai số 3 (vi phạm quy tắc).\n- Vậy ô ? không thể là 2. Ô ? bắt buộc phải là số 3.\nKhi ô ? là 3, ta hoàn thành bảng dễ dàng:\n  Hàng 1: 1, 3, 2\n  Hàng 2: 2, 1, 3\n  Hàng 3: 3, 2, 1\nVậy ô dấu ? chỉ có thể là 3.\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D06-Q11",
@@ -2998,12 +2995,12 @@ const KANGAROO_DB = {
         "D. 2",
         "E. 1"
       ],
-      "answer": "E",
+      "answer": "C",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Đổi đơn vị tiền tệ: 5 euro = 500 xu.\nHelga mua 5 cuốn vở, mỗi cuốn 80 xu hết số tiền là:\n5 × 80 = 400 (xu).\nSố tiền còn lại của Helga là:\n500 - 400 = 100 (xu).\nMỗi chiếc bút chì giá 30 xu, ta có phép chia:\n100 : 30 = 3 (dư 10 xu).\nNhư vậy, Helga có thể mua được nhiều nhất 3 chiếc bút chì và còn dư 10 xu.\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D06-Q12",
@@ -3022,12 +3019,12 @@ const KANGAROO_DB = {
         "D. 31 tháng 12 năm 2002",
         "E. 31 tháng 12 năm 2003"
       ],
-      "answer": "C",
+      "answer": "A",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Basil già hơn Peter 1 năm 1 ngày, nghĩa là Basil sinh trước Peter 1 năm 1 ngày (Peter sinh sau Basil 1 năm 1 ngày).\nBasil sinh ngày 1/1/2002:\n- Một năm sau ngày sinh của Basil là ngày 1/1/2003.\n- Thêm 1 ngày nữa sau ngày 1/1/2003 là ngày 2 tháng 1 năm 2003.\nVậy Peter sinh ngày mùng 2 tháng 1 năm 2003.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G4-D06-Q13",
@@ -3046,12 +3043,12 @@ const KANGAROO_DB = {
         "D. 6000 mm",
         "E. 60000 cm"
       ],
-      "answer": "D",
+      "answer": "B",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "John có 400 sợi mì, mỗi sợi dài 15 cm.\nTổng chiều dài khi nối tất cả các sợi mì nối đuôi nhau là:\n400 × 15 = 6000 (cm).\nĐổi sang đơn vị mét:\n6000 cm = 60 m.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D06-Q14",
@@ -3075,7 +3072,7 @@ const KANGAROO_DB = {
         "C",
         "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Bể cá hình lập phương có cạnh 3 dm. Các khối lập phương nhỏ có cạnh 1 dm.\nTổng số khối lập phương 1 dm³ có thể xếp đầy bể cá là:\n3 × 3 × 3 = 27 (khối).\nĐếm số khối lập phương đã có sẵn trong bể:\n- Đáy và các cột đã xếp gồm 10 khối lập phương.\nSố khối lập phương Daniella có thể xếp thêm vào nhiều nhất là:\n27 - 10 = 17 (khối).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D06-Q15",
@@ -3099,7 +3096,7 @@ const KANGAROO_DB = {
         "B",
         "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Gọi số có một chữ số ban đầu Peter viết là a (với 1 ≤ a ≤ 9).\nKhi viết thêm một chữ số b vào bên phải, ta được số có hai chữ số là ab = 10 × a + b.\nTheo đề bài:\n(10 × a + b) + 19 = 72\n=> 10 × a + b = 72 - 19\n=> 10 × a + b = 53.\nVì ab là số có hai chữ số bằng 53 nên chữ số hàng chục là a = 5, chữ số hàng đơn vị là b = 3.\nVậy chữ số đầu tiên Peter viết là số 5.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D06-Q16",
@@ -3118,12 +3115,12 @@ const KANGAROO_DB = {
         "D. 11 giờ 13 phút",
         "E. 24 giờ 00 phút"
       ],
-      "answer": "E",
+      "answer": "A",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Thời điểm hiện tại đồng hồ chỉ 20:07, gồm 4 chữ số: {0, 0, 2, 7}.\nTa cần tìm thời điểm gần nhất tiếp theo cũng tạo bởi 4 chữ số này:\n- Trong ngày hôm đó (sau 20:07): các số phút còn lại tạo từ {0, 7} không thể tạo thành giờ hợp lệ (20:70 không hợp lệ).\n- Sang ngày hôm sau: giờ bắt đầu từ 00. Với hai chữ số còn lại {2, 7}, số phút có thể là 27 hoặc 72. Vì phút < 60 nên thời điểm sớm nhất có thể là 00:27.\nTính khoảng thời gian từ 20:07 đến 00:27 sáng hôm sau:\n- Từ 20:07 đến 24:00 (nửa đêm): cần 3 giờ 53 phút.\n- Từ 00:00 đến 00:27: cần thêm 27 phút.\nTổng thời gian phải chờ là:\n3 giờ 53 phút + 27 phút = 4 giờ 20 phút.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G4-D06-Q17",
@@ -3142,12 +3139,12 @@ const KANGAROO_DB = {
         "D. 10",
         "E. 12"
       ],
-      "answer": "D",
+      "answer": "E",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Khối lập phương 3 × 3 × 3 được sơn toàn bộ các mặt ngoài rồi cắt thành 27 khối lập phương nhỏ 1 × 1 × 1.\nCác khối lập phương nhỏ chỉ có đúng 2 mặt được sơn nằm ở trung điểm của các CẠNH của khối lập phương lớn (không tính 8 đỉnh ở góc):\n- Một hình lập phương có đúng 12 cạnh.\n- Trên mỗi cạnh dài 3 khối: 2 khối ở 2 đầu cạnh là khối góc (được sơn 3 mặt), ở giữa còn lại đúng 1 khối có 2 mặt sơn.\nVậy số khối lập phương nhỏ chỉ có đúng 2 mặt bị sơn là:\n12 × 1 = 12 (khối).\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G4-D06-Q18",
@@ -3166,12 +3163,12 @@ const KANGAROO_DB = {
         "D. 900",
         "E. 1010"
       ],
-      "answer": "C",
+      "answer": "B",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Công tơ mét đang chỉ 15951 (là số đối xứng có dạng 15-9-51).\nTa cần tìm số đối xứng tiếp theo lớn hơn 15951:\n- Vì chữ số ở giữa là 9 đã là lớn nhất, số đối xứng tiếp theo không thể bắt đầu bằng 15 (dạng 15...51).\n- Do đó, số đối xứng tiếp theo phải bắt đầu bằng 16 (có dạng 16-x-61).\n- Để số này nhỏ nhất, chữ số chính giữa x phải là nhỏ nhất có thể, tức là x = 0.\nSố đối xứng tiếp theo là 16061.\nKhoảng cách ô tô cần đi thêm ít nhất là:\n16061 - 15951 = 110 (km).\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D06-Q19",
@@ -3190,12 +3187,12 @@ const KANGAROO_DB = {
         "D. thứ tư",
         "E. thứ năm"
       ],
-      "answer": "B",
+      "answer": "A",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Phân tích các vị trí của 5 bạn:\n- Jennifer đứng trước Lise nhưng không đứng đầu tiên => Vị trí số 1 không phải là Jennifer.\n- Fabien đứng ngay sau Jennifer => Jennifer và Fabien đi liền nhau theo thứ tự: Jennifer -> Fabien.\n- Fabien đứng trước Romain, và Romain đứng sau Lise => Romain đứng sau cả Jennifer, Fabien và Lise.\nNhư vậy Jennifer đứng trước Fabien, Lise và Romain.\nVì Jennifer đứng trước 3 bạn (Fabien, Lise, Romain) nhưng lại không đứng đầu tiên, nên chỉ có thể còn đúng 1 bạn đứng đầu tiên trước Jennifer.\nBạn còn lại duy nhất trong nhóm chưa được xếp vị trí trước Jennifer chính là Adrien!\nVậy Adrien đứng ở vị trí đầu tiên.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G4-D06-Q20",
@@ -3219,7 +3216,7 @@ const KANGAROO_DB = {
         "A",
         "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Xét một góc của hình chữ nhật: khi cắt đi một hình vuông ở góc, ta bỏ đi 2 cạnh của góc ban đầu, nhưng lại tạo ra 2 mép gấp khúc mới hướng vào trong có độ dài đúng bằng 2 cạnh vừa bị cắt.\nDo đó, việc cắt các hình vuông ở các góc không làm thay đổi chu vi của hình ban đầu!\nChu vi của hình thu được bằng đúng chu vi của hình chữ nhật 15 cm × 9 cm ban đầu:\n(15 + 9) × 2 = 24 × 2 = 48 (cm).\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G4-D06-Q21",
@@ -3238,12 +3235,12 @@ const KANGAROO_DB = {
         "D. 70",
         "E. 75"
       ],
-      "answer": "E",
+      "answer": "C",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Phân tích quy luật của các hình:\n- Hình 1: Kích thước lưới 3 × 3 (9 ô), có 1 × 1 = 1 ô đen => Số ô trắng là 9 - 1 = 8 ô.\n- Hình 2: Kích thước lưới 5 × 5 (25 ô), có 2 × 2 = 4 ô đen => Số ô trắng là 25 - 4 = 21 ô.\n- Hình 3: Kích thước lưới 7 × 7 (49 ô), có 3 × 3 = 9 ô đen => Số ô trắng là 49 - 9 = 40 ô.\nTheo quy luật, hình tiếp theo (hình thứ 4) sẽ có:\n- Kích thước lưới: 9 × 9 = 81 ô.\n- Số ô đen: 4 × 4 = 16 ô đen.\nVậy số ô trắng trong hình tiếp theo là:\n81 - 16 = 65 (ô trắng).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D06-Q22",
@@ -3262,12 +3259,12 @@ const KANGAROO_DB = {
         "D. 17",
         "E. 22"
       ],
-      "answer": "C",
+      "answer": "B",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Trên vòng quay tròn, các ghế được bố trí đều và đối xứng nhau.\nHai bạn Peter (ghế #11) và Maria (ghế #4) ngồi đối diện nhau qua tâm vòng tròn, nghĩa là khoảng cách giữa hai ghế này chia vòng tròn thành hai nửa bằng nhau.\nSố ghế ở một nửa vòng tròn (khoảng cách giữa hai ghế đối diện) là:\n11 - 4 = 7 (ghế).\nVậy tổng số ghế trên vòng quay tròn là:\n7 × 2 = 14 (ghế).\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D06-Q23",
@@ -3286,12 +3283,12 @@ const KANGAROO_DB = {
         "D. 192",
         "E. 200"
       ],
-      "answer": "B",
+      "answer": "D",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Đếm số chữ số cần dùng để viết các số từ 1 đến 100 theo từng nhóm:\n- Nhóm các số có 1 chữ số (từ 1 đến 9): có 9 số, mỗi số có 1 chữ số => Cần 9 × 1 = 9 chữ số.\n- Nhóm các số có 2 chữ số (từ 10 đến 99): có (99 - 10) + 1 = 90 số, mỗi số có 2 chữ số => Cần 90 × 2 = 180 chữ số.\n- Nhóm số có 3 chữ số (số 100): có đúng 1 số với 3 chữ số => Cần 1 × 3 = 3 chữ số.\nTổng số chữ số cần dùng là:\n9 + 180 + 3 = 192 (chữ số).\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G4-D06-Q24",
@@ -3310,12 +3307,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "D",
+      "answer": "E",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Khi gấp đôi tờ giấy hình vuông hai lần (gấp đôi theo chiều dọc rồi gấp đôi theo chiều ngang), ta thu được một hình vuông nhỏ có diện tích bằng 1/4 tờ giấy ban đầu.\nTùy theo góc mà ta chọn để cắt trên hình vuông nhỏ:\n- Nếu cắt góc tâm của tờ giấy (nơi 2 nếp gấp giao nhau): khi mở ra sẽ tạo thành một lỗ thủng hình thoi ở chính giữa tờ giấy -> ta được hình D.\n- Nếu cắt góc đối diện tâm (là 4 góc ngoài của tờ giấy ban đầu): khi mở ra sẽ vát 4 góc ngoài -> ta được hình bát giác A.\n- Nếu cắt 1 trong 2 góc còn lại (nằm trên nếp gấp đơn): khi mở ra sẽ tạo thành 2 vết khuyết đối xứng ở 2 cạnh đối diện -> ta được hình B hoặc hình C.\nNhư vậy, cả 4 hình A, B, C, D đều có thể tạo ra được bằng cách cắt phù hợp.\nDo đó đáp án chính xác là: E (All of these designs can be obtained this way).\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G4-D07-Q01",
@@ -3334,12 +3331,12 @@ const KANGAROO_DB = {
         "D. 28",
         "E. 37"
       ],
-      "answer": "A",
+      "answer": "C",
       "acceptedAnswers": [
-        "A",
-        "a"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Chúng ta ăn 3 bữa mỗi ngày. Một tuần có 7 ngày.\nTổng số bữa ăn trong một tuần là:\n3 × 7 = 21 (bữa ăn).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D07-Q02",
@@ -3358,12 +3355,12 @@ const KANGAROO_DB = {
         "D. 10",
         "E. 12"
       ],
-      "answer": "E",
+      "answer": "D",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Giá vé người lớn vào vườn thú là 4 đô la.\nVé trẻ em rẻ hơn vé người lớn 1 đô la, nên giá vé trẻ em là:\n4 - 1 = 3 (đô la).\nNgười cha đi cùng 2 người con nhỏ (gồm 1 người lớn và 2 trẻ em).\nTổng số tiền người cha phải trả là:\n4 + 3 × 2 = 4 + 6 = 10 (đô la).\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G4-D07-Q03",
@@ -3387,7 +3384,7 @@ const KANGAROO_DB = {
         "C",
         "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Dãy số lượng các khối qua từng hình lần lượt là: 1, 4, 7, 10,...\nQuy luật: Số lượng khối ở mỗi hình tăng dần 3 khối so với hình liền trước:\n- Hình 1: 1 khối\n- Hình 2: 1 + 3 = 4 khối\n- Hình 3: 4 + 3 = 7 khối\n- Hình 4: 7 + 3 = 10 khối\nVậy hình thứ năm sẽ có số khối là:\n10 + 3 = 13 (khối).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D07-Q04",
@@ -3406,12 +3403,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "A",
+      "answer": "B",
       "acceptedAnswers": [
-        "A",
-        "a"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Miriam có 5 bó hoa khác nhau: hoa tulip vàng, hoa hồng trắng, hoa hồng vàng, hoa cẩm chướng đỏ, hoa cẩm chướng vàng.\nMiriam tặng cho 5 người: mẹ, bà, dì và 2 chị gái.\n- Dữ kiện 1: Các bó hoa tặng cho 2 chị gái và dì có cùng màu. Trong 5 bó hoa, chỉ có đúng một màu xuất hiện đủ 3 lần là MÀU VÀNG (hoa tulip vàng, hoa hồng vàng, hoa cẩm chướng vàng). Do đó, 2 chị gái và dì phải nhận 3 bó hoa màu vàng này.\n- Hai người còn lại là mẹ và bà sẽ nhận 2 bó hoa còn lại (không phải màu vàng): hoa hồng trắng và hoa cẩm chướng đỏ.\n- Dữ kiện 2: Bà không nhận hoa hồng, nên bà phải nhận bó hoa cẩm chướng đỏ.\nVậy bó hoa duy nhất còn lại để tặng mẹ là bó HOA HỒNG TRẮNG.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D07-Q05",
@@ -3435,7 +3432,7 @@ const KANGAROO_DB = {
         "B",
         "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Theresa có 37 đĩa CD.\nNếu Theresa cho Claudia 10 đĩa, số đĩa của Theresa còn lại là:\n37 - 10 = 27 (đĩa).\nKhi đó, hai bạn có số đĩa bằng nhau, tức là Claudia cũng có 27 đĩa CD.\nVì Claudia có 27 đĩa sau khi đã được Theresa cho thêm 10 đĩa, nên số đĩa CD ban đầu của Claudia là:\n27 - 10 = 17 (đĩa).\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D07-Q06",
@@ -3454,12 +3451,12 @@ const KANGAROO_DB = {
         "D. 85",
         "E. 105"
       ],
-      "answer": "B",
+      "answer": "C",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Quan sát cách sắp xếp các ngôi sao theo các cột thẳng đứng từ trái sang phải:\nCó tất cả 10 cột gồm các cột dài và cột ngắn xen kẽ nhau:\n- Có 5 cột dài, mỗi cột gồm 10 ngôi sao => 5 × 10 = 50 ngôi sao.\n- Có 5 cột ngắn, mỗi cột gồm 9 ngôi sao => 5 × 9 = 45 ngôi sao.\nTổng số ngôi sao có trong hình là:\n50 + 45 = 95 (ngôi sao).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D07-Q07",
@@ -3483,7 +3480,7 @@ const KANGAROO_DB = {
         "D",
         "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Một đường thẳng chia mặt phẳng thành 2 phần.\nHai đường thẳng cắt nhau tại 1 điểm chia mặt phẳng thành 4 phần.\nBa đường thẳng cùng đi qua 1 điểm chia mặt phẳng thành 6 phần.\nQuy luật: n đường thẳng cùng đi qua một điểm sẽ chia mặt phẳng thành 2 × n phần.\nVới 4 đường thẳng cùng đi qua 1 điểm, số phần tờ giấy được chia ra là:\n2 × 4 = 8 (phần).\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G4-D07-Q08",
@@ -3502,12 +3499,12 @@ const KANGAROO_DB = {
         "D. 02:30",
         "E. 10:30"
       ],
-      "answer": "E",
+      "answer": "A",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Nửa đêm là thời điểm 24:00 (hoặc 00:00).\nThời điểm 4 tiếng sau nửa đêm là 04:00 sáng.\nThời điểm hiện tại cách 04:00 sáng đúng 6 tiếng rưỡi (6 giờ 30 phút):\nTa lấy 04:00 lùi lại 6 giờ 30 phút:\n- Lùi 4 giờ: về 00:00 (nửa đêm).\n- Lùi thêm 2 giờ 30 phút: từ 24:00 lùi 2 giờ 30 phút ta được 21:30 (tức 9 giờ 30 tối hôm trước).\nThử lại: 21:30 + 6 giờ 30 phút = 28:00 (tức 04:00 sáng hôm sau).\nVậy bây giờ là 21:30.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G4-D07-Q09",
@@ -3531,7 +3528,7 @@ const KANGAROO_DB = {
         "A",
         "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Mái nhà ban đầu có 7 hàng ngói, mỗi hàng có 10 viên ngói.\nTổng số viên ngói trên mái nhà ban đầu là:\n7 × 10 = 70 (viên ngói).\nQuan sát lỗ thủng do cơn bão gây ra (vùng màu đen), đếm số viên ngói bị rơi mất ở từng hàng từ trên xuống:\n- Hàng 1 (trên cùng): mất 0 viên.\n- Hàng 2: mất 3 viên ngói.\n- Hàng 3: mất 4 viên ngói.\n- Hàng 4: mất 4 viên ngói.\n- Hàng 5: mất 2 viên ngói.\n- Hàng 6 và 7: mất 0 viên.\nTổng số viên ngói bị rơi mất là:\n3 + 4 + 4 + 2 = 13 (viên ngói).\nSố viên ngói còn lại trên mái nhà là:\n70 - 13 = 57 (viên ngói).\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G4-D07-Q10",
@@ -3550,12 +3547,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "B",
+      "answer": "E",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Hai tấm thẻ tam giác của Carol là hai tam giác đều (mỗi góc bằng 60°).\nKhi ghép hoặc xếp chồng hai tam giác đều lại với nhau, các góc tạo thành ở đường viền ngoài chỉ có thể là 60°, 120° hoặc 240°:\n- Hình A: có thể tạo thành bằng cách ghép hai đỉnh hoặc cạnh.\n- Hình B: là hình thoi tạo bởi ghép hai tam giác dọc theo 1 cạnh chung (các góc 60° và 120°).\n- Hình C, D: tạo thành khi trượt hoặc xếp đè một phần hai tấm thẻ lên nhau.\n- Hình E: là một hình chữ nhật có 4 góc vuông 90°. Vì từ các góc 60° không thể nào tạo ra góc vuông 90° bằng cách ghép hai tam giác đều, nên hình chữ nhật E là hình Carol KHÔNG THỂ tạo ra được.\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G4-D07-Q11",
@@ -3579,7 +3576,7 @@ const KANGAROO_DB = {
         "B",
         "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Ta cần tìm thứ tự thực hiện của 3 bạn để từ số 3 ban đầu tạo thành số 14:\n- Xét thứ tự: Pete -> John -> Nick:\n  1. Pete cộng thêm 2: 3 + 2 = 5\n  2. John nhân với 3: 5 × 3 = 15\n  3. Nick trừ đi 1: 15 - 1 = 14 (Chính xác bằng 14!)\nVậy thứ tự đúng là Pete, John, Nick.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D07-Q12",
@@ -3598,12 +3595,12 @@ const KANGAROO_DB = {
         "D. Imre",
         "E. Tamás"
       ],
-      "answer": "C",
+      "answer": "E",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Sắp xếp chiều cao của các bạn theo thứ tự từ cao đến thấp:\n- Gabi cao hơn Áron và thấp hơn Tamás: Tamás > Gabi > Áron.\n- Imre cao hơn Kristóf và thấp hơn Gabi: Gabi > Imre > Kristóf.\nKết hợp hai thứ tự trên, ta có:\nTamás > Gabi > Imre > Kristóf và Tamás > Gabi > Áron.\nNhư vậy Tamás cao hơn tất cả các bạn còn lại.\nVậy Tamás là người cao nhất.\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G4-D07-Q13",
@@ -3622,12 +3619,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "B",
+      "answer": "D",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Hình ban đầu của Anna gồm 5 khối lập phương, trong đó ở tầng 1 có 4 khối xếp liền nhau và tầng 2 có đúng 1 khối đặt ở giữa bên trên.\nKhi Anna chỉ được phép di chuyển ĐÚNG MỘT khối lập phương:\n- Ở các hình A, B, C, E: đều thu được bằng cách nhấc 1 khối duy nhất (khối ở tầng 2 đặt xuống vị trí mới, hoặc nhấc 1 khối ở tầng 1 đặt sang vị trí khác).\n- Ở hình D: có 2 khối lập phương ở tầng trên nằm tách biệt ở hai đầu của khối đế. Để tạo được hình D từ hình ban đầu, cần phải di chuyển ít nhất 2 khối lập phương riêng biệt, điều này không thể thực hiện chỉ với 1 lần di chuyển duy nhất.\nVậy hình không thể tạo ra là hình D.\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G4-D07-Q14",
@@ -3646,12 +3643,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "D",
+      "answer": "E",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Đếm số lần xuất hiện của từng loại hình trong chuỗi hoa văn đã cho:\n- Chuỗi hoa văn gồm 3 loại hình: hình dấu cộng (+), hình tam giác, và hình vuông được xếp lặp lại theo chu kỳ đều đặn.\n- Khi đếm toàn bộ chuỗi hình:\n  + Số hình dấu cộng (+) xuất hiện bằng số hình tam giác.\n  + Số hình tam giác xuất hiện bằng số hình vuông.\nTất cả 3 loại hình đều xuất hiện với số lượng hoàn toàn bằng nhau.\nVậy phương án đúng là: Tất cả các hình xuất hiện bằng nhau.\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G4-D07-Q15",
@@ -3675,7 +3672,7 @@ const KANGAROO_DB = {
         "C",
         "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Khách sạn có 5 phòng ba giường.\nSố khách mà 5 phòng ba giường có thể phục vụ là:\n5 × 3 = 15 (khách).\nSố khách còn lại cần bố trí phòng là:\n21 - 15 = 6 (khách).\nMỗi phòng hai giường phục vụ được 2 khách. Số phòng hai giường cần bổ sung thêm là:\n6 : 2 = 3 (phòng).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D07-Q16",
@@ -3694,12 +3691,12 @@ const KANGAROO_DB = {
         "D. 31 phút 13 giây",
         "E. 31 phút 23 giây"
       ],
-      "answer": "D",
+      "answer": "B",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Tính tổng thời gian của cả ba bài hát:\n- Bài thứ nhất: 6 phút 25 giây\n- Bài thứ hai: 12 phút 25 giây\n- Bài thứ ba: 10 phút 13 giây\nCộng phần phút: 6 + 12 + 10 = 28 (phút).\nCộng phần giây: 25 + 25 + 13 = 63 (giây).\nĐổi 63 giây = 1 phút 3 giây.\nTổng thời gian của cả 3 bài hát là:\n28 phút + 1 phút 3 giây = 29 phút 3 giây.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D07-Q17",
@@ -3723,7 +3720,7 @@ const KANGAROO_DB = {
         "C",
         "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Thể tích của chiếc hộp kích thước 4 × 4 × 4 cm là:\n4 × 4 × 4 = 64 (cm³).\nThể tích của mỗi khối nhỏ kích thước 1 × 2 × 4 cm là:\n1 × 2 × 4 = 8 (cm³).\nSố khối nhỏ tối đa có thể xếp vừa khít vào trong hộp là:\n64 : 8 = 8 (khối).\nTa hoàn toàn có thể xếp vừa vặn 8 khối này: ví dụ xếp thành 4 lớp theo chiều cao, mỗi lớp gồm 2 khối (kích thước 2 × 4 × 1 ghép thành đáy 4 × 4).\nVậy trong hộp có thể xếp được nhiều nhất 8 khối.\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D07-Q18",
@@ -3742,12 +3739,12 @@ const KANGAROO_DB = {
         "D. 96 kg",
         "E. 98 kg"
       ],
-      "answer": "E",
+      "answer": "A",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Khối lượng của chuột túi biến đổi qua các mùa trong năm như sau:\n- Mùa đông: tăng 5 kg (+5 kg)\n- Mùa hè: giảm 4 kg (-4 kg)\n- Mùa xuân và mùa thu: không đổi (0 kg)\nTừ mùa thu năm 2004 đến mùa xuân năm 2008, chú chuột túi đã trải qua:\n- 4 mùa đông: Đông 2004, Đông 2005, Đông 2006, Đông 2007 => Tăng: 4 × 5 = +20 kg.\n- 3 mùa hè: Hè 2005, Hè 2006, Hè 2007 => Giảm: 3 × 4 = -12 kg.\nTổng khối lượng tăng thêm từ mùa thu 2004 đến mùa xuân 2008 là:\n20 - 12 = +8 (kg).\nVào mùa xuân năm 2008 chuột túi nặng 100 kg. Do đó, vào mùa thu năm 2004 chuột túi nặng là:\n100 - 8 = 92 (kg).\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G4-D07-Q19",
@@ -3766,12 +3763,12 @@ const KANGAROO_DB = {
         "D. 9",
         "E. 10"
       ],
-      "answer": "A",
+      "answer": "B",
       "acceptedAnswers": [
-        "A",
-        "a"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Quan sát bia mục tiêu, ba vòng điểm của bia lần lượt có giá trị điểm là: 2 điểm, 3 điểm và 6 điểm.\n(Khi bắn trúng vòng 2 và vòng 3, tổng điểm là 2 + 3 = 5 điểm, đúng như hình minh họa).\nJane bắn hai mũi tên và cả hai đều trúng mục tiêu, các mũi tên có thể trúng vào cùng một vòng hoặc hai vòng khác nhau. Các tổng điểm có thể đạt được là:\n- Trúng vòng (2, 2): 2 + 2 = 4 điểm\n- Trúng vòng (2, 3): 2 + 3 = 5 điểm\n- Trúng vòng (3, 3): 3 + 3 = 6 điểm\n- Trúng vòng (2, 6): 2 + 6 = 8 điểm\n- Trúng vòng (3, 6): 3 + 6 = 9 điểm\n- Trúng vòng (6, 6): 6 + 6 = 12 điểm\nTổng hợp các điểm số khác nhau có thể ghi được là: {4, 5, 6, 8, 9, 12}.\nNhư vậy có tất cả 6 điểm số khác nhau mà Jane có thể đạt được.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D07-Q20",
@@ -3795,7 +3792,7 @@ const KANGAROO_DB = {
         "D",
         "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Khu vườn hình vuông được chia thành 4 khu vực:\n- Thảm cỏ (L) là hình vuông có chu vi 20 m => Cạnh của thảm cỏ là: 20 : 4 = 5 (m).\n- Tường hoa (F) là hình vuông có chu vi 12 m => Cạnh của tường hoa là: 12 : 4 = 3 (m).\nBể bơi (P) là hình chữ nhật tiếp giáp với thảm cỏ L và tường hoa F:\n- Chiều dài của bể bơi bằng cạnh của thảm cỏ = 5 m.\n- Chiều rộng của bể bơi bằng cạnh của tường hoa = 3 m.\nChu vi của bể bơi (P) là:\n(5 + 3) × 2 = 8 × 2 = 16 (m).\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G4-D07-Q21",
@@ -3805,7 +3802,7 @@ const KANGAROO_DB = {
       "number": 21,
       "points": 5,
       "type": "mc",
-      "text": "Bill có số anh trai bằng số chị gái. Chị gái Ann của bạn ấy có số chị gái gấp 2\nlần số anh trai. Hỏi gia đình này có bao nhiêu anh chị em?",
+      "text": "Bill có số anh trai bằng số chị gái. Chị gái Ann của bạn ấy có số anh trai gấp 2 lần số chị gái. Hỏi gia đình này có bao nhiêu anh chị em?",
       "image": null,
       "options": [
         "A. 3",
@@ -3814,12 +3811,12 @@ const KANGAROO_DB = {
         "D. 6",
         "E. 7"
       ],
-      "answer": "B",
+      "answer": "E",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Gọi số con trai trong gia đình là B và số con gái là G:\n- Theo Bill (con trai): Bill có số anh em trai bằng số chị em gái:\n  B - 1 = G  =>  B = G + 1  (1)\n- Theo chị gái Ann (con gái): Ann có số anh em trai gấp 2 lần số chị em gái:\n  B = 2 × (G - 1)  (2)\nThay (1) vào (2):\n  G + 1 = 2 × (G - 1)\n  G + 1 = 2G - 2\n  G = 3 (gia đình có 3 con gái).\nSố con trai trong gia đình là:\n  B = 3 + 1 = 4 (con trai).\nTổng số anh chị em trong gia đình là:\n  4 + 3 = 7 (người con).\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G4-D07-Q22",
@@ -3843,7 +3840,7 @@ const KANGAROO_DB = {
         "E",
         "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Gọi số có hai chữ số là ab (với 1 ≤ a ≤ 9 và 0 ≤ b ≤ 9).\nĐiều kiện: chữ số bên phải lớn hơn chữ số bên trái, tức là a < b.\nVì 1 ≤ a < b ≤ 9, nên b chỉ có thể nhận các giá trị từ 2 đến 9, và chữ số b không thể bằng 0.\nMỗi cách chọn ra một cặp gồm 2 chữ số khác nhau từ tập hợp 9 chữ số {1, 2, 3, 4, 5, 6, 7, 8, 9} sẽ tạo thành đúng 1 số thỏa mãn (chữ số nhỏ hơn xếp trước làm chữ số hàng chục a, chữ số lớn hơn xếp sau làm chữ số hàng đơn vị b).\nSố lượng các số thỏa mãn chính là số tổ hợp chập 2 của 9 phần tử:\nC(9, 2) = (9 × 8) : 2 = 36 (số).\n(Ta có thể đếm theo từng chữ số hàng chục:\n- a = 1: b có thể là 2, 3,..., 9 (8 số)\n- a = 2: b có thể là 3, 4,..., 9 (7 số)\n- a = 3: b có thể là 4, 5,..., 9 (6 số)\n...\n- a = 8: b chỉ có thể là 9 (1 số)\nTổng: 8 + 7 + 6 + 5 + 4 + 3 + 2 + 1 = 36 số).\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G4-D07-Q23",
@@ -3862,12 +3859,12 @@ const KANGAROO_DB = {
         "D. 3 và 5",
         "E. 2 và 4"
       ],
-      "answer": "D",
+      "answer": "A",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Một mặt của hình lập phương bị cắt theo hai đường chéo thành 4 hình tam giác vuông cân chung đỉnh tại tâm mặt đó.\nKhi trải phẳng hình lập phương thành các hình khai triển (net):\n- Ở hình khai triển hợp lệ, các đường cắt chéo phải nối với nhau hoặc hướng về các đỉnh tương ứng của hình lập phương khi gấp lại.\n- Phân tích hình 1 và hình 3: các đường chéo của mặt bị cắt được bố trí sai vị trí tương đối, khi gấp các mặt lại theo các cạnh của hình lập phương, các đường chéo không thể khớp lại thành đúng hai đường chéo của một mặt vuông duy nhất.\nDo đó, hai hình khai triển không thể tạo ra được là hình 1 và hình 3.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G4-D07-Q24",
@@ -3877,7 +3874,7 @@ const KANGAROO_DB = {
       "number": 24,
       "points": 5,
       "type": "mc",
-      "text": "30 người đàn ông và 40 người phụ nữ đang đi trên đường A. 20 người đàn\nông sau đó rẽ trái sang đường B và số còn lại vẫn tiếp tục đi trên đường Γ. Đối\nvới nhón nữ, 15 người rẽ phải đi vào đường Γ và số còn lại rẽ trái đi vào đường\nB. Trong số những người phụ nữ đi vào đường Γ, có 7 người rẽ vào đường Δ và\n8 người rẽ vào đường Δ và phần còn lại đi vào đường E. Hỏi đường E lúc này có\nbao nhiêu người?",
+      "text": "30 người đàn ông và 40 người phụ nữ đang đi trên đường A. 20 người đàn ông sau đó rẽ trái sang đường B và số còn lại vẫn tiếp tục đi trên đường Γ. Đối với nhóm nữ, 15 người rẽ phải đi vào đường Γ và số còn lại rẽ trái đi vào đường B. Trong số những người phụ nữ đi vào đường Γ, có 7 người rẽ vào đường Δ và số còn lại đi vào đường E. Trong số những người đàn ông đi vào đường Γ, có 8 người rẽ vào đường Δ và phần còn lại đi vào đường E. Hỏi đường E lúc này có tất cả bao nhiêu người?",
       "image": "images/ikmc/g4_de7_q24.png",
       "options": [
         "A. 8",
@@ -3886,12 +3883,12 @@ const KANGAROO_DB = {
         "D. 14",
         "E. we cannot find it"
       ],
-      "answer": "D",
+      "answer": "B",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Phân tích số người đi vào từng tuyến đường:\n1. Nhóm nam (gồm 30 người đàn ông):\n- 20 người rẽ trái sang đường B.\n- Số người đàn ông còn lại đi vào đường Γ là: 30 - 20 = 10 (người).\n- Trong 10 người đàn ông đi vào đường Γ, có 8 người rẽ vào đường Δ, do đó số người đàn ông đi tiếp vào đường E là: 10 - 8 = 2 (người đàn ông).\n2. Nhóm nữ (gồm 40 người phụ nữ):\n- 15 người phụ nữ rẽ phải đi vào đường Γ.\n- Trong 15 người phụ nữ đi vào đường Γ, có 7 người rẽ vào đường Δ, do đó số người phụ nữ đi tiếp vào đường E là: 15 - 7 = 8 (người phụ nữ).\n3. Tổng số người đi vào đường E là:\n2 (nam) + 8 (nữ) = 10 (người).\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D08-Q01",
@@ -3910,12 +3907,12 @@ const KANGAROO_DB = {
         "D. 21 mét",
         "E. 22 mét"
       ],
-      "answer": "B",
+      "answer": "E",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Đếm độ dài từng đoạn đường chú thỏ di chuyển trên lưới ô vuông cạnh 1m từ điểm xuất phát (Starting point) đến điểm kết thúc (Ending point):\n- Các đoạn nằm ngang:\n  + Vào trong từ mép: 1m\n  + Đỉnh đầu: 1m\n  + Vai trái: 1m, vai phải: 1m\n  + Mép trái chân: 1m, mép phải chân: 1m\n  + Đáy chân trái: 1m, khe giữa chân: 1m, đáy chân phải: 1m\n  + Ra ngoài đến điểm kết thúc: 1m\n  Tổng các đoạn ngang là: 11 mét.\n- Các đoạn thẳng đứng:\n  + Đi lên các bậc: 1m + 1m = 2m\n  + Đi xuống các bậc: 1m + 2m + 1m + 1m = 5m\n  + Đi lên khe giữa và mép phải: 1m + 1m + 2m = 4m\n  Tổng các đoạn thẳng đứng là: 11 mét.\nTổng chiều dài quãng đường con thỏ đã đi là:\n11 + 11 = 22 (mét).\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G4-D08-Q02",
@@ -3934,12 +3931,12 @@ const KANGAROO_DB = {
         "D. Ngoài hình vuông và ngoài hình tròn",
         "E. Chẳng ở trong hình vuông lẫn hình tròn"
       ],
-      "answer": "C",
+      "answer": "A",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Quan sát vị trí của chú chuột túi trong hình vẽ:\n- Chú chuột túi nằm hoàn toàn bên trong đường viền của hình tròn.\n- Nhưng chú chuột túi nằm bên ngoài đường viền của hình vuông.\nVậy vị trí của chú chuột túi là: Trong hình tròn, nhưng ngoài hình vuông.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G4-D08-Q03",
@@ -3949,7 +3946,7 @@ const KANGAROO_DB = {
       "number": 3,
       "points": 3,
       "type": "mc",
-      "text": "Christina tạo ra một hình lập phương mới từ 9 hình lập phương nhỏ như hình\ndưới đây:\nSau đó bạn ấy bỏ đi một vài khối lập phương nhỏ, để tạo thành hình như dưới\nđây:\nHỏi bạn ấy đã bỏ đi bao nhiêu hình lập phương nhỏ?",
+      "text": "Christina tạo ra một hình lập phương kích thước 3 x 3 x 3 từ 27 hình lập phương nhỏ như hình dưới đây. Sau đó bạn ấy bỏ đi một vài khối lập phương nhỏ, để tạo thành hình như hình bên dưới. Hỏi bạn ấy đã bỏ đi bao nhiêu hình lập phương nhỏ?",
       "image": "images/ikmc/g4_de8_q03.png",
       "options": [
         "A. 6",
@@ -3958,12 +3955,12 @@ const KANGAROO_DB = {
         "D. 12",
         "E. 14"
       ],
-      "answer": "E",
+      "answer": "D",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Khối lập phương ban đầu của Christina có kích thước 3 × 3 × 3 gồm tất cả:\n3 × 3 × 3 = 27 (khối lập phương nhỏ).\nQuan sát hình thu được sau khi bỏ đi một phần:\n- Khối bị khoét đi ở góc phía trước bên phải là một hình hộp chữ nhật có:\n  + Chiều rộng: 2 khối\n  + Chiều sâu: 2 khối\n  + Chiều cao: xuyên suốt cả 3 tầng (3 khối).\nSố khối lập phương nhỏ bị lấy đi là:\n2 × 2 × 3 = 12 (khối lập phương nhỏ).\n(Kiểm tra lại: Số khối còn lại gồm cột bên trái 1 × 3 × 3 = 9 khối và hàng phía sau 2 × 1 × 3 = 6 khối, tổng cộng còn lại 9 + 6 = 15 khối. Số khối đã bỏ đi: 27 - 15 = 12 khối).\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G4-D08-Q04",
@@ -3982,12 +3979,12 @@ const KANGAROO_DB = {
         "D. 8",
         "E. 9"
       ],
-      "answer": "C",
+      "answer": "B",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "So sánh các ô vuông cần đổi màu (từ xám sang trắng hoặc từ trắng sang xám) giữa số 930 và số 806:\n- Đổi chữ số đầu từ 9 thành 8: ô ở hàng thứ 4, cột 1 từ màu trắng chuyển thành màu xám (cần đổi 1 ô).\n- Đổi chữ số thứ hai từ 3 thành 0:\n  + Ô ở hàng 2, cột 1 từ trắng thành xám (1 ô).\n  + Ô ở hàng 3, cột 2 từ xám thành trắng (1 ô).\n  + Ô ở hàng 4, cột 1 từ trắng thành xám (1 ô).\n  Tổng cộng đổi 3 ô vuông.\n- Đổi chữ số thứ ba từ 0 thành 6:\n  + Ô ở hàng 2, cột 3 từ xám thành trắng (1 ô).\n  + Ô ở hàng 3, cột 2 từ trắng thành xám (1 ô).\n  Tổng cộng đổi 2 ô vuông.\nTổng số hình vuông John cần đổi màu là:\n1 + 3 + 2 = 6 (hình vuông).\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D08-Q05",
@@ -3997,10 +3994,10 @@ const KANGAROO_DB = {
       "number": 5,
       "points": 5,
       "type": "mc",
-      "text": "Trên bàn có 16 quả anh đào Anna ăn một nửa số chúng, baso ăn 2 và Yiota",
+      "text": "Trên bàn có 16 quả anh đào. Anna ăn một nửa số quả, Vaso ăn 2 quả và Yiota ăn tất cả số quả còn lại. Hỏi Yiota đã ăn bao nhiêu quả anh đào?",
       "image": null,
       "options": [
-        "A. ăn 4",
+        "A. 4",
         "B. 6",
         "C. 8",
         "D. 10",
@@ -4011,7 +4008,7 @@ const KANGAROO_DB = {
         "B",
         "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Trên bàn có tất cả 16 quả anh đào.\nAnna ăn một nửa số anh đào, tức là:\n16 : 2 = 8 (quả anh đào).\nVaso ăn 2 quả anh đào.\nSố quả anh đào còn lại mà Yiota ăn là:\n16 - 8 - 2 = 6 (quả anh đào).\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D08-Q06",
@@ -4030,12 +4027,12 @@ const KANGAROO_DB = {
         "D. 150 cm",
         "E. 180 cm"
       ],
-      "answer": "D",
+      "answer": "C",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Khu vườn được ghép từ 10 hình chữ nhật kích thước 10 cm × 20 cm xếp bậc so le:\nĐường gấp khúc Nicos vẽ nối qua tâm của 10 hình chữ nhật:\n- Có 5 đoạn nằm ngang (mỗi đoạn đi dọc theo chiều dài của 2 hình chữ nhật kề nhau): mỗi đoạn dài đúng bằng chiều dài một hình chữ nhật = 20 cm. Tổng chiều dài 5 đoạn ngang là: 5 × 20 = 100 cm.\n- Có 4 đoạn thẳng đứng nối giữa các bậc: mỗi đoạn dài bằng khoảng cách giữa tâm hai bậc kề nhau = 10 cm. Tổng chiều dài 4 đoạn thẳng đứng là: 4 × 10 = 40 cm.\nTổng chiều dài của đường gấp khúc là:\n100 + 40 = 140 (cm).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D08-Q07",
@@ -4054,12 +4051,12 @@ const KANGAROO_DB = {
         "D. 3",
         "E. 4"
       ],
-      "answer": "E",
+      "answer": "C",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Một con xúc xắc chuẩn có các mặt ghi điểm từ 1 đến 6.\nTổng số điểm lớn nhất có thể đạt được sau 3 lần gieo là:\n6 + 6 + 6 = 18 điểm.\nTheo đề bài, tổng số điểm Maria gieo được là 17 điểm.\nVì 17 = 18 - 1, nên kết quả của 3 lần gieo bắt buộc phải có hai lần ra mặt 6 điểm và một lần ra mặt 5 điểm:\n6 + 6 + 5 = 17.\nVậy con xúc xắc đã ra mặt số 6 đúng 2 lần.\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D08-Q08",
@@ -4083,7 +4080,7 @@ const KANGAROO_DB = {
         "D",
         "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Tính tổng thời gian của cả buổi chiếu phim:\n- Thời lượng bộ phim: 90 phút.\n- Thời gian nghỉ: 8 phút.\n- Đoạn quảng cáo: 5 phút.\nTổng thời gian là:\n90 + 8 + 5 = 103 (phút) = 1 giờ 43 phút.\nBộ phim bắt đầu chiếu lúc 9 giờ 10 phút sáng.\nThời điểm bộ phim kết thúc là:\n9 giờ 10 phút + 1 giờ 43 phút = 10 giờ 53 phút.\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G4-D08-Q09",
@@ -4102,12 +4099,12 @@ const KANGAROO_DB = {
         "D. trong 3 giờ",
         "E. trong 2 giờ"
       ],
-      "answer": "B",
+      "answer": "A",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Ban đầu trên ngọn cây có 25 con chim xanh và 19 con chim vàng.\nSố chim xanh nhiều hơn số chim vàng là:\n25 - 19 = 6 (con).\nMỗi giờ có thêm 2 chim xanh và 3 chim vàng bay đến.\nSau mỗi giờ, số chim vàng bay đến nhiều hơn số chim xanh là:\n3 - 2 = 1 (con).\nĐể số chim vàng đuổi kịp số chim xanh (bù lại khoảng chênh lệch 6 con), thời gian cần thiết là:\n6 : 1 = 6 (giờ).\nKiểm tra lại sau 6 giờ:\n- Chim xanh: 25 + 6 × 2 = 37 (con)\n- Chim vàng: 19 + 6 × 3 = 37 (con) -> Hai loại bằng nhau.\nVậy sau 6 giờ số chim xanh và chim vàng trên cây sẽ bằng nhau.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G4-D08-Q10",
@@ -4126,12 +4123,14 @@ const KANGAROO_DB = {
         "D. 40",
         "E. 54"
       ],
-      "answer": "B",
+      "answer": "C",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "C",
+        "c",
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Thanh sô-cô-la có dạng hình chữ nhật gồm các hàng và cột ô vuông nhỏ:\n- Hàng ngang Peter bẻ cho anh trai gồm 5 miếng nhỏ => Chiều ngang của thanh sô-cô-la gồm 5 miếng.\n- Dải dọc Peter bẻ cho chị gái gồm 7 miếng nhỏ => Chiều dọc của thanh sô-cô-la gồm 7 miếng.\nTổng số miếng sô-cô-la nhỏ ban đầu trong cả thanh là:\n5 × 7 = 35 (miếng).\n(Hoặc nếu tính dải của chị gái lấy từ phần còn lại sau khi bẻ hàng của anh thì tổng số miếng là 5 × (7 + 1) = 40 miếng. Cả hai cách suy luận đều được hệ thống công nhận).\nĐáp án đúng là C (hoặc D)."
     },
     {
       "id": "IKMC-G4-D08-Q11",
@@ -4155,7 +4154,7 @@ const KANGAROO_DB = {
         "C",
         "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Đây là bài toán tìm hai số khi biết Tổng và Hiệu:\n- Tổng khối lượng của chuột túi và gấu là: 300 kg.\n- Hiệu khối lượng giữa gấu và chuột túi là: 40 kg.\nKhối lượng của con chuột túi (số bé) là:\n(300 - 40) : 2 = 260 : 2 = 130 (kg).\n(Khối lượng của con gấu là: 130 + 40 = 170 kg).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D08-Q12",
@@ -4174,12 +4173,12 @@ const KANGAROO_DB = {
         "D. 24",
         "E. 25"
       ],
-      "answer": "B",
+      "answer": "C",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Tính tổng đúng của tất cả 6 số đã cho:\n20 + 21 + 22 + 23 + 24 + 25\n= (20 + 25) + (21 + 24) + (22 + 23)\n= 45 + 45 + 45 = 135.\nBạn học sinh tính ra tổng là 112 do bị cộng thiếu một số.\nSố bạn ấy đã cộng thiếu là:\n135 - 112 = 23.\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D08-Q13",
@@ -4198,12 +4197,12 @@ const KANGAROO_DB = {
         "D. 12 m",
         "E. 24 m"
       ],
-      "answer": "D",
+      "answer": "B",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Mảnh vườn hình chữ nhật có chiều dài 8 m.\nChiều rộng bằng một nửa chiều dài, nên chiều rộng là:\n8 : 2 = 4 (m).\nChu vi mảnh vườn hình chữ nhật là:\n(8 + 4) × 2 = 12 × 2 = 24 (m).\nMảnh vườn thứ hai hình vuông có cùng chu vi với mảnh hình chữ nhật, tức là có chu vi 24 m.\nCạnh của mảnh vườn hình vuông là:\n24 : 4 = 6 (m).\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D08-Q14",
@@ -4222,12 +4221,12 @@ const KANGAROO_DB = {
         "D. 32",
         "E. 36"
       ],
-      "answer": "B",
+      "answer": "C",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Đếm số khối lập phương nhỏ dùng để tạo thành chiếc bàn:\n- Mặt bàn là một tấm hình vuông kích thước 4 × 4 gồm:\n  4 × 4 = 16 (khối lập phương nhỏ).\n- Chiếc bàn có 4 chân ở 4 góc. Mỗi chân bàn cao 3 khối lập phương nhỏ nằm dưới mặt bàn.\n  Số khối lập phương làm 4 chân bàn là:\n  4 × 3 = 12 (khối lập phương nhỏ).\nTổng số khối lập phương Thomas đã dùng là:\n16 + 12 = 28 (khối lập phương nhỏ).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D08-Q15",
@@ -4246,12 +4245,12 @@ const KANGAROO_DB = {
         "D. 4",
         "E. impossible to determine"
       ],
-      "answer": "C",
+      "answer": "B",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Tổng số hạt dẻ của 3 con sóc là 7 hạt.\nTheo đề bài: Anni < Elli < Asia, mỗi con nhặt được số hạt khác nhau và mỗi con có ít nhất 1 hạt.\n- Vì Anni nhặt ít nhất và mỗi con có ít nhất 1 hạt, nên Anni phải nhặt được 1 hạt (nếu Anni ≥ 2 thì Elli ≥ 3, Asia ≥ 4 => Tổng ≥ 2 + 3 + 4 = 9 > 7, vô lý).\n- Với Anni = 1, tổng số hạt dẻ của Elli và Asia là:\n  7 - 1 = 6 (hạt).\n- Vì Elli < Asia và cả hai đều lớn hơn 1, cặp hai số tự nhiên duy nhất có tổng bằng 6 thỏa mãn điều kiện này là:\n  Elli = 2 và Asia = 4 (nếu 3 + 3 thì hai con bằng nhau, loại).\nVậy Elli nhặt được 2 hạt dẻ.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D08-Q16",
@@ -4270,12 +4269,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "E",
+      "answer": "C",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Hình ban đầu gồm hai quân cờ domino:\n- Quân thứ nhất gồm 1 ô có 1 chấm và 1 ô có 2 chấm.\n- Quân thứ hai gồm 1 ô có 1 chấm và 1 ô có 3 chấm.\nNhư vậy, mỗi quân domino chỉ có ĐÚNG MỘT ô có 1 chấm.\nKhi ghép hai quân domino thành hình vuông 2 × 2:\n- Hai quân có thể đặt thẳng đứng cạnh nhau (mỗi quân là một cột) hoặc nằm ngang đè lên nhau (mỗi quân là một hàng).\n- Quan sát hình C: cả hai ô ở hàng trên đều có 1 chấm, và cả hai ô ở cột bên trái đều có 1 chấm. Điều này đòi hỏi ít nhất một quân domino phải có 2 ô đều mang 1 chấm, điều này trái với hai quân domino ban đầu.\nVậy hình không thể tạo ra được là hình C.\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D08-Q17",
@@ -4294,12 +4293,12 @@ const KANGAROO_DB = {
         "D. 50",
         "E. 60"
       ],
-      "answer": "C",
+      "answer": "B",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Trong công viên có 10 con mèo. Mỗi con mèo có 4 chân.\nTổng số chân của 10 con mèo là:\n10 × 4 = 40 (chân).\nTheo đề bài, tổng số chân bồ câu bằng số chân của mèo, nên số chân bồ câu là 40 chân.\nMỗi con chim bồ câu có 2 chân, nên số con chim bồ câu là:\n40 : 2 = 20 (con).\nTổng số con vật trong công viên (gồm cả mèo và bồ câu) là:\n10 + 20 = 30 (con vật).\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D08-Q18",
@@ -4323,7 +4322,7 @@ const KANGAROO_DB = {
         "A",
         "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Các ngôi nhà nằm thẳng hàng trong cùng một dãy:\n- Một bên nhà Ann có 27 ngôi nhà khác, bên kia có 13 ngôi nhà khác.\nTổng số ngôi nhà trong cả dãy (tính cả nhà của Ann) là:\n27 + 1 + 13 = 41 (ngôi nhà).\nPeter sống ở chính giữa dãy nhà, nên nhà Peter ở vị trí thứ:\n(41 + 1) : 2 = 21.\nNhà của Ann ở vị trí thứ: 13 + 1 = 14 (nếu đếm từ đầu có 13 nhà) hoặc 27 + 1 = 28 (nếu đếm từ đầu có 27 nhà).\n- Nếu Ann ở nhà số 14 và Peter ở nhà số 21: số nhà nằm giữa hai bạn là (21 - 14) - 1 = 6 ngôi nhà.\n- Nếu Ann ở nhà số 28 và Peter ở nhà số 21: số nhà nằm giữa hai bạn là (28 - 21) - 1 = 6 ngôi nhà.\nCả hai trường hợp đều có đúng 6 ngôi nhà nằm giữa nhà của Ann và Peter.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G4-D08-Q19",
@@ -4342,12 +4341,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "B",
+      "answer": "D",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Xét tổng các chữ số của hai số có 3 chữ số trên từng tờ giấy:\n- A) 8*6 và 1*1: Số 8*6 có tổng chữ số nhỏ nhất là 8 + 0 + 6 = 14, trong khi số 1*1 có tổng chữ số lớn nhất là 1 + 9 + 1 = 11. Do 14 > 11 nên không thể bằng nhau.\n- B) 777 và *2*: Số 777 có tổng chữ số là 7 + 7 + 7 = 21, còn số *2* có tổng chữ số lớn nhất là 9 + 2 + 9 = 20 < 21, không thể bằng nhau.\n- C) 444 và *11: Số 444 có tổng chữ số là 4 + 4 + 4 = 12, còn số *11 có tổng chữ số lớn nhất là 9 + 1 + 1 = 11 < 12, không thể bằng nhau.\n- D) 1** và 298: Số 298 có tổng chữ số là 2 + 9 + 8 = 19. Số 1** có thể đạt tổng chữ số bằng 19 khi số đó là 199 (1 + 9 + 9 = 19). Hai số hoàn toàn có thể có cùng tổng chữ số.\n- E) 112 và 8**: Số 112 có tổng chữ số là 1 + 1 + 2 = 4, trong khi số 8** có tổng chữ số nhỏ nhất là 8 + 0 + 0 = 8 > 4, không thể bằng nhau.\nVậy tờ giấy của George là tờ giấy D.\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G4-D08-Q20",
@@ -4371,7 +4370,7 @@ const KANGAROO_DB = {
         "B",
         "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Theo đề bài, số cây trồng trong mỗi năm bằng tổng số cây trồng trong 2 năm liền trước:\nSố cây năm 2009 = Số cây năm 2008 + Số cây năm 2007\n=> Số cây năm 2007 = Số cây năm 2009 - Số cây năm 2008\n= 96 - 60 = 36 (cây).\nTương tự:\nSố cây năm 2008 = Số cây năm 2007 + Số cây năm 2006\n=> Số cây năm 2006 = Số cây năm 2008 - Số cây năm 2007\n= 60 - 36 = 24 (cây).\nVậy năm 2006 bạn ấy đã trồng 24 cây.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D08-Q21",
@@ -4390,12 +4389,12 @@ const KANGAROO_DB = {
         "D. 173",
         "E. none of the above"
       ],
-      "answer": "B",
+      "answer": "D",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Cho 4 chữ số: 1, 2, 8, 9. Cần lập hai số có 2 chữ số sao cho tổng của chúng là lớn nhất:\n- Để tổng lớn nhất, các chữ số hàng chục của hai số phải là hai chữ số lớn nhất: 9 và 8.\n- Hai chữ số nhỏ hơn (1 và 2) sẽ là chữ số hàng đơn vị của hai số đó.\nTa có hai số có thể lập là 91 và 82 (hoặc 92 và 81).\nTổng lớn nhất của hai số là:\n91 + 82 = 92 + 81 = 173.\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G4-D08-Q22",
@@ -4419,7 +4418,7 @@ const KANGAROO_DB = {
         "A",
         "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Con thuyền đến đích vào lúc 7 giờ chiều (19:00) ngày chủ nhật.\nLúc 6 giờ sáng (06:00) ngày chủ nhật, con thuyền đã đi được nửa quãng đường.\nKhoảng thời gian thuyền đi nửa quãng đường sau (từ 06:00 sáng đến 19:00 tối chủ nhật) là:\n19 - 6 = 13 (giờ).\nVì thuyền đi nửa quãng đường sau mất 13 giờ, nên nửa quãng đường đầu tiên thuyền cũng đi mất 13 giờ.\nThời điểm con thuyền khởi hành là lấy 06:00 sáng chủ nhật lùi lại 13 giờ:\n- Lùi 6 giờ: về 00:00 (nửa đêm giữa thứ bảy và chủ nhật).\n- Lùi thêm 7 giờ nữa: 24 - 7 = 17:00 chiều thứ bảy (tức 5 giờ chiều thứ bảy).\nVậy con thuyền đã khởi hành lúc 5 giờ chiều thứ bảy.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G4-D08-Q23",
@@ -4438,12 +4437,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "C",
+      "answer": "B",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Con đường dài 7km gồm 7 đoạn thẳng 1km, có tất cả 6 lần rẽ.\nChuỗi ký hiệu ghi lại là: # & & & # #.\nPhân tích chuỗi rẽ:\n- Có một lần rẽ đơn (#) ở đầu.\n- Tiếp theo là 3 lần rẽ liên tiếp CÙNG MỘT HƯỚNG (& & &).\n- Cuối cùng là 2 lần rẽ liên tiếp CÙNG MỘT HƯỚNG (# #).\nQuan sát đường đi B xuất phát từ điểm 'start' đi lên:\n- Lần 1: rẽ trái (#)\n- Lần 2: rẽ phải (&)\n- Lần 3: rẽ phải (&)\n- Lần 4: rẽ phải (&) => Đúng 3 lần rẽ phải liên tiếp!\n- Lần 5: rẽ trái (#)\n- Lần 6: rẽ trái (#) => Đúng 2 lần rẽ trái liên tiếp!\nChuỗi các hướng rẽ khớp hoàn toàn với chuỗi ký hiệu # & & & # #.\nVậy hình B chỉ ra đúng đường đi của Ntina.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D08-Q24",
@@ -4462,12 +4461,12 @@ const KANGAROO_DB = {
         "D. 6",
         "E. 7"
       ],
-      "answer": "E",
+      "answer": "D",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Ba bạn mượn tổng cộng 15 cuốn sách.\nSố sách ba bạn đã trả lại cho thư viện là:\n1 (Anna) + 2 (Vaso) + 3 (Yianna) = 6 (cuốn sách).\nSố sách còn lại của cả 3 bạn là:\n15 - 6 = 9 (cuốn sách).\nSau khi trả, cả ba bạn có số sách bằng nhau, nên số sách mỗi bạn còn giữ là:\n9 : 3 = 3 (cuốn sách).\nVì Yianna đã trả 3 cuốn và còn lại 3 cuốn, nên số sách ban đầu Yianna đã mượn là:\n3 + 3 = 6 (cuốn sách).\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G4-D09-Q01",
@@ -4486,12 +4485,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "B",
+      "answer": "E",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Quan sát mê cung và yêu cầu bài toán:\n- Con chuột cần đi tới miếng pho mát và con mèo không thể tới chỗ con chuột.\n- Chuột ở bên phải đi vào ô màu đen ở giữa theo đường ngang từ bên phải.\n- Mèo ở bên trái đi vào ô đen theo đường ngang từ bên trái.\n- Hộp sữa ở trên đỉnh nối vào ô đen theo đường dọc từ trên xuống.\n- Pho mát ở góc dưới bên trái nối với đường dọc đi xuống dưới.\nXét mảnh ghép E:\n- Gồm 2 đường cong riêng biệt không cắt nhau:\n  + Một đường cong nối nhánh bên phải (chuột) uốn cong xuống nhánh dưới (dẫn tới pho mát). Như vậy chuột có thể đi thẳng tới chỗ pho mát!\n  + Đường cong thứ hai nối nhánh bên trái (mèo) uốn cong lên nhánh trên (dẫn tới hộp sữa). Như vậy mèo chỉ có thể đi tới cốc sữa mà không thể sang đường của chuột.\nCả hai điều kiện đều được thỏa mãn hoàn hảo.\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G4-D09-Q02",
@@ -4510,12 +4509,12 @@ const KANGAROO_DB = {
         "D. 12:20",
         "E. 12:30"
       ],
-      "answer": "A",
+      "answer": "C",
       "acceptedAnswers": [
-        "A",
-        "a"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Tính thời điểm chính giữa bài giảng:\n- Bài giảng kéo dài 40 phút.\n- Thời điểm chính giữa bài giảng là sau một nửa thời gian:\n40 : 2 = 20 (phút).\n- Bài giảng bắt đầu lúc 11 giờ 50 phút.\nThời điểm con chim bay vào lớp là:\n11 giờ 50 phút + 20 phút = 12 giờ 10 phút.\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D09-Q03",
@@ -4525,7 +4524,7 @@ const KANGAROO_DB = {
       "number": 3,
       "points": 3,
       "type": "mc",
-      "text": "Một đầu bếp người Ấn độ tên là Big Bear có 3 Indian chief Big Bear has three\nchiếc lông, một quả cà chua, các mỗi tên và chân đi giày. Con trai của ông ta tên\nlà White Cheetah có hai sợi lông, các mũi tên và không có quả cà chua nào, đi\nchân đất và có hai vết vằn trên ngực. Hỏi hình nào có vẽ cả Big Bear và White\nCheetah?",
+      "text": "Tù trưởng người da đỏ Big Bear có 3 chiếc lông trên đầu, cầm một chiếc rìu tomahawk, các mũi tên và chân đi giày. Con trai của ông là White Cheetah có 2 chiếc lông, cầm các mũi tên, không có rìu tomahawk, đi chân đất và có 2 vết vạch ngang trên ngực. Hỏi bức tranh nào vẽ đúng cả Big Bear và White Cheetah?",
       "image": "images/ikmc/g4_de9_q03.png",
       "options": [
         "A",
@@ -4534,12 +4533,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "C",
+      "answer": "A",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Kiểm tra đặc điểm của hai nhân vật theo mô tả đề bài:\n1. Big Bear (Người cha):\n  - Có đúng 3 chiếc lông trên đầu.\n  - Cầm một chiếc rìu tomahawk (trong bản dịch cũ ghi là cà chua).\n  - Cầm các mũi tên.\n  - Chân đi giày.\n2. White Cheetah (Con trai):\n  - Có 2 chiếc lông trên đầu.\n  - Không có rìu tomahawk.\n  - Cầm các mũi tên.\n  - Đi chân đất.\n  - Có 2 vết vằn trên ngực.\nQuan sát 5 bức tranh phương án:\n- Chỉ có bức tranh A vẽ đúng người cha có 3 lông, có rìu, đi giày và người con có 2 lông, không rìu, đi chân đất và có 2 vạch ngang trên ngực.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G4-D09-Q04",
@@ -4558,12 +4557,12 @@ const KANGAROO_DB = {
         "D. 6€",
         "E. 7€"
       ],
-      "answer": "D",
+      "answer": "A",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "So sánh chi phí khi gọi riêng từng bữa và gói cả 3 bữa:\n- Tổng số tiền nếu gọi riêng cả 3 bữa là:\n4€ (sáng) + 9€ (trưa) + 5€ (tối) = 18€.\n- Nếu gọi theo thực đơn trọn gói cả 3 bữa chỉ mất 15€.\nSố tiền người đó tiết kiệm được là:\n18€ - 15€ = 3€.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G4-D09-Q05",
@@ -4582,12 +4581,12 @@ const KANGAROO_DB = {
         "D. 4",
         "E. 5"
       ],
-      "answer": "C",
+      "answer": "B",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Quan sát cách sắp xếp 6 đồng xu:\n- Hình ban đầu là một tam giác đều gồm 3 hàng (hàng trên 1 đồng xu, hàng giữa 2 đồng xu, hàng dưới 3 đồng xu).\n- Để tạo thành một hình tròn (lục giác đều rỗng ở giữa), ta giữ nguyên hàng giữa (2 đồng xu), đồng xu đỉnh trên (1 đồng xu) và đồng xu ở giữa hàng đáy (1 đồng xu).\n- Ta chỉ cần nhấc 2 đồng xu ở 2 góc ngoài cùng của hàng đáy dưới di chuyển sang hai bên của đồng xu đỉnh trên.\nNhư vậy chỉ cần di chuyển tối thiểu đúng 2 đồng xu.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D09-Q06",
@@ -4606,12 +4605,12 @@ const KANGAROO_DB = {
         "D. John, Vaslis, Markos, Fanis",
         "E. John, Markos, Vasilis, Fanis"
       ],
-      "answer": "D",
+      "answer": "C",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Thiết lập thứ tự lượng kem ăn được của 4 bạn:\n- Markos ăn nhiều hơn Fanis: Markos > Fanis.\n- John ăn ít hơn Fanis (tức là Fanis ăn nhiều hơn John): Fanis > John.\n- John ăn nhiều hơn Vasilis: John > Vasilis.\nKết hợp 3 mối quan hệ trên lại với nhau, ta có chuỗi thứ tự từ nhiều nhất đến ít nhất:\nMarkos > Fanis > John > Vasilis.\nĐáp án đúng là C (Markos, Fanis, John, Vasilis)."
     },
     {
       "id": "IKMC-G4-D09-Q07",
@@ -4630,12 +4629,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "E",
+      "answer": "B",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Quan sát họa tiết mẫu:\n- Họa tiết là một ô vuông được chia bởi một đường chéo và tô màu tam giác ở một góc.\n- Trong không gian phẳng 2D, khi chỉ dùng phép quay (xoay các góc 90°, 180°, 270°) và tịnh tiến, tính định hướng của các đường chéo và góc tô màu luôn được bảo toàn (bảo toàn tính thuận nghịch chiều kim đồng hồ).\n- Xét hình B: Hướng của đường chéo và góc tô màu bị đảo ngược theo phép đối xứng trục (phải lật ngược mặt giấy mới tạo được, không thể quay phẳng).\nDo đó hình B không thể tạo ra được từ hình ban đầu.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D09-Q08",
@@ -4654,12 +4653,12 @@ const KANGAROO_DB = {
         "D. 70",
         "E. 77"
       ],
-      "answer": "B",
+      "answer": "C",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Tính số bàn chân của con rết Eve đã có giày từ trước:\n- Con rết Eve có tất cả 100 bàn chân.\n- Sau khi mua giày mới, vẫn còn lại 14 bàn chân đi đất, do đó tổng số bàn chân được đi giày là:\n100 - 14 = 86 (bàn chân).\n- Hôm qua nó mua 16 đôi giày mới, mỗi đôi gồm 2 chiếc giày, nên số giày mới mua là:\n16 × 2 = 32 (chiếc giày).\n- Số bàn chân đã có giày sẵn từ trước khi mua là:\n86 - 32 = 54 (bàn chân).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D09-Q09",
@@ -4678,12 +4677,12 @@ const KANGAROO_DB = {
         "D. 4",
         "E. infinitely many"
       ],
-      "answer": "B",
+      "answer": "C",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Mary gấp tờ giấy dích dắc thành 4 lớp (3 nếp gấp):\n- Tờ giấy có dải hình chuột túi in một mặt.\n- Nếp gấp nếp đầu tiên lật mặt giấy úp lại, nếp thứ hai lật ngửa trở lại, nếp thứ ba lật úp.\n- Khi đó các hình chuột túi ở hai mặt úp vào nhau sẽ trùng khít hoàn toàn về hình dáng và hướng.\n- Trong 4 phần gấp liên tiếp, có đúng 2 cặp hình chuột túi áp mặt vào nhau trùng khít.\nVậy hình con chuột túi trùng khớp lại với nhau đúng 2 lần.\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D09-Q10",
@@ -4702,12 +4701,12 @@ const KANGAROO_DB = {
         "D. 20",
         "E. 24"
       ],
-      "answer": "D",
+      "answer": "B",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Tính vị trí số tầng của Mathew và Clara:\n- Nhà Clara ở trên và cách nhà Mathew 12 tầng.\n- Khi Mathew đi được một nửa quãng đường, bạn ấy đã đi lên được số tầng là:\n12 : 2 = 6 (tầng).\n- Khi đó Mathew đang ở tầng 8, vậy nhà Mathew nằm ở tầng:\n8 - 6 = 2.\n- Nhà Clara nằm ở tầng:\n2 + 12 = 14 (hoặc từ tầng 8 đi tiếp 6 tầng nữa: 8 + 6 = 14).\nVậy Clara đang sống ở tầng 14.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D09-Q11",
@@ -4726,12 +4725,12 @@ const KANGAROO_DB = {
         "D. 20",
         "E. 24"
       ],
-      "answer": "C",
+      "answer": "A",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Khối lập phương lớn 4 × 4 × 4 được ghép từ 64 khối lập phương nhỏ 1 × 1 × 1:\n- Có 5 mặt ngoài được sơn màu xanh, mặt đáy ở dưới không được sơn.\n- Khối nhỏ có 3 mặt được sơn xanh bắt buộc phải nằm ở góc (đỉnh) của khối lập phương lớn.\n- Khối lập phương lớn có tất cả 8 đỉnh (góc):\n  + 4 khối ở 4 góc của mặt trên: tiếp xúc với mặt trên và 2 mặt bên xung quanh, cả 3 mặt này đều được sơn xanh => có đúng 3 mặt màu xanh.\n  + 4 khối ở 4 góc của mặt đáy dưới: tiếp xúc với mặt đáy (không sơn) và 2 mặt bên => chỉ có 2 mặt màu xanh.\nVậy chỉ có đúng 4 khối lập phương nhỏ có 3 mặt màu xanh.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G4-D09-Q12",
@@ -4750,12 +4749,12 @@ const KANGAROO_DB = {
         "D. 22",
         "E. 30"
       ],
-      "answer": "C",
+      "answer": "E",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Giải bài toán vận chuyển xe qua sông bằng phương pháp giả thiết tạm:\n- Mỗi chuyến phà chở đầy có thể chở 10 ô tô nhỏ hoặc 6 xe tải.\n- Phà qua sông 5 lần chở đầy và chở được tất cả 42 phương tiện.\nGiả sử cả 5 chuyến phà đều chỉ chở xe tải, thì tổng số xe chở được là:\n5 × 6 = 30 (chiếc xe).\nSố xe thực tế nhiều hơn giả sử là:\n42 - 30 = 12 (chiếc xe).\nMỗi chuyến chở ô tô nhỏ nhiều hơn mỗi chuyến chở xe tải là:\n10 - 6 = 4 (chiếc xe).\nSố chuyến phà chở ô tô nhỏ là:\n12 : 4 = 3 (chuyến).\nTổng số ô tô nhỏ chiếc phà đã mang là:\n3 × 10 = 30 (chiếc ô tô nhỏ).\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G4-D09-Q13",
@@ -4779,7 +4778,7 @@ const KANGAROO_DB = {
         "B",
         "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Đếm số mẫu màu khác nhau khi xoay hình vuông 2 × 2 gồm 4 ô nhỏ (mỗi ô tô màu Xanh lá hoặc Xanh lam):\n- Trường hợp 0 ô xanh lá (4 xanh lam): có 1 cách.\n- Trường hợp 1 ô xanh lá (3 xanh lam): có 1 mẫu duy nhất (xoay 4 góc đều như nhau).\n- Trường hợp 2 ô xanh lá (2 xanh lam):\n  + Hai ô xanh lá nằm cạnh nhau (cùng hàng hoặc cùng cột): khi xoay ta được 4 vị trí, đây là 1 mẫu.\n  + Hai ô xanh lá nằm chéo nhau: xoay 90° được vị trí chéo kia, đây là 1 mẫu khác.\n  Tổng cộng trường hợp này có 2 mẫu.\n- Trường hợp 3 ô xanh lá (1 xanh lam): đối xứng với trường hợp 1 ô xanh lá, có 1 mẫu.\n- Trường hợp 4 ô xanh lá (0 xanh lam): có 1 cách.\nTổng số mẫu màu khác nhau có thể tạo thành là:\n1 + 1 + 2 + 1 + 1 = 6 (mẫu màu).\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D09-Q14",
@@ -4798,12 +4797,12 @@ const KANGAROO_DB = {
         "D. 33",
         "E. 63"
       ],
-      "answer": "B",
+      "answer": "C",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Tính tổng số người nhận được thư sau 4 lượt theo chuỗi cấp số nhân:\n- Ban đầu John gửi thư cho Peter: Peter nhận được (1 người).\n- Lượt 1: Peter gửi cho 2 người (2 người nhận).\n- Lượt 2: 2 người đó, mỗi người gửi cho 2 người khác (2 × 2 = 4 người nhận). Tổng sau lượt này là: 1 + 2 + 4 = 7 người.\n- Lượt 3: 4 người gửi, mỗi người gửi cho 2 người khác (4 × 2 = 8 người nhận).\n- Lượt 4: 8 người gửi, mỗi người gửi cho 2 người khác (8 × 2 = 16 người nhận).\nTổng số người nhận được thư sau 4 lượt là:\n1 + 2 + 4 + 8 + 16 = 31 (người).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D09-Q15",
@@ -4822,12 +4821,12 @@ const KANGAROO_DB = {
         "D. Ivo",
         "E. Không xác định được"
       ],
-      "answer": "E",
+      "answer": "C",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "So sánh độ dài bàn chân của các bạn:\n- Cùng đo chung một chiều dài sân chơi:\n  + Ana đo được 15 bước.\n  + Betty đo được 17 bước.\n  + Denis đo được 12 bước.\n  + Ivo đo được 14 bước.\n- Trên cùng một độ dài quãng đường, bước chân của bạn nào càng dài thì số bước cần đo càng ít.\n- Trong 4 bạn, Denis bước ít nhất (chỉ mất 12 bước).\nVậy bàn chân của Denis dài nhất.\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D09-Q16",
@@ -4837,7 +4836,7 @@ const KANGAROO_DB = {
       "number": 16,
       "points": 4,
       "type": "mc",
-      "text": "Nếu 2 hàng có tổng bằng nhau thì số điền vào dấu * là số nào?\n1\n2\n3\n4\n5\n6\n7\n11\n12\n13\n14\n15\n16\n17",
+      "text": "Nếu hai hàng có tổng bằng nhau thì số điền vào dấu * là số nào?\nHàng trên: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 và *\nHàng dưới: 11, 12, 13, 14, 15, 16, 17, 18, 19, 20",
       "image": null,
       "options": [
         "A. 99",
@@ -4846,12 +4845,12 @@ const KANGAROO_DB = {
         "D. 289",
         "E. 299"
       ],
-      "answer": "A",
+      "answer": "B",
       "acceptedAnswers": [
-        "A",
-        "a"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Tìm số điền vào dấu * để hai hàng có tổng bằng nhau:\n- Hàng thứ nhất gồm các số: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 và dấu *.\n- Hàng thứ hai gồm 10 số: 11, 12, 13, 14, 15, 16, 17, 18, 19, 20.\nSo sánh từng cặp số tương ứng ở hai hàng:\n  11 - 1 = 10\n  12 - 2 = 10\n  13 - 3 = 10\n  ...\n  20 - 10 = 10\nMỗi số ở hàng dưới đều lớn hơn số tương ứng ở hàng trên đúng 10 đơn vị.\nVì có 10 cặp số như vậy, nên tổng của 10 số ở hàng dưới lớn hơn tổng của 10 số ở hàng trên là:\n10 × 10 = 100.\nĐể tổng của cả hai hàng bằng nhau, số * ở hàng trên phải bù đúng phần chênh lệch này:\n* = 100.\n(Kiểm tra lại: Tổng hàng dưới = (11 + 20) × 10 : 2 = 155. Tổng hàng trên = (1 + 10) × 10 : 2 + * = 55 + 100 = 155).\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D09-Q17",
@@ -4870,12 +4869,12 @@ const KANGAROO_DB = {
         "D. số giây trong một tuần",
         "E. số phút trong 24 tuần"
       ],
-      "answer": "B",
+      "answer": "D",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Phân tích ý nghĩa tích 60 × 60 × 24 × 7:\n- 1 phút = 60 giây.\n- 1 giờ = 60 phút = 60 × 60 giây.\n- 1 ngày = 24 giờ = 60 × 60 × 24 giây.\n- 1 tuần = 7 ngày = 60 × 60 × 24 × 7 giây.\nVậy tích 60 × 60 × 24 × 7 chính là số giây trong một tuần.\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G4-D09-Q18",
@@ -4894,12 +4893,14 @@ const KANGAROO_DB = {
         "D. 4",
         "E. 5"
       ],
-      "answer": "C",
+      "answer": "B",
       "acceptedAnswers": [
+        "B",
+        "b",
         "C",
         "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Tìm số lần đổi chỗ ít nhất trong bảng 4 × 4 chứa các quân bài:\n- Bảng gồm 4 chất: Cơ, Rô, Bích, Tép (Hearts, Diamonds, Spades, Clubs).\n- Để mỗi hàng và mỗi cột đều có đủ 4 chất (ma trận Latinh kích thước 4 × 4):\n  + Quan sát cấu hình ban đầu của bảng, ta thấy có đúng 2 cặp ô bị trùng lặp chất trong cùng một hàng/cột.\n  + Đổi chỗ cặp quân bài thứ nhất đưa về đúng vị trí ở hàng 2 và cột 3.\n  + Đổi chỗ cặp quân bài thứ hai ở hàng 4 và cột 4 đưa về cấu hình chuẩn.\nChỉ cần đúng 2 lần đổi chỗ là mỗi hàng và mỗi cột đều chứa đủ 4 chất.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G4-D09-Q19",
@@ -4918,12 +4919,12 @@ const KANGAROO_DB = {
         "D. 4",
         "E. 5"
       ],
-      "answer": "D",
+      "answer": "C",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Tính tuổi của hai chú mèo Tony và Tiny:\n- Hai năm trước, tổng số tuổi của Tony và Tiny là 15 tuổi.\n- Trải qua 2 năm, mỗi chú mèo tăng thêm 2 tuổi, do đó tổng số tuổi hiện nay của cả hai con mèo là:\n15 + 2 + 2 = 19 (tuổi).\n- Hiện nay Tony 13 tuổi, vậy tuổi hiện nay của Tiny là:\n19 - 13 = 6 (tuổi).\n- Để Tiny đạt 9 tuổi, số năm cần đợi thêm là:\n9 - 6 = 3 (năm nữa).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G4-D09-Q20",
@@ -4942,12 +4943,14 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "C",
+      "answer": "D",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "D",
+        "d",
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Quy luật viết các số từ 1 đến 100 vào bảng gồm 5 cột:\n- Hàng 1: 1, 2, 3, 4, 5\n- Hàng 2: 6, 7, 8, 9, 10\n- Hàng 3: 11, 12, 13, 14, 15\nQuy tắc:\n- Các số trên cùng một hàng chênh nhau 1 đơn vị từ trái sang phải.\n- Hai ô liền kề nhau trên cùng một cột chênh nhau đúng 5 đơn vị (ô ở dưới = ô ở trên + 5).\nXét mảnh ghép D:\n- Số 58 và số 63 ở cùng một cột (63 = 58 + 5).\n- Số 69 và 74 ở cùng một cột (74 = 69 + 5).\n- Vị trí của các số và khoảng cách giữa các ô hoàn toàn khớp chính xác với bảng 5 cột.\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G4-D09-Q21",
@@ -4966,12 +4969,12 @@ const KANGAROO_DB = {
         "D. 2020",
         "E. 2022"
       ],
-      "answer": "B",
+      "answer": "A",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Tìm số cuốn sách trong thư viện:\n- Ba bạn đưa ra các dự đoán:\n  + Ana đoán: 2010 cuốn\n  + Bea đoán: 1998 cuốn\n  + Carlos đoán: 2015 cuốn\n- Thầy giáo cho biết số sai khác giữa dự đoán và số sách thực tế là 12, 7 và 5.\nThử số sách là 2003 cuốn:\n- Sai khác của Ana: |2003 - 2010| = 7.\n- Sai khác của Bea: |2003 - 1998| = 5.\n- Sai khác của Carlos: |2003 - 2015| = 12.\nBộ ba số sai lệch thu được là 7, 5, 12 — hoàn toàn trùng khớp với dữ kiện của thầy giáo!\nVậy thư viện có đúng 2003 cuốn sách.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G4-D09-Q22",
@@ -4990,12 +4993,12 @@ const KANGAROO_DB = {
         "D. 20",
         "E. 21"
       ],
-      "answer": "C",
+      "answer": "D",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Tính tổng các số ở 4 ô bị cắt ra:\n- Hình ban đầu có 8 ô được đánh số từ 1 đến 8 có tổng là:\n1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 = 36.\n- Hình còn lại sau khi cắt gồm 4 ô có tổng là 16.\nTổng của các số ở 4 ô bị Anne cắt ra là:\n36 - 16 = 20.\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G4-D09-Q23",
@@ -5014,12 +5017,12 @@ const KANGAROO_DB = {
         "D. Berlin",
         "E. Zagreb"
       ],
-      "answer": "B",
+      "answer": "D",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Phân tích suy luận logic để tìm thành phố của Marko:\n- 4 người: Andrew, Stefan, Robert, Marko.\n- 4 thành phố: Paris, Dubrovnik, Rome, Berlin.\n1. 'Andrew và cậu bé đến từ Berlin đến sớm... Không ai trong họ đến từ Paris hoặc Rome':\n  => Andrew không đến từ Berlin, không đến từ Paris, không đến từ Rome.\n  Do đó Andrew bắt buộc phải đến từ Dubrovnik!\n2. 'Robert không đến từ Berlin nhưng đến cùng lúc với cậu bé đến từ Paris':\n  => Robert không phải là người đến từ Berlin và cũng không phải người đến từ Paris.\n  Vì Andrew đến từ Dubrovnik nên Robert chỉ có thể đến từ Rome.\n  Đồng thời Stefan và Marko là hai người còn lại đến từ Paris và Berlin.\n3. 'Marko và cậu bé đến từ Paris rất thích buổi hòa nhạc':\n  => Marko không phải là người đến từ Paris.\n  Vậy Stefan là người đến từ Paris!\nNgười duy nhất còn lại là Marko bắt buộc phải đến từ Berlin.\nĐáp án đúng là D (Berlin)."
     },
     {
       "id": "IKMC-G4-D09-Q24",
@@ -5043,7 +5046,7 @@ const KANGAROO_DB = {
         "B",
         "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Tìm số lượng bạn nhiều nhất có ngày và tháng sinh có tổng bằng 35:\n- Gọi ngày sinh là d (ngày) và tháng sinh là m (tháng).\n- Ta có hệ thức: d + m = 35 => d = 35 - m.\n- Trong một năm có 12 tháng (m từ 1 đến 12). Số ngày tối đa của một tháng không vượt quá 31 ngày (1 ≤ d ≤ 31):\n  + Nếu m = 1, 2, 3, 4: d ≥ 35 - 4 = 31 (các tháng 1, 2, 3, 4 thì 35 - m lần lượt là 34, 33, 32, 31; trong đó tháng 4 chỉ có 30 ngày, tháng 2 có 28/29 ngày, tháng 1 và 3 chỉ có 31 ngày => không thỏa mãn).\n  + Với m từ 5 đến 12, ta có:\n    Tháng 5: d = 35 - 5 = 30 (Hợp lệ: ngày 30 tháng 5)\n    Tháng 6: d = 35 - 6 = 29 (Hợp lệ: ngày 29 tháng 6)\n    Tháng 7: d = 35 - 7 = 28 (Hợp lệ: ngày 28 tháng 7)\n    Tháng 8: d = 35 - 8 = 27 (Hợp lệ: ngày 27 tháng 8)\n    Tháng 9: d = 35 - 9 = 26 (Hợp lệ: ngày 26 tháng 9)\n    Tháng 10: d = 35 - 10 = 25 (Hợp lệ: ngày 25 tháng 10)\n    Tháng 11: d = 35 - 11 = 24 (Hợp lệ: ngày 24 tháng 11)\n    Tháng 12: d = 35 - 12 = 23 (Hợp lệ: ngày 23 tháng 12)\nCó tất cả đúng 8 tháng (từ tháng 5 đến tháng 12) cho ra ngày sinh hợp lệ.\nDo tất cả các bạn đều có ngày sinh nhật khác nhau, nên Basil có nhiều nhất 8 người bạn thỏa mãn.\nĐáp án đúng là B."
     }
   ],
   "grade3": [
@@ -5064,12 +5067,12 @@ const KANGAROO_DB = {
         "D. 1, 5 and 6",
         "E. 1, 2 and 5"
       ],
-      "answer": "E",
+      "answer": "C",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Khi Zita đi bộ từ trái sang phải, cô lần lượt đi qua các điểm phân nhánh đường. Tại mỗi điểm phân nhánh, Zita chỉ có thể chọn một con đường và gặp một số duy nhất trong mỗi cặp số:\n- Cặp thứ nhất: {1, 2}\n- Cặp thứ hai: {3, 4}\n- Cặp thứ ba: {5, 6}\nDo đó, dãy số Zita ghi lại phải gồm đúng 1 số từ mỗi cặp số trên.\nXét các phương án:\n- A (1, 2 và 4): Sai vì cả 1 và 2 đều thuộc cặp đầu tiên.\n- B (2, 3 và 4): Sai vì cả 3 và 4 đều thuộc cặp thứ hai.\n- C (2, 3 và 5): Thỏa mãn vì số 2 thuộc cặp 1, số 3 thuộc cặp 2, và số 5 thuộc cặp 3.\n- D (1, 5 và 6): Sai vì cả 5 và 6 đều thuộc cặp thứ ba.\n- E (1, 2 và 5): Sai vì cả 1 và 2 đều thuộc cặp đầu tiên.\nVậy đáp án đúng là C."
     },
     {
       "id": "IKMC-G3-D01-Q02",
@@ -5093,7 +5096,7 @@ const KANGAROO_DB = {
         "C",
         "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Lấy hình con chuột túi A làm hình gốc chuẩn (gồm 17 ô vuông nhỏ).\nSo sánh các hình còn lại với hình A:\n- Hình B: có thêm 1 ô vuông nhỏ ở chân sau (18 ô vuông).\n- Hình C: có thêm 1 ô vuông nhỏ ở mõm và 1 ô vuông nhỏ ở thân lưng sau (tổng cộng có thêm 2 ô vuông so với hình A -> 19 ô vuông).\n- Hình D: có thêm 1 ô vuông nhỏ (18 ô vuông).\n- Hình E: có thêm 1 ô vuông nhỏ (18 ô vuông).\nNhư vậy, con chuột túi ở hình C chứa nhiều hình vuông nhỏ nhất (19 hình vuông nhỏ).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G3-D01-Q03",
@@ -5112,12 +5115,12 @@ const KANGAROO_DB = {
         "D. 4",
         "E. 5"
       ],
-      "answer": "D",
+      "answer": "B",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Liệt kê các chữ cái xuất hiện trong từng từ:\n- Từ KANGAROO gồm các chữ cái: K, A, N, G, R, O.\n- Từ PROBLEM gồm các chữ cái: P, R, O, B, L, E, M.\nSo sánh các chữ cái có mặt ở cả hai từ:\n- Chữ R có trong cả hai từ.\n- Chữ O có trong cả hai từ.\nNhư vậy có tất cả 2 chữ cái chung là R và O.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G3-D01-Q04",
@@ -5136,12 +5139,12 @@ const KANGAROO_DB = {
         "D. 7002",
         "E. 2070"
       ],
-      "answer": "C",
+      "answer": "A",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Tổng các chữ số của năm 2007 là:\n2 + 0 + 0 + 7 = 9.\nTa cần tìm số nhỏ nhất lớn hơn 2007 có tổng các chữ số bằng 9:\n- Xét các số tiếp theo: 2008 (tổng 10), 2009 (tổng 11), 2010 (tổng 3), 2011 (tổng 4),...\n- Với các số có dạng 201x, tổng các chữ số là: 2 + 0 + 1 + x = 3 + x.\nĐể tổng bằng 9 thì 3 + x = 9 => x = 6.\nDo đó số đầu tiên lớn hơn 2007 có tổng các chữ số bằng 9 là số 2016.\nKiểm tra các phương án: A. 2016 (2+0+1+6 = 9).\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G3-D01-Q05",
@@ -5160,12 +5163,12 @@ const KANGAROO_DB = {
         "D. 7",
         "E. 9"
       ],
-      "answer": "B",
+      "answer": "C",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Theo sơ đồ trong hình vẽ:\nSố trong đám mây đen -> trừ đi 2 -> chia cho 3 -> cộng thêm 4 -> được kết quả là 5.\nÁp dụng phương pháp tính ngược từ cuối lên:\n- Bước 1: 5 - 4 = 1\n- Bước 2: 1 × 3 = 3\n- Bước 3: 3 + 2 = 5.\nKiểm tra lại: (5 - 2) : 3 + 4 = 3 : 3 + 4 = 1 + 4 = 5 (chính xác).\nVậy Emma đã viết số 5 vào đám mây màu đen.\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G3-D01-Q06",
@@ -5184,12 +5187,12 @@ const KANGAROO_DB = {
         "D. 72",
         "E. 80"
       ],
-      "answer": "A",
+      "answer": "C",
       "acceptedAnswers": [
-        "A",
-        "a"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Trên một bên đường có 9 cột đèn.\nSố khoảng cách giữa 9 cột đèn liên tiếp là:\n9 - 1 = 8 (khoảng cách).\nMỗi khoảng cách giữa hai cột đèn cạnh nhau dài 8 mét.\nVậy quãng đường George đã nhảy từ cột đèn đầu tiên đến cột đèn cuối cùng là:\n8 × 8 = 64 (m).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G3-D01-Q07",
@@ -5208,12 +5211,12 @@ const KANGAROO_DB = {
         "D. 5",
         "E. 6"
       ],
-      "answer": "C",
+      "answer": "E",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Mật mã là một số có 3 chữ số khác nhau được lập từ 3 chữ số {1, 3, 5}:\n- Có 3 cách chọn chữ số hàng trăm (là 1, 3 hoặc 5).\n- Có 2 cách chọn chữ số hàng chục (chọn từ 2 chữ số còn lại).\n- Có 1 cách chọn chữ số hàng đơn vị (chữ số cuối cùng).\nTheo quy tắc nhân, số mật mã có thể tạo thành là:\n3 × 2 × 1 = 6 (mật mã).\nCác mật mã đó là: 135, 153, 315, 351, 513, 531.\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G3-D01-Q08",
@@ -5232,12 +5235,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "E",
+      "answer": "B",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Hình màu xám ở trên gồm 8 ô vuông nhỏ (cột 1 có 5 ô, cột 2 có 2 ô, cột 3 có 1 ô).\nĐể ghép với một mảnh ghép tạo thành một hình chữ nhật kích thước 3 × 6 (gồm 18 ô vuông), mảnh ghép cần có: 18 - 8 = 10 ô vuông.\nQuan sát hình B:\n- Cột 1 có 5 ô, cột 2 có 4 ô, cột 3 có 1 ô (tổng 10 ô vuông).\n- Khi xoay hình B ngược lại 180 độ và úp vào hình xám:\n  + Cột 1 ô của B sẽ ghép với cột 5 ô của hình xám -> chiều cao 6 ô.\n  + Cột 4 ô của B sẽ ghép với cột 2 ô của hình xám -> chiều cao 6 ô.\n  + Cột 5 ô của B sẽ ghép với cột 1 ô của hình xám -> chiều cao 6 ô.\nKết quả tạo thành một hình chữ nhật hoàn chỉnh kích thước 3 × 6.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G3-D01-Q09",
@@ -5261,7 +5264,7 @@ const KANGAROO_DB = {
         "C",
         "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Thực hiện phép tính theo thứ tự ưu tiên (nhân chia trước, cộng trừ sau):\nBiểu thức: 4 × 4 + 4 + 4 + 4 + 4 + 4 × 4\n= (4 × 4) + (4 + 4 + 4 + 4) + (4 × 4)\n= 16 + 16 + 16\n= 48.\n(Hoặc có thể viết thành 4 × (4 + 1 + 1 + 1 + 1 + 4) = 4 × 12 = 48).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G3-D01-Q10",
@@ -5280,12 +5283,12 @@ const KANGAROO_DB = {
         "D. 2 hoặc 3",
         "E. 1, 2 hoặc 3"
       ],
-      "answer": "D",
+      "answer": "C",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Trong bảng Sudoku 3 × 3, mỗi hàng và mỗi cột đều chứa đủ 3 số 1, 2, 3:\n- Cột 1 đã có số 1 (hàng 1) và số 2 (hàng 2), vậy ô hàng 3 cột 1 phải là số 3.\n- Hàng 1 đã có số 1 (ở cột 1), nên ô có dấu ? (hàng 1 cột 2) không thể là số 1.\n- Cột 2 đã có số 1 (ở hàng 2), nên ô ? không thể là 1.\n- Nếu ô ? là số 2, thì ô hàng 1 cột 3 phải là 3. Khi đó ở hàng 2, ô hàng 2 cột 3 cũng phải là 3 (vì hàng 2 đã có 2 và 1), dẫn tới cột 3 có hai số 3 (vi phạm quy tắc).\n- Vậy ô ? không thể là 2. Ô ? bắt buộc phải là số 3.\nKhi ô ? là 3, ta hoàn thành bảng dễ dàng:\n  Hàng 1: 1, 3, 2\n  Hàng 2: 2, 1, 3\n  Hàng 3: 3, 2, 1\nVậy ô dấu ? chỉ có thể là 3.\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G3-D01-Q11",
@@ -5304,12 +5307,12 @@ const KANGAROO_DB = {
         "D. 2",
         "E. 1"
       ],
-      "answer": "E",
+      "answer": "C",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Đổi đơn vị tiền tệ: 5 euro = 500 xu.\nHelga mua 5 cuốn vở, mỗi cuốn 80 xu hết số tiền là:\n5 × 80 = 400 (xu).\nSố tiền còn lại của Helga là:\n500 - 400 = 100 (xu).\nMỗi chiếc bút chì giá 30 xu, ta có phép chia:\n100 : 30 = 3 (dư 10 xu).\nNhư vậy, Helga có thể mua được nhiều nhất 3 chiếc bút chì và còn dư 10 xu.\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G3-D01-Q12",
@@ -5328,12 +5331,12 @@ const KANGAROO_DB = {
         "D. 31 tháng 12 năm 2002",
         "E. 31 tháng 12 năm 2003"
       ],
-      "answer": "C",
+      "answer": "A",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Basil già hơn Peter 1 năm 1 ngày, nghĩa là Basil sinh trước Peter 1 năm 1 ngày (Peter sinh sau Basil 1 năm 1 ngày).\nBasil sinh ngày 1/1/2002:\n- Một năm sau ngày sinh của Basil là ngày 1/1/2003.\n- Thêm 1 ngày nữa sau ngày 1/1/2003 là ngày 2 tháng 1 năm 2003.\nVậy Peter sinh ngày mùng 2 tháng 1 năm 2003.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G3-D01-Q13",
@@ -5352,12 +5355,12 @@ const KANGAROO_DB = {
         "D. 6000 mm",
         "E. 60000 cm"
       ],
-      "answer": "D",
+      "answer": "B",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "John có 400 sợi mì, mỗi sợi dài 15 cm.\nTổng chiều dài khi nối tất cả các sợi mì nối đuôi nhau là:\n400 × 15 = 6000 (cm).\nĐổi sang đơn vị mét:\n6000 cm = 60 m.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G3-D01-Q14",
@@ -5381,7 +5384,7 @@ const KANGAROO_DB = {
         "C",
         "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Bể cá hình lập phương có cạnh 3 dm. Các khối lập phương nhỏ có cạnh 1 dm.\nTổng số khối lập phương 1 dm³ có thể xếp đầy bể cá là:\n3 × 3 × 3 = 27 (khối).\nĐếm số khối lập phương đã có sẵn trong bể:\n- Đáy và các cột đã xếp gồm 10 khối lập phương.\nSố khối lập phương Daniella có thể xếp thêm vào nhiều nhất là:\n27 - 10 = 17 (khối).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G3-D01-Q15",
@@ -5405,7 +5408,7 @@ const KANGAROO_DB = {
         "B",
         "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Gọi số có một chữ số ban đầu Peter viết là a (với 1 ≤ a ≤ 9).\nKhi viết thêm một chữ số b vào bên phải, ta được số có hai chữ số là ab = 10 × a + b.\nTheo đề bài:\n(10 × a + b) + 19 = 72\n=> 10 × a + b = 72 - 19\n=> 10 × a + b = 53.\nVì ab là số có hai chữ số bằng 53 nên chữ số hàng chục là a = 5, chữ số hàng đơn vị là b = 3.\nVậy chữ số đầu tiên Peter viết là số 5.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G3-D01-Q16",
@@ -5424,12 +5427,12 @@ const KANGAROO_DB = {
         "D. 11 giờ 13 phút",
         "E. 24 giờ 00 phút"
       ],
-      "answer": "E",
+      "answer": "A",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Thời điểm hiện tại đồng hồ chỉ 20:07, gồm 4 chữ số: {0, 0, 2, 7}.\nTa cần tìm thời điểm gần nhất tiếp theo cũng tạo bởi 4 chữ số này:\n- Trong ngày hôm đó (sau 20:07): các số phút còn lại tạo từ {0, 7} không thể tạo thành giờ hợp lệ (20:70 không hợp lệ).\n- Sang ngày hôm sau: giờ bắt đầu từ 00. Với hai chữ số còn lại {2, 7}, số phút có thể là 27 hoặc 72. Vì phút < 60 nên thời điểm sớm nhất có thể là 00:27.\nTính khoảng thời gian từ 20:07 đến 00:27 sáng hôm sau:\n- Từ 20:07 đến 24:00 (nửa đêm): cần 3 giờ 53 phút.\n- Từ 00:00 đến 00:27: cần thêm 27 phút.\nTổng thời gian phải chờ là:\n3 giờ 53 phút + 27 phút = 4 giờ 20 phút.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G3-D01-Q17",
@@ -5448,12 +5451,12 @@ const KANGAROO_DB = {
         "D. 10",
         "E. 12"
       ],
-      "answer": "D",
+      "answer": "E",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Khối lập phương 3 × 3 × 3 được sơn toàn bộ các mặt ngoài rồi cắt thành 27 khối lập phương nhỏ 1 × 1 × 1.\nCác khối lập phương nhỏ chỉ có đúng 2 mặt được sơn nằm ở trung điểm của các CẠNH của khối lập phương lớn (không tính 8 đỉnh ở góc):\n- Một hình lập phương có đúng 12 cạnh.\n- Trên mỗi cạnh dài 3 khối: 2 khối ở 2 đầu cạnh là khối góc (được sơn 3 mặt), ở giữa còn lại đúng 1 khối có 2 mặt sơn.\nVậy số khối lập phương nhỏ chỉ có đúng 2 mặt bị sơn là:\n12 × 1 = 12 (khối).\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G3-D01-Q18",
@@ -5472,12 +5475,12 @@ const KANGAROO_DB = {
         "D. 900",
         "E. 1010"
       ],
-      "answer": "C",
+      "answer": "B",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Công tơ mét đang chỉ 15951 (là số đối xứng có dạng 15-9-51).\nTa cần tìm số đối xứng tiếp theo lớn hơn 15951:\n- Vì chữ số ở giữa là 9 đã là lớn nhất, số đối xứng tiếp theo không thể bắt đầu bằng 15 (dạng 15...51).\n- Do đó, số đối xứng tiếp theo phải bắt đầu bằng 16 (có dạng 16-x-61).\n- Để số này nhỏ nhất, chữ số chính giữa x phải là nhỏ nhất có thể, tức là x = 0.\nSố đối xứng tiếp theo là 16061.\nKhoảng cách ô tô cần đi thêm ít nhất là:\n16061 - 15951 = 110 (km).\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G3-D01-Q19",
@@ -5496,12 +5499,12 @@ const KANGAROO_DB = {
         "D. thứ tư",
         "E. thứ năm"
       ],
-      "answer": "B",
+      "answer": "A",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Phân tích các vị trí của 5 bạn:\n- Jennifer đứng trước Lise nhưng không đứng đầu tiên => Vị trí số 1 không phải là Jennifer.\n- Fabien đứng ngay sau Jennifer => Jennifer và Fabien đi liền nhau theo thứ tự: Jennifer -> Fabien.\n- Fabien đứng trước Romain, và Romain đứng sau Lise => Romain đứng sau cả Jennifer, Fabien và Lise.\nNhư vậy Jennifer đứng trước Fabien, Lise và Romain.\nVì Jennifer đứng trước 3 bạn (Fabien, Lise, Romain) nhưng lại không đứng đầu tiên, nên chỉ có thể còn đúng 1 bạn đứng đầu tiên trước Jennifer.\nBạn còn lại duy nhất trong nhóm chưa được xếp vị trí trước Jennifer chính là Adrien!\nVậy Adrien đứng ở vị trí đầu tiên.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G3-D01-Q20",
@@ -5525,7 +5528,7 @@ const KANGAROO_DB = {
         "A",
         "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Xét một góc của hình chữ nhật: khi cắt đi một hình vuông ở góc, ta bỏ đi 2 cạnh của góc ban đầu, nhưng lại tạo ra 2 mép gấp khúc mới hướng vào trong có độ dài đúng bằng 2 cạnh vừa bị cắt.\nDo đó, việc cắt các hình vuông ở các góc không làm thay đổi chu vi của hình ban đầu!\nChu vi của hình thu được bằng đúng chu vi của hình chữ nhật 15 cm × 9 cm ban đầu:\n(15 + 9) × 2 = 24 × 2 = 48 (cm).\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G3-D01-Q21",
@@ -5544,12 +5547,12 @@ const KANGAROO_DB = {
         "D. 70",
         "E. 75"
       ],
-      "answer": "E",
+      "answer": "C",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Phân tích quy luật của các hình:\n- Hình 1: Kích thước lưới 3 × 3 (9 ô), có 1 × 1 = 1 ô đen => Số ô trắng là 9 - 1 = 8 ô.\n- Hình 2: Kích thước lưới 5 × 5 (25 ô), có 2 × 2 = 4 ô đen => Số ô trắng là 25 - 4 = 21 ô.\n- Hình 3: Kích thước lưới 7 × 7 (49 ô), có 3 × 3 = 9 ô đen => Số ô trắng là 49 - 9 = 40 ô.\nTheo quy luật, hình tiếp theo (hình thứ 4) sẽ có:\n- Kích thước lưới: 9 × 9 = 81 ô.\n- Số ô đen: 4 × 4 = 16 ô đen.\nVậy số ô trắng trong hình tiếp theo là:\n81 - 16 = 65 (ô trắng).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G3-D01-Q22",
@@ -5568,12 +5571,12 @@ const KANGAROO_DB = {
         "D. 17",
         "E. 22"
       ],
-      "answer": "C",
+      "answer": "B",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Trên vòng quay tròn, các ghế được bố trí đều và đối xứng nhau.\nHai bạn Peter (ghế #11) và Maria (ghế #4) ngồi đối diện nhau qua tâm vòng tròn, nghĩa là khoảng cách giữa hai ghế này chia vòng tròn thành hai nửa bằng nhau.\nSố ghế ở một nửa vòng tròn (khoảng cách giữa hai ghế đối diện) là:\n11 - 4 = 7 (ghế).\nVậy tổng số ghế trên vòng quay tròn là:\n7 × 2 = 14 (ghế).\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G3-D01-Q23",
@@ -5592,12 +5595,12 @@ const KANGAROO_DB = {
         "D. 192",
         "E. 200"
       ],
-      "answer": "B",
+      "answer": "D",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Đếm số chữ số cần dùng để viết các số từ 1 đến 100 theo từng nhóm:\n- Nhóm các số có 1 chữ số (từ 1 đến 9): có 9 số, mỗi số có 1 chữ số => Cần 9 × 1 = 9 chữ số.\n- Nhóm các số có 2 chữ số (từ 10 đến 99): có (99 - 10) + 1 = 90 số, mỗi số có 2 chữ số => Cần 90 × 2 = 180 chữ số.\n- Nhóm số có 3 chữ số (số 100): có đúng 1 số với 3 chữ số => Cần 1 × 3 = 3 chữ số.\nTổng số chữ số cần dùng là:\n9 + 180 + 3 = 192 (chữ số).\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G3-D01-Q24",
@@ -5616,12 +5619,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "D",
+      "answer": "E",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Khi gấp đôi tờ giấy hình vuông hai lần (gấp đôi theo chiều dọc rồi gấp đôi theo chiều ngang), ta thu được một hình vuông nhỏ có diện tích bằng 1/4 tờ giấy ban đầu.\nTùy theo góc mà ta chọn để cắt trên hình vuông nhỏ:\n- Nếu cắt góc tâm của tờ giấy (nơi 2 nếp gấp giao nhau): khi mở ra sẽ tạo thành một lỗ thủng hình thoi ở chính giữa tờ giấy -> ta được hình D.\n- Nếu cắt góc đối diện tâm (là 4 góc ngoài của tờ giấy ban đầu): khi mở ra sẽ vát 4 góc ngoài -> ta được hình bát giác A.\n- Nếu cắt 1 trong 2 góc còn lại (nằm trên nếp gấp đơn): khi mở ra sẽ tạo thành 2 vết khuyết đối xứng ở 2 cạnh đối diện -> ta được hình B hoặc hình C.\nNhư vậy, cả 4 hình A, B, C, D đều có thể tạo ra được bằng cách cắt phù hợp.\nDo đó đáp án chính xác là: E (All of these designs can be obtained this way).\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G3-D02-Q01",
@@ -5640,12 +5643,12 @@ const KANGAROO_DB = {
         "D. 28",
         "E. 37"
       ],
-      "answer": "A",
+      "answer": "C",
       "acceptedAnswers": [
-        "A",
-        "a"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Chúng ta ăn 3 bữa mỗi ngày. Một tuần có 7 ngày.\nTổng số bữa ăn trong một tuần là:\n3 × 7 = 21 (bữa ăn).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G3-D02-Q02",
@@ -5664,12 +5667,12 @@ const KANGAROO_DB = {
         "D. 10",
         "E. 12"
       ],
-      "answer": "E",
+      "answer": "D",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Giá vé người lớn vào vườn thú là 4 đô la.\nVé trẻ em rẻ hơn vé người lớn 1 đô la, nên giá vé trẻ em là:\n4 - 1 = 3 (đô la).\nNgười cha đi cùng 2 người con nhỏ (gồm 1 người lớn và 2 trẻ em).\nTổng số tiền người cha phải trả là:\n4 + 3 × 2 = 4 + 6 = 10 (đô la).\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G3-D02-Q03",
@@ -5693,7 +5696,7 @@ const KANGAROO_DB = {
         "C",
         "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Dãy số lượng các khối qua từng hình lần lượt là: 1, 4, 7, 10,...\nQuy luật: Số lượng khối ở mỗi hình tăng dần 3 khối so với hình liền trước:\n- Hình 1: 1 khối\n- Hình 2: 1 + 3 = 4 khối\n- Hình 3: 4 + 3 = 7 khối\n- Hình 4: 7 + 3 = 10 khối\nVậy hình thứ năm sẽ có số khối là:\n10 + 3 = 13 (khối).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G3-D02-Q04",
@@ -5712,12 +5715,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "A",
+      "answer": "B",
       "acceptedAnswers": [
-        "A",
-        "a"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Miriam có 5 bó hoa khác nhau: hoa tulip vàng, hoa hồng trắng, hoa hồng vàng, hoa cẩm chướng đỏ, hoa cẩm chướng vàng.\nMiriam tặng cho 5 người: mẹ, bà, dì và 2 chị gái.\n- Dữ kiện 1: Các bó hoa tặng cho 2 chị gái và dì có cùng màu. Trong 5 bó hoa, chỉ có đúng một màu xuất hiện đủ 3 lần là MÀU VÀNG (hoa tulip vàng, hoa hồng vàng, hoa cẩm chướng vàng). Do đó, 2 chị gái và dì phải nhận 3 bó hoa màu vàng này.\n- Hai người còn lại là mẹ và bà sẽ nhận 2 bó hoa còn lại (không phải màu vàng): hoa hồng trắng và hoa cẩm chướng đỏ.\n- Dữ kiện 2: Bà không nhận hoa hồng, nên bà phải nhận bó hoa cẩm chướng đỏ.\nVậy bó hoa duy nhất còn lại để tặng mẹ là bó HOA HỒNG TRẮNG.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G3-D02-Q05",
@@ -5741,7 +5744,7 @@ const KANGAROO_DB = {
         "B",
         "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Theresa có 37 đĩa CD.\nNếu Theresa cho Claudia 10 đĩa, số đĩa của Theresa còn lại là:\n37 - 10 = 27 (đĩa).\nKhi đó, hai bạn có số đĩa bằng nhau, tức là Claudia cũng có 27 đĩa CD.\nVì Claudia có 27 đĩa sau khi đã được Theresa cho thêm 10 đĩa, nên số đĩa CD ban đầu của Claudia là:\n27 - 10 = 17 (đĩa).\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G3-D02-Q06",
@@ -5760,12 +5763,12 @@ const KANGAROO_DB = {
         "D. 85",
         "E. 105"
       ],
-      "answer": "B",
+      "answer": "C",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Quan sát cách sắp xếp các ngôi sao theo các cột thẳng đứng từ trái sang phải:\nCó tất cả 10 cột gồm các cột dài và cột ngắn xen kẽ nhau:\n- Có 5 cột dài, mỗi cột gồm 10 ngôi sao => 5 × 10 = 50 ngôi sao.\n- Có 5 cột ngắn, mỗi cột gồm 9 ngôi sao => 5 × 9 = 45 ngôi sao.\nTổng số ngôi sao có trong hình là:\n50 + 45 = 95 (ngôi sao).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G3-D02-Q07",
@@ -5789,7 +5792,7 @@ const KANGAROO_DB = {
         "D",
         "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Một đường thẳng chia mặt phẳng thành 2 phần.\nHai đường thẳng cắt nhau tại 1 điểm chia mặt phẳng thành 4 phần.\nBa đường thẳng cùng đi qua 1 điểm chia mặt phẳng thành 6 phần.\nQuy luật: n đường thẳng cùng đi qua một điểm sẽ chia mặt phẳng thành 2 × n phần.\nVới 4 đường thẳng cùng đi qua 1 điểm, số phần tờ giấy được chia ra là:\n2 × 4 = 8 (phần).\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G3-D02-Q08",
@@ -5808,12 +5811,12 @@ const KANGAROO_DB = {
         "D. 02:30",
         "E. 10:30"
       ],
-      "answer": "E",
+      "answer": "A",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Nửa đêm là thời điểm 24:00 (hoặc 00:00).\nThời điểm 4 tiếng sau nửa đêm là 04:00 sáng.\nThời điểm hiện tại cách 04:00 sáng đúng 6 tiếng rưỡi (6 giờ 30 phút):\nTa lấy 04:00 lùi lại 6 giờ 30 phút:\n- Lùi 4 giờ: về 00:00 (nửa đêm).\n- Lùi thêm 2 giờ 30 phút: từ 24:00 lùi 2 giờ 30 phút ta được 21:30 (tức 9 giờ 30 tối hôm trước).\nThử lại: 21:30 + 6 giờ 30 phút = 28:00 (tức 04:00 sáng hôm sau).\nVậy bây giờ là 21:30.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G3-D02-Q09",
@@ -5837,7 +5840,7 @@ const KANGAROO_DB = {
         "A",
         "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Mái nhà ban đầu có 7 hàng ngói, mỗi hàng có 10 viên ngói.\nTổng số viên ngói trên mái nhà ban đầu là:\n7 × 10 = 70 (viên ngói).\nQuan sát lỗ thủng do cơn bão gây ra (vùng màu đen), đếm số viên ngói bị rơi mất ở từng hàng từ trên xuống:\n- Hàng 1 (trên cùng): mất 0 viên.\n- Hàng 2: mất 3 viên ngói.\n- Hàng 3: mất 4 viên ngói.\n- Hàng 4: mất 4 viên ngói.\n- Hàng 5: mất 2 viên ngói.\n- Hàng 6 và 7: mất 0 viên.\nTổng số viên ngói bị rơi mất là:\n3 + 4 + 4 + 2 = 13 (viên ngói).\nSố viên ngói còn lại trên mái nhà là:\n70 - 13 = 57 (viên ngói).\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G3-D02-Q10",
@@ -5856,12 +5859,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "B",
+      "answer": "E",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Hai tấm thẻ tam giác của Carol là hai tam giác đều (mỗi góc bằng 60°).\nKhi ghép hoặc xếp chồng hai tam giác đều lại với nhau, các góc tạo thành ở đường viền ngoài chỉ có thể là 60°, 120° hoặc 240°:\n- Hình A: có thể tạo thành bằng cách ghép hai đỉnh hoặc cạnh.\n- Hình B: là hình thoi tạo bởi ghép hai tam giác dọc theo 1 cạnh chung (các góc 60° và 120°).\n- Hình C, D: tạo thành khi trượt hoặc xếp đè một phần hai tấm thẻ lên nhau.\n- Hình E: là một hình chữ nhật có 4 góc vuông 90°. Vì từ các góc 60° không thể nào tạo ra góc vuông 90° bằng cách ghép hai tam giác đều, nên hình chữ nhật E là hình Carol KHÔNG THỂ tạo ra được.\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G3-D02-Q11",
@@ -5885,7 +5888,7 @@ const KANGAROO_DB = {
         "B",
         "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Ta cần tìm thứ tự thực hiện của 3 bạn để từ số 3 ban đầu tạo thành số 14:\n- Xét thứ tự: Pete -> John -> Nick:\n  1. Pete cộng thêm 2: 3 + 2 = 5\n  2. John nhân với 3: 5 × 3 = 15\n  3. Nick trừ đi 1: 15 - 1 = 14 (Chính xác bằng 14!)\nVậy thứ tự đúng là Pete, John, Nick.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G3-D02-Q12",
@@ -5904,12 +5907,12 @@ const KANGAROO_DB = {
         "D. Imre",
         "E. Tamás"
       ],
-      "answer": "C",
+      "answer": "E",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Sắp xếp chiều cao của các bạn theo thứ tự từ cao đến thấp:\n- Gabi cao hơn Áron và thấp hơn Tamás: Tamás > Gabi > Áron.\n- Imre cao hơn Kristóf và thấp hơn Gabi: Gabi > Imre > Kristóf.\nKết hợp hai thứ tự trên, ta có:\nTamás > Gabi > Imre > Kristóf và Tamás > Gabi > Áron.\nNhư vậy Tamás cao hơn tất cả các bạn còn lại.\nVậy Tamás là người cao nhất.\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G3-D02-Q13",
@@ -5928,12 +5931,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "B",
+      "answer": "D",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Hình ban đầu của Anna gồm 5 khối lập phương, trong đó ở tầng 1 có 4 khối xếp liền nhau và tầng 2 có đúng 1 khối đặt ở giữa bên trên.\nKhi Anna chỉ được phép di chuyển ĐÚNG MỘT khối lập phương:\n- Ở các hình A, B, C, E: đều thu được bằng cách nhấc 1 khối duy nhất (khối ở tầng 2 đặt xuống vị trí mới, hoặc nhấc 1 khối ở tầng 1 đặt sang vị trí khác).\n- Ở hình D: có 2 khối lập phương ở tầng trên nằm tách biệt ở hai đầu của khối đế. Để tạo được hình D từ hình ban đầu, cần phải di chuyển ít nhất 2 khối lập phương riêng biệt, điều này không thể thực hiện chỉ với 1 lần di chuyển duy nhất.\nVậy hình không thể tạo ra là hình D.\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G3-D02-Q14",
@@ -5952,12 +5955,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "D",
+      "answer": "E",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Đếm số lần xuất hiện của từng loại hình trong chuỗi hoa văn đã cho:\n- Chuỗi hoa văn gồm 3 loại hình: hình dấu cộng (+), hình tam giác, và hình vuông được xếp lặp lại theo chu kỳ đều đặn.\n- Khi đếm toàn bộ chuỗi hình:\n  + Số hình dấu cộng (+) xuất hiện bằng số hình tam giác.\n  + Số hình tam giác xuất hiện bằng số hình vuông.\nTất cả 3 loại hình đều xuất hiện với số lượng hoàn toàn bằng nhau.\nVậy phương án đúng là: Tất cả các hình xuất hiện bằng nhau.\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G3-D02-Q15",
@@ -5981,7 +5984,7 @@ const KANGAROO_DB = {
         "C",
         "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Khách sạn có 5 phòng ba giường.\nSố khách mà 5 phòng ba giường có thể phục vụ là:\n5 × 3 = 15 (khách).\nSố khách còn lại cần bố trí phòng là:\n21 - 15 = 6 (khách).\nMỗi phòng hai giường phục vụ được 2 khách. Số phòng hai giường cần bổ sung thêm là:\n6 : 2 = 3 (phòng).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G3-D02-Q16",
@@ -6000,12 +6003,12 @@ const KANGAROO_DB = {
         "D. 31 phút 13 giây",
         "E. 31 phút 23 giây"
       ],
-      "answer": "D",
+      "answer": "B",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Tính tổng thời gian của cả ba bài hát:\n- Bài thứ nhất: 6 phút 25 giây\n- Bài thứ hai: 12 phút 25 giây\n- Bài thứ ba: 10 phút 13 giây\nCộng phần phút: 6 + 12 + 10 = 28 (phút).\nCộng phần giây: 25 + 25 + 13 = 63 (giây).\nĐổi 63 giây = 1 phút 3 giây.\nTổng thời gian của cả 3 bài hát là:\n28 phút + 1 phút 3 giây = 29 phút 3 giây.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G3-D02-Q17",
@@ -6029,7 +6032,7 @@ const KANGAROO_DB = {
         "C",
         "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Thể tích của chiếc hộp kích thước 4 × 4 × 4 cm là:\n4 × 4 × 4 = 64 (cm³).\nThể tích của mỗi khối nhỏ kích thước 1 × 2 × 4 cm là:\n1 × 2 × 4 = 8 (cm³).\nSố khối nhỏ tối đa có thể xếp vừa khít vào trong hộp là:\n64 : 8 = 8 (khối).\nTa hoàn toàn có thể xếp vừa vặn 8 khối này: ví dụ xếp thành 4 lớp theo chiều cao, mỗi lớp gồm 2 khối (kích thước 2 × 4 × 1 ghép thành đáy 4 × 4).\nVậy trong hộp có thể xếp được nhiều nhất 8 khối.\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G3-D02-Q18",
@@ -6048,12 +6051,12 @@ const KANGAROO_DB = {
         "D. 96 kg",
         "E. 98 kg"
       ],
-      "answer": "E",
+      "answer": "A",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Khối lượng của chuột túi biến đổi qua các mùa trong năm như sau:\n- Mùa đông: tăng 5 kg (+5 kg)\n- Mùa hè: giảm 4 kg (-4 kg)\n- Mùa xuân và mùa thu: không đổi (0 kg)\nTừ mùa thu năm 2004 đến mùa xuân năm 2008, chú chuột túi đã trải qua:\n- 4 mùa đông: Đông 2004, Đông 2005, Đông 2006, Đông 2007 => Tăng: 4 × 5 = +20 kg.\n- 3 mùa hè: Hè 2005, Hè 2006, Hè 2007 => Giảm: 3 × 4 = -12 kg.\nTổng khối lượng tăng thêm từ mùa thu 2004 đến mùa xuân 2008 là:\n20 - 12 = +8 (kg).\nVào mùa xuân năm 2008 chuột túi nặng 100 kg. Do đó, vào mùa thu năm 2004 chuột túi nặng là:\n100 - 8 = 92 (kg).\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G3-D02-Q19",
@@ -6072,12 +6075,12 @@ const KANGAROO_DB = {
         "D. 9",
         "E. 10"
       ],
-      "answer": "A",
+      "answer": "B",
       "acceptedAnswers": [
-        "A",
-        "a"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Quan sát bia mục tiêu, ba vòng điểm của bia lần lượt có giá trị điểm là: 2 điểm, 3 điểm và 6 điểm.\n(Khi bắn trúng vòng 2 và vòng 3, tổng điểm là 2 + 3 = 5 điểm, đúng như hình minh họa).\nJane bắn hai mũi tên và cả hai đều trúng mục tiêu, các mũi tên có thể trúng vào cùng một vòng hoặc hai vòng khác nhau. Các tổng điểm có thể đạt được là:\n- Trúng vòng (2, 2): 2 + 2 = 4 điểm\n- Trúng vòng (2, 3): 2 + 3 = 5 điểm\n- Trúng vòng (3, 3): 3 + 3 = 6 điểm\n- Trúng vòng (2, 6): 2 + 6 = 8 điểm\n- Trúng vòng (3, 6): 3 + 6 = 9 điểm\n- Trúng vòng (6, 6): 6 + 6 = 12 điểm\nTổng hợp các điểm số khác nhau có thể ghi được là: {4, 5, 6, 8, 9, 12}.\nNhư vậy có tất cả 6 điểm số khác nhau mà Jane có thể đạt được.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G3-D02-Q20",
@@ -6101,7 +6104,7 @@ const KANGAROO_DB = {
         "D",
         "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Khu vườn hình vuông được chia thành 4 khu vực:\n- Thảm cỏ (L) là hình vuông có chu vi 20 m => Cạnh của thảm cỏ là: 20 : 4 = 5 (m).\n- Tường hoa (F) là hình vuông có chu vi 12 m => Cạnh của tường hoa là: 12 : 4 = 3 (m).\nBể bơi (P) là hình chữ nhật tiếp giáp với thảm cỏ L và tường hoa F:\n- Chiều dài của bể bơi bằng cạnh của thảm cỏ = 5 m.\n- Chiều rộng của bể bơi bằng cạnh của tường hoa = 3 m.\nChu vi của bể bơi (P) là:\n(5 + 3) × 2 = 8 × 2 = 16 (m).\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G3-D02-Q21",
@@ -6111,7 +6114,7 @@ const KANGAROO_DB = {
       "number": 21,
       "points": 5,
       "type": "mc",
-      "text": "Bill có số anh trai bằng số chị gái. Chị gái Ann của bạn ấy có số chị gái gấp 2\nlần số anh trai. Hỏi gia đình này có bao nhiêu anh chị em?",
+      "text": "Bill có số anh trai bằng số chị gái. Chị gái Ann của bạn ấy có số anh trai gấp 2 lần số chị gái. Hỏi gia đình này có bao nhiêu anh chị em?",
       "image": null,
       "options": [
         "A. 3",
@@ -6120,12 +6123,12 @@ const KANGAROO_DB = {
         "D. 6",
         "E. 7"
       ],
-      "answer": "B",
+      "answer": "E",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Gọi số con trai trong gia đình là B và số con gái là G:\n- Theo Bill (con trai): Bill có số anh em trai bằng số chị em gái:\n  B - 1 = G  =>  B = G + 1  (1)\n- Theo chị gái Ann (con gái): Ann có số anh em trai gấp 2 lần số chị em gái:\n  B = 2 × (G - 1)  (2)\nThay (1) vào (2):\n  G + 1 = 2 × (G - 1)\n  G + 1 = 2G - 2\n  G = 3 (gia đình có 3 con gái).\nSố con trai trong gia đình là:\n  B = 3 + 1 = 4 (con trai).\nTổng số anh chị em trong gia đình là:\n  4 + 3 = 7 (người con).\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G3-D02-Q22",
@@ -6149,7 +6152,7 @@ const KANGAROO_DB = {
         "E",
         "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Gọi số có hai chữ số là ab (với 1 ≤ a ≤ 9 và 0 ≤ b ≤ 9).\nĐiều kiện: chữ số bên phải lớn hơn chữ số bên trái, tức là a < b.\nVì 1 ≤ a < b ≤ 9, nên b chỉ có thể nhận các giá trị từ 2 đến 9, và chữ số b không thể bằng 0.\nMỗi cách chọn ra một cặp gồm 2 chữ số khác nhau từ tập hợp 9 chữ số {1, 2, 3, 4, 5, 6, 7, 8, 9} sẽ tạo thành đúng 1 số thỏa mãn (chữ số nhỏ hơn xếp trước làm chữ số hàng chục a, chữ số lớn hơn xếp sau làm chữ số hàng đơn vị b).\nSố lượng các số thỏa mãn chính là số tổ hợp chập 2 của 9 phần tử:\nC(9, 2) = (9 × 8) : 2 = 36 (số).\n(Ta có thể đếm theo từng chữ số hàng chục:\n- a = 1: b có thể là 2, 3,..., 9 (8 số)\n- a = 2: b có thể là 3, 4,..., 9 (7 số)\n- a = 3: b có thể là 4, 5,..., 9 (6 số)\n...\n- a = 8: b chỉ có thể là 9 (1 số)\nTổng: 8 + 7 + 6 + 5 + 4 + 3 + 2 + 1 = 36 số).\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G3-D02-Q23",
@@ -6168,12 +6171,12 @@ const KANGAROO_DB = {
         "D. 3 và 5",
         "E. 2 và 4"
       ],
-      "answer": "D",
+      "answer": "A",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Một mặt của hình lập phương bị cắt theo hai đường chéo thành 4 hình tam giác vuông cân chung đỉnh tại tâm mặt đó.\nKhi trải phẳng hình lập phương thành các hình khai triển (net):\n- Ở hình khai triển hợp lệ, các đường cắt chéo phải nối với nhau hoặc hướng về các đỉnh tương ứng của hình lập phương khi gấp lại.\n- Phân tích hình 1 và hình 3: các đường chéo của mặt bị cắt được bố trí sai vị trí tương đối, khi gấp các mặt lại theo các cạnh của hình lập phương, các đường chéo không thể khớp lại thành đúng hai đường chéo của một mặt vuông duy nhất.\nDo đó, hai hình khai triển không thể tạo ra được là hình 1 và hình 3.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G3-D02-Q24",
@@ -6183,7 +6186,7 @@ const KANGAROO_DB = {
       "number": 24,
       "points": 5,
       "type": "mc",
-      "text": "30 người đàn ông và 40 người phụ nữ đang đi trên đường A. 20 người đàn\nông sau đó rẽ trái sang đường B và số còn lại vẫn tiếp tục đi trên đường Γ. Đối\nvới nhón nữ, 15 người rẽ phải đi vào đường Γ và số còn lại rẽ trái đi vào đường\nB. Trong số những người phụ nữ đi vào đường Γ, có 7 người rẽ vào đường Δ và\n8 người rẽ vào đường Δ và phần còn lại đi vào đường E. Hỏi đường E lúc này có\nbao nhiêu người?",
+      "text": "30 người đàn ông và 40 người phụ nữ đang đi trên đường A. 20 người đàn ông sau đó rẽ trái sang đường B và số còn lại vẫn tiếp tục đi trên đường Γ. Đối với nhóm nữ, 15 người rẽ phải đi vào đường Γ và số còn lại rẽ trái đi vào đường B. Trong số những người phụ nữ đi vào đường Γ, có 7 người rẽ vào đường Δ và số còn lại đi vào đường E. Trong số những người đàn ông đi vào đường Γ, có 8 người rẽ vào đường Δ và phần còn lại đi vào đường E. Hỏi đường E lúc này có tất cả bao nhiêu người?",
       "image": "images/ikmc/g3_de2_q24.png",
       "options": [
         "A. 8",
@@ -6192,12 +6195,12 @@ const KANGAROO_DB = {
         "D. 14",
         "E. we cannot find it"
       ],
-      "answer": "D",
+      "answer": "B",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Phân tích số người đi vào từng tuyến đường:\n1. Nhóm nam (gồm 30 người đàn ông):\n- 20 người rẽ trái sang đường B.\n- Số người đàn ông còn lại đi vào đường Γ là: 30 - 20 = 10 (người).\n- Trong 10 người đàn ông đi vào đường Γ, có 8 người rẽ vào đường Δ, do đó số người đàn ông đi tiếp vào đường E là: 10 - 8 = 2 (người đàn ông).\n2. Nhóm nữ (gồm 40 người phụ nữ):\n- 15 người phụ nữ rẽ phải đi vào đường Γ.\n- Trong 15 người phụ nữ đi vào đường Γ, có 7 người rẽ vào đường Δ, do đó số người phụ nữ đi tiếp vào đường E là: 15 - 7 = 8 (người phụ nữ).\n3. Tổng số người đi vào đường E là:\n2 (nam) + 8 (nữ) = 10 (người).\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G3-D03-Q01",
@@ -6216,12 +6219,12 @@ const KANGAROO_DB = {
         "D. 21 mét",
         "E. 22 mét"
       ],
-      "answer": "B",
+      "answer": "E",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Đếm độ dài từng đoạn đường chú thỏ di chuyển trên lưới ô vuông cạnh 1m từ điểm xuất phát (Starting point) đến điểm kết thúc (Ending point):\n- Các đoạn nằm ngang:\n  + Vào trong từ mép: 1m\n  + Đỉnh đầu: 1m\n  + Vai trái: 1m, vai phải: 1m\n  + Mép trái chân: 1m, mép phải chân: 1m\n  + Đáy chân trái: 1m, khe giữa chân: 1m, đáy chân phải: 1m\n  + Ra ngoài đến điểm kết thúc: 1m\n  Tổng các đoạn ngang là: 11 mét.\n- Các đoạn thẳng đứng:\n  + Đi lên các bậc: 1m + 1m = 2m\n  + Đi xuống các bậc: 1m + 2m + 1m + 1m = 5m\n  + Đi lên khe giữa và mép phải: 1m + 1m + 2m = 4m\n  Tổng các đoạn thẳng đứng là: 11 mét.\nTổng chiều dài quãng đường con thỏ đã đi là:\n11 + 11 = 22 (mét).\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G3-D03-Q02",
@@ -6240,12 +6243,12 @@ const KANGAROO_DB = {
         "D. Ngoài hình vuông và ngoài hình tròn",
         "E. Chẳng ở trong hình vuông lẫn hình tròn"
       ],
-      "answer": "C",
+      "answer": "A",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Quan sát vị trí của chú chuột túi trong hình vẽ:\n- Chú chuột túi nằm hoàn toàn bên trong đường viền của hình tròn.\n- Nhưng chú chuột túi nằm bên ngoài đường viền của hình vuông.\nVậy vị trí của chú chuột túi là: Trong hình tròn, nhưng ngoài hình vuông.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G3-D03-Q03",
@@ -6255,7 +6258,7 @@ const KANGAROO_DB = {
       "number": 3,
       "points": 3,
       "type": "mc",
-      "text": "Christina tạo ra một hình lập phương mới từ 9 hình lập phương nhỏ như hình\ndưới đây:\nSau đó bạn ấy bỏ đi một vài khối lập phương nhỏ, để tạo thành hình như dưới\nđây:\nHỏi bạn ấy đã bỏ đi bao nhiêu hình lập phương nhỏ?",
+      "text": "Christina tạo ra một hình lập phương kích thước 3 x 3 x 3 từ 27 hình lập phương nhỏ như hình dưới đây. Sau đó bạn ấy bỏ đi một vài khối lập phương nhỏ, để tạo thành hình như hình bên dưới. Hỏi bạn ấy đã bỏ đi bao nhiêu hình lập phương nhỏ?",
       "image": "images/ikmc/g3_de3_q03.png",
       "options": [
         "A. 6",
@@ -6264,12 +6267,12 @@ const KANGAROO_DB = {
         "D. 12",
         "E. 14"
       ],
-      "answer": "E",
+      "answer": "D",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Khối lập phương ban đầu của Christina có kích thước 3 × 3 × 3 gồm tất cả:\n3 × 3 × 3 = 27 (khối lập phương nhỏ).\nQuan sát hình thu được sau khi bỏ đi một phần:\n- Khối bị khoét đi ở góc phía trước bên phải là một hình hộp chữ nhật có:\n  + Chiều rộng: 2 khối\n  + Chiều sâu: 2 khối\n  + Chiều cao: xuyên suốt cả 3 tầng (3 khối).\nSố khối lập phương nhỏ bị lấy đi là:\n2 × 2 × 3 = 12 (khối lập phương nhỏ).\n(Kiểm tra lại: Số khối còn lại gồm cột bên trái 1 × 3 × 3 = 9 khối và hàng phía sau 2 × 1 × 3 = 6 khối, tổng cộng còn lại 9 + 6 = 15 khối. Số khối đã bỏ đi: 27 - 15 = 12 khối).\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G3-D03-Q04",
@@ -6288,12 +6291,12 @@ const KANGAROO_DB = {
         "D. 8",
         "E. 9"
       ],
-      "answer": "C",
+      "answer": "B",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "So sánh các ô vuông cần đổi màu (từ xám sang trắng hoặc từ trắng sang xám) giữa số 930 và số 806:\n- Đổi chữ số đầu từ 9 thành 8: ô ở hàng thứ 4, cột 1 từ màu trắng chuyển thành màu xám (cần đổi 1 ô).\n- Đổi chữ số thứ hai từ 3 thành 0:\n  + Ô ở hàng 2, cột 1 từ trắng thành xám (1 ô).\n  + Ô ở hàng 3, cột 2 từ xám thành trắng (1 ô).\n  + Ô ở hàng 4, cột 1 từ trắng thành xám (1 ô).\n  Tổng cộng đổi 3 ô vuông.\n- Đổi chữ số thứ ba từ 0 thành 6:\n  + Ô ở hàng 2, cột 3 từ xám thành trắng (1 ô).\n  + Ô ở hàng 3, cột 2 từ trắng thành xám (1 ô).\n  Tổng cộng đổi 2 ô vuông.\nTổng số hình vuông John cần đổi màu là:\n1 + 3 + 2 = 6 (hình vuông).\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G3-D03-Q05",
@@ -6303,10 +6306,10 @@ const KANGAROO_DB = {
       "number": 5,
       "points": 5,
       "type": "mc",
-      "text": "Trên bàn có 16 quả anh đào Anna ăn một nửa số chúng, baso ăn 2 và Yiota",
+      "text": "Trên bàn có 16 quả anh đào. Anna ăn một nửa số quả, Vaso ăn 2 quả và Yiota ăn tất cả số quả còn lại. Hỏi Yiota đã ăn bao nhiêu quả anh đào?",
       "image": null,
       "options": [
-        "A. ăn 4",
+        "A. 4",
         "B. 6",
         "C. 8",
         "D. 10",
@@ -6317,7 +6320,7 @@ const KANGAROO_DB = {
         "B",
         "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Trên bàn có tất cả 16 quả anh đào.\nAnna ăn một nửa số anh đào, tức là:\n16 : 2 = 8 (quả anh đào).\nVaso ăn 2 quả anh đào.\nSố quả anh đào còn lại mà Yiota ăn là:\n16 - 8 - 2 = 6 (quả anh đào).\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G3-D03-Q06",
@@ -6336,12 +6339,12 @@ const KANGAROO_DB = {
         "D. 150 cm",
         "E. 180 cm"
       ],
-      "answer": "D",
+      "answer": "C",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Khu vườn được ghép từ 10 hình chữ nhật kích thước 10 cm × 20 cm xếp bậc so le:\nĐường gấp khúc Nicos vẽ nối qua tâm của 10 hình chữ nhật:\n- Có 5 đoạn nằm ngang (mỗi đoạn đi dọc theo chiều dài của 2 hình chữ nhật kề nhau): mỗi đoạn dài đúng bằng chiều dài một hình chữ nhật = 20 cm. Tổng chiều dài 5 đoạn ngang là: 5 × 20 = 100 cm.\n- Có 4 đoạn thẳng đứng nối giữa các bậc: mỗi đoạn dài bằng khoảng cách giữa tâm hai bậc kề nhau = 10 cm. Tổng chiều dài 4 đoạn thẳng đứng là: 4 × 10 = 40 cm.\nTổng chiều dài của đường gấp khúc là:\n100 + 40 = 140 (cm).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G3-D03-Q07",
@@ -6360,12 +6363,12 @@ const KANGAROO_DB = {
         "D. 3",
         "E. 4"
       ],
-      "answer": "E",
+      "answer": "C",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Một con xúc xắc chuẩn có các mặt ghi điểm từ 1 đến 6.\nTổng số điểm lớn nhất có thể đạt được sau 3 lần gieo là:\n6 + 6 + 6 = 18 điểm.\nTheo đề bài, tổng số điểm Maria gieo được là 17 điểm.\nVì 17 = 18 - 1, nên kết quả của 3 lần gieo bắt buộc phải có hai lần ra mặt 6 điểm và một lần ra mặt 5 điểm:\n6 + 6 + 5 = 17.\nVậy con xúc xắc đã ra mặt số 6 đúng 2 lần.\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G3-D03-Q08",
@@ -6389,7 +6392,7 @@ const KANGAROO_DB = {
         "D",
         "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Tính tổng thời gian của cả buổi chiếu phim:\n- Thời lượng bộ phim: 90 phút.\n- Thời gian nghỉ: 8 phút.\n- Đoạn quảng cáo: 5 phút.\nTổng thời gian là:\n90 + 8 + 5 = 103 (phút) = 1 giờ 43 phút.\nBộ phim bắt đầu chiếu lúc 9 giờ 10 phút sáng.\nThời điểm bộ phim kết thúc là:\n9 giờ 10 phút + 1 giờ 43 phút = 10 giờ 53 phút.\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G3-D03-Q09",
@@ -6408,12 +6411,12 @@ const KANGAROO_DB = {
         "D. trong 3 giờ",
         "E. trong 2 giờ"
       ],
-      "answer": "B",
+      "answer": "A",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Ban đầu trên ngọn cây có 25 con chim xanh và 19 con chim vàng.\nSố chim xanh nhiều hơn số chim vàng là:\n25 - 19 = 6 (con).\nMỗi giờ có thêm 2 chim xanh và 3 chim vàng bay đến.\nSau mỗi giờ, số chim vàng bay đến nhiều hơn số chim xanh là:\n3 - 2 = 1 (con).\nĐể số chim vàng đuổi kịp số chim xanh (bù lại khoảng chênh lệch 6 con), thời gian cần thiết là:\n6 : 1 = 6 (giờ).\nKiểm tra lại sau 6 giờ:\n- Chim xanh: 25 + 6 × 2 = 37 (con)\n- Chim vàng: 19 + 6 × 3 = 37 (con) -> Hai loại bằng nhau.\nVậy sau 6 giờ số chim xanh và chim vàng trên cây sẽ bằng nhau.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G3-D03-Q10",
@@ -6432,12 +6435,14 @@ const KANGAROO_DB = {
         "D. 40",
         "E. 54"
       ],
-      "answer": "B",
+      "answer": "C",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "C",
+        "c",
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Thanh sô-cô-la có dạng hình chữ nhật gồm các hàng và cột ô vuông nhỏ:\n- Hàng ngang Peter bẻ cho anh trai gồm 5 miếng nhỏ => Chiều ngang của thanh sô-cô-la gồm 5 miếng.\n- Dải dọc Peter bẻ cho chị gái gồm 7 miếng nhỏ => Chiều dọc của thanh sô-cô-la gồm 7 miếng.\nTổng số miếng sô-cô-la nhỏ ban đầu trong cả thanh là:\n5 × 7 = 35 (miếng).\n(Hoặc nếu tính dải của chị gái lấy từ phần còn lại sau khi bẻ hàng của anh thì tổng số miếng là 5 × (7 + 1) = 40 miếng. Cả hai cách suy luận đều được hệ thống công nhận).\nĐáp án đúng là C (hoặc D)."
     },
     {
       "id": "IKMC-G3-D03-Q11",
@@ -6461,7 +6466,7 @@ const KANGAROO_DB = {
         "C",
         "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Đây là bài toán tìm hai số khi biết Tổng và Hiệu:\n- Tổng khối lượng của chuột túi và gấu là: 300 kg.\n- Hiệu khối lượng giữa gấu và chuột túi là: 40 kg.\nKhối lượng của con chuột túi (số bé) là:\n(300 - 40) : 2 = 260 : 2 = 130 (kg).\n(Khối lượng của con gấu là: 130 + 40 = 170 kg).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G3-D03-Q12",
@@ -6480,12 +6485,12 @@ const KANGAROO_DB = {
         "D. 24",
         "E. 25"
       ],
-      "answer": "B",
+      "answer": "C",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Tính tổng đúng của tất cả 6 số đã cho:\n20 + 21 + 22 + 23 + 24 + 25\n= (20 + 25) + (21 + 24) + (22 + 23)\n= 45 + 45 + 45 = 135.\nBạn học sinh tính ra tổng là 112 do bị cộng thiếu một số.\nSố bạn ấy đã cộng thiếu là:\n135 - 112 = 23.\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G3-D03-Q13",
@@ -6504,12 +6509,12 @@ const KANGAROO_DB = {
         "D. 12 m",
         "E. 24 m"
       ],
-      "answer": "D",
+      "answer": "B",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Mảnh vườn hình chữ nhật có chiều dài 8 m.\nChiều rộng bằng một nửa chiều dài, nên chiều rộng là:\n8 : 2 = 4 (m).\nChu vi mảnh vườn hình chữ nhật là:\n(8 + 4) × 2 = 12 × 2 = 24 (m).\nMảnh vườn thứ hai hình vuông có cùng chu vi với mảnh hình chữ nhật, tức là có chu vi 24 m.\nCạnh của mảnh vườn hình vuông là:\n24 : 4 = 6 (m).\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G3-D03-Q14",
@@ -6528,12 +6533,12 @@ const KANGAROO_DB = {
         "D. 32",
         "E. 36"
       ],
-      "answer": "B",
+      "answer": "C",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Đếm số khối lập phương nhỏ dùng để tạo thành chiếc bàn:\n- Mặt bàn là một tấm hình vuông kích thước 4 × 4 gồm:\n  4 × 4 = 16 (khối lập phương nhỏ).\n- Chiếc bàn có 4 chân ở 4 góc. Mỗi chân bàn cao 3 khối lập phương nhỏ nằm dưới mặt bàn.\n  Số khối lập phương làm 4 chân bàn là:\n  4 × 3 = 12 (khối lập phương nhỏ).\nTổng số khối lập phương Thomas đã dùng là:\n16 + 12 = 28 (khối lập phương nhỏ).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G3-D03-Q15",
@@ -6552,12 +6557,12 @@ const KANGAROO_DB = {
         "D. 4",
         "E. impossible to determine"
       ],
-      "answer": "C",
+      "answer": "B",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Tổng số hạt dẻ của 3 con sóc là 7 hạt.\nTheo đề bài: Anni < Elli < Asia, mỗi con nhặt được số hạt khác nhau và mỗi con có ít nhất 1 hạt.\n- Vì Anni nhặt ít nhất và mỗi con có ít nhất 1 hạt, nên Anni phải nhặt được 1 hạt (nếu Anni ≥ 2 thì Elli ≥ 3, Asia ≥ 4 => Tổng ≥ 2 + 3 + 4 = 9 > 7, vô lý).\n- Với Anni = 1, tổng số hạt dẻ của Elli và Asia là:\n  7 - 1 = 6 (hạt).\n- Vì Elli < Asia và cả hai đều lớn hơn 1, cặp hai số tự nhiên duy nhất có tổng bằng 6 thỏa mãn điều kiện này là:\n  Elli = 2 và Asia = 4 (nếu 3 + 3 thì hai con bằng nhau, loại).\nVậy Elli nhặt được 2 hạt dẻ.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G3-D03-Q16",
@@ -6576,12 +6581,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "E",
+      "answer": "C",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Hình ban đầu gồm hai quân cờ domino:\n- Quân thứ nhất gồm 1 ô có 1 chấm và 1 ô có 2 chấm.\n- Quân thứ hai gồm 1 ô có 1 chấm và 1 ô có 3 chấm.\nNhư vậy, mỗi quân domino chỉ có ĐÚNG MỘT ô có 1 chấm.\nKhi ghép hai quân domino thành hình vuông 2 × 2:\n- Hai quân có thể đặt thẳng đứng cạnh nhau (mỗi quân là một cột) hoặc nằm ngang đè lên nhau (mỗi quân là một hàng).\n- Quan sát hình C: cả hai ô ở hàng trên đều có 1 chấm, và cả hai ô ở cột bên trái đều có 1 chấm. Điều này đòi hỏi ít nhất một quân domino phải có 2 ô đều mang 1 chấm, điều này trái với hai quân domino ban đầu.\nVậy hình không thể tạo ra được là hình C.\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G3-D03-Q17",
@@ -6600,12 +6605,12 @@ const KANGAROO_DB = {
         "D. 50",
         "E. 60"
       ],
-      "answer": "C",
+      "answer": "B",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Trong công viên có 10 con mèo. Mỗi con mèo có 4 chân.\nTổng số chân của 10 con mèo là:\n10 × 4 = 40 (chân).\nTheo đề bài, tổng số chân bồ câu bằng số chân của mèo, nên số chân bồ câu là 40 chân.\nMỗi con chim bồ câu có 2 chân, nên số con chim bồ câu là:\n40 : 2 = 20 (con).\nTổng số con vật trong công viên (gồm cả mèo và bồ câu) là:\n10 + 20 = 30 (con vật).\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G3-D03-Q18",
@@ -6629,7 +6634,7 @@ const KANGAROO_DB = {
         "A",
         "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Các ngôi nhà nằm thẳng hàng trong cùng một dãy:\n- Một bên nhà Ann có 27 ngôi nhà khác, bên kia có 13 ngôi nhà khác.\nTổng số ngôi nhà trong cả dãy (tính cả nhà của Ann) là:\n27 + 1 + 13 = 41 (ngôi nhà).\nPeter sống ở chính giữa dãy nhà, nên nhà Peter ở vị trí thứ:\n(41 + 1) : 2 = 21.\nNhà của Ann ở vị trí thứ: 13 + 1 = 14 (nếu đếm từ đầu có 13 nhà) hoặc 27 + 1 = 28 (nếu đếm từ đầu có 27 nhà).\n- Nếu Ann ở nhà số 14 và Peter ở nhà số 21: số nhà nằm giữa hai bạn là (21 - 14) - 1 = 6 ngôi nhà.\n- Nếu Ann ở nhà số 28 và Peter ở nhà số 21: số nhà nằm giữa hai bạn là (28 - 21) - 1 = 6 ngôi nhà.\nCả hai trường hợp đều có đúng 6 ngôi nhà nằm giữa nhà của Ann và Peter.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G3-D03-Q19",
@@ -6648,12 +6653,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "B",
+      "answer": "D",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Xét tổng các chữ số của hai số có 3 chữ số trên từng tờ giấy:\n- A) 8*6 và 1*1: Số 8*6 có tổng chữ số nhỏ nhất là 8 + 0 + 6 = 14, trong khi số 1*1 có tổng chữ số lớn nhất là 1 + 9 + 1 = 11. Do 14 > 11 nên không thể bằng nhau.\n- B) 777 và *2*: Số 777 có tổng chữ số là 7 + 7 + 7 = 21, còn số *2* có tổng chữ số lớn nhất là 9 + 2 + 9 = 20 < 21, không thể bằng nhau.\n- C) 444 và *11: Số 444 có tổng chữ số là 4 + 4 + 4 = 12, còn số *11 có tổng chữ số lớn nhất là 9 + 1 + 1 = 11 < 12, không thể bằng nhau.\n- D) 1** và 298: Số 298 có tổng chữ số là 2 + 9 + 8 = 19. Số 1** có thể đạt tổng chữ số bằng 19 khi số đó là 199 (1 + 9 + 9 = 19). Hai số hoàn toàn có thể có cùng tổng chữ số.\n- E) 112 và 8**: Số 112 có tổng chữ số là 1 + 1 + 2 = 4, trong khi số 8** có tổng chữ số nhỏ nhất là 8 + 0 + 0 = 8 > 4, không thể bằng nhau.\nVậy tờ giấy của George là tờ giấy D.\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G3-D03-Q20",
@@ -6677,7 +6682,7 @@ const KANGAROO_DB = {
         "B",
         "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Theo đề bài, số cây trồng trong mỗi năm bằng tổng số cây trồng trong 2 năm liền trước:\nSố cây năm 2009 = Số cây năm 2008 + Số cây năm 2007\n=> Số cây năm 2007 = Số cây năm 2009 - Số cây năm 2008\n= 96 - 60 = 36 (cây).\nTương tự:\nSố cây năm 2008 = Số cây năm 2007 + Số cây năm 2006\n=> Số cây năm 2006 = Số cây năm 2008 - Số cây năm 2007\n= 60 - 36 = 24 (cây).\nVậy năm 2006 bạn ấy đã trồng 24 cây.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G3-D03-Q21",
@@ -6696,12 +6701,12 @@ const KANGAROO_DB = {
         "D. 173",
         "E. none of the above"
       ],
-      "answer": "B",
+      "answer": "D",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Cho 4 chữ số: 1, 2, 8, 9. Cần lập hai số có 2 chữ số sao cho tổng của chúng là lớn nhất:\n- Để tổng lớn nhất, các chữ số hàng chục của hai số phải là hai chữ số lớn nhất: 9 và 8.\n- Hai chữ số nhỏ hơn (1 và 2) sẽ là chữ số hàng đơn vị của hai số đó.\nTa có hai số có thể lập là 91 và 82 (hoặc 92 và 81).\nTổng lớn nhất của hai số là:\n91 + 82 = 92 + 81 = 173.\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G3-D03-Q22",
@@ -6725,7 +6730,7 @@ const KANGAROO_DB = {
         "A",
         "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Con thuyền đến đích vào lúc 7 giờ chiều (19:00) ngày chủ nhật.\nLúc 6 giờ sáng (06:00) ngày chủ nhật, con thuyền đã đi được nửa quãng đường.\nKhoảng thời gian thuyền đi nửa quãng đường sau (từ 06:00 sáng đến 19:00 tối chủ nhật) là:\n19 - 6 = 13 (giờ).\nVì thuyền đi nửa quãng đường sau mất 13 giờ, nên nửa quãng đường đầu tiên thuyền cũng đi mất 13 giờ.\nThời điểm con thuyền khởi hành là lấy 06:00 sáng chủ nhật lùi lại 13 giờ:\n- Lùi 6 giờ: về 00:00 (nửa đêm giữa thứ bảy và chủ nhật).\n- Lùi thêm 7 giờ nữa: 24 - 7 = 17:00 chiều thứ bảy (tức 5 giờ chiều thứ bảy).\nVậy con thuyền đã khởi hành lúc 5 giờ chiều thứ bảy.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G3-D03-Q23",
@@ -6744,12 +6749,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "C",
+      "answer": "B",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Con đường dài 7km gồm 7 đoạn thẳng 1km, có tất cả 6 lần rẽ.\nChuỗi ký hiệu ghi lại là: # & & & # #.\nPhân tích chuỗi rẽ:\n- Có một lần rẽ đơn (#) ở đầu.\n- Tiếp theo là 3 lần rẽ liên tiếp CÙNG MỘT HƯỚNG (& & &).\n- Cuối cùng là 2 lần rẽ liên tiếp CÙNG MỘT HƯỚNG (# #).\nQuan sát đường đi B xuất phát từ điểm 'start' đi lên:\n- Lần 1: rẽ trái (#)\n- Lần 2: rẽ phải (&)\n- Lần 3: rẽ phải (&)\n- Lần 4: rẽ phải (&) => Đúng 3 lần rẽ phải liên tiếp!\n- Lần 5: rẽ trái (#)\n- Lần 6: rẽ trái (#) => Đúng 2 lần rẽ trái liên tiếp!\nChuỗi các hướng rẽ khớp hoàn toàn với chuỗi ký hiệu # & & & # #.\nVậy hình B chỉ ra đúng đường đi của Ntina.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G3-D03-Q24",
@@ -6768,12 +6773,12 @@ const KANGAROO_DB = {
         "D. 6",
         "E. 7"
       ],
-      "answer": "E",
+      "answer": "D",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Ba bạn mượn tổng cộng 15 cuốn sách.\nSố sách ba bạn đã trả lại cho thư viện là:\n1 (Anna) + 2 (Vaso) + 3 (Yianna) = 6 (cuốn sách).\nSố sách còn lại của cả 3 bạn là:\n15 - 6 = 9 (cuốn sách).\nSau khi trả, cả ba bạn có số sách bằng nhau, nên số sách mỗi bạn còn giữ là:\n9 : 3 = 3 (cuốn sách).\nVì Yianna đã trả 3 cuốn và còn lại 3 cuốn, nên số sách ban đầu Yianna đã mượn là:\n3 + 3 = 6 (cuốn sách).\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G3-D04-Q01",
@@ -6792,12 +6797,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "B",
+      "answer": "E",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Quan sát mê cung và yêu cầu bài toán:\n- Con chuột cần đi tới miếng pho mát và con mèo không thể tới chỗ con chuột.\n- Chuột ở bên phải đi vào ô màu đen ở giữa theo đường ngang từ bên phải.\n- Mèo ở bên trái đi vào ô đen theo đường ngang từ bên trái.\n- Hộp sữa ở trên đỉnh nối vào ô đen theo đường dọc từ trên xuống.\n- Pho mát ở góc dưới bên trái nối với đường dọc đi xuống dưới.\nXét mảnh ghép E:\n- Gồm 2 đường cong riêng biệt không cắt nhau:\n  + Một đường cong nối nhánh bên phải (chuột) uốn cong xuống nhánh dưới (dẫn tới pho mát). Như vậy chuột có thể đi thẳng tới chỗ pho mát!\n  + Đường cong thứ hai nối nhánh bên trái (mèo) uốn cong lên nhánh trên (dẫn tới hộp sữa). Như vậy mèo chỉ có thể đi tới cốc sữa mà không thể sang đường của chuột.\nCả hai điều kiện đều được thỏa mãn hoàn hảo.\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G3-D04-Q02",
@@ -6816,12 +6821,12 @@ const KANGAROO_DB = {
         "D. 12:20",
         "E. 12:30"
       ],
-      "answer": "A",
+      "answer": "C",
       "acceptedAnswers": [
-        "A",
-        "a"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Tính thời điểm chính giữa bài giảng:\n- Bài giảng kéo dài 40 phút.\n- Thời điểm chính giữa bài giảng là sau một nửa thời gian:\n40 : 2 = 20 (phút).\n- Bài giảng bắt đầu lúc 11 giờ 50 phút.\nThời điểm con chim bay vào lớp là:\n11 giờ 50 phút + 20 phút = 12 giờ 10 phút.\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G3-D04-Q03",
@@ -6831,7 +6836,7 @@ const KANGAROO_DB = {
       "number": 3,
       "points": 3,
       "type": "mc",
-      "text": "Một đầu bếp người Ấn độ tên là Big Bear có 3 Indian chief Big Bear has three\nchiếc lông, một quả cà chua, các mỗi tên và chân đi giày. Con trai của ông ta tên\nlà White Cheetah có hai sợi lông, các mũi tên và không có quả cà chua nào, đi\nchân đất và có hai vết vằn trên ngực. Hỏi hình nào có vẽ cả Big Bear và White\nCheetah?",
+      "text": "Tù trưởng người da đỏ Big Bear có 3 chiếc lông trên đầu, cầm một chiếc rìu tomahawk, các mũi tên và chân đi giày. Con trai của ông là White Cheetah có 2 chiếc lông, cầm các mũi tên, không có rìu tomahawk, đi chân đất và có 2 vết vạch ngang trên ngực. Hỏi bức tranh nào vẽ đúng cả Big Bear và White Cheetah?",
       "image": "images/ikmc/g3_de4_q03.png",
       "options": [
         "A",
@@ -6840,12 +6845,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "C",
+      "answer": "A",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Kiểm tra đặc điểm của hai nhân vật theo mô tả đề bài:\n1. Big Bear (Người cha):\n  - Có đúng 3 chiếc lông trên đầu.\n  - Cầm một chiếc rìu tomahawk (trong bản dịch cũ ghi là cà chua).\n  - Cầm các mũi tên.\n  - Chân đi giày.\n2. White Cheetah (Con trai):\n  - Có 2 chiếc lông trên đầu.\n  - Không có rìu tomahawk.\n  - Cầm các mũi tên.\n  - Đi chân đất.\n  - Có 2 vết vằn trên ngực.\nQuan sát 5 bức tranh phương án:\n- Chỉ có bức tranh A vẽ đúng người cha có 3 lông, có rìu, đi giày và người con có 2 lông, không rìu, đi chân đất và có 2 vạch ngang trên ngực.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G3-D04-Q04",
@@ -6864,12 +6869,12 @@ const KANGAROO_DB = {
         "D. 6€",
         "E. 7€"
       ],
-      "answer": "D",
+      "answer": "A",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "So sánh chi phí khi gọi riêng từng bữa và gói cả 3 bữa:\n- Tổng số tiền nếu gọi riêng cả 3 bữa là:\n4€ (sáng) + 9€ (trưa) + 5€ (tối) = 18€.\n- Nếu gọi theo thực đơn trọn gói cả 3 bữa chỉ mất 15€.\nSố tiền người đó tiết kiệm được là:\n18€ - 15€ = 3€.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G3-D04-Q05",
@@ -6888,12 +6893,12 @@ const KANGAROO_DB = {
         "D. 4",
         "E. 5"
       ],
-      "answer": "C",
+      "answer": "B",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Quan sát cách sắp xếp 6 đồng xu:\n- Hình ban đầu là một tam giác đều gồm 3 hàng (hàng trên 1 đồng xu, hàng giữa 2 đồng xu, hàng dưới 3 đồng xu).\n- Để tạo thành một hình tròn (lục giác đều rỗng ở giữa), ta giữ nguyên hàng giữa (2 đồng xu), đồng xu đỉnh trên (1 đồng xu) và đồng xu ở giữa hàng đáy (1 đồng xu).\n- Ta chỉ cần nhấc 2 đồng xu ở 2 góc ngoài cùng của hàng đáy dưới di chuyển sang hai bên của đồng xu đỉnh trên.\nNhư vậy chỉ cần di chuyển tối thiểu đúng 2 đồng xu.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G3-D04-Q06",
@@ -6912,12 +6917,12 @@ const KANGAROO_DB = {
         "D. John, Vaslis, Markos, Fanis",
         "E. John, Markos, Vasilis, Fanis"
       ],
-      "answer": "D",
+      "answer": "C",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Thiết lập thứ tự lượng kem ăn được của 4 bạn:\n- Markos ăn nhiều hơn Fanis: Markos > Fanis.\n- John ăn ít hơn Fanis (tức là Fanis ăn nhiều hơn John): Fanis > John.\n- John ăn nhiều hơn Vasilis: John > Vasilis.\nKết hợp 3 mối quan hệ trên lại với nhau, ta có chuỗi thứ tự từ nhiều nhất đến ít nhất:\nMarkos > Fanis > John > Vasilis.\nĐáp án đúng là C (Markos, Fanis, John, Vasilis)."
     },
     {
       "id": "IKMC-G3-D04-Q07",
@@ -6936,12 +6941,12 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "E",
+      "answer": "B",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "Quan sát họa tiết mẫu:\n- Họa tiết là một ô vuông được chia bởi một đường chéo và tô màu tam giác ở một góc.\n- Trong không gian phẳng 2D, khi chỉ dùng phép quay (xoay các góc 90°, 180°, 270°) và tịnh tiến, tính định hướng của các đường chéo và góc tô màu luôn được bảo toàn (bảo toàn tính thuận nghịch chiều kim đồng hồ).\n- Xét hình B: Hướng của đường chéo và góc tô màu bị đảo ngược theo phép đối xứng trục (phải lật ngược mặt giấy mới tạo được, không thể quay phẳng).\nDo đó hình B không thể tạo ra được từ hình ban đầu.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G3-D04-Q08",
@@ -6960,12 +6965,12 @@ const KANGAROO_DB = {
         "D. 70",
         "E. 77"
       ],
-      "answer": "B",
+      "answer": "C",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Tính số bàn chân của con rết Eve đã có giày từ trước:\n- Con rết Eve có tất cả 100 bàn chân.\n- Sau khi mua giày mới, vẫn còn lại 14 bàn chân đi đất, do đó tổng số bàn chân được đi giày là:\n100 - 14 = 86 (bàn chân).\n- Hôm qua nó mua 16 đôi giày mới, mỗi đôi gồm 2 chiếc giày, nên số giày mới mua là:\n16 × 2 = 32 (chiếc giày).\n- Số bàn chân đã có giày sẵn từ trước khi mua là:\n86 - 32 = 54 (bàn chân).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G3-D04-Q09",
@@ -6984,12 +6989,12 @@ const KANGAROO_DB = {
         "D. 4",
         "E. infinitely many"
       ],
-      "answer": "B",
+      "answer": "C",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Mary gấp tờ giấy dích dắc thành 4 lớp (3 nếp gấp):\n- Tờ giấy có dải hình chuột túi in một mặt.\n- Nếp gấp nếp đầu tiên lật mặt giấy úp lại, nếp thứ hai lật ngửa trở lại, nếp thứ ba lật úp.\n- Khi đó các hình chuột túi ở hai mặt úp vào nhau sẽ trùng khít hoàn toàn về hình dáng và hướng.\n- Trong 4 phần gấp liên tiếp, có đúng 2 cặp hình chuột túi áp mặt vào nhau trùng khít.\nVậy hình con chuột túi trùng khớp lại với nhau đúng 2 lần.\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G3-D04-Q10",
@@ -7008,12 +7013,12 @@ const KANGAROO_DB = {
         "D. 20",
         "E. 24"
       ],
-      "answer": "D",
+      "answer": "B",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Tính vị trí số tầng của Mathew và Clara:\n- Nhà Clara ở trên và cách nhà Mathew 12 tầng.\n- Khi Mathew đi được một nửa quãng đường, bạn ấy đã đi lên được số tầng là:\n12 : 2 = 6 (tầng).\n- Khi đó Mathew đang ở tầng 8, vậy nhà Mathew nằm ở tầng:\n8 - 6 = 2.\n- Nhà Clara nằm ở tầng:\n2 + 12 = 14 (hoặc từ tầng 8 đi tiếp 6 tầng nữa: 8 + 6 = 14).\nVậy Clara đang sống ở tầng 14.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G3-D04-Q11",
@@ -7032,12 +7037,12 @@ const KANGAROO_DB = {
         "D. 20",
         "E. 24"
       ],
-      "answer": "C",
+      "answer": "A",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Khối lập phương lớn 4 × 4 × 4 được ghép từ 64 khối lập phương nhỏ 1 × 1 × 1:\n- Có 5 mặt ngoài được sơn màu xanh, mặt đáy ở dưới không được sơn.\n- Khối nhỏ có 3 mặt được sơn xanh bắt buộc phải nằm ở góc (đỉnh) của khối lập phương lớn.\n- Khối lập phương lớn có tất cả 8 đỉnh (góc):\n  + 4 khối ở 4 góc của mặt trên: tiếp xúc với mặt trên và 2 mặt bên xung quanh, cả 3 mặt này đều được sơn xanh => có đúng 3 mặt màu xanh.\n  + 4 khối ở 4 góc của mặt đáy dưới: tiếp xúc với mặt đáy (không sơn) và 2 mặt bên => chỉ có 2 mặt màu xanh.\nVậy chỉ có đúng 4 khối lập phương nhỏ có 3 mặt màu xanh.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G3-D04-Q12",
@@ -7056,12 +7061,12 @@ const KANGAROO_DB = {
         "D. 22",
         "E. 30"
       ],
-      "answer": "C",
+      "answer": "E",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Giải bài toán vận chuyển xe qua sông bằng phương pháp giả thiết tạm:\n- Mỗi chuyến phà chở đầy có thể chở 10 ô tô nhỏ hoặc 6 xe tải.\n- Phà qua sông 5 lần chở đầy và chở được tất cả 42 phương tiện.\nGiả sử cả 5 chuyến phà đều chỉ chở xe tải, thì tổng số xe chở được là:\n5 × 6 = 30 (chiếc xe).\nSố xe thực tế nhiều hơn giả sử là:\n42 - 30 = 12 (chiếc xe).\nMỗi chuyến chở ô tô nhỏ nhiều hơn mỗi chuyến chở xe tải là:\n10 - 6 = 4 (chiếc xe).\nSố chuyến phà chở ô tô nhỏ là:\n12 : 4 = 3 (chuyến).\nTổng số ô tô nhỏ chiếc phà đã mang là:\n3 × 10 = 30 (chiếc ô tô nhỏ).\nĐáp án đúng là E."
     },
     {
       "id": "IKMC-G3-D04-Q13",
@@ -7085,7 +7090,7 @@ const KANGAROO_DB = {
         "B",
         "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Đếm số mẫu màu khác nhau khi xoay hình vuông 2 × 2 gồm 4 ô nhỏ (mỗi ô tô màu Xanh lá hoặc Xanh lam):\n- Trường hợp 0 ô xanh lá (4 xanh lam): có 1 cách.\n- Trường hợp 1 ô xanh lá (3 xanh lam): có 1 mẫu duy nhất (xoay 4 góc đều như nhau).\n- Trường hợp 2 ô xanh lá (2 xanh lam):\n  + Hai ô xanh lá nằm cạnh nhau (cùng hàng hoặc cùng cột): khi xoay ta được 4 vị trí, đây là 1 mẫu.\n  + Hai ô xanh lá nằm chéo nhau: xoay 90° được vị trí chéo kia, đây là 1 mẫu khác.\n  Tổng cộng trường hợp này có 2 mẫu.\n- Trường hợp 3 ô xanh lá (1 xanh lam): đối xứng với trường hợp 1 ô xanh lá, có 1 mẫu.\n- Trường hợp 4 ô xanh lá (0 xanh lam): có 1 cách.\nTổng số mẫu màu khác nhau có thể tạo thành là:\n1 + 1 + 2 + 1 + 1 = 6 (mẫu màu).\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G3-D04-Q14",
@@ -7104,12 +7109,12 @@ const KANGAROO_DB = {
         "D. 33",
         "E. 63"
       ],
-      "answer": "B",
+      "answer": "C",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Tính tổng số người nhận được thư sau 4 lượt theo chuỗi cấp số nhân:\n- Ban đầu John gửi thư cho Peter: Peter nhận được (1 người).\n- Lượt 1: Peter gửi cho 2 người (2 người nhận).\n- Lượt 2: 2 người đó, mỗi người gửi cho 2 người khác (2 × 2 = 4 người nhận). Tổng sau lượt này là: 1 + 2 + 4 = 7 người.\n- Lượt 3: 4 người gửi, mỗi người gửi cho 2 người khác (4 × 2 = 8 người nhận).\n- Lượt 4: 8 người gửi, mỗi người gửi cho 2 người khác (8 × 2 = 16 người nhận).\nTổng số người nhận được thư sau 4 lượt là:\n1 + 2 + 4 + 8 + 16 = 31 (người).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G3-D04-Q15",
@@ -7128,12 +7133,12 @@ const KANGAROO_DB = {
         "D. Ivo",
         "E. Không xác định được"
       ],
-      "answer": "E",
+      "answer": "C",
       "acceptedAnswers": [
-        "E",
-        "e"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là E.\nĐáp số đúng: E."
+      "explanation": "So sánh độ dài bàn chân của các bạn:\n- Cùng đo chung một chiều dài sân chơi:\n  + Ana đo được 15 bước.\n  + Betty đo được 17 bước.\n  + Denis đo được 12 bước.\n  + Ivo đo được 14 bước.\n- Trên cùng một độ dài quãng đường, bước chân của bạn nào càng dài thì số bước cần đo càng ít.\n- Trong 4 bạn, Denis bước ít nhất (chỉ mất 12 bước).\nVậy bàn chân của Denis dài nhất.\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G3-D04-Q16",
@@ -7143,7 +7148,7 @@ const KANGAROO_DB = {
       "number": 16,
       "points": 4,
       "type": "mc",
-      "text": "Nếu 2 hàng có tổng bằng nhau thì số điền vào dấu * là số nào?\n1\n2\n3\n4\n5\n6\n7\n11\n12\n13\n14\n15\n16\n17",
+      "text": "Nếu hai hàng có tổng bằng nhau thì số điền vào dấu * là số nào?\nHàng trên: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 và *\nHàng dưới: 11, 12, 13, 14, 15, 16, 17, 18, 19, 20",
       "image": "images/ikmc/g3_de4_q16.png",
       "options": [
         "A. 99",
@@ -7152,12 +7157,12 @@ const KANGAROO_DB = {
         "D. 289",
         "E. 299"
       ],
-      "answer": "A",
+      "answer": "B",
       "acceptedAnswers": [
-        "A",
-        "a"
+        "B",
+        "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là A.\nĐáp số đúng: A."
+      "explanation": "Tìm số điền vào dấu * để hai hàng có tổng bằng nhau:\n- Hàng thứ nhất gồm các số: 1, 2, 3, 4, 5, 6, 7, 8, 9, 10 và dấu *.\n- Hàng thứ hai gồm 10 số: 11, 12, 13, 14, 15, 16, 17, 18, 19, 20.\nSo sánh từng cặp số tương ứng ở hai hàng:\n  11 - 1 = 10\n  12 - 2 = 10\n  13 - 3 = 10\n  ...\n  20 - 10 = 10\nMỗi số ở hàng dưới đều lớn hơn số tương ứng ở hàng trên đúng 10 đơn vị.\nVì có 10 cặp số như vậy, nên tổng của 10 số ở hàng dưới lớn hơn tổng của 10 số ở hàng trên là:\n10 × 10 = 100.\nĐể tổng của cả hai hàng bằng nhau, số * ở hàng trên phải bù đúng phần chênh lệch này:\n* = 100.\n(Kiểm tra lại: Tổng hàng dưới = (11 + 20) × 10 : 2 = 155. Tổng hàng trên = (1 + 10) × 10 : 2 + * = 55 + 100 = 155).\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G3-D04-Q17",
@@ -7176,12 +7181,12 @@ const KANGAROO_DB = {
         "D. số giây trong một tuần",
         "E. số phút trong 24 tuần"
       ],
-      "answer": "B",
+      "answer": "D",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Phân tích ý nghĩa tích 60 × 60 × 24 × 7:\n- 1 phút = 60 giây.\n- 1 giờ = 60 phút = 60 × 60 giây.\n- 1 ngày = 24 giờ = 60 × 60 × 24 giây.\n- 1 tuần = 7 ngày = 60 × 60 × 24 × 7 giây.\nVậy tích 60 × 60 × 24 × 7 chính là số giây trong một tuần.\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G3-D04-Q18",
@@ -7200,12 +7205,14 @@ const KANGAROO_DB = {
         "D. 4",
         "E. 5"
       ],
-      "answer": "C",
+      "answer": "B",
       "acceptedAnswers": [
+        "B",
+        "b",
         "C",
         "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Tìm số lần đổi chỗ ít nhất trong bảng 4 × 4 chứa các quân bài:\n- Bảng gồm 4 chất: Cơ, Rô, Bích, Tép (Hearts, Diamonds, Spades, Clubs).\n- Để mỗi hàng và mỗi cột đều có đủ 4 chất (ma trận Latinh kích thước 4 × 4):\n  + Quan sát cấu hình ban đầu của bảng, ta thấy có đúng 2 cặp ô bị trùng lặp chất trong cùng một hàng/cột.\n  + Đổi chỗ cặp quân bài thứ nhất đưa về đúng vị trí ở hàng 2 và cột 3.\n  + Đổi chỗ cặp quân bài thứ hai ở hàng 4 và cột 4 đưa về cấu hình chuẩn.\nChỉ cần đúng 2 lần đổi chỗ là mỗi hàng và mỗi cột đều chứa đủ 4 chất.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G3-D04-Q19",
@@ -7224,12 +7231,12 @@ const KANGAROO_DB = {
         "D. 4",
         "E. 5"
       ],
-      "answer": "D",
+      "answer": "C",
       "acceptedAnswers": [
-        "D",
-        "d"
+        "C",
+        "c"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là D.\nĐáp số đúng: D."
+      "explanation": "Tính tuổi của hai chú mèo Tony và Tiny:\n- Hai năm trước, tổng số tuổi của Tony và Tiny là 15 tuổi.\n- Trải qua 2 năm, mỗi chú mèo tăng thêm 2 tuổi, do đó tổng số tuổi hiện nay của cả hai con mèo là:\n15 + 2 + 2 = 19 (tuổi).\n- Hiện nay Tony 13 tuổi, vậy tuổi hiện nay của Tiny là:\n19 - 13 = 6 (tuổi).\n- Để Tiny đạt 9 tuổi, số năm cần đợi thêm là:\n9 - 6 = 3 (năm nữa).\nĐáp án đúng là C."
     },
     {
       "id": "IKMC-G3-D04-Q20",
@@ -7248,12 +7255,14 @@ const KANGAROO_DB = {
         "D",
         "E"
       ],
-      "answer": "C",
+      "answer": "D",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "D",
+        "d",
+        "E",
+        "e"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Quy luật viết các số từ 1 đến 100 vào bảng gồm 5 cột:\n- Hàng 1: 1, 2, 3, 4, 5\n- Hàng 2: 6, 7, 8, 9, 10\n- Hàng 3: 11, 12, 13, 14, 15\nQuy tắc:\n- Các số trên cùng một hàng chênh nhau 1 đơn vị từ trái sang phải.\n- Hai ô liền kề nhau trên cùng một cột chênh nhau đúng 5 đơn vị (ô ở dưới = ô ở trên + 5).\nXét mảnh ghép D:\n- Số 58 và số 63 ở cùng một cột (63 = 58 + 5).\n- Số 69 và 74 ở cùng một cột (74 = 69 + 5).\n- Vị trí của các số và khoảng cách giữa các ô hoàn toàn khớp chính xác với bảng 5 cột.\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G3-D04-Q21",
@@ -7272,12 +7281,12 @@ const KANGAROO_DB = {
         "D. 2020",
         "E. 2022"
       ],
-      "answer": "B",
+      "answer": "A",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "A",
+        "a"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Tìm số cuốn sách trong thư viện:\n- Ba bạn đưa ra các dự đoán:\n  + Ana đoán: 2010 cuốn\n  + Bea đoán: 1998 cuốn\n  + Carlos đoán: 2015 cuốn\n- Thầy giáo cho biết số sai khác giữa dự đoán và số sách thực tế là 12, 7 và 5.\nThử số sách là 2003 cuốn:\n- Sai khác của Ana: |2003 - 2010| = 7.\n- Sai khác của Bea: |2003 - 1998| = 5.\n- Sai khác của Carlos: |2003 - 2015| = 12.\nBộ ba số sai lệch thu được là 7, 5, 12 — hoàn toàn trùng khớp với dữ kiện của thầy giáo!\nVậy thư viện có đúng 2003 cuốn sách.\nĐáp án đúng là A."
     },
     {
       "id": "IKMC-G3-D04-Q22",
@@ -7296,12 +7305,12 @@ const KANGAROO_DB = {
         "D. 20",
         "E. 21"
       ],
-      "answer": "C",
+      "answer": "D",
       "acceptedAnswers": [
-        "C",
-        "c"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là C.\nĐáp số đúng: C."
+      "explanation": "Tính tổng các số ở 4 ô bị cắt ra:\n- Hình ban đầu có 8 ô được đánh số từ 1 đến 8 có tổng là:\n1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 = 36.\n- Hình còn lại sau khi cắt gồm 4 ô có tổng là 16.\nTổng của các số ở 4 ô bị Anne cắt ra là:\n36 - 16 = 20.\nĐáp án đúng là D."
     },
     {
       "id": "IKMC-G3-D04-Q23",
@@ -7320,12 +7329,12 @@ const KANGAROO_DB = {
         "D. Berlin",
         "E. Zagreb"
       ],
-      "answer": "B",
+      "answer": "D",
       "acceptedAnswers": [
-        "B",
-        "b"
+        "D",
+        "d"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Phân tích suy luận logic để tìm thành phố của Marko:\n- 4 người: Andrew, Stefan, Robert, Marko.\n- 4 thành phố: Paris, Dubrovnik, Rome, Berlin.\n1. 'Andrew và cậu bé đến từ Berlin đến sớm... Không ai trong họ đến từ Paris hoặc Rome':\n  => Andrew không đến từ Berlin, không đến từ Paris, không đến từ Rome.\n  Do đó Andrew bắt buộc phải đến từ Dubrovnik!\n2. 'Robert không đến từ Berlin nhưng đến cùng lúc với cậu bé đến từ Paris':\n  => Robert không phải là người đến từ Berlin và cũng không phải người đến từ Paris.\n  Vì Andrew đến từ Dubrovnik nên Robert chỉ có thể đến từ Rome.\n  Đồng thời Stefan và Marko là hai người còn lại đến từ Paris và Berlin.\n3. 'Marko và cậu bé đến từ Paris rất thích buổi hòa nhạc':\n  => Marko không phải là người đến từ Paris.\n  Vậy Stefan là người đến từ Paris!\nNgười duy nhất còn lại là Marko bắt buộc phải đến từ Berlin.\nĐáp án đúng là D (Berlin)."
     },
     {
       "id": "IKMC-G3-D04-Q24",
@@ -7349,7 +7358,7 @@ const KANGAROO_DB = {
         "B",
         "b"
       ],
-      "explanation": "Phân tích yêu cầu bài toán:\n- Đọc kỹ dữ kiện đề bài cho và các mối quan hệ giữa các đại lượng.\n- Áp dụng phương pháp suy luận logic và tính toán cẩn thận từng bước.\n- So sánh với các phương án đã cho, ta chọn đáp án chính xác là B.\nĐáp số đúng: B."
+      "explanation": "Tìm số lượng bạn nhiều nhất có ngày và tháng sinh có tổng bằng 35:\n- Gọi ngày sinh là d (ngày) và tháng sinh là m (tháng).\n- Ta có hệ thức: d + m = 35 => d = 35 - m.\n- Trong một năm có 12 tháng (m từ 1 đến 12). Số ngày tối đa của một tháng không vượt quá 31 ngày (1 ≤ d ≤ 31):\n  + Nếu m = 1, 2, 3, 4: d ≥ 35 - 4 = 31 (các tháng 1, 2, 3, 4 thì 35 - m lần lượt là 34, 33, 32, 31; trong đó tháng 4 chỉ có 30 ngày, tháng 2 có 28/29 ngày, tháng 1 và 3 chỉ có 31 ngày => không thỏa mãn).\n  + Với m từ 5 đến 12, ta có:\n    Tháng 5: d = 35 - 5 = 30 (Hợp lệ: ngày 30 tháng 5)\n    Tháng 6: d = 35 - 6 = 29 (Hợp lệ: ngày 29 tháng 6)\n    Tháng 7: d = 35 - 7 = 28 (Hợp lệ: ngày 28 tháng 7)\n    Tháng 8: d = 35 - 8 = 27 (Hợp lệ: ngày 27 tháng 8)\n    Tháng 9: d = 35 - 9 = 26 (Hợp lệ: ngày 26 tháng 9)\n    Tháng 10: d = 35 - 10 = 25 (Hợp lệ: ngày 25 tháng 10)\n    Tháng 11: d = 35 - 11 = 24 (Hợp lệ: ngày 24 tháng 11)\n    Tháng 12: d = 35 - 12 = 23 (Hợp lệ: ngày 23 tháng 12)\nCó tất cả đúng 8 tháng (từ tháng 5 đến tháng 12) cho ra ngày sinh hợp lệ.\nDo tất cả các bạn đều có ngày sinh nhật khác nhau, nên Basil có nhiều nhất 8 người bạn thỏa mãn.\nĐáp án đúng là B."
     },
     {
       "id": "IKMC-G3-D05-Q01",
@@ -20705,3 +20714,5 @@ const KANGAROO_DB = {
     }
   ]
 };
+
+if (typeof module !== "undefined") module.exports = { KANGAROO_DB };

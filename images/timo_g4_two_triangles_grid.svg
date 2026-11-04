@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 260" width="360" height="260">
+  <rect width="360" height="260" fill="#f8fafc" rx="12" />
+  
+  <!-- Grid lines -->
+  <!-- 5 columns of 60px each: x = 30, 90, 150, 210, 270, 330 -->
+  <!-- 4 rows of 50px each: y = 30, 80, 130, 180, 230 -->
+  <g stroke="#334155" stroke-width="2">
+    <!-- Horizontal lines -->
+    <line x1="30" y1="30" x2="330" y2="30" />
+    <line x1="30" y1="80" x2="330" y2="80" />
+    <line x1="30" y1="130" x2="330" y2="130" />
+    <line x1="30" y1="180" x2="330" y2="180" />
+    <line x1="30" y1="230" x2="330" y2="230" />
+    
+    <!-- Vertical lines -->
+    <line x1="30" y1="30" x2="30" y2="230" />
+    <line x1="90" y1="30" x2="90" y2="230" />
+    <line x1="150" y1="30" x2="150" y2="230" />
+    <line x1="210" y1="30" x2="210" y2="230" />
+    <line x1="270" y1="30" x2="270" y2="230" />
+    <line x1="330" y1="30" x2="330" y2="230" />
+  </g>
+  
+  <!-- Triangles ▲ -->
+  <!-- Triangle 1 at row 2 (y=80 to 130), col 2 (x=90 to 150) -> center (120, 105) -->
+  <polygon points="120,90 105,120 135,120" fill="#ef4444" stroke="#b91c1c" stroke-width="2" />
+  
+  <!-- Triangle 2 at row 3 (y=130 to 180), col 3 (x=150 to 210) -> center (180, 155) -->
+  <polygon points="180,140 165,170 195,170" fill="#ef4444" stroke="#b91c1c" stroke-width="2" />
+</svg>

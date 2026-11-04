@@ -759,7 +759,8 @@ const TIMO_DB = {
       ],
       "answer": "D",
       "explanation": "Để một hình chữ nhật chứa cả hai hình tam giác:\n- Có 2 đường thẳng nằm bên trên cả hai hình tam giác.\n- Có 3 đường thẳng nằm bên phải cả hai hình tam giác.\n- Có 2 đường thẳng nằm bên dưới cả hai hình tam giác.\n- Có 2 đường thẳng nằm bên trái cả hai hình tam giác.\nVậy số hình chữ nhật chứa cả hai hình tam giác là:\n2 × 3 × 2 × 2 = 24 (hình).\nĐáp số: D.",
-      "type": "mc"
+      "type": "mc",
+      "image": "images/timo_g4_two_triangles_grid.svg"
     },
     {
       "id": "4-Vong loai - De so 4-20",
@@ -1171,8 +1172,8 @@ const TIMO_DB = {
         "C. Sunday (Chủ nhật)",
         "D. Saturday (Thứ Bảy)"
       ],
-      "answer": "B",
-      "explanation": "Ngày 19/02/2022 cách ngày 21/02/2022 là 2 ngày.\nVậy ngày 19/02/2021 cách ngày 21/02/2022 là: 365 + 2 = 367 (ngày).\nTa có: 367 : 7 = 52 (tuần) dư 3 (ngày).\nNgày 19/02/2021 là thứ Sáu nên 52 tuần sau vẫn là thứ Sáu.\n3 ngày sau đó lần lượt là thứ Bảy, Chủ nhật và thứ Hai.\nVậy ngày 21/02/2022 là thứ Hai.\nĐáp số: B.",
+      "answer": "D",
+      "explanation": "Ngày mai là thứ Sáu nên hôm nay là thứ Năm.\nTa có: 30 : 7 = 4 (tuần) dư 2 (ngày).\n4 tuần sau hôm nay vẫn là thứ Năm.\n2 ngày dư ra lần lượt là: thứ Sáu và thứ Bảy.\nVậy 30 ngày nữa tính từ hôm nay là thứ Bảy (Saturday).\nĐáp số: D.",
       "type": "mc"
     },
     {
@@ -2050,17 +2051,20 @@ const TIMO_DB = {
       "round": "Vong loai - De so 2",
       "topic": "Logical thinking / Tư duy Lô-gic",
       "num": 2,
-      "text": "If 19th February 2021 is Friday, which day of the week will 21st February 2022 be?\nBiết ngày 19 tháng 2 năm 2021 là thứ Sáu, hỏi ngày 21 tháng 2 năm 2022 là thứ mấy?\nA. Sunday (Chủ Nhật)                               C.    Saturday (Thứ Bảy)\nB.     Monday (Thứ Hai)                            D. Tuesday (Thứ Ba)",
+      "text": "If 19th February 2021 is Friday, which day of the week will 21st February 2022 be?\nBiết ngày 19 tháng 2 năm 2021 là thứ Sáu, hỏi ngày 21 tháng 2 năm 2022 là thứ mấy?",
       "textLines": [
         "If 19th February 2021 is Friday, which day of the week will 21st February 2022 be?",
-        "Biết ngày 19 tháng 2 năm 2021 là thứ Sáu, hỏi ngày 21 tháng 2 năm 2022 là thứ mấy?",
-        "A. Sunday (Chủ Nhật)                               C.    Saturday (Thứ Bảy)",
-        "B.     Monday (Thứ Hai)                            D. Tuesday (Thứ Ba)"
+        "Biết ngày 19 tháng 2 năm 2021 là thứ Sáu, hỏi ngày 21 tháng 2 năm 2022 là thứ mấy?"
       ],
-      "options": [],
+      "options": [
+        "A. Sunday (Chủ Nhật)",
+        "B. Monday (Thứ Hai)",
+        "C. Saturday (Thứ Bảy)",
+        "D. Tuesday (Thứ Ba)"
+      ],
       "answer": "B",
-      "explanation": "Ngày 19/02/2022 cách ngày 21/02/2022 là 2 ngày.\nVậy ngày 19/02/2021 cách ngày 21/02/2022 là: 365 + 2 = 367 (ngày).\nTa có: 367 : 7 = 52 (tuần) dư 3 (ngày).\nNgày 19/02/2021 là thứ Sáu nên 52 tuần sau vẫn là thứ Sáu.\n3 ngày sau đó lần lượt là thứ Bảy, Chủ nhật và thứ Hai.\nVậy ngày 21/02/2022 là thứ Hai.\nĐáp số: B.",
-      "type": "fill"
+      "explanation": "Năm 2021 không phải năm nhuận có 365 ngày.\nTừ 19/02/2021 đến 19/02/2022 có 365 ngày = 52 tuần dư 1 ngày, nên 19/02/2022 là thứ Bảy.\nThêm 2 ngày nữa: 20/02 là Chủ nhật, 21/02 là thứ Hai (Monday).\nĐáp số: B.",
+      "type": "mc"
     },
     {
       "id": "4-Vong loai - De so 1-9",
@@ -2357,17 +2361,14 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 1",
       "topic": "Logical Thinking / Tư duy logic",
       "num": 4,
-      "text": "According to the pattern shown below, what is the missing number?\nPattern: Quy luật; Missing number: Số còn thiếu.\n29                         50                   ?\n    2                          2                    2\n    9                     3      8               6    10                3",
+      "text": "If today is Sunday, which day of the week will 1002 days later be?\nNếu hôm nay là Chủ nhật, hỏi 1002 ngày nữa sẽ là thứ mấy?",
       "textLines": [
-        "According to the pattern shown below, what is the missing number?",
-        "Pattern: Quy luật; Missing number: Số còn thiếu.",
-        "29                         50                   ?",
-        "    2                          2                    2",
-        "    9                     3      8               6    10                3"
+        "If today is Sunday, which day of the week will 1002 days later be?",
+        "Nếu hôm nay là Chủ nhật, hỏi 1002 ngày nữa sẽ là thứ mấy?"
       ],
       "options": [],
-      "answer": "d",
-      "explanation": "Hiện tại là Chủ nhật thì sau đó 143 tuần vẫn là Chủ nhật. 1 ngày nữa là Thứ hai.\nVậy 1002 ngày nữa là Thứ hai.\nĐáp số: Monday.",
+      "answer": "Monday",
+      "explanation": "Ta có: 1002 : 7 = 143 (tuần) dư 1 (ngày).\nHiện tại là Chủ nhật thì sau 143 tuần vẫn là Chủ nhật.\n1 ngày dư ra tiếp theo là thứ Hai (Monday).\nVậy 1002 ngày nữa sẽ là thứ Hai (Monday).\nĐáp số: Monday.",
       "type": "fill"
     },
     {
@@ -2976,16 +2977,14 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 5",
       "topic": "Logical Thinking / Tư duy logic",
       "num": 2,
-      "text": "There are a total of 39 ducks and giraffes in a wildlife park. The animals have a total of\n114 legs. How many giraffe(s) is / are there?\nTotal: Tổng số; Ducks: Vịt; Giraffes: Hươu cao cổ; Wildlife park: Công viên động vật hoang dã;\nAnimals: Động vật; Legs: Cái chân.",
+      "text": "There are a total of 39 ducks and giraffes in a wildlife park. The animals have a total of 114 legs. How many giraffe(s) is / are there?\nCó tất cả 39 con vật gồm vịt và hươu cao cổ trong công viên động vật hoang dã. Tổng số chân của chúng là 114 cái chân. Hỏi có bao nhiêu con hươu cao cổ?",
       "textLines": [
-        "There are a total of 39 ducks and giraffes in a wildlife park. The animals have a total of",
-        "114 legs. How many giraffe(s) is / are there?",
-        "Total: Tổng số; Ducks: Vịt; Giraffes: Hươu cao cổ; Wildlife park: Công viên động vật hoang dã;",
-        "Animals: Động vật; Legs: Cái chân."
+        "There are a total of 39 ducks and giraffes in a wildlife park. The animals have a total of 114 legs. How many giraffe(s) is / are there?",
+        "Có tất cả 39 con vật gồm vịt và hươu cao cổ trong công viên động vật hoang dã. Tổng số chân của chúng là 114 cái chân. Hỏi có bao nhiêu con hươu cao cổ?"
       ],
       "options": [],
-      "answer": "d",
-      "explanation": "Ngày 15/02 cách ngày 29/02 số ngày là: 29 – 15 = 14 ngày.\nNgày 29/02 cách ngày 31/03 số ngày là: 31 ngày.\nNgày 31/03 cách ngày 30/04 số ngày là: 30 ngày.\nNgày 30/04 cách ngày 31/05 số ngày là: 31 ngày.\nNgày 31/05 cách ngày 29/06 số ngày là: 29 ngày.\nDo đó, ngày 15/02 cách ngày 29/06 số ngày là: 14 + 31 + 30 + 31 + 29 = 135 (ngày).\nTa có: 135 : 7 = 19 (tuần) dư 2 (ngày).\nVì 29/06 là thứ Bảy nên 19 tuần trước cũng là thứ Bảy.\n2 ngày trước đó là thứ Năm.\nVậy ngày 15/02 là thứ Năm.\nĐáp số: Thursday.",
+      "answer": "18",
+      "explanation": "Giả sử tất cả 39 con vật đều là con vịt (mỗi con vịt có 2 chân).\nKhi đó, tổng số chân là: 39 × 2 = 78 (cái chân).\nSố chân thực tế nhiều hơn số chân giả sử là: 114 – 78 = 36 (cái chân).\nMỗi con hươu cao cổ (4 chân) nhiều hơn mỗi con vịt (2 chân) số chân là: 4 – 2 = 2 (cái chân).\nSố con hươu cao cổ là: 36 : 2 = 18 (con).\nĐáp số: 18.",
       "type": "fill"
     },
     {
@@ -3594,14 +3593,14 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 8",
       "topic": "Number Theory / Lý thuyết số",
       "num": 14,
-      "text": "The sum of positive numbers A and B is 846. A is 8 times of B. Find the value of A.\nSum: Tổng; Positive numbers: Số dương; 8 times: Gấp 8 lần; Value: Giá trị.",
+      "text": "The sum of positive numbers A and B is 846. A is 8 times of B. Find the value of A.\nTổng của hai số dương A và B là 846. Biết A gấp 8 lần B. Tìm giá trị của A.",
       "textLines": [
         "The sum of positive numbers A and B is 846. A is 8 times of B. Find the value of A.",
-        "Sum: Tổng; Positive numbers: Số dương; 8 times: Gấp 8 lần; Value: Giá trị."
+        "Tổng của hai số dương A và B là 846. Biết A gấp 8 lần B. Tìm giá trị của A."
       ],
       "options": [],
-      "answer": "a",
-      "explanation": "A gồm dãy số cách đều 5 đơn vị.\nA có số thừa số là: (1927 – 2) : 5 + 1 = 386 (số)\nTa xét chữ số tận cùng và ghép cặp như sau:\nA = (2 x 7) x (2 x 7) x … x (2 x 7) = 4 x 4 x … x 4 (193 số 4)\nNhận xét: Tích của số lẻ các thừa số 4 có chữ số tận cùng là 4. Tích của số chẵn các thừa\nsố 4 có chữ số tận cùng là 6.\nDo đó, A có chữ số tận cùng là 4.\nĐáp số: 4.",
+      "answer": "752",
+      "explanation": "Coi B là 1 phần thì A là 8 phần như thế.\nTổng số phần bằng nhau là: 8 + 1 = 9 (phần).\nGiá trị của 1 phần (số B) là: 846 : 9 = 94.\nGiá trị của số A là: 94 × 8 = 752.\nĐáp số: 752.",
       "type": "fill"
     },
     {
@@ -3700,15 +3699,14 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 0",
       "topic": "Combinatorics / Tổ hợp",
       "num": 22,
-      "text": "Find the smallest difference of two 5-digit numbers formed by using all 10 digits from 0\nto 9 without repetition.\nSmallest difference: Hiệu nhỏ nhất; 5-digit numbers: Số có 5 chữ số; Digit: Chữ số; Without",
+      "text": "Find the smallest difference of two 5-digit numbers formed by using all 10 digits from 0 to 9 without repetition.\nTìm hiệu nhỏ nhất của hai số có 5 chữ số được lập từ tất cả 10 chữ số từ 0 đến 9 mà không lặp lại.",
       "textLines": [
-        "Find the smallest difference of two 5-digit numbers formed by using all 10 digits from 0",
-        "to 9 without repetition.",
-        "Smallest difference: Hiệu nhỏ nhất; 5-digit numbers: Số có 5 chữ số; Digit: Chữ số; Without"
+        "Find the smallest difference of two 5-digit numbers formed by using all 10 digits from 0 to 9 without repetition.",
+        "Tìm hiệu nhỏ nhất của hai số có 5 chữ số được lập từ tất cả 10 chữ số từ 0 đến 9 mà không lặp lại."
       ],
       "options": [],
-      "answer": "150",
-      "explanation": "là 600 : 3 = 200g.\nVì cân nặng 1 quả táo bằng cân nặng của 3 quả cam nên ta có sơ đồ sau:\n\n\n\n\nTổng số phần bằng nhau là: 3 + 1 = 4 phần.\nGiá trị của 1 phần là: 200 : 4 = 50 g.\nCân nặng của 1 quả táo là: 50 x 3 = 150 g.\nĐáp số: 150.",
+      "answer": "247",
+      "explanation": "Để hiệu hai số có 5 chữ số là nhỏ nhất:\n- Hai chữ số hàng chục nghìn phải liên tiếp nhau (hiệu bằng 1).\n- Số lớn hơn phải có 4 chữ số sau nhỏ nhất có thể, số bé hơn phải có 4 chữ số sau lớn nhất có thể.\nXét các cặp chữ số hàng chục nghìn và tối ưu hiệu, ta tìm được cặp số có hiệu nhỏ nhất là 50123 và 49876, cho hiệu nhỏ nhất là: 50123 – 49876 = 247.\nĐáp số: 247.",
       "type": "fill"
     },
     {
@@ -3879,15 +3877,14 @@ const TIMO_DB = {
       "round": "Vòng loại - Đề số 6",
       "topic": "Combinatorics / Tổ hợp",
       "num": 23,
-      "text": "It is given that the total weight of 3 apples and 3 oranges is 600g. The weight of an apple\nis the same as that of 3 oranges. What is the weight (g) of 1 apple?\nTotal weight: Tổng cân nặng; The same as: Bằng với.",
+      "text": "It is given that the total weight of 3 apples and 3 oranges is 600g. The weight of an apple is the same as that of 3 oranges. What is the weight (g) of 1 apple?\nBiết rằng tổng cân nặng của 3 quả táo và 3 quả cam là 600g. Cân nặng của một quả táo bằng cân nặng của 3 quả cam. Hỏi 1 quả táo nặng bao nhiêu gam?",
       "textLines": [
-        "It is given that the total weight of 3 apples and 3 oranges is 600g. The weight of an apple",
-        "is the same as that of 3 oranges. What is the weight (g) of 1 apple?",
-        "Total weight: Tổng cân nặng; The same as: Bằng với."
+        "It is given that the total weight of 3 apples and 3 oranges is 600g. The weight of an apple is the same as that of 3 oranges. What is the weight (g) of 1 apple?",
+        "Biết rằng tổng cân nặng của 3 quả táo và 3 quả cam là 600g. Cân nặng của một quả táo bằng cân nặng của 3 quả cam. Hỏi 1 quả táo nặng bao nhiêu gam?"
       ],
       "options": [],
-      "answer": "200",
-      "explanation": "Tổng cân nặng của 1 quả táo và 1 quả cam là: 600 : 3 = 200g.\nVì 1 quả táo nặng bằng 3 quả cam nên 4 quả cam nặng 200g.\nCân nặng 1 quả cam là: 200 : 4 = 50g.\nCân nặng 1 quả táo là: 50 × 3 = 150g.\nĐáp số: 200g (cho 1 táo + 1 cam).",
+      "answer": "150",
+      "explanation": "Vì 3 quả táo và 3 quả cam nặng 600g nên 1 quả táo và 1 quả cam nặng: 600 : 3 = 200 (g).\nCân nặng 1 quả táo bằng 3 quả cam, nên ta có sơ đồ: Táo 3 phần, Cam 1 phần.\nTổng số phần bằng nhau là: 3 + 1 = 4 (phần).\nCân nặng của 1 quả cam là: 200 : 4 = 50 (g).\nCân nặng của 1 quả táo là: 50 × 3 = 150 (g).\nĐáp số: 150.",
       "type": "fill"
     },
     {
@@ -4079,10 +4076,15 @@ const TIMO_DB = {
         "According to the pattern shown below, what is the figure in the space?",
         "Dựa vào quy luật dưới đây, tìm hình vẽ thích hợp điền vào chỗ trống."
       ],
-      "options": [],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
       "answer": "D",
       "explanation": "Vậy hình cần tìm là       .\nĐáp số: D.",
-      "type": "fill"
+      "type": "mc"
     },
     {
       "id": "2-Vong loai - De so 6-18",
@@ -4236,10 +4238,15 @@ const TIMO_DB = {
         "According to the pattern shown below, what is the figure in the space?",
         "Dựa vào quy luật dưới đây, tìm hình vẽ thích hợp điền vào chỗ trống."
       ],
-      "options": [],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
       "answer": "A",
       "explanation": "(⚫ ⚫ ∆ ◆ ∆) (⚫ ⚫ ∆ ◆ ∆) (⚫ __ ∆ ◆ ∆)\nVậy hình cần tìm là ⚫.\nĐáp số: A.",
-      "type": "fill"
+      "type": "mc"
     },
     {
       "id": "2-Vong loai - De so 0-18",
@@ -5509,20 +5516,20 @@ const TIMO_DB = {
       "round": "Vong loai - De so 4",
       "topic": "12.   The numbers below follow the arithmetic sequence, what is the 20 number?",
       "num": 15,
-      "text": "Determine the result of 1+ 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 +10 +11+12 +13 +14 is odd or even?\nHãy xác định kết quả của 1+ 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 +10 +11+12 +13 +14 là lẻ hay chẵn.\nA.    Odd (Số lẻ)\nB.    Even (Số chẵn)\nC.    Both odd and even (Vừa chẵn vừa lẻ)\nD.    Neither odd nor even (Không chẵn không lẻ)\nGeometry / Hình học",
+      "text": "Determine the result of 1+ 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 + 13 + 14 is odd or even?\nHãy xác định kết quả của 1 + 2 + 3 + ... + 14 là số lẻ (Odd) hay số chẵn (Even)?",
       "textLines": [
-        "Determine the result of 1+ 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 +10 +11+12 +13 +14 is odd or even?",
-        "Hãy xác định kết quả của 1+ 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 +10 +11+12 +13 +14 là lẻ hay chẵn.",
-        "A.    Odd (Số lẻ)",
-        "B.    Even (Số chẵn)",
-        "C.    Both odd and even (Vừa chẵn vừa lẻ)",
-        "D.    Neither odd nor even (Không chẵn không lẻ)",
-        "Geometry / Hình học"
+        "Determine the result of 1+ 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 + 10 + 11 + 12 + 13 + 14 is odd or even?",
+        "Hãy xác định kết quả của 1 + 2 + 3 + ... + 14 là số lẻ (Odd) hay số chẵn (Even)?"
       ],
-      "options": [],
-      "answer": "D",
-      "explanation": "Đáp số: D.\n\n\nGeometry / Hình học",
-      "type": "fill"
+      "options": [
+        "A. Odd (Số lẻ)",
+        "B. Even (Số chẵn)",
+        "C. Both odd and even (Vừa chẵn vừa lẻ)",
+        "D. Neither odd nor even (Không chẵn không lẻ)"
+      ],
+      "answer": "A",
+      "explanation": "Dãy số từ 1 đến 14 có 14 số hạng, gồm 7 số lẻ và 7 số chẵn.\nTổng của 7 số lẻ là một số lẻ (vì số lượng số lẻ là lẻ: 7 số lẻ).\nTổng của 7 số chẵn là một số chẵn.\nTổng của một số lẻ và một số chẵn luôn là một số lẻ.\n(Cụ thể: 1 + 2 + 3 + ... + 14 = (14 + 1) × 14 : 2 = 105 là số lẻ).\nVậy kết quả là số lẻ (Odd).\nĐáp số: A.",
+      "type": "mc"
     },
     {
       "id": "2-Vong loai - De so 4-16",
@@ -5758,19 +5765,20 @@ const TIMO_DB = {
       "round": "Vong loai - De so 9",
       "topic": "Number theory / Lý thuyết số",
       "num": 11,
-      "text": "Determine whether the sum 1 + 2 + 3 + 4 + … + 9 is odd or even.\nTổng 1 + 2 + 3 + … + 9 là số lẻ hay số chẵn?\nA.   Odd (Số lẻ)\nB.   Even (Sỗ chẵn)\nC.   Both odd and even (Vừa chẵn vừa lẻ)\nD.   Neither odd nor even (Không lẻ không chẵn)",
+      "text": "Determine whether the sum 1 + 2 + 3 + 4 + … + 9 is odd or even.\nTổng 1 + 2 + 3 + … + 9 là số lẻ (Odd) hay số chẵn (Even)?",
       "textLines": [
         "Determine whether the sum 1 + 2 + 3 + 4 + … + 9 is odd or even.",
-        "Tổng 1 + 2 + 3 + … + 9 là số lẻ hay số chẵn?",
-        "A.   Odd (Số lẻ)",
-        "B.   Even (Sỗ chẵn)",
-        "C.   Both odd and even (Vừa chẵn vừa lẻ)",
-        "D.   Neither odd nor even (Không lẻ không chẵn)"
+        "Tổng 1 + 2 + 3 + … + 9 là số lẻ (Odd) hay số chẵn (Even)?"
       ],
-      "options": [],
-      "answer": "D",
-      "explanation": "1 + 3 = 4;    4 + 3 = 7;   7 + 3 = 10;   ...\nSố thứ 5 của dãy là: 10 + 3 = 13.\nSố thứ 6 của dãy là: 13 + 3 = 16.\nĐáp số: D.",
-      "type": "fill"
+      "options": [
+        "A. Odd (Số lẻ)",
+        "B. Even (Số chẵn)",
+        "C. Both odd and even (Vừa chẵn vừa lẻ)",
+        "D. Neither odd nor even (Không chẵn không lẻ)"
+      ],
+      "answer": "A",
+      "explanation": "Dãy số từ 1 đến 9 có 5 số lẻ (1, 3, 5, 7, 9) và 4 số chẵn (2, 4, 6, 8).\nTổng của 5 số lẻ là một số lẻ.\nTổng của 4 số chẵn là một số chẵn.\nTổng của một số lẻ và một số chẵn luôn là một số lẻ.\n(Cụ thể: 1 + 2 + 3 + ... + 9 = (9 + 1) × 9 : 2 = 45 là số lẻ).\nVậy kết quả là số lẻ (Odd).\nĐáp số: A.",
+      "type": "mc"
     },
     {
       "id": "2-Vong loai - De so 0-12",
@@ -5855,10 +5863,15 @@ const TIMO_DB = {
       "textLines": [
         "A 4-digit number is formed by choosing 4 numbers without repetition from 0, 1, 3, 7 and"
       ],
-      "options": [],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
       "answer": "C",
       "explanation": "Vậy số bé thứ 5 là 47.\nĐáp số: C.",
-      "type": "fill"
+      "type": "mc"
     },
     {
       "id": "2-Vong loai - De so 3-22",
@@ -5956,15 +5969,14 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 5",
       "topic": "Logical Thinking / Tư duy logic",
       "num": 4,
-      "text": "If 11th August is Monday, which day of the week is 15th October of the same year?\nAugust: Tháng 8; Monday: Thứ Hai; Day of the week: Thứ trong tuần; October: Tháng 10;\nThe same year: Cùng năm.",
+      "text": "If 11th August is Monday, which day of the week is 15th October of the same year?\nNếu ngày 11 tháng 8 là thứ Hai, hỏi ngày 15 tháng 10 cùng năm là thứ mấy?",
       "textLines": [
         "If 11th August is Monday, which day of the week is 15th October of the same year?",
-        "August: Tháng 8; Monday: Thứ Hai; Day of the week: Thứ trong tuần; October: Tháng 10;",
-        "The same year: Cùng năm."
+        "Nếu ngày 11 tháng 8 là thứ Hai, hỏi ngày 15 tháng 10 cùng năm là thứ mấy?"
       ],
       "options": [],
-      "answer": "D",
-      "explanation": "Quy luật: Các chữ cái trong dãy được sắp xếp theo thứ tự ngược với bảng chữ cái tiếng\nAnh. Hai chữ cái liên tiếp trong dãy cách nhau 2 chữ cái trong bảng chữ cái.\nVậy chữ cái cần điền vào chỗ trống là D.\nĐáp số: D.",
+      "answer": "Wednesday",
+      "explanation": "Tháng 8 có 31 ngày. Từ ngày 11/8 đến ngày 31/8 có: 31 – 11 = 20 ngày.\nTháng 9 có 30 ngày.\nTừ ngày 01/10 đến ngày 15/10 có 15 ngày.\nDo đó, từ ngày 11/8 đến ngày 15/10 cùng năm có: 20 + 30 + 15 = 65 (ngày).\nTa có: 65 : 7 = 9 (tuần) dư 2 (ngày).\nVì ngày 11/8 là thứ Hai nên 9 tuần sau vẫn là thứ Hai.\n2 ngày dư ra tiếp theo lần lượt là thứ Ba và thứ Tư.\nVậy ngày 15 tháng 10 cùng năm là thứ Tư (Wednesday).\nĐáp số: Wednesday.",
       "type": "fill"
     },
     {
@@ -6069,16 +6081,15 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 1",
       "topic": "15.   The numbers below form an arithmetic sequence. What is the 11th number?",
       "num": 15,
-      "text": "The numbers below form an arithmetic sequence. What is the 11th number?\nArithmetic sequence: Dãy số cách đều; 11th number: Số thứ 11.\n200、189、178、167、156、…\nGeometry / Hình học",
+      "text": "The numbers below form an arithmetic sequence. What is the 11th number?\nDãy số dưới đây là một dãy số cách đều. Tìm số thứ 11 của dãy số:\n200 、 189 、 178 、 167 、 156 、 …",
       "textLines": [
         "The numbers below form an arithmetic sequence. What is the 11th number?",
-        "Arithmetic sequence: Dãy số cách đều; 11th number: Số thứ 11.",
-        "200、189、178、167、156、…",
-        "Geometry / Hình học"
+        "Dãy số dưới đây là một dãy số cách đều. Tìm số thứ 11 của dãy số:",
+        "200 、 189 、 178 、 167 、 156 、 …"
       ],
       "options": [],
-      "answer": "15",
-      "explanation": "Vậy phép tính đúng là: 15 + 3 + 7 – 24 = 1.\nĐáp số: 15 + 3 + 7 – 24 = 1.\n\n\nGeometry / Hình học",
+      "answer": "90",
+      "explanation": "Quy luật: Dãy số giảm dần 11 đơn vị:\n200 – 11 = 189; 189 – 11 = 178; 178 – 11 = 167; 167 – 11 = 156...\nTừ số thứ 1 đến số thứ 11 có 10 khoảng cách, mỗi khoảng là 11 đơn vị.\nSố thứ 11 của dãy là: 200 – 11 × 10 = 200 – 110 = 90.\nĐáp số: 90.",
       "type": "fill"
     },
     {
@@ -6255,15 +6266,14 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 9",
       "topic": "Number Theory / Số học",
       "num": 12,
-      "text": "Determine whether the result of 4 × 7 - 3 × 6 + 5 × 4 + 9 × 8 - 6 × 2 - 7 × 9 is an odd or even\nnumber.\nDetermine: Xác định; Result: Kết quả; Odd: Số lẻ; Even: Số chẵn.",
+      "text": "Determine whether the result of 4 × 7 - 3 × 6 + 5 × 4 + 9 × 8 - 6 × 2 - 7 × 9 is an odd or even number.\nXác định kết quả của phép tính 4 × 7 - 3 × 6 + 5 × 4 + 9 × 8 - 6 × 2 - 7 × 9 là số lẻ (Odd) hay số chẵn (Even).",
       "textLines": [
-        "Determine whether the result of 4 × 7 - 3 × 6 + 5 × 4 + 9 × 8 - 6 × 2 - 7 × 9 is an odd or even",
-        "number.",
-        "Determine: Xác định; Result: Kết quả; Odd: Số lẻ; Even: Số chẵn."
+        "Determine whether the result of 4 × 7 - 3 × 6 + 5 × 4 + 9 × 8 - 6 × 2 - 7 × 9 is an odd or even number.",
+        "Xác định kết quả của phép tính 4 × 7 - 3 × 6 + 5 × 4 + 9 × 8 - 6 × 2 - 7 × 9 là số lẻ (Odd) hay số chẵn (Even)."
       ],
       "options": [],
-      "answer": "7",
-      "explanation": "Lần lượt thay các dấu nhân, trừ và kiểm tra, ta có: 7 × 4 – 5 × 3 = 13.\nĐáp số: 7 × 4 – 5 × 3 = 13.",
+      "answer": "Odd",
+      "explanation": "Xét tính chẵn/lẻ của từng tích:\n- 4 × 7 = 28 (chẵn)\n- 3 × 6 = 18 (chẵn)\n- 5 × 4 = 20 (chẵn)\n- 9 × 8 = 72 (chẵn)\n- 6 × 2 = 12 (chẵn)\n- 7 × 9 = 63 (lẻ)\nTổng/hiệu của các số chẵn trừ đi một số lẻ sẽ cho kết quả là số lẻ (Odd).\n(Cụ thể: 28 – 18 + 20 + 72 – 12 – 63 = 27 là số lẻ).\nĐáp số: Odd.",
       "type": "fill"
     },
     {
@@ -6441,14 +6451,14 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 9",
       "topic": "Number Theory / Số học",
       "num": 12,
-      "text": "Determine the result of 5 × 7 - 3 × 9 + 5 × 4 + 9 × 8 - 6 × 2 - 7 × 9 is odd or even number.\nDetermine: Xác định; Result: Kết quả; Odd: Số lẻ; Even: Số chẵn.",
+      "text": "Determine the result of 5 × 7 - 3 × 9 + 5 × 4 + 9 × 8 - 6 × 2 - 7 × 9 is odd or even number.\nXác định kết quả của phép tính 5 × 7 - 3 × 9 + 5 × 4 + 9 × 8 - 6 × 2 - 7 × 9 là số lẻ (Odd) hay số chẵn (Even).",
       "textLines": [
         "Determine the result of 5 × 7 - 3 × 9 + 5 × 4 + 9 × 8 - 6 × 2 - 7 × 9 is odd or even number.",
-        "Determine: Xác định; Result: Kết quả; Odd: Số lẻ; Even: Số chẵn."
+        "Xác định kết quả của phép tính 5 × 7 - 3 × 9 + 5 × 4 + 9 × 8 - 6 × 2 - 7 × 9 là số lẻ (Odd) hay số chẵn (Even)."
       ],
       "options": [],
-      "answer": "7",
-      "explanation": "Lần lượt thay các dấu nhân, trừ và kiểm tra, ta có: 7 × 4 – 5 × 3 = 13.\nĐáp số: 7 × 4 – 5 × 3 = 13.",
+      "answer": "Odd",
+      "explanation": "Xét tính chẵn/lẻ của từng tích:\n- 5 × 7 = 35 (lẻ)\n- 3 × 9 = 27 (lẻ) => 35 – 27 = 8 (chẵn)\n- 5 × 4 = 20 (chẵn)\n- 9 × 8 = 72 (chẵn)\n- 6 × 2 = 12 (chẵn)\n- 7 × 9 = 63 (lẻ)\nTa có: chẵn – lẻ = lẻ.\n(Cụ thể: 35 – 27 + 20 + 72 – 12 – 63 = 25 là số lẻ).\nĐáp số: Odd.",
       "type": "fill"
     },
     {
@@ -6475,18 +6485,15 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 3",
       "topic": "Arithmetic sequence: Dãy số cách đều; Sum: Tổng; 6th number: Số thứ 6; 8th number: Số thứ 8.",
       "num": 15,
-      "text": "Fill the lines with ‘ + ’ and ‘ – ’ to make the equation below correct. (Write down the\ncomplete equation on the answer sheet)\nFill: Điền; Lines: Dòng kẻ; Equation: Phép tính; Correct: Đúng. (Lưu ý: Thí sinh viết toàn bộ\nphép tính vào phiếu trả lời).\n17        9       6       12 = 14\nGeometry / Hình học",
+      "text": "Fill the lines with ‘ + ’ and ‘ – ’ to make the equation below correct:\nĐiền các dấu ‘ + ’ và ‘ – ’ thích hợp vào chỗ trống để được phép tính đúng:\n17 ___ 9 ___ 6 ___ 12 = 14",
       "textLines": [
-        "Fill the lines with ‘ + ’ and ‘ – ’ to make the equation below correct. (Write down the",
-        "complete equation on the answer sheet)",
-        "Fill: Điền; Lines: Dòng kẻ; Equation: Phép tính; Correct: Đúng. (Lưu ý: Thí sinh viết toàn bộ",
-        "phép tính vào phiếu trả lời).",
-        "17        9       6       12 = 14",
-        "Geometry / Hình học"
+        "Fill the lines with ‘ + ’ and ‘ – ’ to make the equation below correct:",
+        "Điền các dấu ‘ + ’ và ‘ – ’ thích hợp vào chỗ trống để được phép tính đúng:",
+        "17 ___ 9 ___ 6 ___ 12 = 14"
       ],
       "options": [],
-      "answer": "9",
-      "explanation": "Đáp số: 9 + 18 + 3 – 7 = 23.\n\n\nGeometry / Hình học",
+      "answer": "17 - 9 - 6 + 12 = 14",
+      "explanation": "Ta thử điền các dấu:\n17 – 9 – 6 + 12 = 8 – 6 + 12 = 2 + 12 = 14.\nVậy phép tính hoàn chỉnh là: 17 – 9 – 6 + 12 = 14.\nĐáp số: 17 – 9 – 6 + 12 = 14.",
       "type": "fill"
     },
     {
@@ -6681,14 +6688,14 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 6",
       "topic": "Number Theory / Số học",
       "num": 12,
-      "text": "Determine the result of 5 × 5 + 9 × 7 - 4 × 4 + 8 × 8 - 7 × 1 - 2 × 6 is odd or even number.\nDetermine: Xác định; Result: Kết quả; Odd: Số lẻ; Even: Số chẵn.",
+      "text": "Determine the result of 5 × 5 + 9 × 7 - 4 × 4 + 8 × 8 - 7 × 1 - 2 × 6 is odd or even number.\nXác định kết quả của phép tính 5 × 5 + 9 × 7 - 4 × 4 + 8 × 8 - 7 × 1 - 2 × 6 là số lẻ (Odd) hay số chẵn (Even).",
       "textLines": [
         "Determine the result of 5 × 5 + 9 × 7 - 4 × 4 + 8 × 8 - 7 × 1 - 2 × 6 is odd or even number.",
-        "Determine: Xác định; Result: Kết quả; Odd: Số lẻ; Even: Số chẵn."
+        "Xác định kết quả của phép tính 5 × 5 + 9 × 7 - 4 × 4 + 8 × 8 - 7 × 1 - 2 × 6 là số lẻ (Odd) hay số chẵn (Even)."
       ],
       "options": [],
-      "answer": "15",
-      "explanation": "Đáp số: 15 + 8 – 6 – 1 = 16.",
+      "answer": "Odd",
+      "explanation": "Xét tính chẵn/lẻ của từng tích:\n- 5 × 5 = 25 (lẻ)\n- 9 × 7 = 63 (lẻ) => 25 + 63 = 88 (chẵn)\n- 4 × 4 = 16 (chẵn)\n- 8 × 8 = 64 (chẵn)\n- 7 × 1 = 7 (lẻ)\n- 2 × 6 = 12 (chẵn)\nTa có: chẵn – chẵn + chẵn – lẻ – chẵn = chẵn – lẻ = lẻ.\n(Cụ thể: 25 + 63 – 16 + 64 – 7 – 12 = 117 là số lẻ).\nĐáp số: Odd.",
       "type": "fill"
     },
     {
@@ -6715,18 +6722,15 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 3",
       "topic": "Arithmetic sequence: Dãy số cách đều; Sum: Tổng; 7th number: Số thứ 7; 8th number: Số thứ 8.",
       "num": 15,
-      "text": "Fill the lines with ‘ + ’ and ‘ – ’ to make the equation below correct. (Write down the\ncomplete equation on the answer sheet)\nFill: Điền; Lines: Dòng kẻ; Equation: Phép tính; Correct: Đúng. (Lưu ý: Thí sinh viết toàn bộ\nphép tính vào phiếu trả lời).\n9      18        3      7 = 23\nGeometry / Hình học",
+      "text": "Fill the lines with ‘ + ’ and ‘ – ’ to make the equation below correct:\nĐiền các dấu ‘ + ’ và ‘ – ’ thích hợp vào chỗ trống để được phép tính đúng:\n9 ___ 18 ___ 3 ___ 7 = 23",
       "textLines": [
-        "Fill the lines with ‘ + ’ and ‘ – ’ to make the equation below correct. (Write down the",
-        "complete equation on the answer sheet)",
-        "Fill: Điền; Lines: Dòng kẻ; Equation: Phép tính; Correct: Đúng. (Lưu ý: Thí sinh viết toàn bộ",
-        "phép tính vào phiếu trả lời).",
-        "9      18        3      7 = 23",
-        "Geometry / Hình học"
+        "Fill the lines with ‘ + ’ and ‘ – ’ to make the equation below correct:",
+        "Điền các dấu ‘ + ’ và ‘ – ’ thích hợp vào chỗ trống để được phép tính đúng:",
+        "9 ___ 18 ___ 3 ___ 7 = 23"
       ],
       "options": [],
-      "answer": "9",
-      "explanation": "Đáp số: 9 + 18 + 3 – 7 = 23.\n\n\nGeometry / Hình học",
+      "answer": "9 + 18 + 3 - 7 = 23",
+      "explanation": "Ta thử điền các dấu:\n9 + 18 + 3 – 7 = 27 + 3 – 7 = 30 – 7 = 23.\nVậy phép tính hoàn chỉnh là: 9 + 18 + 3 – 7 = 23.\nĐáp số: 9 + 18 + 3 – 7 = 23.",
       "type": "fill"
     },
     {
@@ -6917,17 +6921,15 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 9",
       "topic": "Arithmetic sequence: Dãy số cách đều; Sum: Tổng; 6th number: Số thứ 6; 9th number: Số thứ 9.",
       "num": 12,
-      "text": "Fill the lines with ‘ + ’ and ‘ – ’ to make the equation below correct. (Write down the\ncomplete equation on the answer sheet).\nLines: Dòng kẻ; Equation: Phép tính; Correct; Đúng. (Lưu ý viết toàn bộ phép tính vào phiếu trả\nlời).\n23         7    11       3 = 22",
+      "text": "Fill the lines with ‘ + ’ and ‘ – ’ to make the equation below correct:\nĐiền các dấu ‘ + ’ và ‘ – ’ thích hợp vào chỗ trống để được phép tính đúng:\n23 ___ 7 ___ 11 ___ 3 = 22",
       "textLines": [
-        "Fill the lines with ‘ + ’ and ‘ – ’ to make the equation below correct. (Write down the",
-        "complete equation on the answer sheet).",
-        "Lines: Dòng kẻ; Equation: Phép tính; Correct; Đúng. (Lưu ý viết toàn bộ phép tính vào phiếu trả",
-        "lời).",
-        "23         7    11       3 = 22"
+        "Fill the lines with ‘ + ’ and ‘ – ’ to make the equation below correct:",
+        "Điền các dấu ‘ + ’ và ‘ – ’ thích hợp vào chỗ trống để được phép tính đúng:",
+        "23 ___ 7 ___ 11 ___ 3 = 22"
       ],
       "options": [],
-      "answer": "7",
-      "explanation": "Lần lượt thay các dấu nhân, trừ và kiểm tra, ta có: 7 × 4 – 5 × 3 = 13.\nĐáp số: 7 × 4 – 5 × 3 = 13.",
+      "answer": "23 + 7 - 11 + 3 = 22",
+      "explanation": "Ta thử điền các dấu ‘ + ’ và ‘ – ’:\n23 + 7 – 11 + 3 = 30 – 11 + 3 = 19 + 3 = 22.\nVậy phép tính hoàn chỉnh là: 23 + 7 – 11 + 3 = 22.\nĐáp số: 23 + 7 – 11 + 3 = 22.",
       "type": "fill"
     },
     {
@@ -6937,15 +6939,15 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 3",
       "topic": "Arithmetic sequence: Dãy số cách đều; Sum: Tổng; 6th number: Số thứ 6; 9th number: Số thứ 9.",
       "num": 15,
-      "text": "If A, B and C are 1-digit numbers, find the value of B + C .\n1-digit numbers: Các số có 1 chữ số; Value: Giá trị.\nGeometry / Hình học",
+      "text": "Fill the lines with ‘ + ’ and ‘ – ’ to make the equation below correct:\nĐiền các dấu ‘ + ’ và ‘ – ’ thích hợp vào chỗ trống để được phép tính đúng:\n9 ___ 18 ___ 3 ___ 7 = 23",
       "textLines": [
-        "If A, B and C are 1-digit numbers, find the value of B + C .",
-        "1-digit numbers: Các số có 1 chữ số; Value: Giá trị.",
-        "Geometry / Hình học"
+        "Fill the lines with ‘ + ’ and ‘ – ’ to make the equation below correct:",
+        "Điền các dấu ‘ + ’ và ‘ – ’ thích hợp vào chỗ trống để được phép tính đúng:",
+        "9 ___ 18 ___ 3 ___ 7 = 23"
       ],
       "options": [],
-      "answer": "9",
-      "explanation": "Đáp số: 9 + 18 + 3 – 7 = 23.\n\n\nGeometry / Hình học",
+      "answer": "9 + 18 + 3 - 7 = 23",
+      "explanation": "Ta thử điền các dấu:\n9 + 18 + 3 – 7 = 27 + 3 – 7 = 30 – 7 = 23.\nVậy phép tính hoàn chỉnh là: 9 + 18 + 3 – 7 = 23.\nĐáp số: 9 + 18 + 3 – 7 = 23.",
       "type": "fill"
     },
     {
@@ -7343,7 +7345,7 @@ const TIMO_DB = {
         "○△□○△□○△□…"
       ],
       "options": [],
-      "answer": "a",
+      "answer": "Saturday",
       "explanation": "Do đó, 8/7 vẫn là thứ sáu và 9/7 là thứ Bảy.\nCách 2: Ngày 12/06 cách ngày 30/06 là: 30 – 12 = 18 (ngày).\nNgày 30/06 cách ngày 09/07 là 9 ngày.\nDo đó, ngày 12/06 cách ngày 09/07 là: 18 + 9 = 27 (ngày).\nTa có: 27 : 7 = 3 (tuần) dư 6 (ngày).\n3 tuần sau ngày 12/06 cũng là Chủ nhật. 6 ngày sau đó là thứ Bảy.\nVậy ngày 09/07 là thứ Bảy.\nĐáp số: Saturday.",
       "type": "fill"
     },
@@ -9737,7 +9739,7 @@ const TIMO_DB = {
         "Arithmetic / Số học"
       ],
       "options": [],
-      "answer": "d",
+      "answer": "Wednesday",
       "explanation": "Hôm nay là thứ Bảy nên trước đó 14 tuần vẫn là thứ Bảy.\n3 ngày dư ra trước đó lần lượt là Thứ Sáu, thứ Năm, thứ Tư.\nVậy 101 ngày trước đó là thứ Tư.\nĐáp số: Wednesday.\n\n\nArithmetic / Số học",
       "type": "fill"
     },
@@ -9817,15 +9819,14 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 0",
       "topic": "Arithmetic / Số học",
       "num": 10,
-      "text": "Find the value of 23 ÷ 11 + 45 ÷ 11 + 62 ÷ 22 .\nValue: Giá trị.\nNumber Theory / Lý thuyết số",
+      "text": "Find the value of: 23 ÷ 11 + 45 ÷ 11 + 62 ÷ 22.\nTính giá trị của biểu thức: 23 ÷ 11 + 45 ÷ 11 + 62 ÷ 22.",
       "textLines": [
-        "Find the value of 23 ÷ 11 + 45 ÷ 11 + 62 ÷ 22 .",
-        "Value: Giá trị.",
-        "Number Theory / Lý thuyết số"
+        "Find the value of: 23 ÷ 11 + 45 ÷ 11 + 62 ÷ 22.",
+        "Tính giá trị của biểu thức: 23 ÷ 11 + 45 ÷ 11 + 62 ÷ 22."
       ],
       "options": [],
-      "answer": "400",
-      "explanation": "= 2 x 8 x 4 x 8 x 10 x 5 x 25 x 125 x 5\n= (2 x 5) x (8 x 125) x (4 x 25) x 10 x (8 x 5)\n= 10 x 1000 x 100 x 10 x 40\n= 400 000 000.\nĐáp số: 400 000 000.\n\n\nNumber theory / Lý thuyết số",
+      "answer": "9",
+      "explanation": "Ta viết các phép chia dưới dạng phân số:\n62 ÷ 22 = 62/22 = 31/11 (rút gọn chia cả tử và mẫu cho 2).\nKhi đó biểu thức trở thành:\n23/11 + 45/11 + 31/11 = (23 + 45 + 31) / 11 = 99 / 11 = 9.\nĐáp số: 9.",
       "type": "fill"
     },
     {
@@ -9952,7 +9953,7 @@ const TIMO_DB = {
         "Đi lên trên; Move right: Đi sang phải."
       ],
       "options": [],
-      "answer": "c",
+      "answer": "20",
       "explanation": "Nhận thấy: 8, 9, 10, …, 18 là dãy số liên tiếp gồm 11 số hạng.\nDo đó, ta tìm được 11 cặp số có tổng là 38.\nSố các số được ghép cặp là: 11 x 2 = 22 (số).\nSố các số không được ghép cặp là: 30 – 22 = 8 (số).\nTrường hợp xấu nhất: Ta lấy tất cả 8 số không được ghép cặp. Sau đó, ta lấy thêm 1 số từ\nmỗi cặp. Lúc này, ta chỉ cần lấy thêm 1 số nữa thì chắc chắn ghép được một cặp số thỏa\nmãn đề bài.\nVậy trong trường hợp xấu nhất, ta cần lấy tất cả: 8 + 11 + 1 = 20 (số).\nĐáp số: 20.",
       "type": "fill"
     },
@@ -9981,18 +9982,14 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 1",
       "topic": "Combinatorics / Tổ hợp",
       "num": 25,
-      "text": "Numbers are drawn from 46 integers 6 to 51 at random. At least how many numbers\ndo we need to draw to ensure that there are two chosen numbers whose sum is 70?\nDrawn: Được lấy ra; Integer: Số nguyên; At random: Ngẫu nhiên; At least: Ít nhất; Ensure:\nChắc chắn; Sum: Tổng.\nĐỀ SỐ 2\nLogical Thinking / Tư duy logic",
+      "text": "Numbers are drawn from 46 integers 6 to 51 at random. At least how many numbers do we need to draw to ensure that there are two chosen numbers whose sum is 70?\nChọn ngẫu nhiên các số từ 46 số nguyên từ 6 đến 51. Cần chọn ít nhất bao nhiêu số để chắc chắn có hai số có tổng bằng 70?",
       "textLines": [
-        "Numbers are drawn from 46 integers 6 to 51 at random. At least how many numbers",
-        "do we need to draw to ensure that there are two chosen numbers whose sum is 70?",
-        "Drawn: Được lấy ra; Integer: Số nguyên; At random: Ngẫu nhiên; At least: Ít nhất; Ensure:",
-        "Chắc chắn; Sum: Tổng.",
-        "ĐỀ SỐ 2",
-        "Logical Thinking / Tư duy logic"
+        "Numbers are drawn from 46 integers 6 to 51 at random. At least how many numbers do we need to draw to ensure that there are two chosen numbers whose sum is 70?",
+        "Chọn ngẫu nhiên các số từ 46 số nguyên từ 6 đến 51. Cần chọn ít nhất bao nhiêu số để chắc chắn có hai số có tổng bằng 70?"
       ],
       "options": [],
-      "answer": "D",
-      "explanation": "A+B=D\nB+C=E\nD+E=F\nTa thử và tìm được các bộ số (A, B, C) thỏa mãn là (1, 3, 2), (2, 3, 1),\n(1, 2, 4), (2, 1, 4), (4, 1, 2), (4, 2, 1), (2, 1, 5), (5, 1, 2).\nVậy có tất cả 8 cách điền thỏa mãn yêu cầu bài toán.\nĐáp số: D.\n\n\n\n\nHEAT ROUND / VÒNG QUỐC GIA\n\nĐỀ SỐ 1\n\nLogical thinking / Tư duy lô-gic",
+      "answer": "31",
+      "explanation": "Các cặp số có tổng bằng 70 là: (19, 51), (20, 50), ..., (34, 36).\nSố cặp tạo được là: 34 – 19 + 1 = 16 (cặp), gồm: 16 × 2 = 32 (số).\nSố các số không ghép cặp (từ 6 đến 18 và số 35) là: 46 – 32 = 14 (số).\nTrường hợp xấu nhất: Ta chọn tất cả 14 số không ghép cặp và 1 số từ mỗi cặp trong 16 cặp (16 số).\nKhi đó ta đã chọn: 14 + 16 = 30 số mà chưa có cặp nào có tổng bằng 70.\nChọn thêm 1 số nữa thì chắc chắn có 2 số có tổng bằng 70.\nVậy cần chọn ít nhất: 30 + 1 = 31 (số).\nĐáp số: 31.",
       "type": "fill"
     },
     {
@@ -10030,7 +10027,7 @@ const TIMO_DB = {
         "2 ; 5 ; 7 ; 12 ; 19 ; 31 ; __ ;"
       ],
       "options": [],
-      "answer": "a",
+      "answer": "Saturday",
       "explanation": "3 tuần trước ngày hôm nay cũng là thứ Sáu.\n6 ngày trước đó nữa là thứ Bảy.\nVậy 27 ngày trước là thứ Bảy.\nĐáp số: Saturday.",
       "type": "fill"
     },
@@ -10210,7 +10207,7 @@ const TIMO_DB = {
         "    A"
       ],
       "options": [],
-      "answer": "c",
+      "answer": "20",
       "explanation": "Nhận thấy: 8, 9, 10, …, 18 là dãy số liên tiếp gồm 11 số hạng.\nDo đó, ta tìm được 11 cặp số có tổng là 38.\nSố các số được ghép cặp là: 11 x 2 = 22 (số).\nSố các số không được ghép cặp là: 30 – 22 = 8 (số).\nTrường hợp xấu nhất: Ta lấy tất cả 8 số không được ghép cặp. Sau đó, ta lấy thêm 1 số từ\nmỗi cặp. Lúc này, ta chỉ cần lấy thêm 1 số nữa thì chắc chắn ghép được một cặp số thỏa\nmãn đề bài.\nVậy trong trường hợp xấu nhất, ta cần lấy tất cả: 8 + 11 + 1 = 20 (số).\nĐáp số: 20.",
       "type": "fill"
     },
@@ -10242,14 +10239,15 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 7",
       "topic": "Logical Thinking / Tư duy logic",
       "num": 2,
-      "text": "Today is Friday. Which day of the week was it 27 days ago?\nToday: Hôm nay; Friday: Thứ Sáu; Day of the week: Thứ; Ago: Trước.",
+      "text": "According to the pattern shown below, what is the number in the blank?\nDựa theo quy luật dưới đây, tìm số thích hợp điền vào chỗ trống:\n7 、 21 、 36 、 52 、 __",
       "textLines": [
-        "Today is Friday. Which day of the week was it 27 days ago?",
-        "Today: Hôm nay; Friday: Thứ Sáu; Day of the week: Thứ; Ago: Trước."
+        "According to the pattern shown below, what is the number in the blank?",
+        "Dựa theo quy luật dưới đây, tìm số thích hợp điền vào chỗ trống:",
+        "7 、 21 、 36 、 52 、 __"
       ],
       "options": [],
-      "answer": "a",
-      "explanation": "+ Xét lớp đầu tiên:\nTừ hình nhìn từ bên phải, ta thấy ở cột thứ 2 có 3 viên bi.\n\n\n\n\n+ Xét lớp ở giữa:\nTừ hình nhìn từ phía trước, ta thấy ở cột thứ 1 có 1 viên bi và cột thứ 3 có 2 viên bi.\n\n\n\n\n+ Xét lớp sau cùng:\n\n\n\n\nTừ hình nhìn từ bên cạnh, ta thấy ở cột thứ 2 có 1 viên bi.\nTổng số viên bi trong hộp trong suốt là 3 + 2 + 1 + 1 = 7 (viên).\nĐáp số: 7.",
+      "answer": "69",
+      "explanation": "Quan sát khoảng cách giữa các số liên tiếp trong dãy:\n21 – 7 = 14\n36 – 21 = 15\n52 – 36 = 16\nQuy luật: Khoảng cách giữa 2 số liên tiếp tăng dần 1 đơn vị (14, 15, 16, 17...).\nVậy số cần tìm ở chỗ trống là: 52 + 17 = 69.\nĐáp số: 69.",
       "type": "fill"
     },
     {
@@ -10267,7 +10265,7 @@ const TIMO_DB = {
         "○○△※○○△※○○△※○○△※○…"
       ],
       "options": [],
-      "answer": "d",
+      "answer": "Thursday",
       "explanation": "11 tuần trước ngày 07/11 cũng là thứ Ba. 5 ngày trước đó là thứ Năm.\nVậy 82 ngày trước là thứ Năm.\nĐáp số: Thursday.",
       "type": "fill"
     },
@@ -10285,7 +10283,7 @@ const TIMO_DB = {
         "57 、 54 、 49 、 42 、 33、 __ 、"
       ],
       "options": [],
-      "answer": "a",
+      "answer": "Saturday",
       "explanation": "Ngày 31/10 cách 30/11 là 30 ngày.\nNgày 30/11 cách 29/12 là 29 ngày.\nVậy 14/10 cách 29/12 số ngày là: 17 + 30 + 29 = 76 (ngày).\nVì một tuần có 7 ngày nên ta lấy: 76 : 7 = 10 (tuần) dư 6 (ngày).\n10 tuần sau ngày 14/10 vẫn là Chủ Nhật.\n6 ngày dư ra sau đó lần lượt là thứ Hai, thứ Ba, thứ Tư, thứ Năm, thứ Sáu, thứ Bảy.\nVậy ngày 29/12/1018 là thứ Bảy.\nĐáp số: Saturday.",
       "type": "fill"
     },
@@ -10438,18 +10436,14 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 1",
       "topic": "Combinatorics / Tổ hợp",
       "num": 25,
-      "text": "Numbers are drawn from 30 integers 2 to 31 at random. At least how many numbers do\nwe need to draw to ensure that there are two chosen numbers whose sum is 38?\nNumber: Số; Draw: Chọn ra; Integers: Số nguyên; At random: Ngẫu nhiên; At least: Ít nhất;\nEnsure: Chắc chắn; Sum: Tổng.\nĐỀ SỐ 4\nLogical Thinking / Tư duy logic",
+      "text": "Numbers are drawn from 30 integers 2 to 31 at random. At least how many numbers do we need to draw to ensure that there are two chosen numbers whose sum is 38?\nChọn ngẫu nhiên các số từ 30 số nguyên từ 2 đến 31. Cần chọn ít nhất bao nhiêu số để chắc chắn có hai số có tổng bằng 38?",
       "textLines": [
-        "Numbers are drawn from 30 integers 2 to 31 at random. At least how many numbers do",
-        "we need to draw to ensure that there are two chosen numbers whose sum is 38?",
-        "Number: Số; Draw: Chọn ra; Integers: Số nguyên; At random: Ngẫu nhiên; At least: Ít nhất;",
-        "Ensure: Chắc chắn; Sum: Tổng.",
-        "ĐỀ SỐ 4",
-        "Logical Thinking / Tư duy logic"
+        "Numbers are drawn from 30 integers 2 to 31 at random. At least how many numbers do we need to draw to ensure that there are two chosen numbers whose sum is 38?",
+        "Chọn ngẫu nhiên các số từ 30 số nguyên từ 2 đến 31. Cần chọn ít nhất bao nhiêu số để chắc chắn có hai số có tổng bằng 38?"
       ],
       "options": [],
-      "answer": "D",
-      "explanation": "A+B=D\nB+C=E\nD+E=F\nTa thử và tìm được các bộ số (A, B, C) thỏa mãn là (1, 3, 2), (2, 3, 1),\n(1, 2, 4), (2, 1, 4), (4, 1, 2), (4, 2, 1), (2, 1, 5), (5, 1, 2).\nVậy có tất cả 8 cách điền thỏa mãn yêu cầu bài toán.\nĐáp số: D.\n\n\n\n\nHEAT ROUND / VÒNG QUỐC GIA\n\nĐỀ SỐ 1\n\nLogical thinking / Tư duy lô-gic",
+      "answer": "19",
+      "explanation": "Các cặp số có tổng bằng 38 là: (7, 31), (8, 30), ..., (18, 20).\nSố cặp tạo thành là: 18 – 7 + 1 = 12 (cặp), gồm 24 số.\nSố các số không nằm trong cặp nào (từ 2 đến 6 và số 19) là: 5 + 1 = 6 (số).\nTrường hợp xấu nhất: Chọn tất cả 6 số không ghép cặp và chọn 1 số trong mỗi cặp (12 số).\nSau đó, chọn thêm 1 số nữa thì chắc chắn có hai số có tổng bằng 38.\nVậy cần chọn ít nhất: 6 + 12 + 1 = 19 (số).\nĐáp số: 19.",
       "type": "fill"
     },
     {
@@ -10855,15 +10849,15 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 7",
       "topic": "Logical Thinking / Tư duy lô-gic",
       "num": 2,
-      "text": "According to the pattern shown below, what is the number in the blank?\nPattern: Quy luật; The blank: Chỗ trống.\n7 、 21 、 36 、 52 、 __",
+      "text": "According to the pattern shown below, what is the number in the blank?\nDựa theo quy luật dưới đây, tìm số thích hợp điền vào chỗ trống:\n7 、 21 、 36 、 52 、 __",
       "textLines": [
         "According to the pattern shown below, what is the number in the blank?",
-        "Pattern: Quy luật; The blank: Chỗ trống.",
+        "Dựa theo quy luật dưới đây, tìm số thích hợp điền vào chỗ trống:",
         "7 、 21 、 36 、 52 、 __"
       ],
       "options": [],
-      "answer": "a",
-      "explanation": "+ Xét lớp đầu tiên:\nTừ hình nhìn từ bên phải, ta thấy ở cột thứ 2 có 3 viên bi.\n\n\n\n\n+ Xét lớp ở giữa:\nTừ hình nhìn từ phía trước, ta thấy ở cột thứ 1 có 1 viên bi và cột thứ 3 có 2 viên bi.\n\n\n\n\n+ Xét lớp sau cùng:\n\n\n\n\nTừ hình nhìn từ bên cạnh, ta thấy ở cột thứ 2 có 1 viên bi.\nTổng số viên bi trong hộp trong suốt là 3 + 2 + 1 + 1 = 7 (viên).\nĐáp số: 7.",
+      "answer": "69",
+      "explanation": "Quan sát khoảng cách giữa các số liên tiếp trong dãy:\n21 – 7 = 14\n36 – 21 = 15\n52 – 36 = 16\nQuy luật: Khoảng cách giữa 2 số liên tiếp tăng dần 1 đơn vị (14, 15, 16, 17...).\nVậy số cần tìm ở chỗ trống là: 52 + 17 = 69.\nĐáp số: 69.",
       "type": "fill"
     },
     {
@@ -11039,7 +11033,7 @@ const TIMO_DB = {
         "○ △ □ ○ △ ○ △ □ ○ △ ○ △ □ ○ △…"
       ],
       "options": [],
-      "answer": "d",
+      "answer": "Sunday",
       "explanation": "Ngày 30/04 cách ngày 31/05 là: 31 ngày.\nNgày 31/05 cách ngày 30/06 là: 30 ngày.\nNgày 30/06 cách ngày 09/07 là: 9 ngày.\nDo đó, ngày 31/03 cách ngày 09/07 là: 30 + 31 + 30 + 9 = 100 (ngày).\nTa có: 100 : 7 = 14 (tuần) dư 2 (ngày).\n14 tuần trước ngày 09/07 cũng là thứ Ba. 2 ngày trước đó là Chủ nhật.\nVậy ngày 31/03 là Chủ nhật.\nĐáp số: Sunday.",
       "type": "fill"
     },
@@ -11436,10 +11430,15 @@ const TIMO_DB = {
         "ĐỀ SỐ 2",
         "Logical thinking / Tư duy logic"
       ],
-      "options": [],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
       "answer": "D",
       "explanation": "(★+ ▲) + (■ +★) = 7 + 8 = 15\n★+ ▲+ ■ + ★ = 15\n(★+ ▲+ ■) + ★ = 15\n12 + ★ = 15\n★ = 15 – 12 = 3\nĐáp số: D.\n\n\n\n\nĐỀ SỐ 7\n\nLogical Thinking / Tư duy lô-gic",
-      "type": "fill"
+      "type": "mc"
     },
     {
       "id": "1-Vong loai - De so 2-1",
@@ -11453,10 +11452,15 @@ const TIMO_DB = {
         "Given two balances below, find the heaviest fruit.",
         "Cho hai chiếc cân dưới đây, tìm quả nặng nhất."
       ],
-      "options": [],
+      "options": [
+        "A. Quả cam",
+        "B. Quả na",
+        "C. Quả táo",
+        "D. Quả lê"
+      ],
       "answer": "D",
       "explanation": "Do đó, quả lê nặng hơn quả cam và quả lê nặng hơn quả na.\nỞ chiếc cân thứ hai, quả cam nặng hơn quả na và quả táo cộng lại.\nDo đó, quả cam nặng hơn quả na và quả cam nặng hơn quả táo.\nNhận thấy, quả lê nặng hơn quả cam và quả cam nặng hơn quả táo.\nDo đó, quả lê nặng hơn quả táo.\nVậy quả nặng nhất là quả lê.\nĐáp số: D.",
-      "type": "fill"
+      "type": "mc"
     },
     {
       "id": "1-Vong loai - De so 5-6",
@@ -11628,10 +11632,15 @@ const TIMO_DB = {
         "Given two balances below, find the lightest fast food.",
         "Cho hai chiếc cân dưới đây, tìm loại đồ ăn nhanh nhẹ nhất."
       ],
-      "options": [],
+      "options": [
+        "A. Khoai tây chiên",
+        "B. Hamburger",
+        "C. Gà rán",
+        "D. Bánh pizza"
+      ],
       "answer": "A",
       "explanation": "Ở chiếc cân thứ hai, quả táo nặng hơn tổng cân nặng của quả cam và quả chanh.\nDo đó, quả táo nặng hơn quả cam và quả táo nặng hơn quả chanh.\nNhư vậy, quả nặng nhất là chùm nho.\nĐáp số: A.",
-      "type": "fill"
+      "type": "mc"
     },
     {
       "id": "1-Vong loai - De so 6-2",
@@ -11648,12 +11657,12 @@ const TIMO_DB = {
       ],
       "options": [
         "A. 14",
-        "B. 13",
+        "B. 15",
         "C. 16",
-        "D. 15"
+        "D. 17"
       ],
       "answer": "B",
-      "explanation": "Như vậy, con vật thích hợp để điền vào chỗ trống là con bò.\nĐáp số: B.",
+      "explanation": "Số tuổi của Winter hiện tại là: 9 + 6 = 15 (tuổi).\nĐáp số: B.",
       "type": "mc"
     },
     {
@@ -12173,10 +12182,15 @@ const TIMO_DB = {
         "ĐỀ SỐ 6",
         "Logical Thinking / Tư duy lô-gic"
       ],
-      "options": [],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
       "answer": "B",
       "explanation": "bao gồm hình dấu cộng, hình tam giác và hình bát giác.\nVậy hình còn thiếu là hình B.\nĐáp số: B.\n\n\n\n\nĐỀ SỐ 4\n\nLogical Thinking / Tư duy lô-gic",
-      "type": "fill"
+      "type": "mc"
     },
     {
       "id": "1-Vong loai - De so 6-1",
@@ -12212,10 +12226,15 @@ const TIMO_DB = {
         "From the pattern shown below, what is the animal figure in the blank?",
         "Dựa vào quy luật dưới đây, tìm hình con vật thích hợp để điền vào chỗ trống."
       ],
-      "options": [],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
       "answer": "B",
       "explanation": "Như vậy, con vật thích hợp để điền vào chỗ trống là con bò.\nĐáp số: B.",
-      "type": "fill"
+      "type": "mc"
     },
     {
       "id": "1-Vong loai - De so 5-3",
@@ -12413,10 +12432,15 @@ const TIMO_DB = {
         "_______",
         "Combinatorics / Tổ hợp"
       ],
-      "options": [],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
       "answer": "B",
       "explanation": "Như vậy, hình đa giác có 7 cạnh.\nĐáp số: B.\n\n\nCombinatorics / Tổ hợp",
-      "type": "fill"
+      "type": "mc"
     },
     {
       "id": "1-Vong loai - De so 0-23",
@@ -12479,13 +12503,13 @@ const TIMO_DB = {
         "5 năm nữa thì Alice 12 tuổi. Bố của Alice hơn cô bé 23 tuổi. Hỏi bây giờ bố của Alice bao nhiêu tuổi?"
       ],
       "options": [
-        "A. 40",
-        "B. 30",
-        "C. 20",
-        "D. 35"
+        "A. 30",
+        "B. 28",
+        "C. 35",
+        "D. 32"
       ],
       "answer": "A",
-      "explanation": "Ở chiếc cân thứ hai, quả táo nặng hơn tổng cân nặng của quả cam và quả chanh.\nDo đó, quả táo nặng hơn quả cam và quả táo nặng hơn quả chanh.\nNhư vậy, quả nặng nhất là chùm nho.\nĐáp số: A.",
+      "explanation": "Tuổi của Alice hiện nay là: 12 – 5 = 7 (tuổi).\nTuổi của bố Alice hiện nay là: 7 + 23 = 30 (tuổi).\nĐáp số: A.",
       "type": "mc"
     },
     {
@@ -12980,14 +13004,14 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 7",
       "topic": "Logical Thinking / Tư duy logic",
       "num": 4,
-      "text": "12 years ago, John was 8 years old. Mary is 7 years elder than John. How old is Mary now?\nYear: Năm; Ago: Trước; Year old: Tuổi; Elder than: Nhiều tuổi hơn; Now: Hiện tại.",
+      "text": "12 years ago, John was 8 years old. Mary is 7 years elder than John. How old is Mary now?\n12 năm trước, John 8 tuổi. Mary nhiều hơn John 7 tuổi. Hỏi hiện tại Mary bao nhiêu tuổi?",
       "textLines": [
         "12 years ago, John was 8 years old. Mary is 7 years elder than John. How old is Mary now?",
-        "Year: Năm; Ago: Trước; Year old: Tuổi; Elder than: Nhiều tuổi hơn; Now: Hiện tại."
+        "12 năm trước, John 8 tuổi. Mary nhiều hơn John 7 tuổi. Hỏi hiện tại Mary bao nhiêu tuổi?"
       ],
       "options": [],
-      "answer": "d",
-      "explanation": "Cứ sau 7 ngày, thứ trong tuần sẽ lặp lại. Ta có: 7 + 7 = 14, 14 + 7 = 21, 21 + 7 = 28.\nDo đó, 7 ngày, 14 ngày, 21 ngày và 28 ngày sau hôm nay đều là thứ Sáu.\nVì 28 ngày sau hôm nay là thứ Sáu nên 27 ngày sau hôm nay là thứ Năm.\nĐáp số: Thursday.",
+      "answer": "27",
+      "explanation": "Tuổi của John hiện tại là: 8 + 12 = 20 (tuổi).\nTuổi của Mary hiện tại là: 20 + 7 = 27 (tuổi).\nĐáp số: 27.",
       "type": "fill"
     },
     {
@@ -12997,20 +13021,20 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 6",
       "topic": "Logical Thinking / Tư duy logic",
       "num": 5,
-      "text": "According to the pattern shown below, how many # are there in the 6th group?\nDựa theo quy luật dưới đây, hỏi có bao nhiêu kí hiệu # trong nhóm thứ 6?\n\nNhóm 1: 0 kí hiệu #\nNhóm 2: 4 kí hiệu #\nNhóm 3: 8 kí hiệu #\nNhóm 4: 12 kí hiệu #\n(1st Group: 0 | 2nd Group: 4 | 3rd Group: 8 | 4th Group: 12)",
+      "text": "According to the pattern shown below, how many ★ are there in the 6th group?\nDựa theo quy luật dưới đây, hỏi có bao nhiêu kí hiệu ★ trong nhóm thứ 6?\n\nNhóm 1: 0 kí hiệu ★\nNhóm 2: 4 kí hiệu ★\nNhóm 3: 8 kí hiệu ★\nNhóm 4: 12 kí hiệu ★\n(1st Group: 0 | 2nd Group: 4 | 3rd Group: 8 | 4th Group: 12)",
       "textLines": [
-        "According to the pattern shown below, how many # are there in the 6th group?",
-        "Dựa theo quy luật dưới đây, hỏi có bao nhiêu kí hiệu # trong nhóm thứ 6?",
+        "According to the pattern shown below, how many ★ are there in the 6th group?",
+        "Dựa theo quy luật dưới đây, hỏi có bao nhiêu kí hiệu ★ trong nhóm thứ 6?",
         "",
-        "Nhóm 1: 0 kí hiệu #",
-        "Nhóm 2: 4 kí hiệu #",
-        "Nhóm 3: 8 kí hiệu #",
-        "Nhóm 4: 12 kí hiệu #",
+        "Nhóm 1: 0 kí hiệu ★",
+        "Nhóm 2: 4 kí hiệu ★",
+        "Nhóm 3: 8 kí hiệu ★",
+        "Nhóm 4: 12 kí hiệu ★",
         "(1st Group: 0 | 2nd Group: 4 | 3rd Group: 8 | 4th Group: 12)"
       ],
       "options": [],
       "answer": "20",
-      "explanation": "Số kí hiệu # ở mỗi nhóm lần lượt là: 0, 4, 8, 12, ...\nQuy luật: Số lượng kí hiệu ở mỗi nhóm tăng dần 4 đơn vị:\nNhóm 1: 0\nNhóm 2: 0 + 4 = 4\nNhóm 3: 4 + 4 = 8\nNhóm 4: 8 + 4 = 12\nNhóm 5: 12 + 4 = 16\nNhóm 6: 16 + 4 = 20\nVậy ở nhóm thứ 6 có tất cả 20 kí hiệu.\nĐáp số: 20.",
+      "explanation": "Số kí hiệu ★ ở mỗi nhóm lần lượt là: 0, 4, 8, 12, ...\nQuy luật: Số lượng kí hiệu ở mỗi nhóm tăng dần 4 đơn vị:\nNhóm 1: 0\nNhóm 2: 0 + 4 = 4\nNhóm 3: 4 + 4 = 8\nNhóm 4: 8 + 4 = 12\nNhóm 5: 12 + 4 = 16\nNhóm 6: 16 + 4 = 20\nVậy ở nhóm thứ 6 có tất cả 20 kí hiệu ★.\nĐáp số: 20.",
       "type": "fill"
     },
     {
@@ -13205,15 +13229,14 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 7",
       "topic": "Logical Thinking / Tư duy logic",
       "num": 4,
-      "text": "If tomorrow is Saturday, which day of the week will it be 27 days from now?\nTomorrow: Ngày mai; Saturday: Thứ Bảy; Day of the week: Thứ trong tuần; 27 days from now:\n27 ngày sau hôm nay.",
+      "text": "If tomorrow is Saturday, which day of the week will it be 27 days from now?\nNếu ngày mai là thứ Bảy, hỏi 27 ngày nữa tính từ hôm nay là thứ mấy?",
       "textLines": [
         "If tomorrow is Saturday, which day of the week will it be 27 days from now?",
-        "Tomorrow: Ngày mai; Saturday: Thứ Bảy; Day of the week: Thứ trong tuần; 27 days from now:",
-        "27 ngày sau hôm nay."
+        "Nếu ngày mai là thứ Bảy, hỏi 27 ngày nữa tính từ hôm nay là thứ mấy?"
       ],
       "options": [],
-      "answer": "d",
-      "explanation": "Cứ sau 7 ngày, thứ trong tuần sẽ lặp lại. Ta có: 7 + 7 = 14, 14 + 7 = 21, 21 + 7 = 28.\nDo đó, 7 ngày, 14 ngày, 21 ngày và 28 ngày sau hôm nay đều là thứ Sáu.\nVì 28 ngày sau hôm nay là thứ Sáu nên 27 ngày sau hôm nay là thứ Năm.\nĐáp số: Thursday.",
+      "answer": "Thursday",
+      "explanation": "Ngày mai là thứ Bảy nên hôm nay là thứ Sáu.\nCứ sau 7 ngày, thứ trong tuần sẽ lặp lại. Ta có: 27 = 7 × 3 + 6 (hoặc 28 – 1).\n28 ngày sau hôm nay (4 tuần) sẽ là thứ Sáu, do đó 27 ngày sau hôm nay là thứ Năm (Thursday).\nĐáp số: Thursday.",
       "type": "fill"
     },
     {
@@ -13262,15 +13285,14 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 7",
       "topic": "Number Theory / Số học",
       "num": 12,
-      "text": "Katie has 37 watches and Alice has 17 watches. How many watches should Katie give\nAlice so that they will have the same number of watches?\nWatches: Đồng hồ; Give: Cho; The same number: Số lượng bằng nhau.",
+      "text": "Katie has 37 watches and Alice has 17 watches. How many watches should Katie give Alice so that they will have the same number of watches?\nKatie có 37 chiếc đồng hồ và Alice có 17 chiếc đồng hồ. Hỏi Katie phải cho Alice bao nhiêu chiếc đồng hồ để hai bạn có số lượng đồng hồ bằng nhau?",
       "textLines": [
-        "Katie has 37 watches and Alice has 17 watches. How many watches should Katie give",
-        "Alice so that they will have the same number of watches?",
-        "Watches: Đồng hồ; Give: Cho; The same number: Số lượng bằng nhau."
+        "Katie has 37 watches and Alice has 17 watches. How many watches should Katie give Alice so that they will have the same number of watches?",
+        "Katie có 37 chiếc đồng hồ và Alice có 17 chiếc đồng hồ. Hỏi Katie phải cho Alice bao nhiêu chiếc đồng hồ để hai bạn có số lượng đồng hồ bằng nhau?"
       ],
       "options": [],
-      "answer": "1",
-      "explanation": "Đáp số: 1 + 4 – 5 + 7 = 7.",
+      "answer": "10",
+      "explanation": "Tổng số đồng hồ của cả hai bạn là: 37 + 17 = 54 (chiếc).\nĐể hai bạn có số đồng hồ bằng nhau thì mỗi bạn cần có: 54 : 2 = 27 (chiếc).\nSố đồng hồ Katie cần cho Alice là: 37 – 27 = 10 (chiếc).\nĐáp số: 10.",
       "type": "fill"
     },
     {
@@ -13314,15 +13336,17 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 8",
       "topic": "Geometry / Hình học",
       "num": 18,
-      "text": "How many squares are there in the figure below?\nSquare: Hình vuông; Figure: Hình vẽ.",
+      "text": "How many side(s) is / are there in the polygon below?\nSide: Cạnh; Polygon: Hình đa giác.\nHỏi hình đa giác trong hình vẽ dưới đây có bao nhiêu cạnh bao quanh?",
       "textLines": [
-        "How many squares are there in the figure below?",
-        "Square: Hình vuông; Figure: Hình vẽ."
+        "How many side(s) is / are there in the polygon below?",
+        "Side: Cạnh; Polygon: Hình đa giác.",
+        "Hỏi hình đa giác trong hình vẽ dưới đây có bao nhiêu cạnh bao quanh?"
       ],
       "options": [],
       "answer": "18",
-      "explanation": "Như vậy, hình đa giác có 18 cạnh.\nĐáp số: 18.",
-      "type": "fill"
+      "explanation": "Quan sát hình vẽ và đếm lần lượt các cạnh viền bao quanh của hình đa giác (bắt đầu từ cạnh trên cùng và đếm vòng tròn theo chiều kim đồng hồ từ 1 đến 18):\n- Hình đa giác có tất cả 18 cạnh bao quanh.\nĐáp số: 18.",
+      "type": "fill",
+      "image": "images/timo_g1_de8_polygon18.svg"
     },
     {
       "id": "1-Vong quoc gia - De so 8-20",
@@ -13406,14 +13430,14 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 7",
       "topic": "Logical Thinking / Tư duy logic",
       "num": 4,
-      "text": "If yesterday was Monday, which day of the week will it be 17 days later?\nYesterday: Hôm qua; Monday: Thứ Hai; Day of the week: Thứ trong tuần; Later: Sau.",
+      "text": "If yesterday was Monday, which day of the week will it be 17 days later?\nNếu hôm qua là thứ Hai, hỏi 17 ngày nữa sẽ là thứ mấy?",
       "textLines": [
         "If yesterday was Monday, which day of the week will it be 17 days later?",
-        "Yesterday: Hôm qua; Monday: Thứ Hai; Day of the week: Thứ trong tuần; Later: Sau."
+        "Nếu hôm qua là thứ Hai, hỏi 17 ngày nữa sẽ là thứ mấy?"
       ],
       "options": [],
-      "answer": "d",
-      "explanation": "Cứ sau 7 ngày, thứ trong tuần sẽ lặp lại. Ta có: 7 + 7 = 14, 14 + 7 = 21, 21 + 7 = 28.\nDo đó, 7 ngày, 14 ngày, 21 ngày và 28 ngày sau hôm nay đều là thứ Sáu.\nVì 28 ngày sau hôm nay là thứ Sáu nên 27 ngày sau hôm nay là thứ Năm.\nĐáp số: Thursday.",
+      "answer": "Friday",
+      "explanation": "Hôm qua là thứ Hai nên hôm nay là thứ Ba.\nTa có: 17 = 7 × 2 + 3 (tức là 2 tuần dư 3 ngày).\nCứ sau 7 ngày thì thứ trong tuần lặp lại, nên 14 ngày sau hôm nay vẫn là thứ Ba.\n3 ngày sau đó lần lượt là: thứ Tư, thứ Năm, thứ Sáu.\nVậy 17 ngày nữa sẽ là thứ Sáu (Friday).\nĐáp số: Friday.",
       "type": "fill"
     },
     {
@@ -13462,15 +13486,15 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 8",
       "topic": "13. The numbers below form an arithmetic sequence. What is the 8th number in the sequence?",
       "num": 13,
-      "text": "The numbers below form an arithmetic sequence. What is the 8th number in the sequence?\nNumbers: Số; Arithmetic sequence: Dãy số cách đều; 8th number: Số thứ 8; Sequence: Dãy số.\n109、101、93、85、…",
+      "text": "The numbers below form an arithmetic sequence. What is the 8th number in the sequence?\nDãy số dưới đây là một dãy số cách đều. Tìm số thứ 8 của dãy số:\n109 、 101 、 93 、 85 、 …",
       "textLines": [
         "The numbers below form an arithmetic sequence. What is the 8th number in the sequence?",
-        "Numbers: Số; Arithmetic sequence: Dãy số cách đều; 8th number: Số thứ 8; Sequence: Dãy số.",
-        "109、101、93、85、…"
+        "Dãy số dưới đây là một dãy số cách đều. Tìm số thứ 8 của dãy số:",
+        "109 、 101 、 93 、 85 、 …"
       ],
       "options": [],
-      "answer": "9",
-      "explanation": "Ta có phép tính đúng là: 9 – 4 + 5 – 3 = 7.\nĐáp số: 9 – 4 + 5 – 3 = 7.",
+      "answer": "53",
+      "explanation": "Quy luật: Dãy số giảm dần 8 đơn vị:\n109 – 8 = 101;  101 – 8 = 93;  93 – 8 = 85...\nTa liệt kê các số tiếp theo trong dãy:\n- Số thứ 5 là: 85 – 8 = 77\n- Số thứ 6 là: 77 – 8 = 69\n- Số thứ 7 là: 69 – 8 = 61\n- Số thứ 8 là: 61 – 8 = 53\nVậy số thứ 8 trong dãy số là 53.\nĐáp số: 53.",
       "type": "fill"
     },
     {
@@ -13592,16 +13616,16 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 0",
       "topic": "Logical Thinking / Tư duy logic",
       "num": 5,
-      "text": "According to the pattern shown below, what is the English letter in the space?\nPattern: Quy luật; Letter: Chữ cái.\nD 、 f 、 H 、 j 、 L 、 __ 、….\nArithmetic / Số học",
+      "text": "According to the pattern shown below, what is the English letter in the space?\nDựa theo quy luật dưới đây, hỏi chữ cái tiếng Anh nào thích hợp để điền vào chỗ trống?\n\nD 、 f 、 H 、 j 、 L 、 __ 、…",
       "textLines": [
         "According to the pattern shown below, what is the English letter in the space?",
-        "Pattern: Quy luật; Letter: Chữ cái.",
-        "D 、 f 、 H 、 j 、 L 、 __ 、….",
-        "Arithmetic / Số học"
+        "Dựa theo quy luật dưới đây, hỏi chữ cái tiếng Anh nào thích hợp để điền vào chỗ trống?",
+        "",
+        "D 、 f 、 H 、 j 、 L 、 __ 、…"
       ],
       "options": [],
-      "answer": "20",
-      "explanation": "Quy luật: Các số trong dãy tăng dần 4 đơn vị.\n0 + 4 = 4;     4 + 4 = 8;     8 + 4 = 12;   ...\nSố dấu # ở nhóm thứ 5 là: 12 + 4 = 16.\nSố dấu # ở nhóm thứ 6 là: 16 + 4 = 20.\nĐáp số: 20.\n\n\nArithmetic / Số học",
+      "answer": "n",
+      "explanation": "Ta có bảng chữ cái tiếng Anh: ..., D, E, F, G, H, I, J, K, L, M, N, O, P, …\nQuy luật 1: Hai chữ cái liên tiếp trong dãy cách nhau 1 chữ cái trong bảng chữ cái (D cách F một chữ E; F cách H một chữ G; H cách J một chữ I; J cách L một chữ K; L cách N một chữ M).\nQuy luật 2: Các chữ cái trong dãy được viết hoa và viết thường xen kẽ: D (hoa), f (thường), H (hoa), j (thường), L (hoa), do đó chữ cái tiếp theo phải là chữ thường.\nVậy chữ cái thích hợp điền vào chỗ trống là n (chữ thường).\nĐáp số: n.",
       "type": "fill"
     },
     {
@@ -13649,17 +13673,14 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 5",
       "topic": "Numbers: Số; Arithmetic sequence: Dãy số cách đều; 7th number: Số thứ 7.",
       "num": 15,
-      "text": "A large package contains 9 pencils. A small package contains 5 pencils. Buying both a\nlarge package and a small package will attach 1 extra pencil every time. If Peggy buys 3\nlarge and 6 small packages, how many pencil(s) does she have?\nLarge package: Hộp lớn; Small package: Hộp nhỏ; Pencil: Bút chì; Both: Cả hai; Attach: Tặng kèm.\nGeometry / Hình học",
+      "text": "A large package contains 9 pencils. A small package contains 5 pencils. Buying both a large package and a small package will attach 1 extra pencil every time. If Peggy buys 3 large and 6 small packages, how many pencil(s) does she have?\nMột hộp lớn chứa 9 cái bút chì. Một hộp nhỏ chứa 5 cái bút chì. Cứ mua cùng lúc 1 hộp lớn và 1 hộp nhỏ thì được tặng kèm thêm 1 cái bút chì. Nếu Peggy mua 3 hộp lớn và 6 hộp nhỏ thì cô ấy có tất cả bao nhiêu cái bút chì?",
       "textLines": [
-        "A large package contains 9 pencils. A small package contains 5 pencils. Buying both a",
-        "large package and a small package will attach 1 extra pencil every time. If Peggy buys 3",
-        "large and 6 small packages, how many pencil(s) does she have?",
-        "Large package: Hộp lớn; Small package: Hộp nhỏ; Pencil: Bút chì; Both: Cả hai; Attach: Tặng kèm.",
-        "Geometry / Hình học"
+        "A large package contains 9 pencils. A small package contains 5 pencils. Buying both a large package and a small package will attach 1 extra pencil every time. If Peggy buys 3 large and 6 small packages, how many pencil(s) does she have?",
+        "Một hộp lớn chứa 9 cái bút chì. Một hộp nhỏ chứa 5 cái bút chì. Cứ mua cùng lúc 1 hộp lớn và 1 hộp nhỏ thì được tặng kèm thêm 1 cái bút chì. Nếu Peggy mua 3 hộp lớn và 6 hộp nhỏ thì cô ấy có tất cả bao nhiêu cái bút chì?"
       ],
       "options": [],
-      "answer": "c",
-      "explanation": "2 + 5 + 7 + 8 + 11 + 13 + 14 + 15 + 17 + 20 + 21 + 23\n?\n2 + 5 + 7 + 8 +1+ 3 + 4 + 5 + 7 + 0 +1+ 3\n?\nVì 46 có hàng đơn vị là 6 nên kết quả của phép tính cũng có hàng đơn vị là 6.\nVậy kết quả của phép tính là số chẵn.\nĐáp số: Even.\n\n\nGeometry / Hình học",
+      "answer": "60",
+      "explanation": "Số bút chì trong 3 hộp lớn là: 3 × 9 = 27 (cái bút).\nSố bút chì trong 6 hộp nhỏ là: 6 × 5 = 30 (cái bút).\nCứ mua 1 hộp lớn và 1 hộp nhỏ thì được tặng 1 cái bút. Khi mua 3 hộp lớn và 6 hộp nhỏ, Peggy ghép được 3 cặp (1 lớn + 1 nhỏ) nên được tặng thêm: 3 × 1 = 3 (cái bút).\nVậy tổng số bút chì Peggy có là: 27 + 30 + 3 = 60 (cái bút).\nĐáp số: 60.",
       "type": "fill"
     },
     {
@@ -13831,15 +13852,14 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 6",
       "topic": "Arithmetic sequence: Dãy số cách đều; 11th number: Số thứ 11.",
       "num": 14,
-      "text": "Stephen has 24 apples and Charlie has 6 apples. How many apples does Stephen have to\ngive Charlie to make them have the same number of apples?\nThe same number of apples: Số quả táo bằng nhau.",
+      "text": "Stephen has 24 apples and Charlie has 6 apples. How many apples does Stephen have to give Charlie to make them have the same number of apples?\nStephen có 24 quả táo và Charlie có 6 quả táo. Hỏi Stephen phải cho Charlie bao nhiêu quả táo để hai bạn có số quả táo bằng nhau?",
       "textLines": [
-        "Stephen has 24 apples and Charlie has 6 apples. How many apples does Stephen have to",
-        "give Charlie to make them have the same number of apples?",
-        "The same number of apples: Số quả táo bằng nhau."
+        "Stephen has 24 apples and Charlie has 6 apples. How many apples does Stephen have to give Charlie to make them have the same number of apples?",
+        "Stephen có 24 quả táo và Charlie có 6 quả táo. Hỏi Stephen phải cho Charlie bao nhiêu quả táo để hai bạn có số quả táo bằng nhau?"
       ],
       "options": [],
-      "answer": "d",
-      "explanation": "Vì 309 là số lẻ nên kết quả của 2 + 5 + 8 + 11 + 14 + 17 + 20 + 232 là số lẻ.\nĐáp số: Odd.",
+      "answer": "9",
+      "explanation": "Tổng số táo của hai bạn là: 24 + 6 = 30 (quả táo).\nĐể hai bạn có số quả táo bằng nhau thì mỗi bạn phải có: 30 : 2 = 15 (quả táo).\nSố quả táo Stephen cần cho Charlie là: 24 – 15 = 9 (quả táo).\n(Hoặc: Stephen hơn Charlie số táo là 24 – 6 = 18 quả. Để bằng nhau thì Stephen cho Charlie: 18 : 2 = 9 quả).\nĐáp số: 9.",
       "type": "fill"
     },
     {
@@ -14013,15 +14033,16 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 0",
       "topic": "Logical Thinking / Tư duy lô-gic",
       "num": 5,
-      "text": "According to the pattern below, how many # are there in the 6th group?\nPattern: Quy luật; 6th group: Nhóm thứ 6.\nArithmetic / Số học",
+      "text": "According to the pattern shown below, what is the English letter in the space?\nDựa theo quy luật dưới đây, hỏi chữ cái tiếng Anh nào thích hợp để điền vào chỗ trống?\n\nD 、 f 、 H 、 j 、 L 、 __ 、…",
       "textLines": [
-        "According to the pattern below, how many # are there in the 6th group?",
-        "Pattern: Quy luật; 6th group: Nhóm thứ 6.",
-        "Arithmetic / Số học"
+        "According to the pattern shown below, what is the English letter in the space?",
+        "Dựa theo quy luật dưới đây, hỏi chữ cái tiếng Anh nào thích hợp để điền vào chỗ trống?",
+        "",
+        "D 、 f 、 H 、 j 、 L 、 __ 、…"
       ],
       "options": [],
-      "answer": "20",
-      "explanation": "Quy luật: Các số trong dãy tăng dần 4 đơn vị.\n0 + 4 = 4;     4 + 4 = 8;     8 + 4 = 12;   ...\nSố dấu # ở nhóm thứ 5 là: 12 + 4 = 16.\nSố dấu # ở nhóm thứ 6 là: 16 + 4 = 20.\nĐáp số: 20.\n\n\nArithmetic / Số học",
+      "answer": "n",
+      "explanation": "Ta có bảng chữ cái tiếng Anh: ..., D, E, F, G, H, I, J, K, L, M, N, O, P, …\nQuy luật 1: Hai chữ cái liên tiếp trong dãy cách nhau 1 chữ cái trong bảng chữ cái (D cách F một chữ E; F cách H một chữ G; H cách J một chữ I; J cách L một chữ K; L cách N một chữ M).\nQuy luật 2: Các chữ cái trong dãy được viết hoa và viết thường xen kẽ: D (hoa), f (thường), H (hoa), j (thường), L (hoa), do đó chữ cái tiếp theo phải là chữ thường.\nVậy chữ cái thích hợp điền vào chỗ trống là n (chữ thường).\nĐáp số: n.",
       "type": "fill"
     },
     {
@@ -15640,10 +15661,15 @@ const TIMO_DB = {
         "Dựa vào quy luật dưới đây, tìm đáp án thích hợp nhất cho nhóm 5 trong 4 hình A, B, C, D.",
         "Arithmetic / Số học"
       ],
-      "options": [],
+      "options": [
+        "A",
+        "B",
+        "C",
+        "D"
+      ],
       "answer": "B",
       "explanation": "màu xám theo ngược chiều kim đồng hồ.\nDo đó, ta cần thêm 4 ô vuông vào bên dưới ô màu xám trong nhóm số 4.\nĐáp số: B.\n\n\nArithmetic / Số học",
-      "type": "fill"
+      "type": "mc"
     },
     {
       "id": "5-Vong loai - De so 4-6",
@@ -16085,20 +16111,20 @@ const TIMO_DB = {
       "round": "Vong loai - De so 8",
       "topic": "Arithmetic / Số học",
       "num": 9,
-      "text": "Find the value of + + + + +         .\n    2 4 8 16 32 64\n    1 1 1 1   1    1\nTìm giá trị của + + + +    +    .\n    2 4 8 16 32 64\n    64                          32                         63                      31\n    63                          64                         64                      64",
+      "text": "Find the value of: 1/2 + 1/4 + 1/8 + 1/16 + 1/32 + 1/64.\nTính giá trị của biểu thức: 1/2 + 1/4 + 1/8 + 1/16 + 1/32 + 1/64.",
       "textLines": [
-        "Find the value of + + + + +         .",
-        "    2 4 8 16 32 64",
-        "    1 1 1 1   1    1",
-        "Tìm giá trị của + + + +    +    .",
-        "    2 4 8 16 32 64",
-        "    64                          32                         63                      31",
-        "    63                          64                         64                      64"
+        "Find the value of: 1/2 + 1/4 + 1/8 + 1/16 + 1/32 + 1/64.",
+        "Tính giá trị của biểu thức: 1/2 + 1/4 + 1/8 + 1/16 + 1/32 + 1/64."
       ],
-      "options": [],
+      "options": [
+        "A. 64/63",
+        "B. 32/64",
+        "C. 63/64",
+        "D. 31/64"
+      ],
       "answer": "C",
-      "explanation": "1 1 1 1     1   1\nA=   + + + + +\n2 4 8 16 32 64\n1 1 1 1   1\n2A = 1 + + + + +\n2 4 8 16 32\n2A - A = 1 -\nA=\nĐáp số: C.",
-      "type": "fill"
+      "explanation": "Đặt A = 1/2 + 1/4 + 1/8 + 1/16 + 1/32 + 1/64\nNhân cả hai vế với 2:\n2 × A = 1 + 1/2 + 1/4 + 1/8 + 1/16 + 1/32\nLấy (2 × A) – A:\nA = 1 – 1/64 = 63/64.\nĐáp số: C.",
+      "type": "mc"
     },
     {
       "id": "5-Vong loai - De so 8-10",
@@ -16736,16 +16762,14 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 0",
       "topic": "Combinatorics / Tổ hợp",
       "num": 24,
-      "text": "Numbers are drawn from 80 integers 1 to 80. At least how many numbers should be\ndrawn at random to ensure that there are two numbers whose difference is 23?\nDrawn: Được lấy ra; Integer: Số nguyên; At least: Ít nhất; At random: Ngẫu nhiên; Ensure:\nChắc chắn; Difference: Hiệu.",
+      "text": "Numbers are drawn from 80 integers 1 to 80. At least how many numbers should be drawn at random to ensure that there are two numbers whose difference is 23?\nChọn ngẫu nhiên các số từ 80 số nguyên từ 1 đến 80. Cần chọn ít nhất bao nhiêu số để chắc chắn rằng có hai số có hiệu bằng 23?",
       "textLines": [
-        "Numbers are drawn from 80 integers 1 to 80. At least how many numbers should be",
-        "drawn at random to ensure that there are two numbers whose difference is 23?",
-        "Drawn: Được lấy ra; Integer: Số nguyên; At least: Ít nhất; At random: Ngẫu nhiên; Ensure:",
-        "Chắc chắn; Difference: Hiệu."
+        "Numbers are drawn from 80 integers 1 to 80. At least how many numbers should be drawn at random to ensure that there are two numbers whose difference is 23?",
+        "Chọn ngẫu nhiên các số từ 80 số nguyên từ 1 đến 80. Cần chọn ít nhất bao nhiêu số để chắc chắn rằng có hai số có hiệu bằng 23?"
       ],
       "options": [],
-      "answer": "c",
-      "explanation": "Có (38 – 15) : 1 + 1 = 24 cặp số có tổng là 77.\nCó 85 – 24 x 2 = 37 số không nằm trong các cặp trên.\nTrường hợp xấu nhất: Ta chọn được tất cả 37 số không nằm trong các cặp và chọn ở\nmỗi cặp ra đúng 1 số.\nVậy cần chọn ngẫu nhiên ít nhất là: 37 + 24 + 1 = 62 số để thỏa mãn yêu cầu.\nĐáp số: 62.",
+      "answer": "47",
+      "explanation": "Chia các số thành các nhóm có hiệu là 23:\n- Nhóm 1: từ 1 đến 23 (23 số)\n- Nhóm 2: từ 24 đến 46 (23 số)\n- Nhóm 3: từ 47 đến 69 (23 số)\n- Nhóm 4: từ 70 đến 80 (11 số)\nTrường hợp xấu nhất: Ta chọn tất cả 23 số ở nhóm 1 và 23 số ở nhóm 3 (tổng cộng 23 + 23 = 46 số, trong đó không có hai số nào có hiệu bằng 23).\nKhi chọn thêm 1 số bất kì nữa, số đó chắc chắn sẽ tạo với 1 số đã chọn một cặp có hiệu là 23.\nVậy cần chọn ít nhất: 23 + 23 + 1 = 47 (số).\nĐáp số: 47.",
       "type": "fill"
     },
     {
@@ -17457,14 +17481,14 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 1",
       "topic": "Logical Thinking / Tư duy lô-gic",
       "num": 1,
-      "text": "This month is October. Which month will 2451 months later be?\nMonth: Tháng; October: Tháng 10; Later: Sau.",
+      "text": "This month is October. Which month will 2451 months later be?\nTháng này là tháng 10 (October). Hỏi 2451 tháng nữa sẽ là tháng mấy?",
       "textLines": [
         "This month is October. Which month will 2451 months later be?",
-        "Month: Tháng; October: Tháng 10; Later: Sau."
+        "Tháng này là tháng 10 (October). Hỏi 2451 tháng nữa sẽ là tháng mấy?"
       ],
       "options": [],
-      "answer": "a",
-      "explanation": "204 năm sau vẫn là tháng 10. Sau đó 3 tháng nữa là tháng 1.\nĐáp số: January.",
+      "answer": "January",
+      "explanation": "Một năm có 12 tháng.\nTa có: 2451 : 12 = 204 (năm) dư 3 (tháng).\n204 năm sau tháng 10 vẫn là tháng 10.\n3 tháng tiếp theo lần lượt là: tháng 11 (November), tháng 12 (December) và tháng 1 (January).\nVậy 2451 tháng nữa sẽ là tháng 1 (January).\nĐáp số: January.",
       "type": "fill"
     },
     {
@@ -17639,16 +17663,14 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 3",
       "topic": "Geometry / Hình học",
       "num": 20,
-      "text": "How many rectangle(s) with “*” is / are there in the figure below?\nRectangles: Hình chữ nhật; Figure: Hình vẽ.\n*\nCombinatorics / Tổ hợp",
+      "text": "The area of a rectangle is 1176. If the sides of the rectangle are integers, how many different value(s) of the perimeter of this rectangle is / are there?\nDiện tích của một hình chữ nhật là 1176. Biết độ dài các cạnh của hình chữ nhật là các số nguyên, hỏi có bao nhiêu giá trị chu vi khác nhau của hình chữ nhật này?",
       "textLines": [
-        "How many rectangle(s) with “*” is / are there in the figure below?",
-        "Rectangles: Hình chữ nhật; Figure: Hình vẽ.",
-        "*",
-        "Combinatorics / Tổ hợp"
+        "The area of a rectangle is 1176. If the sides of the rectangle are integers, how many different value(s) of the perimeter of this rectangle is / are there?",
+        "Diện tích của một hình chữ nhật là 1176. Biết độ dài các cạnh của hình chữ nhật là các số nguyên, hỏi có bao nhiêu giá trị chu vi khác nhau của hình chữ nhật này?"
       ],
       "options": [],
-      "answer": "a",
-      "explanation": "Liệt kê các cặp chiều dài và chiều rộng có tích bằng 1176.\nCác cặp số thỏa mãn là (1176, 1); (588, 2); (392, 3); (294, 4); (196, 6); (168, 7); (147, 8); (98,\n12); (84, 14); (56, 21); (49, 24); (42, 28).\nkhác nhau.\nĐáp số: 12.\n\n\nCombinatorics / Tổ hợp",
+      "answer": "12",
+      "explanation": "Diện tích của hình chữ nhật là tích của chiều dài và chiều rộng: a × b = 1176 (a, b là số nguyên dương).\nTa phân tích 1176 ra thừa số nguyên tố: 1176 = 2^3 × 3 × 7^2.\nSố ước của 1176 là: (3 + 1) × (1 + 1) × (2 + 1) = 4 × 2 × 3 = 24 (ước số).\nCác ước này ghép thành: 24 : 2 = 12 cặp số nguyên dương (chiều dài, chiều rộng) khác nhau có tích bằng 1176:\n(1, 1176), (2, 588), (3, 392), (4, 294), (6, 196), (7, 168), (8, 147), (12, 98), (14, 84), (21, 56), (24, 49), (28, 42).\nMỗi cặp kích thước cho một giá trị chu vi khác nhau.\nVậy có tất cả 12 giá trị chu vi khác nhau.\nĐáp số: 12.",
       "type": "fill"
     },
     {
@@ -17856,16 +17878,14 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 0",
       "topic": "Combinatorics / Tổ hợp",
       "num": 24,
-      "text": "Numbers are drawn from the 81 integers 100 to 180. At least how many numbers are\ndrawn at random to ensure that there are two numbers whose sum is 300?\nDrawn: Được chọn ra; Integers: Số nguyên; At least: Ít nhất; At random: Ngẫu nhiên; Ensure:\nChắc chắn; Sum: Tổng.",
+      "text": "Numbers are drawn from the 81 integers 100 to 180. At least how many numbers are drawn at random to ensure that there are two numbers whose sum is 300?\nChọn ngẫu nhiên các số từ 81 số nguyên từ 100 đến 180. Cần chọn ít nhất bao nhiêu số để chắc chắn rằng có hai số có tổng bằng 300?",
       "textLines": [
-        "Numbers are drawn from the 81 integers 100 to 180. At least how many numbers are",
-        "drawn at random to ensure that there are two numbers whose sum is 300?",
-        "Drawn: Được chọn ra; Integers: Số nguyên; At least: Ít nhất; At random: Ngẫu nhiên; Ensure:",
-        "Chắc chắn; Sum: Tổng."
+        "Numbers are drawn from the 81 integers 100 to 180. At least how many numbers are drawn at random to ensure that there are two numbers whose sum is 300?",
+        "Chọn ngẫu nhiên các số từ 81 số nguyên từ 100 đến 180. Cần chọn ít nhất bao nhiêu số để chắc chắn rằng có hai số có tổng bằng 300?"
       ],
       "options": [],
-      "answer": "c",
-      "explanation": "Có (38 – 15) : 1 + 1 = 24 cặp số có tổng là 77.\nCó 85 – 24 x 2 = 37 số không nằm trong các cặp trên.\nTrường hợp xấu nhất: Ta chọn được tất cả 37 số không nằm trong các cặp và chọn ở\nmỗi cặp ra đúng 1 số.\nVậy cần chọn ngẫu nhiên ít nhất là: 37 + 24 + 1 = 62 số để thỏa mãn yêu cầu.\nĐáp số: 62.",
+      "answer": "52",
+      "explanation": "Các cặp số có tổng là 300 là: (120, 180), (121, 179), ..., (149, 151).\nSố cặp tạo được là: 149 – 120 + 1 = 30 (cặp), gồm: 30 × 2 = 60 (số).\nSố các số không nằm trong cặp nào (từ 100 đến 119 và số 150) là: 81 – 60 = 21 (số).\nTrường hợp xấu nhất: Ta chọn tất cả 21 số không ghép cặp và mỗi cặp chọn ra đúng 1 số (30 số).\nKhi đó, chọn thêm 1 số nữa thì chắc chắn xuất hiện một cặp có tổng là 300.\nVậy cần chọn ít nhất: 21 + 30 + 1 = 52 (số).\nĐáp số: 52.",
       "type": "fill"
     },
     {
@@ -18141,17 +18161,17 @@ const TIMO_DB = {
       "round": "Vong quoc gia - De so 0",
       "topic": "Combinatorics / Tổ hợp",
       "num": 24,
-      "text": "Numbers are drawn from the 100 integers 1 to 100. At least how many numbers are\ndrawn at random to ensure that there are two numbers whose difference is 21?\nDrawn: Được chọn ra; Integers: Số nguyên; At least: Ít nhất; At random: Ngẫu nhiên; Ensure:\nChắc chắn; Difference: Hiệu.",
+      "text": "Numbers are drawn from the 100 integers 1 to 100. At least how many numbers are drawn at random to ensure that there are two numbers whose difference is 21?\nChọn ngẫu nhiên các số từ 100 số nguyên từ 1 đến 100. Cần chọn ít nhất bao nhiêu số để chắc chắn rằng có hai số có hiệu bằng 21?",
       "textLines": [
-        "Numbers are drawn from the 100 integers 1 to 100. At least how many numbers are",
-        "drawn at random to ensure that there are two numbers whose difference is 21?",
-        "Drawn: Được chọn ra; Integers: Số nguyên; At least: Ít nhất; At random: Ngẫu nhiên; Ensure:",
-        "Chắc chắn; Difference: Hiệu."
+        "Numbers are drawn from the 100 integers 1 to 100. At least how many numbers are drawn at random to ensure that there are two numbers whose difference is 21?",
+        "Chọn ngẫu nhiên các số từ 100 số nguyên từ 1 đến 100. Cần chọn ít nhất bao nhiêu số để chắc chắn rằng có hai số có hiệu bằng 21?"
       ],
       "options": [],
-      "answer": "c",
-      "explanation": "Có (38 – 15) : 1 + 1 = 24 cặp số có tổng là 77.\nCó 85 – 24 x 2 = 37 số không nằm trong các cặp trên.\nTrường hợp xấu nhất: Ta chọn được tất cả 37 số không nằm trong các cặp và chọn ở\nmỗi cặp ra đúng 1 số.\nVậy cần chọn ngẫu nhiên ít nhất là: 37 + 24 + 1 = 62 số để thỏa mãn yêu cầu.\nĐáp số: 62.",
+      "answer": "59",
+      "explanation": "Để không có 2 số nào có hiệu là 21, ta chia dãy số thành các đoạn xen kẽ độ dài 21:\n- Chọn tất cả các số từ 1 đến 21 (21 số)\n- Bỏ qua từ 22 đến 42 (để không tạo hiệu 21 với nhóm 1)\n- Chọn tất cả các số từ 43 đến 63 (21 số)\n- Bỏ qua từ 64 đến 84 (để không tạo hiệu 21 với nhóm 3)\n- Chọn tất cả các số từ 85 đến 100 (16 số)\nTrường hợp xấu nhất chọn được tối đa: 21 + 21 + 16 = 58 (số) mà không có hiệu nào bằng 21.\nChọn thêm 1 số nữa thì chắc chắn có 2 số có hiệu bằng 21.\nVậy cần chọn ít nhất: 58 + 1 = 59 (số).\nĐáp số: 59.",
       "type": "fill"
     }
   ]
 };
+
+if (typeof module !== "undefined") module.exports = { TIMO_DB };
