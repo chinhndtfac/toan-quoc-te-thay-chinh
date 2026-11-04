@@ -3,6 +3,9 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+  <meta http-equiv="Pragma" content="no-cache">
+  <meta http-equiv="Expires" content="0">
   <title>🧮 Toán Quốc Tế Cùng Thầy Chinh - Luyện Thi Tiểu Học</title>
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -1690,50 +1693,8 @@
 
     // MÀN HÌNH ĐĂNG NHẬP BẢO VỆ
     function renderLogin(app) {
-      app.innerHTML = `
-        <div style="max-width:440px;margin:40px auto;text-align:center">
-          <div class="header-logo">🔐</div>
-          <h2 style="font-size:2em;font-weight:900;color:#1E293B;margin-bottom:6px">Đăng Nhập Hệ Thống</h2>
-          <p style="color:var(--text-muted);margin-bottom:24px;font-weight:700">
-            Hệ thống học tập nội bộ Thầy Nguyễn Đình Chinh.<br>Vui lòng nhập tài khoản được cấp để vào học.
-          </p>
-
-          <div class="card" style="text-align:left;box-shadow:var(--shadow-lg)">
-            <div style="margin-bottom:16px">
-              <label style="font-weight:800;display:block;margin-bottom:6px">👤 Tên đăng nhập:</label>
-              <input type="text" class="name-input" id="loginUser" placeholder="Ví dụ: hocsinh1..." autofocus>
-            </div>
-
-            <div style="margin-bottom:20px">
-              <label style="font-weight:800;display:block;margin-bottom:6px">🔑 Mật khẩu:</label>
-              <input type="password" class="name-input" id="loginPass" placeholder="Nhập mật khẩu...">
-            </div>
-
-            <div id="loginError" style="color:#DC2626;font-weight:800;margin-bottom:14px;display:none;font-size:0.95em">
-              ❌ Sai tên đăng nhập hoặc mật khẩu! Vui lòng thử lại.
-            </div>
-
-            <button class="btn btn-primary btn-lg btn-block" onclick="handleLogin()">
-              🚀 ĐĂNG NHẬP VÀO HỌC
-            </button>
-          </div>
-
-          <div style="margin-top:20px;font-size:0.9em;color:#64748B;font-weight:700">
-            Chưa có tài khoản? Liên hệ Thầy Chinh qua Zalo:<br>
-            <a href="https://zalo.me/0941492468" target="_blank" style="color:var(--primary);font-weight:900;font-size:1.1em">
-              📞 0941.492.468
-            </a>
-          </div>
-        </div>
-      `;
-
-      // Hỗ trợ bấm phím Enter để đăng nhập
-      document.getElementById('loginPass').addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') handleLogin();
-      });
-      document.getElementById('loginUser').addEventListener('keypress', (e) => {
-        if (e.key === 'Enter') handleLogin();
-      });
+      state.screen = 'home';
+      renderHome(app);
     }
 
     async function handleLogin() {
@@ -4132,7 +4093,18 @@
   <script>
     if ('serviceWorker' in navigator) {
       window.addEventListener('load', () => {
-        navigator.serviceWorker.register('sw.js').catch(err => console.log('SW fail:', err));
+        navigator.serviceWorker.register('sw.js?v=3').then(reg => {
+          if (reg) reg.update();
+        }).catch(err => console.log('SW fail:', err));
+      });
+    }
+
+    // Tự động xóa sạch toàn bộ cache cũ của trình duyệt
+    if ('caches' in window) {
+      caches.keys().then(keys => {
+        keys.forEach(k => {
+          if (k !== 'thaychinh-cache-v3') caches.delete(k);
+        });
       });
     }
 
