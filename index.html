@@ -926,8 +926,9 @@
   <script src="archimedes_math_data.js?v=20261105_0900"></script>
   <script src="archimedes_g4_real.js?v=20261105_0900"></script>
   <script src="tieng_viet_data.js?v=20261105_0900"></script>
-  <!-- Thư viện Tạp chí Toán Tuổi Thơ 2 -->
-  <script src="toan_tuoi_tho_data.js?v=20261105_0900"></script>
+  <!-- Thư viện Tạp chí Toán Tuổi Thơ 1 & 2 -->
+  <script src="toan_tuoi_tho_1_data.js?v=20261105_1000"></script>
+  <script src="toan_tuoi_tho_data.js?v=20261105_1000"></script>
 
   <script>
     // ===== HỆ THỐNG ÂM THANH THIẾU NHI (WEB AUDIO API) =====
@@ -1018,6 +1019,7 @@
       resumeModal: null,
       adminSearch: '',
       editingUser: null,
+      magazineTab: 'ttt1', // 'ttt1' (Toán Tuổi Thơ 1 - Tiểu học) hoặc 'ttt2' (Toán Tuổi Thơ 2 - THCS)
       magazineFilter: { search: "", year: "all" },
       readingIssue: null,
     };
@@ -1736,9 +1738,15 @@
 
     // ===== MÀN HÌNH QUẢN LÝ TÀI KHOẢN & PHÂN QUYỀN (DÀNH CHO ADMIN) =====
     
-    // ===== MÀN HÌNH ĐỌC BÁO / TẠP CHÍ TOÁN TUỔI THƠ 2 =====
+    // ===== MÀN HÌNH ĐỌC BÁO / TẠP CHÍ TOÁN TUỔI THƠ 1 & 2 =====
     function renderMagazine(app) {
-      const db = (typeof TOAN_TUOI_THO_DB !== 'undefined') ? TOAN_TUOI_THO_DB : [];
+      const activeTab = state.magazineTab || 'ttt1';
+      const isTTT1 = activeTab === 'ttt1';
+
+      const dbTTT1 = (typeof TOAN_TUOI_THO_1_DB !== 'undefined') ? TOAN_TUOI_THO_1_DB : [];
+      const dbTTT2 = (typeof TOAN_TUOI_THO_DB !== 'undefined') ? TOAN_TUOI_THO_DB : [];
+      const db = isTTT1 ? dbTTT1 : dbTTT2;
+
       const filter = state.magazineFilter || { search: '', year: 'all' };
 
       // Unique years for filter dropdown
@@ -1750,7 +1758,7 @@
           const s = filter.search.toLowerCase();
           const matchTitle = (item.title || '').toLowerCase().includes(s);
           const matchNum = (item.issueNum || '').toLowerCase().includes(s);
-          const matchMonth = ('tháng ' + item.month).toLowerCase().includes(s);
+          const matchMonth = ('tháng ' + (item.month || '')).toLowerCase().includes(s);
           if (!matchTitle && !matchNum && !matchMonth) return false;
         }
         return true;
@@ -1759,15 +1767,27 @@
       app.innerHTML = `
         <div class="header">
           <div style="font-size:3em;margin-bottom:6px">📰</div>
-          <h1 style="color:#1E3A8A;font-size:2em;margin-bottom:6px">Thư Viện Tạp Chí Toán Tuổi Thơ 2</h1>
-          <div class="subtitle" style="max-width:650px;margin:0 auto">
-            Tuyển tập trọn bộ hơn 60+ số Tạp chí Toán Tuổi Thơ 2 (Lê Trung Kiên Math). Mở đọc trực tiếp hoặc tải file PDF xem chi tiết bài học.
+          <h1 style="color:#1E3A8A;font-size:2em;margin-bottom:6px">Thư Viện Tạp Chí Toán Tuổi Thơ</h1>
+          <div class="subtitle" style="max-width:700px;margin:0 auto">
+            Kho tàng tri thức quý báu gồm trọn bộ Tạp chí <strong>Toán Tuổi Thơ 1 (Tiểu học)</strong> và <strong>Toán Tuổi Thơ 2 (THCS)</strong>. Đọc trực tiếp trên web hoặc tải file PDF chất lượng cao.
           </div>
           <div style="margin-top:14px">
             <button class="btn btn-outline" style="padding:6px 18px;border-radius:20px;font-weight:800;background:white" onclick="showScreen('home')">
               🏠 Quay lại Trang Chủ
             </button>
           </div>
+        </div>
+
+        <!-- BỘ CHỌN CHUYÊN MỤC TẠP CHÍ: TOÁN TUỔI THƠ 1 vs TOÁN TUỔI THƠ 2 -->
+        <div style="display:flex;justify-content:center;margin-bottom:20px;gap:12px;flex-wrap:wrap">
+          <button onclick="state.magazineTab='ttt1';state.magazineFilter={search:'',year:'all'};render();" 
+            style="padding:12px 24px;border-radius:16px;font-size:1.02em;font-weight:900;cursor:pointer;border:none;transition:all 0.2s;display:inline-flex;align-items:center;gap:8px;${isTTT1 ? 'background:linear-gradient(135deg,#2563EB,#1D4ED8);color:white;box-shadow:0 8px 20px rgba(37,99,235,0.3);transform:scale(1.02);' : 'background:white;color:#475569;border:1.5px solid #CBD5E1;'}">
+            📘 TOÁN TUỔI THƠ 1 (Tiểu học • 78 Tập)
+          </button>
+          <button onclick="state.magazineTab='ttt2';state.magazineFilter={search:'',year:'all'};render();" 
+            style="padding:12px 24px;border-radius:16px;font-size:1.02em;font-weight:900;cursor:pointer;border:none;transition:all 0.2s;display:inline-flex;align-items:center;gap:8px;${!isTTT1 ? 'background:linear-gradient(135deg,#7C3AED,#6D28D9);color:white;box-shadow:0 8px 20px rgba(124,58,237,0.3);transform:scale(1.02);' : 'background:white;color:#475569;border:1.5px solid #CBD5E1;'}">
+            📙 TOÁN TUỔI THƠ 2 (THCS • 60+ Số)
+          </button>
         </div>
 
         <!-- BỘ LỌC TÌM KIẾM THEO SỐ & NĂM -->
@@ -1778,7 +1798,7 @@
                 🔍 Tìm kiếm theo số tạp chí hoặc tháng:
               </label>
               <input type="text" class="form-input" style="width:100%;padding:10px 14px;border-radius:12px;border:1.5px solid #CBD5E1;font-size:1em" 
-                placeholder="Ví dụ: 280, 274, số 184, tháng 5..." 
+                placeholder="${isTTT1 ? 'Ví dụ: 99, 100, 150, tháng 5, 2012...' : 'Ví dụ: 280, 274, số 184, tháng 5...'}" 
                 value="${filter.search || ''}" 
                 oninput="state.magazineFilter.search = this.value; render();">
             </div>
@@ -1788,13 +1808,14 @@
               </label>
               <select class="form-input" style="width:100%;padding:10px 14px;border-radius:12px;border:1.5px solid #CBD5E1;font-size:1em;background:white" 
                 onchange="state.magazineFilter.year = this.value; render();">
-                <option value="all" ${filter.year === 'all' ? 'selected' : ''}>Tất cả các năm (60+ số)</option>
+                <option value="all" ${filter.year === 'all' ? 'selected' : ''}>Tất cả các năm (${db.length} số)</option>
                 ${years.map(y => `<option value="${y}" ${String(filter.year) === String(y) ? 'selected' : ''}>Năm ${y}</option>`).join('')}
               </select>
             </div>
           </div>
-          <div style="font-size:0.88em;color:#64748B;margin-top:10px">
-            Hiển thị: <strong>${filtered.length}</strong> số tạp chí phù hợp
+          <div style="font-size:0.88em;color:#64748B;margin-top:10px;display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px">
+            <span>Hiển thị: <strong>${filtered.length}</strong> / <strong>${db.length}</strong> số tạp chí phù hợp</span>
+            <span style="font-style:italic;color:#94A3B8">${isTTT1 ? 'Dành cho học sinh Tiểu học (Lớp 1 - 5)' : 'Dành cho học sinh THCS (Lớp 6 - 9)'}</span>
           </div>
         </div>
 
@@ -1804,23 +1825,29 @@
             <div class="card" style="padding:18px;margin-bottom:0;display:flex;flex-direction:column;justify-content:space-between;border:1.5px solid #E2E8F0;transition:transform 0.2s, box-shadow 0.2s;" onmouseover="this.style.transform='translateY(-3px)';this.style.boxShadow='0 10px 25px rgba(0,0,0,0.08)';" onmouseout="this.style.transform='none';this.style.boxShadow='var(--shadow-sm)';">
               <div>
                 <div style="display:flex;justify-content:space-between;align-items:flex-start;gap:8px;margin-bottom:10px">
-                  <span style="background:#EFF6FF;color:#2563EB;padding:4px 12px;border-radius:12px;font-weight:900;font-size:0.9em">
+                  <span style="background:${isTTT1 ? '#EFF6FF' : '#F5F3FF'};color:${isTTT1 ? '#2563EB' : '#7C3AED'};padding:4px 12px;border-radius:12px;font-weight:900;font-size:0.9em">
                     📖 Số ${item.issueNum}
                   </span>
                   <span style="background:#FEF3C7;color:#92400E;padding:4px 10px;border-radius:12px;font-weight:800;font-size:0.85em">
                     📅 ${item.month ? 'Tháng ' + item.month + '/' : ''}${item.year}
                   </span>
                 </div>
-                <h3 style="font-size:1.1em;font-weight:800;color:#1E293B;line-height:1.45;margin:0 0 12px">
+                <h3 style="font-size:1.05em;font-weight:800;color:#1E293B;line-height:1.45;margin:0 0 12px">
                   ${item.title}
                 </h3>
+                ${item.pageCount ? `
+                  <div style="font-size:0.84em;color:#64748B;margin-bottom:10px;display:flex;align-items:center;gap:6px">
+                    <span>📄 Trọn bộ <strong>${item.pageCount}</strong> trang</span>
+                    ${item.sizeMb ? `<span>• 💾 ${item.sizeMb} MB</span>` : ''}
+                  </div>
+                ` : ''}
               </div>
 
               <div style="display:flex;gap:8px;margin-top:14px">
                 <a href="${item.url}" target="_blank" class="btn btn-primary" style="flex:1;text-align:center;padding:10px 12px;font-size:0.9em;font-weight:800;text-decoration:none;border-radius:12px;display:inline-flex;align-items:center;justify-content:center;gap:6px">
                   🚀 Mở Xem File PDF
                 </a>
-                <button class="btn btn-outline" style="padding:10px 14px;border-radius:12px;font-size:0.9em" onclick="previewMagazineInline('${item.fileId}', '${item.title.replace(/'/g, "\\'")}')" title="Xem trực tiếp trên trang">
+                <button class="btn btn-outline" style="padding:10px 14px;border-radius:12px;font-size:0.9em;font-weight:700" onclick="previewMagazineInline('${item.fileId || item.url}', '${(item.title || '').replace(/'/g, "\\'")}')" title="Xem trực tiếp trên trang">
                   👁️ Xem ngay
                 </button>
               </div>
@@ -1841,14 +1868,20 @@
       `;
     }
 
-    function previewMagazineInline(fileId, title) {
-      if (!fileId) return;
+    function previewMagazineInline(target, title) {
+      if (!target) return;
       const modal = document.getElementById('magazineModal');
       const iframe = document.getElementById('magazineIframe');
       const titleEl = document.getElementById('magazineModalTitle');
       if (modal && iframe) {
         titleEl.textContent = '📖 Đang đọc: ' + title;
-        iframe.src = 'https://drive.google.com/file/d/' + fileId + '/preview';
+        if (target.startsWith('http://') || target.startsWith('https://')) {
+          // URL trực tiếp (GitHub Release CDN): dùng Google Docs Viewer embed để hiển thị mượt mà trên mọi thiết bị
+          iframe.src = 'https://docs.google.com/viewer?url=' + encodeURIComponent(target) + '&embedded=true';
+        } else {
+          // Google Drive fileId
+          iframe.src = 'https://drive.google.com/file/d/' + target + '/preview';
+        }
         modal.style.display = 'flex';
       }
     }
@@ -3285,7 +3318,7 @@
 
         <div style="margin-top:12px">
           <button class="btn btn-block" style="background:linear-gradient(135deg, #EC4899, #8B5CF6);color:white;font-weight:800;font-size:1.05em;padding:14px;border-radius:18px;box-shadow:0 6px 20px rgba(236,72,153,0.3);border:none;cursor:pointer;display:flex;align-items:center;justify-content:center;gap:10px;" onclick="showScreen('magazine')">
-            📰 ĐỌC BÁO & TẠP CHÍ TOÁN TUỔI THƠ 2 (Trọn bộ 60+ Số) 📚
+            📰 ĐỌC BÁO & TẠP CHÍ TOÁN TUỔI THƠ 1 & 2 (Trọn bộ 150+ Số) 📚
           </button>
         </div>
       `;
