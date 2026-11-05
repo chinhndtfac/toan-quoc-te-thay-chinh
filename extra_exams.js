@@ -223,3 +223,7 @@ function generateDynamicOlympicQuestion(grade, examType) {
   // Fallback câu hỏi lớp 4 chất lượng cao
   return EXTRA_EXAMS_DB.grade4[0];
 }
+
+
+if (typeof window !== "undefined") { window.EXTRA_EXAMS_DB = EXTRA_EXAMS_DB; }
+if (typeof module !== "undefined") { module.exports = EXTRA_EXAMS_DB; }

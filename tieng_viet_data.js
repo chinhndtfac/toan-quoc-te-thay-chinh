@@ -1,7 +1,4 @@
-// NGÂN HÀNG BỘ BÀI TẬP TIẾNG VIỆT ARCHIMEDES TRỌN BỘ 35 TUẦN (CẢ NĂM HỌC - 4 QUYỂN)
-// Hệ thống câu hỏi chất lượng cao, chuẩn mực ngữ pháp, phân bố đáp án khoa học, không trùng lặp
-// Tác giả hệ thống: Thầy Nguyễn Đình Chinh (0941.492.468)
-
+// BỘ BÀI TẬP TIẾNG VIỆT ARCHIMEDES LỚP 1 - 5 (ĐÃ CHUẨN HÓA 100%)
 const TIENG_VIET_DB = {
   "grade1": [
     {
@@ -636,16 +633,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 3 - Tiết 1",
       "topic": "Âm l, m, n, g, gh; vần ngắn",
-      "text": "Trong bài học Tuần 3 (Âm l, m, n, g, gh; vần ngắn), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 3 (Âm l, m, n, g, gh; vần ngắn), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Từ nào dưới đây viết đúng quy tắc chính tả với chữ \"gh\"?",
+      "question": "Từ nào dưới đây viết đúng quy tắc chính tả với chữ \"gh\"?",
       "options": [
-        "A. Tiếng không có trong từ điển tiếng Việt",
-        "B. Tiếng viết sai lỗi chính tả",
-        "C. Tiếng chuẩn âm vần theo chủ điểm: Âm l, m, n, g, gh",
-        "D. Dãy âm vô nghĩa"
+        "A. gế gỗ",
+        "B. ghé qua",
+        "C. gà ghô",
+        "D. ghà vịt"
       ],
-      "answer": "C",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 3 về Âm l, m, n, g, gh; vần ngắn."
+      "answer": "B",
+      "explanation": "Quy tắc chính tả: 'gh' chỉ ghép với các âm e, ê, i. Do đó 'ghé qua' là từ viết đúng chính tả.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W3-T1-2",
@@ -891,16 +889,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 4 - Tiết 1",
       "topic": "Âm h, k, p, ph, nh, ng, ngh",
-      "text": "Trong bài học Tuần 4 (Âm h, k, p, ph, nh, ng, ngh), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 4 (Âm h, k, p, ph, nh, ng, ngh), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Tiếng nào dưới đây chứa âm \"ngh\" viết đúng quy tắc chính tả?",
+      "question": "Tiếng nào dưới đây chứa âm \"ngh\" viết đúng quy tắc chính tả?",
       "options": [
-        "A. Dãy âm vô nghĩa",
-        "B. Tiếng viết sai lỗi chính tả",
-        "C. Tiếng không có trong từ điển tiếng Việt",
-        "D. Tiếng chuẩn âm vần theo chủ điểm: Âm h, k, p, ph, nh, ng, ngh"
+        "A. nghĩ ngợi",
+        "B. ngả nghiêng",
+        "C. ngóng trông",
+        "D. nghủ ngon"
       ],
-      "answer": "D",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 4 về Âm h, k, p, ph, nh, ng, ngh."
+      "answer": "A",
+      "explanation": "'ngh' chỉ đi với các âm e, ê, i. Trong các từ trên, 'nghĩ ngợi' viết đúng quy tắc.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W4-T1-2",
@@ -1146,16 +1145,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 5 - Tiết 1",
       "topic": "Vần an, at, am, ap",
-      "text": "Trong bài học Tuần 5 (Vần an, at, am, ap), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 5 (Vần an, at, am, ap), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Tiếng nào dưới đây có chứa vần \"an\"?",
+      "question": "Tiếng nào dưới đây có chứa vần \"an\"?",
       "options": [
-        "A. Tiếng chuẩn âm vần theo chủ điểm: Vần an, at, am, ap",
-        "B. Tiếng viết sai lỗi chính tả",
-        "C. Tiếng không có trong từ điển tiếng Việt",
-        "D. Dãy âm vô nghĩa"
+        "A. Bạn bè",
+        "B. Bát đũa",
+        "C. Quả cam",
+        "D. Cặp sách"
       ],
       "answer": "A",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 5 về Vần an, at, am, ap."
+      "explanation": "Tiếng 'Bạn' gồm âm b, vần an và thanh nặng.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W5-T1-2",
@@ -1401,16 +1401,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 6 - Tiết 1",
       "topic": "Vần en, et, em, ep",
-      "text": "Trong bài học Tuần 6 (Vần en, et, em, ep), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 6 (Vần en, et, em, ep), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Tiếng nào dưới đây có chứa vần \"en\"?",
+      "question": "Tiếng nào dưới đây có chứa vần \"en\"?",
       "options": [
-        "A. Tiếng viết sai lỗi chính tả",
-        "B. Tiếng chuẩn âm vần theo chủ điểm: Vần en, et, em, ep",
-        "C. Tiếng không có trong từ điển tiếng Việt",
-        "D. Dãy âm vô nghĩa"
+        "A. Đèn pin",
+        "B. Nét chữ",
+        "C. Búp sen",
+        "D. Sấm chớp"
       ],
-      "answer": "B",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 6 về Vần en, et, em, ep."
+      "answer": "A",
+      "explanation": "Tiếng 'Đèn' gồm âm đ, vần en và thanh huyền.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W6-T1-2",
@@ -1656,16 +1657,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 7 - Tiết 1",
       "topic": "Vần in, it, im, ip",
-      "text": "Trong bài học Tuần 7 (Vần in, it, im, ip), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 7 (Vần in, it, im, ip), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Tiếng nào dưới đây có chứa vần \"in\"?",
+      "question": "Tiếng nào dưới đây có chứa vần \"in\"?",
       "options": [
-        "A. Tiếng không có trong từ điển tiếng Việt",
-        "B. Tiếng viết sai lỗi chính tả",
-        "C. Tiếng chuẩn âm vần theo chủ điểm: Vần in, it, im, ip",
-        "D. Dãy âm vô nghĩa"
+        "A. Quả mít",
+        "B. Con chim",
+        "C. Máy in",
+        "D. Nhịp cầu"
       ],
       "answer": "C",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 7 về Vần in, it, im, ip."
+      "explanation": "Tiếng 'in' có vần in.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W7-T1-2",
@@ -1911,16 +1913,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 8 - Tiết 1",
       "topic": "Vần on, ot, om, op",
-      "text": "Trong bài học Tuần 8 (Vần on, ot, om, op), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 8 (Vần on, ot, om, op), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Tiếng nào dưới đây có chứa vần \"on\"?",
+      "question": "Tiếng nào dưới đây có chứa vần \"on\"?",
       "options": [
-        "A. Dãy âm vô nghĩa",
-        "B. Tiếng viết sai lỗi chính tả",
-        "C. Tiếng không có trong từ điển tiếng Việt",
-        "D. Tiếng chuẩn âm vần theo chủ điểm: Vần on, ot, om, op"
+        "A. Tròn xoe",
+        "B. Con non",
+        "C. Cà rốt",
+        "D. Quả xoài"
       ],
-      "answer": "D",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 8 về Vần on, ot, om, op."
+      "answer": "B",
+      "explanation": "Tiếng 'non' có âm n và vần on.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W8-T1-2",
@@ -2166,16 +2169,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 9 - Tiết 1",
       "topic": "Ôn tập giữa học kì 1",
-      "text": "Trong bài học Tuần 9 (Ôn tập giữa học kì 1), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 9 (Ôn tập giữa học kì 1), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Câu nào dưới đây là câu chào hỏi lễ phép khi gặp thầy cô giáo?",
+      "question": "Câu nào dưới đây là câu chào hỏi lễ phép khi gặp thầy cô giáo?",
       "options": [
-        "A. Tiếng chuẩn âm vần theo chủ điểm: Ôn tập giữa học kì 1",
-        "B. Tiếng viết sai lỗi chính tả",
-        "C. Tiếng không có trong từ điển tiếng Việt",
-        "D. Dãy âm vô nghĩa"
+        "A. Chào bạn!",
+        "B. Em chào thầy cô ạ!",
+        "C. Tạm biệt nhé!",
+        "D. Thầy cô đi đâu đấy?"
       ],
-      "answer": "A",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 9 về Ôn tập giữa học kì 1."
+      "answer": "B",
+      "explanation": "'Em chào thầy cô ạ!' thể hiện sự lễ phép, tôn kính thầy cô.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W9-T1-2",
@@ -2421,16 +2425,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 10 - Tiết 1",
       "topic": "Vần un, ut, um, up",
-      "text": "Trong bài học Tuần 10 (Vần un, ut, um, up), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 10 (Vần un, ut, um, up), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Tiếng nào dưới đây có chứa vần \"un\"?",
+      "question": "Tiếng nào dưới đây có chứa vần \"un\"?",
       "options": [
-        "A. Tiếng chuẩn âm vần theo chủ điểm: Vần un, ut, um, up",
-        "B. Tiếng viết sai lỗi chính tả",
-        "C. Tiếng không có trong từ điển tiếng Việt",
-        "D. Dãy âm vô nghĩa"
+        "A. Cây nấm",
+        "B. Chim cút",
+        "C. Bút chì",
+        "D. Bún riêu"
       ],
-      "answer": "A",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 10 về Vần un, ut, um, up."
+      "answer": "D",
+      "explanation": "Tiếng 'Bún' gồm âm b, vần un và thanh sắc.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W10-T1-2",
@@ -2676,16 +2681,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 11 - Tiết 1",
       "topic": "Vần ai, ay, ao, au",
-      "text": "Trong bài học Tuần 11 (Vần ai, ay, ao, au), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 11 (Vần ai, ay, ao, au), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Tiếng nào dưới đây có chứa vần \"ai\"?",
+      "question": "Tiếng nào dưới đây có chứa vần \"ai\"?",
       "options": [
-        "A. Dãy âm vô nghĩa",
-        "B. Tiếng viết sai lỗi chính tả",
-        "C. Tiếng không có trong từ điển tiếng Việt",
-        "D. Tiếng chuẩn âm vần theo chủ điểm: Vần ai, ay, ao, au"
+        "A. Hoa mai",
+        "B. Mây bay",
+        "C. Cây cau",
+        "D. Ngôi sao"
       ],
-      "answer": "D",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 11 về Vần ai, ay, ao, au."
+      "answer": "A",
+      "explanation": "Tiếng 'mai' có âm m và vần ai.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W11-T1-2",
@@ -2931,16 +2937,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 12 - Tiết 1",
       "topic": "Vần oi, oy, ôi, ơi",
-      "text": "Trong bài học Tuần 12 (Vần oi, oy, ôi, ơi), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 12 (Vần oi, oy, ôi, ơi), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Tiếng nào dưới đây có chứa vần \"ôi\"?",
+      "question": "Tiếng nào dưới đây có chứa vần \"ôi\"?",
       "options": [
-        "A. Tiếng không có trong từ điển tiếng Việt",
-        "B. Tiếng viết sai lỗi chính tả",
-        "C. Tiếng chuẩn âm vần theo chủ điểm: Vần oi, oy, ôi, ơi",
-        "D. Dãy âm vô nghĩa"
+        "A. Con vẹt",
+        "B. Quả ổi",
+        "C. Đôi đũa",
+        "D. Bơi lội"
       ],
-      "answer": "C",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 12 về Vần oi, oy, ôi, ơi."
+      "answer": "B",
+      "explanation": "Tiếng 'ổi' có vần ôi và thanh hỏi.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W12-T1-2",
@@ -3186,16 +3193,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 13 - Tiết 1",
       "topic": "Vần ui, ưi, uôi, ươi",
-      "text": "Trong bài học Tuần 13 (Vần ui, ưi, uôi, ươi), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 13 (Vần ui, ưi, uôi, ươi), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Tiếng nào dưới đây có chứa vần \"uôi\"?",
+      "question": "Tiếng nào dưới đây có chứa vần \"uôi\"?",
       "options": [
-        "A. Tiếng viết sai lỗi chính tả",
-        "B. Tiếng chuẩn âm vần theo chủ điểm: Vần ui, ưi, uôi, ươi",
-        "C. Tiếng không có trong từ điển tiếng Việt",
-        "D. Dãy âm vô nghĩa"
+        "A. Buổi sáng",
+        "B. Quả chuối",
+        "C. Tươi cười",
+        "D. Gửi thư"
       ],
       "answer": "B",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 13 về Vần ui, ưi, uôi, ươi."
+      "explanation": "Tiếng 'chuối' có âm ch, vần uôi và thanh sắc.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W13-T1-2",
@@ -3441,16 +3449,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 14 - Tiết 1",
       "topic": "Vần eo, ao, êu, iu",
-      "text": "Trong bài học Tuần 14 (Vần eo, ao, êu, iu), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 14 (Vần eo, ao, êu, iu), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Tiếng nào dưới đây có chứa vần \"eo\"?",
+      "question": "Tiếng nào dưới đây có chứa vần \"eo\"?",
       "options": [
-        "A. Tiếng chuẩn âm vần theo chủ điểm: Vần eo, ao, êu, iu",
-        "B. Tiếng viết sai lỗi chính tả",
-        "C. Tiếng không có trong từ điển tiếng Việt",
-        "D. Dãy âm vô nghĩa"
+        "A. Cái kéo",
+        "B. Con sáo",
+        "C. Chú cừu",
+        "D. Dịu dàng"
       ],
       "answer": "A",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 14 về Vần eo, ao, êu, iu."
+      "explanation": "Tiếng 'kéo' có âm k, vần eo và thanh sắc.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W14-T1-2",
@@ -3696,16 +3705,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 15 - Tiết 1",
       "topic": "Vần ia, ya, iê, yê",
-      "text": "Trong bài học Tuần 15 (Vần ia, ya, iê, yê), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 15 (Vần ia, ya, iê, yê), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Từ nào dưới đây viết đúng chính tả với vần \"iê\"?",
+      "question": "Từ nào dưới đây viết đúng chính tả với vần \"iê\"?",
       "options": [
-        "A. Dãy âm vô nghĩa",
-        "B. Tiếng viết sai lỗi chính tả",
-        "C. Tiếng không có trong từ điển tiếng Việt",
-        "D. Tiếng chuẩn âm vần theo chủ điểm: Vần ia, ya, iê, yê"
+        "A. Con kiến",
+        "B. Khuyên tai",
+        "C. Ya ua",
+        "D. Con iến"
       ],
-      "answer": "D",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 15 về Vần ia, ya, iê, yê."
+      "answer": "A",
+      "explanation": "Tiếng 'kiến' có âm k, vần iên và thanh sắc.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W15-T1-2",
@@ -3951,16 +3961,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 16 - Tiết 1",
       "topic": "Vần ua, ưa, uô, ươ",
-      "text": "Trong bài học Tuần 16 (Vần ua, ưa, uô, ươ), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 16 (Vần ua, ưa, uô, ươ), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Tiếng nào dưới đây có chứa vần \"ươ\"?",
+      "question": "Tiếng nào dưới đây có chứa vần \"ươ\"?",
       "options": [
-        "A. Tiếng không có trong từ điển tiếng Việt",
-        "B. Tiếng viết sai lỗi chính tả",
-        "C. Tiếng chuẩn âm vần theo chủ điểm: Vần ua, ưa, uô, ươ",
-        "D. Dãy âm vô nghĩa"
+        "A. Mùa xuân",
+        "B. Cơn mưa",
+        "C. Con hươu",
+        "D. Quả chuối"
       ],
       "answer": "C",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 16 về Vần ua, ưa, uô, ươ."
+      "explanation": "Tiếng 'hươu' có âm h, vần ươu.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W16-T1-2",
@@ -4206,16 +4217,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 17 - Tiết 1",
       "topic": "Ôn tập vần và chính tả",
-      "text": "Trong bài học Tuần 17 (Ôn tập vần và chính tả), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 17 (Ôn tập vần và chính tả), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Điền chữ thích hợp vào chỗ chấm: \"...ô giáo em rất hiền.\"",
+      "question": "Điền chữ thích hợp vào chỗ chấm: \"...ô giáo em rất hiền.\"",
       "options": [
-        "A. Dãy âm vô nghĩa",
-        "B. Tiếng viết sai lỗi chính tả",
-        "C. Tiếng không có trong từ điển tiếng Việt",
-        "D. Tiếng chuẩn âm vần theo chủ điểm: Ôn tập vần và chính tả"
+        "A. K",
+        "B. C",
+        "C. Q",
+        "D. Gh"
       ],
-      "answer": "D",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 17 về Ôn tập vần và chính tả."
+      "answer": "B",
+      "explanation": "Chữ 'c' ghép với 'ô' tạo thành tiếng 'Cô'. 'Cô giáo em rất hiền.'",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W17-T1-2",
@@ -4461,16 +4473,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 18 - Tiết 1",
       "topic": "Ôn tập cuối học kì 1",
-      "text": "Trong bài học Tuần 18 (Ôn tập cuối học kì 1), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 18 (Ôn tập cuối học kì 1), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Từ nào dưới đây là từ chỉ hoạt động của học sinh trong giờ học?",
+      "question": "Từ nào dưới đây là từ chỉ hoạt động của học sinh trong giờ học?",
       "options": [
-        "A. Tiếng chuẩn âm vần theo chủ điểm: Ôn tập cuối học kì 1",
-        "B. Tiếng viết sai lỗi chính tả",
-        "C. Tiếng không có trong từ điển tiếng Việt",
-        "D. Dãy âm vô nghĩa"
+        "A. Bàn ghế",
+        "B. Nghe giảng",
+        "C. Bảng đen",
+        "D. Sách vở"
       ],
-      "answer": "A",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 18 về Ôn tập cuối học kì 1."
+      "answer": "B",
+      "explanation": "'Nghe giảng' là từ chỉ hoạt động của học sinh.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W18-T1-2",
@@ -4716,16 +4729,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 19 - Tiết 1",
       "topic": "Vần oa, oe, oai, oay",
-      "text": "Trong bài học Tuần 19 (Vần oa, oe, oai, oay), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 19 (Vần oa, oe, oai, oay), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Tiếng nào dưới đây có chứa vần \"oa\"?",
+      "question": "Tiếng nào dưới đây có chứa vần \"oa\"?",
       "options": [
-        "A. Tiếng viết sai lỗi chính tả",
-        "B. Tiếng chuẩn âm vần theo chủ điểm: Vần oa, oe, oai, oay",
-        "C. Tiếng không có trong từ điển tiếng Việt",
-        "D. Dãy âm vô nghĩa"
+        "A. Bông hoa",
+        "B. Mát mẻ",
+        "C. Chèo thuyền",
+        "D. Quả xoài"
       ],
-      "answer": "B",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 19 về Vần oa, oe, oai, oay."
+      "answer": "A",
+      "explanation": "Tiếng 'hoa' gồm âm h và vần oa.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W19-T1-2",
@@ -4971,16 +4985,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 20 - Tiết 1",
       "topic": "Vần oan, oat, oang, oac",
-      "text": "Trong bài học Tuần 20 (Vần oan, oat, oang, oac), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 20 (Vần oan, oat, oang, oac), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Tiếng nào dưới đây có chứa vần \"oan\"?",
+      "question": "Tiếng nào dưới đây có chứa vần \"oan\"?",
       "options": [
-        "A. Dãy âm vô nghĩa",
-        "B. Tiếng viết sai lỗi chính tả",
-        "C. Tiếng không có trong từ điển tiếng Việt",
-        "D. Tiếng chuẩn âm vần theo chủ điểm: Vần oan, oat, oang, oac"
+        "A. Bé ngoan",
+        "B. Thoát hiểm",
+        "C. Vang lừng",
+        "D. Cầu vồng"
       ],
-      "answer": "D",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 20 về Vần oan, oat, oang, oac."
+      "answer": "A",
+      "explanation": "Tiếng 'ngoan' gồm âm ng và vần oan.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W20-T1-2",
@@ -5226,16 +5241,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 21 - Tiết 1",
       "topic": "Vần uê, uy, uya, uyên, uyêt",
-      "text": "Trong bài học Tuần 21 (Vần uê, uy, uya, uyên, uyêt), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 21 (Vần uê, uy, uya, uyên, uyêt), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Tiếng nào dưới đây có chứa vần \"uy\"?",
+      "question": "Tiếng nào dưới đây có chứa vần \"uy\"?",
       "options": [
-        "A. Tiếng chuẩn âm vần theo chủ điểm: Vần uê, uy, uya, uyên, uyêt",
-        "B. Tiếng viết sai lỗi chính tả",
-        "C. Tiếng không có trong từ điển tiếng Việt",
-        "D. Dãy âm vô nghĩa"
+        "A. Hoa huệ",
+        "B. Tàu thủy",
+        "C. Đêm khuya",
+        "D. Chim yến"
       ],
-      "answer": "A",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 21 về Vần uê, uy, uya, uyên, uyêt."
+      "answer": "B",
+      "explanation": "Tiếng 'thủy' gồm âm th, vần uy và thanh hỏi.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W21-T1-2",
@@ -5481,16 +5497,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 22 - Tiết 1",
       "topic": "Vần uân, uât, uâng",
-      "text": "Trong bài học Tuần 22 (Vần uân, uât, uâng), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 22 (Vần uân, uât, uâng), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Tiếng nào dưới đây có chứa vần \"uân\"?",
+      "question": "Tiếng nào dưới đây có chứa vần \"uân\"?",
       "options": [
-        "A. Tiếng viết sai lỗi chính tả",
-        "B. Tiếng chuẩn âm vần theo chủ điểm: Vần uân, uât, uâng",
-        "C. Tiếng không có trong từ điển tiếng Việt",
-        "D. Dãy âm vô nghĩa"
+        "A. Mùa xuân",
+        "B. Xuất sắc",
+        "C. Khuân vác",
+        "D. Quầng trăng"
       ],
-      "answer": "B",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 22 về Vần uân, uât, uâng."
+      "answer": "A",
+      "explanation": "Tiếng 'xuân' gồm âm x và vần uân.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W22-T1-2",
@@ -5736,16 +5753,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 23 - Tiết 1",
       "topic": "Chủ điểm Nhà trường, từ chỉ hoạt động học tập",
-      "text": "Trong bài học Tuần 23 (Chủ điểm Nhà trường, từ chỉ hoạt động học tập), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 23 (Chủ điểm Nhà trường, từ chỉ hoạt động học tập), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Dãy từ nào dưới đây gồm toàn các đồ dùng học tập của học sinh?",
+      "question": "Dãy từ nào dưới đây gồm toàn các đồ dùng học tập của học sinh?",
       "options": [
-        "A. Tiếng không có trong từ điển tiếng Việt",
-        "B. Tiếng viết sai lỗi chính tả",
-        "C. Tiếng chuẩn âm vần theo chủ điểm: Chủ điểm Nhà trường, từ chỉ hoạt động học tập",
-        "D. Dãy âm vô nghĩa"
+        "A. Bút chì, thước kẻ, tẩy gôm, hộp bút",
+        "B. Bát đũa, xoong nồi, thìa dĩa",
+        "C. Xe đạp, mũ bảo hiểm, áo mưa",
+        "D. Cây cối, bông hoa, bãi cỏ"
       ],
-      "answer": "C",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 23 về Chủ điểm Nhà trường, từ chỉ hoạt động học tập."
+      "answer": "A",
+      "explanation": "Bút chì, thước kẻ, tẩy gôm, hộp bút đều là đồ dùng học tập thân quen.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W23-T1-2",
@@ -5991,16 +6009,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 24 - Tiết 1",
       "topic": "Chủ điểm Gia đình, từ xưng hô lễ phép",
-      "text": "Trong bài học Tuần 24 (Chủ điểm Gia đình, từ xưng hô lễ phép), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 24 (Chủ điểm Gia đình, từ xưng hô lễ phép), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Khi được người lớn tặng quà, em cần nói lời cảm ơn như thế nào?",
+      "question": "Khi được người lớn tặng quà, em cần nói lời cảm ơn như thế nào?",
       "options": [
-        "A. Dãy âm vô nghĩa",
-        "B. Tiếng viết sai lỗi chính tả",
-        "C. Tiếng không có trong từ điển tiếng Việt",
-        "D. Tiếng chuẩn âm vần theo chủ điểm: Chủ điểm Gia đình, từ xưng hô lễ phép"
+        "A. Cho cháu xin nhé!",
+        "B. Cháu cảm ơn ông bà/cha mẹ ạ!",
+        "C. Không thích món này đâu.",
+        "D. Đặt ở đây đi ạ."
       ],
-      "answer": "D",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 24 về Chủ điểm Gia đình, từ xưng hô lễ phép."
+      "answer": "B",
+      "explanation": "Nói lời cảm ơn lễ phép kèm tiếng 'ạ' ở cuối câu thể hiện thái độ ngoan ngoãn.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W24-T1-2",
@@ -6246,16 +6265,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 25 - Tiết 1",
       "topic": "Đọc hiểu câu chuyện loài vật",
-      "text": "Trong bài học Tuần 25 (Đọc hiểu câu chuyện loài vật), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 25 (Đọc hiểu câu chuyện loài vật), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Con vật nào dưới đây được mệnh danh là \"chúa sơn lâm\"?",
+      "question": "Con vật nào dưới đây được mệnh danh là \"chúa sơn lâm\"?",
       "options": [
-        "A. Tiếng chuẩn âm vần theo chủ điểm: Đọc hiểu câu chuyện loài vật",
-        "B. Tiếng viết sai lỗi chính tả",
-        "C. Tiếng không có trong từ điển tiếng Việt",
-        "D. Dãy âm vô nghĩa"
+        "A. Con thỏ",
+        "B. Con hổ (cọp)",
+        "C. Con sóc",
+        "D. Con rùa"
       ],
-      "answer": "A",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 25 về Đọc hiểu câu chuyện loài vật."
+      "answer": "B",
+      "explanation": "Con hổ (cọp) là loài thú dũng mãnh, được gọi là chúa sơn lâm.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W25-T1-2",
@@ -6501,16 +6521,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 26 - Tiết 1",
       "topic": "Ôn tập giữa học kì 2",
-      "text": "Trong bài học Tuần 26 (Ôn tập giữa học kì 2), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 26 (Ôn tập giữa học kì 2), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Từ nào dưới đây viết đúng chính tả?",
+      "question": "Từ nào dưới đây viết đúng chính tả?",
       "options": [
-        "A. Tiếng viết sai lỗi chính tả",
-        "B. Tiếng chuẩn âm vần theo chủ điểm: Ôn tập giữa học kì 2",
-        "C. Tiếng không có trong từ điển tiếng Việt",
-        "D. Dãy âm vô nghĩa"
+        "A. Xinh xắn",
+        "B. Súng sính",
+        "C. Xung xướng",
+        "D. Siêng lăng"
       ],
-      "answer": "B",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 26 về Ôn tập giữa học kì 2."
+      "answer": "A",
+      "explanation": "'Xinh xắn' viết đúng chính tả với âm x.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W26-T1-2",
@@ -6756,16 +6777,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 27 - Tiết 1",
       "topic": "Chủ điểm Quê hương đất nước",
-      "text": "Trong bài học Tuần 27 (Chủ điểm Quê hương đất nước), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 27 (Chủ điểm Quê hương đất nước), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Thủ đô của nước Việt Nam ta là thành phố nào?",
+      "question": "Thủ đô của nước Việt Nam ta là thành phố nào?",
       "options": [
-        "A. Tiếng không có trong từ điển tiếng Việt",
-        "B. Tiếng viết sai lỗi chính tả",
-        "C. Tiếng chuẩn âm vần theo chủ điểm: Chủ điểm Quê hương đất nước",
-        "D. Dãy âm vô nghĩa"
+        "A. Thành phố Đà Nẵng",
+        "B. Thủ đô Hà Nội",
+        "C. Thành phố Hải Phòng",
+        "D. Thành phố Cần Thơ"
       ],
-      "answer": "C",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 27 về Chủ điểm Quê hương đất nước."
+      "answer": "B",
+      "explanation": "Thủ đô của nước Cộng hòa Xã hội Chủ nghĩa Việt Nam là Hà Nội.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W27-T1-2",
@@ -7011,16 +7033,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 28 - Tiết 1",
       "topic": "Mở rộng vốn từ Thiên nhiên, cây cỏ",
-      "text": "Trong bài học Tuần 28 (Mở rộng vốn từ Thiên nhiên, cây cỏ), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 28 (Mở rộng vốn từ Thiên nhiên, cây cỏ), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Từ nào dưới đây là từ chỉ màu sắc của lá cây tươi tốt?",
+      "question": "Từ nào dưới đây là từ chỉ màu sắc của lá cây tươi tốt?",
       "options": [
-        "A. Dãy âm vô nghĩa",
-        "B. Tiếng viết sai lỗi chính tả",
-        "C. Tiếng không có trong từ điển tiếng Việt",
-        "D. Tiếng chuẩn âm vần theo chủ điểm: Mở rộng vốn từ Thiên nhiên, cây cỏ"
+        "A. Đỏ rực",
+        "B. Vàng óng",
+        "C. Xanh mướt",
+        "D. Tím biếc"
       ],
-      "answer": "D",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 28 về Mở rộng vốn từ Thiên nhiên, cây cỏ."
+      "answer": "C",
+      "explanation": "'Xanh mướt' là từ chỉ màu xanh tươi non đầy sức sống của cây lá.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W28-T1-2",
@@ -7266,16 +7289,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 29 - Tiết 1",
       "topic": "Tập viết câu trần thuật đơn",
-      "text": "Trong bài học Tuần 29 (Tập viết câu trần thuật đơn), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 29 (Tập viết câu trần thuật đơn), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Dấu câu nào thường được đặt ở cuối câu kể?",
+      "question": "Dấu câu nào thường được đặt ở cuối câu kể?",
       "options": [
-        "A. Tiếng chuẩn âm vần theo chủ điểm: Tập viết câu trần thuật đơn",
-        "B. Tiếng viết sai lỗi chính tả",
-        "C. Tiếng không có trong từ điển tiếng Việt",
-        "D. Dãy âm vô nghĩa"
+        "A. Dấu chấm hỏi (?)",
+        "B. Dấu chấm (.)",
+        "C. Dấu chấm than (!)",
+        "D. Dấu phẩy (,)"
       ],
-      "answer": "A",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 29 về Tập viết câu trần thuật đơn."
+      "answer": "B",
+      "explanation": "Cuối câu trần thuật (câu kể) ta dùng dấu chấm (.).",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W29-T1-2",
@@ -7521,16 +7545,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 30 - Tiết 1",
       "topic": "Chính tả phân biệt ch/tr, s/x",
-      "text": "Trong bài học Tuần 30 (Chính tả phân biệt ch/tr, s/x), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 30 (Chính tả phân biệt ch/tr, s/x), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Điền chữ ch hoặc tr vào chỗ trống: \"Mặt ...ời mọc ở hướng đông.\"",
+      "question": "Điền chữ ch hoặc tr vào chỗ trống: \"Mặt ...ời mọc ở hướng đông.\"",
       "options": [
-        "A. Tiếng không có trong từ điển tiếng Việt",
-        "B. Tiếng viết sai lỗi chính tả",
-        "C. Tiếng chuẩn âm vần theo chủ điểm: Chính tả phân biệt ch/tr, s/x",
-        "D. Dãy âm vô nghĩa"
+        "A. ch",
+        "B. tr",
+        "C. c",
+        "D. t"
       ],
-      "answer": "C",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 30 về Chính tả phân biệt ch/tr, s/x."
+      "answer": "B",
+      "explanation": "Từ đúng là 'Mặt trời', điền âm 'tr'.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W30-T1-2",
@@ -7776,16 +7801,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 31 - Tiết 1",
       "topic": "Chính tả phân biệt l/n, r/d/gi",
-      "text": "Trong bài học Tuần 31 (Chính tả phân biệt l/n, r/d/gi), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 31 (Chính tả phân biệt l/n, r/d/gi), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Điền l hoặc n thích hợp vào chỗ trống: \"...ước chảy xuôi dòng.\"",
+      "question": "Điền l hoặc n thích hợp vào chỗ trống: \"...ước chảy xuôi dòng.\"",
       "options": [
-        "A. Dãy âm vô nghĩa",
-        "B. Tiếng viết sai lỗi chính tả",
-        "C. Tiếng không có trong từ điển tiếng Việt",
-        "D. Tiếng chuẩn âm vần theo chủ điểm: Chính tả phân biệt l/n, r/d/gi"
+        "A. N",
+        "B. L",
+        "C. Đ",
+        "D. R"
       ],
-      "answer": "D",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 31 về Chính tả phân biệt l/n, r/d/gi."
+      "answer": "A",
+      "explanation": "Từ đúng chính tả là 'Nước chảy', điền âm 'N'.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W31-T1-2",
@@ -8031,16 +8057,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 32 - Tiết 1",
       "topic": "Đọc hiểu bài thơ thiếu nhi",
-      "text": "Trong bài học Tuần 32 (Đọc hiểu bài thơ thiếu nhi), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 32 (Đọc hiểu bài thơ thiếu nhi), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Trong câu thơ \"Trâu ơi ta bảo trâu này / Trâu ra ngoài ruộng trâu cày với ta\", con trâu giúp người nông dân làm việc gì?",
+      "question": "Trong câu thơ \"Trâu ơi ta bảo trâu này / Trâu ra ngoài ruộng trâu cày với ta\", con trâu giúp người nông dân làm việc gì?",
       "options": [
-        "A. Tiếng chuẩn âm vần theo chủ điểm: Đọc hiểu bài thơ thiếu nhi",
-        "B. Tiếng viết sai lỗi chính tả",
-        "C. Tiếng không có trong từ điển tiếng Việt",
-        "D. Dãy âm vô nghĩa"
+        "A. Giữ nhà",
+        "B. Bắt chuột",
+        "C. Cày ruộng",
+        "D. Kéo xe khách"
       ],
-      "answer": "A",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 32 về Đọc hiểu bài thơ thiếu nhi."
+      "answer": "C",
+      "explanation": "Con trâu chăm chỉ giúp bác nông dân cày ruộng sản xuất lúa gạo.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W32-T1-2",
@@ -8286,16 +8313,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 33 - Tiết 1",
       "topic": "Kể chuyện theo tranh Archimedes",
-      "text": "Trong bài học Tuần 33 (Kể chuyện theo tranh Archimedes), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 33 (Kể chuyện theo tranh Archimedes), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Khi kể lại một câu chuyện, chúng ta cần kể theo trình tự nào?",
+      "question": "Khi kể lại một câu chuyện, chúng ta cần kể theo trình tự nào?",
       "options": [
-        "A. Tiếng viết sai lỗi chính tả",
-        "B. Tiếng chuẩn âm vần theo chủ điểm: Kể chuyện theo tranh Archimedes",
-        "C. Tiếng không có trong từ điển tiếng Việt",
-        "D. Dãy âm vô nghĩa"
+        "A. Kết thúc trước, mở đầu sau",
+        "B. Mở đầu, diễn biến và kết thúc",
+        "C. Kể lộn xộn các chi tiết",
+        "D. Chỉ kể phần cuối"
       ],
       "answer": "B",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 33 về Kể chuyện theo tranh Archimedes."
+      "explanation": "Một câu chuyện hoàn chỉnh cần có phần mở đầu, diễn biến các sự việc và kết thúc.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W33-T1-2",
@@ -8541,16 +8569,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 34 - Tiết 1",
       "topic": "Luyện đọc diễn cảm và cảm thụ ngôn từ",
-      "text": "Trong bài học Tuần 34 (Luyện đọc diễn cảm và cảm thụ ngôn từ), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 34 (Luyện đọc diễn cảm và cảm thụ ngôn từ), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Từ nào dưới đây gợi tả âm thanh tiếng cười giòn giã, vui tươi?",
+      "question": "Từ nào dưới đây gợi tả âm thanh tiếng cười giòn giã, vui tươi?",
       "options": [
-        "A. Tiếng không có trong từ điển tiếng Việt",
-        "B. Tiếng viết sai lỗi chính tả",
-        "C. Tiếng chuẩn âm vần theo chủ điểm: Luyện đọc diễn cảm và cảm thụ ngôn từ",
-        "D. Dãy âm vô nghĩa"
+        "A. Rì rào",
+        "B. Khúc khích",
+        "C. Róc rách",
+        "D. Ào ào"
       ],
-      "answer": "C",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 34 về Luyện đọc diễn cảm và cảm thụ ngôn từ."
+      "answer": "B",
+      "explanation": "'Khúc khích' gợi tả tiếng cười nhỏ, liên tiếp và rất vui vẻ.",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W34-T1-2",
@@ -8796,16 +8825,17 @@ const TIENG_VIET_DB = {
       "grade": 1,
       "round": "Tuần 35 - Tiết 1",
       "topic": "Ôn tập tổng kết cuối năm học",
-      "text": "Trong bài học Tuần 35 (Ôn tập tổng kết cuối năm học), tiếng nào dưới đây phù hợp nhất với bài học?",
-      "question": "Trong bài học Tuần 35 (Ôn tập tổng kết cuối năm học), tiếng nào dưới đây phù hợp nhất với bài học?",
+      "text": "Sau một năm học chăm chỉ dưới mái trường, các em học sinh lớp 1 sẽ được lên học lớp mấy?",
+      "question": "Sau một năm học chăm chỉ dưới mái trường, các em học sinh lớp 1 sẽ được lên học lớp mấy?",
       "options": [
-        "A. Dãy âm vô nghĩa",
-        "B. Tiếng viết sai lỗi chính tả",
-        "C. Tiếng không có trong từ điển tiếng Việt",
-        "D. Tiếng chuẩn âm vần theo chủ điểm: Ôn tập tổng kết cuối năm học"
+        "A. Lớp 1",
+        "B. Lớp 2",
+        "C. Lớp 3",
+        "D. Lớp 5"
       ],
-      "answer": "D",
-      "explanation": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 35 về Ôn tập tổng kết cuối năm học."
+      "answer": "B",
+      "explanation": "Sau khi hoàn thành chương trình Lớp 1, các em sẽ vinh dự được lên học Lớp 2!",
+      "type": "mc"
     },
     {
       "id": "TV-G1-W35-T1-2",
@@ -18198,16 +18228,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 1 - Tiết 3",
       "topic": "Đọc hiểu Cậu bé thông minh, phép so sánh ngang bằng",
-      "text": "Chủ điểm Tuần 1: Đọc hiểu Cậu bé thông minh, phép so sánh ngang bằng. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 1: Đọc hiểu Cậu bé thông minh, phép so sánh ngang bằng. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Dãy từ ngữ nào dưới đây gồm toàn các từ chỉ trẻ em (thiếu nhi)?",
+      "question": "Dãy từ ngữ nào dưới đây gồm toàn các từ chỉ trẻ em (thiếu nhi)?",
       "options": [
-        "A. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 1",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "D. Từ viết sai chính tả nặng"
+        "A. Trẻ nhỏ, thiếu niên, nhi đồng, con nít",
+        "B. Thanh niên, trung niên, người già, cụ già",
+        "C. Học sinh, giáo viên, hiệu trưởng, phụ huynh",
+        "D. Chăm chỉ, ngoan ngoãn, thật thà, dũng cảm"
       ],
       "answer": "A",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 1."
+      "explanation": "Các từ ở đáp án A đều dùng để chỉ trẻ em bám sát chủ điểm Thiếu nhi Tuần 1.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W1-T3-2",
@@ -18511,16 +18542,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 2 - Tiết 3",
       "topic": "Cô giáo tí hon, từ chỉ sự so sánh 'như', 'tựa', 'là'",
-      "text": "Chủ điểm Tuần 2: Cô giáo tí hon, từ chỉ sự so sánh 'như', 'tựa', 'là'. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 2: Cô giáo tí hon, từ chỉ sự so sánh 'như', 'tựa', 'là'. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Trong câu: \"Mặt trời đỏ rực như quả cầu lửa\", từ nào là từ chỉ sự so sánh?",
+      "question": "Trong câu: \"Mặt trời đỏ rực như quả cầu lửa\", từ nào là từ chỉ sự so sánh?",
       "options": [
-        "A. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "B. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 2",
-        "C. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "D. Từ viết sai chính tả nặng"
+        "A. Đỏ rực",
+        "B. Như",
+        "C. Quả cầu",
+        "D. Mặt trời"
       ],
       "answer": "B",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 2."
+      "explanation": "Từ 'như' là từ chỉ quan hệ so sánh nối hai sự vật được so sánh.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W2-T3-2",
@@ -18766,16 +18798,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 3 - Tiết 3",
       "topic": "Chiếc áo len, từ ngữ về Gia đình",
-      "text": "Chủ điểm Tuần 3: Chiếc áo len, từ ngữ về Gia đình. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 3: Chiếc áo len, từ ngữ về Gia đình. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Dãy từ ngữ nào dưới đây gồm toàn các từ chỉ tình cảm gia đình?",
+      "question": "Dãy từ ngữ nào dưới đây gồm toàn các từ chỉ tình cảm gia đình?",
       "options": [
-        "A. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 3",
-        "D. Từ viết sai chính tả nặng"
+        "A. Yêu thương, đùm bọc, kính trọng, hòa thuận",
+        "B. Bàn ghế, giường tủ, quạt điện, tivi",
+        "C. Nấu cơm, rửa bát, quét nhà, giặt giũ",
+        "D. Thông minh, dũng cảm, nhanh nhẹn, khéo léo"
       ],
-      "answer": "C",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 3."
+      "answer": "A",
+      "explanation": "Yêu thương, đùm bọc, kính trọng, hòa thuận là các từ chỉ tình cảm ruột thịt trong gia đình.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W3-T3-2",
@@ -19021,16 +19054,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 4 - Tiết 3",
       "topic": "Mở rộng vốn từ Thiếu nhi, câu Ai làm gì?",
-      "text": "Chủ điểm Tuần 4: Mở rộng vốn từ Thiếu nhi, câu Ai làm gì?. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 4: Mở rộng vốn từ Thiếu nhi, câu Ai làm gì?. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Câu nào dưới đây được cấu tạo theo mẫu câu \"Ai làm gì?\"?",
+      "question": "Câu nào dưới đây được cấu tạo theo mẫu câu \"Ai làm gì?\"?",
       "options": [
-        "A. Từ viết sai chính tả nặng",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "D. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 4"
+        "A. Bạn Lan là học sinh giỏi của lớp em.",
+        "B. Bác nông dân đang gặt lúa trên cánh đồng.",
+        "C. Bông hoa hồng thơm ngát.",
+        "D. Bầu trời mùa thu trong xanh."
       ],
-      "answer": "D",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 4."
+      "answer": "B",
+      "explanation": "Câu 'Bác nông dân đang gặt lúa...' có bộ phận trả lời câu hỏi Ai? (Bác nông dân) và làm gì? (đang gặt lúa).",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W4-T3-2",
@@ -19276,16 +19310,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 5 - Tiết 3",
       "topic": "Chủ điểm Trường học, dấu chấm, dấu hai chấm",
-      "text": "Chủ điểm Tuần 5: Chủ điểm Trường học, dấu chấm, dấu hai chấm. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 5: Chủ điểm Trường học, dấu chấm, dấu hai chấm. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Dấu hai chấm (:) trong câu sau dùng để làm gì? \"Cô giáo dặn cả lớp: Ngày mai các em nhớ mang đầy đủ đồ dùng học tập.\"",
+      "question": "Dấu hai chấm (:) trong câu sau dùng để làm gì? \"Cô giáo dặn cả lớp: Ngày mai các em nhớ mang đầy đủ đồ dùng học tập.\"",
       "options": [
-        "A. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 5",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "D. Từ viết sai chính tả nặng"
+        "A. Dùng để kết thúc câu",
+        "B. Báo hiệu phần trích dẫn lời nói trực tiếp của nhân vật",
+        "C. Dùng để hỏi",
+        "D. Báo hiệu kết thúc đoạn văn"
       ],
-      "answer": "A",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 5."
+      "answer": "B",
+      "explanation": "Dấu hai chấm báo hiệu lời nói trực tiếp của cô giáo được dẫn ra sau đó.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W5-T3-2",
@@ -19531,16 +19566,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 6 - Tiết 3",
       "topic": "Nhân hóa (gọi sự vật như người)",
-      "text": "Chủ điểm Tuần 6: Nhân hóa (gọi sự vật như người). Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 6: Nhân hóa (gọi sự vật như người). Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Trong câu thơ: \"Bác kim giờ thận trọng / Nhích từng ly, từng ly\", sự vật nào được nhân hóa và gọi bằng từ ngữ nào?",
+      "question": "Trong câu thơ: \"Bác kim giờ thận trọng / Nhích từng ly, từng ly\", sự vật nào được nhân hóa và gọi bằng từ ngữ nào?",
       "options": [
-        "A. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "B. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 6",
-        "C. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "D. Từ viết sai chính tả nặng"
+        "A. Chiếc đồng hồ gọi bằng Chú",
+        "B. Kim giờ được gọi bằng \"Bác\"",
+        "C. Kim phút được gọi bằng Anh",
+        "D. Kim giây được gọi bằng Bé"
       ],
       "answer": "B",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 6."
+      "explanation": "Kim giờ được tác giả gọi thân mật bằng 'Bác' như một con người.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W6-T3-2",
@@ -19786,16 +19822,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 7 - Tiết 3",
       "topic": "Chủ điểm Thầy cô, luyện từ ngữ chỉ hoạt động dạy học",
-      "text": "Chủ điểm Tuần 7: Chủ điểm Thầy cô, luyện từ ngữ chỉ hoạt động dạy học. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 7: Chủ điểm Thầy cô, luyện từ ngữ chỉ hoạt động dạy học. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Dãy từ ngữ nào dưới đây gồm toàn các từ chỉ hoạt động dạy và học ở trường?",
+      "question": "Dãy từ ngữ nào dưới đây gồm toàn các từ chỉ hoạt động dạy và học ở trường?",
       "options": [
-        "A. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 7",
-        "D. Từ viết sai chính tả nặng"
+        "A. Giảng bài, nghe giảng, phát biểu, thảo luận",
+        "B. Bác sĩ, y tá, bệnh nhân, kê đơn",
+        "C. Lái xe, bán vé, đón khách, sửa đường",
+        "D. Trồng lúa, bón phân, tưới nước, thu hoạch"
       ],
-      "answer": "C",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 7."
+      "answer": "A",
+      "explanation": "Giảng bài, nghe giảng, phát biểu, thảo luận đều là hoạt động dạy và học.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W7-T3-2",
@@ -20041,16 +20078,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 8 - Tiết 3",
       "topic": "Nhân hóa (tả sự vật bằng từ ngữ chỉ hoạt động của người)",
-      "text": "Chủ điểm Tuần 8: Nhân hóa (tả sự vật bằng từ ngữ chỉ hoạt động của người). Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 8: Nhân hóa (tả sự vật bằng từ ngữ chỉ hoạt động của người). Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Câu nào dưới đây có sử dụng biện pháp nhân hóa (tả sự vật bằng từ ngữ chỉ hoạt động của con người)?",
+      "question": "Câu nào dưới đây có sử dụng biện pháp nhân hóa (tả sự vật bằng từ ngữ chỉ hoạt động của con người)?",
       "options": [
-        "A. Từ viết sai chính tả nặng",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "D. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 8"
+        "A. Dòng sông uốn khúc quanh làng.",
+        "B. Chị gió vui vẻ reo vui trên những tán cây.",
+        "C. Ngôi nhà mới xây rất khang trang.",
+        "D. Đàn chim bay lượn trên bầu trời xanh."
       ],
-      "answer": "D",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 8."
+      "answer": "B",
+      "explanation": "Gió được gọi là 'chị' và có hành động 'vui vẻ reo vui' như con người.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W8-T3-2",
@@ -20296,16 +20334,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 9 - Tiết 3",
       "topic": "Ôn tập giữa học kì 1",
-      "text": "Chủ điểm Tuần 9: Ôn tập giữa học kì 1. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 9: Ôn tập giữa học kì 1. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Từ nào dưới đây là từ ngữ chỉ phẩm chất tốt đẹp của người học sinh?",
+      "question": "Từ nào dưới đây là từ ngữ chỉ phẩm chất tốt đẹp của người học sinh?",
       "options": [
-        "A. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 9",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "D. Từ viết sai chính tả nặng"
+        "A. Chăm chỉ",
+        "B. Cao lớn",
+        "C. Mập mạp",
+        "D. Nhanh nhảu đoảng"
       ],
       "answer": "A",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 9."
+      "explanation": "Chăm chỉ, cần cù là phẩm chất đạo đức quan trọng của học sinh.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W9-T3-2",
@@ -20551,16 +20590,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 10 - Tiết 3",
       "topic": "Chủ điểm Quê hương, từ ngữ về làng quê Việt Nam",
-      "text": "Chủ điểm Tuần 10: Chủ điểm Quê hương, từ ngữ về làng quê Việt Nam. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 10: Chủ điểm Quê hương, từ ngữ về làng quê Việt Nam. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Dãy từ ngữ nào dưới đây gồm các hình ảnh thân thuộc của làng quê Việt Nam?",
+      "question": "Dãy từ ngữ nào dưới đây gồm các hình ảnh thân thuộc của làng quê Việt Nam?",
       "options": [
-        "A. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 10",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "D. Từ viết sai chính tả nặng"
+        "A. Cây đa, giếng nước, sân đình, cánh đồng lúa",
+        "B. Tòa nhà chọc trời, cầu vượt, siêu thị lớn",
+        "C. Đường ray xe lửa, ga hàng không, bến cảng biển",
+        "D. Nhà máy, ống khói, khu công nghiệp"
       ],
       "answer": "A",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 10."
+      "explanation": "Cây đa, giếng nước, sân đình, đồng lúa là nét đặc trưng truyền thống của làng quê Việt Nam.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W10-T3-2",
@@ -20806,16 +20846,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 11 - Tiết 3",
       "topic": "So sánh âm thanh với âm thanh",
-      "text": "Chủ điểm Tuần 11: So sánh âm thanh với âm thanh. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 11: So sánh âm thanh với âm thanh. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Câu nào dưới đây có phép so sánh âm thanh với âm thanh?",
+      "question": "Câu nào dưới đây có phép so sánh âm thanh với âm thanh?",
       "options": [
-        "A. Từ viết sai chính tả nặng",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "D. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 11"
+        "A. Tiếng suối trong như tiếng hát xa.",
+        "B. Mặt trăng tròn như cái đĩa bạc.",
+        "C. Bác nông dân cần cù như chú ong.",
+        "D. Đôi mắt bé tròn xoe như hai hòn bi ve."
       ],
-      "answer": "D",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 11."
+      "answer": "A",
+      "explanation": "'Tiếng suối' (âm thanh) được so sánh với 'tiếng hát xa' (âm thanh).",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W11-T3-2",
@@ -21061,16 +21102,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 12 - Tiết 3",
       "topic": "Chủ điểm Bắc - Trung - Nam, danh lam thắng cảnh",
-      "text": "Chủ điểm Tuần 12: Chủ điểm Bắc - Trung - Nam, danh lam thắng cảnh. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 12: Chủ điểm Bắc - Trung - Nam, danh lam thắng cảnh. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Địa danh nổi tiếng nào dưới đây thuộc thủ đô Hà Nội?",
+      "question": "Địa danh nổi tiếng nào dưới đây thuộc thủ đô Hà Nội?",
       "options": [
-        "A. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 12",
-        "D. Từ viết sai chính tả nặng"
+        "A. Hồ Gươm (Hồ Hoàn Kiếm)",
+        "B. Cầu Vàng Bà Nà",
+        "C. Chợ Bến Thành",
+        "D. Vịnh Hạ Long"
       ],
-      "answer": "C",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 12."
+      "answer": "A",
+      "explanation": "Hồ Gươm (Hồ Hoàn Kiếm) gắn liền với Tháp Rùa là biểu tượng thiêng liêng của Hà Nội.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W12-T3-2",
@@ -21316,16 +21358,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 13 - Tiết 3",
       "topic": "Mở rộng vốn từ Đô thị - Nông thôn",
-      "text": "Chủ điểm Tuần 13: Mở rộng vốn từ Đô thị - Nông thôn. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 13: Mở rộng vốn từ Đô thị - Nông thôn. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Dãy từ ngữ nào dưới đây chỉ các đặc điểm của cuộc sống nơi thành thị (đô thị)?",
+      "question": "Dãy từ ngữ nào dưới đây chỉ các đặc điểm của cuộc sống nơi thành thị (đô thị)?",
       "options": [
-        "A. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "B. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 13",
-        "C. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "D. Từ viết sai chính tả nặng"
+        "A. Nhà cao tầng, xe cộ tấp nập, phố xá sầm uất",
+        "B. Cánh đồng bao la, đàn trâu gặm cỏ, khói lam chiều",
+        "C. Thuyền chài đánh cá, rặng dừa ven biển, sóng vỗ",
+        "D. Đồi nương bậc thang, rừng thông reo, suối róc rách"
       ],
-      "answer": "B",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 13."
+      "answer": "A",
+      "explanation": "Nhà cao tầng, xe cộ tấp nập, phố xá sầm uất phản ánh cuộc sống đô thị hiện đại.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W13-T3-2",
@@ -21571,16 +21614,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 14 - Tiết 3",
       "topic": "Chính tả viết hoa tên địa lí Việt Nam",
-      "text": "Chủ điểm Tuần 14: Chính tả viết hoa tên địa lí Việt Nam. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 14: Chính tả viết hoa tên địa lí Việt Nam. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Tên địa lí Việt Nam nào dưới đây được viết đúng quy tắc chính tả?",
+      "question": "Tên địa lí Việt Nam nào dưới đây được viết đúng quy tắc chính tả?",
       "options": [
-        "A. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 14",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "D. Từ viết sai chính tả nặng"
+        "A. đà Nẵng",
+        "B. Hà nội",
+        "C. Thừa Thiên Huế",
+        "D. hồ chí minh"
       ],
-      "answer": "A",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 14."
+      "answer": "C",
+      "explanation": "Quy tắc viết hoa tên địa lí Việt Nam: Viết hoa chữ cái đầu của mỗi tiếng tạo nên tên đó ('Thừa Thiên Huế').",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W14-T3-2",
@@ -21826,16 +21870,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 15 - Tiết 3",
       "topic": "Chủ điểm Anh em các dân tộc",
-      "text": "Chủ điểm Tuần 15: Chủ điểm Anh em các dân tộc. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 15: Chủ điểm Anh em các dân tộc. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Đất nước Việt Nam chúng ta là một mái nhà chung gồm có bao nhiêu dân tộc anh em?",
+      "question": "Đất nước Việt Nam chúng ta là một mái nhà chung gồm có bao nhiêu dân tộc anh em?",
       "options": [
-        "A. Từ viết sai chính tả nặng",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "D. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 15"
+        "A. 45 dân tộc",
+        "B. 54 dân tộc",
+        "C. 64 dân tộc",
+        "D. 50 dân tộc"
       ],
-      "answer": "D",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 15."
+      "answer": "B",
+      "explanation": "Việt Nam gồm có 54 dân tộc anh em cùng chung sống đoàn kết, gắn bó.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W15-T3-2",
@@ -22081,16 +22126,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 16 - Tiết 3",
       "topic": "Dấu gạch ngang, dấu ngoặc kép",
-      "text": "Chủ điểm Tuần 16: Dấu gạch ngang, dấu ngoặc kép. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 16: Dấu gạch ngang, dấu ngoặc kép. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Dấu gạch ngang (-) trong đoạn văn trích sau có tác dụng gì? \"Thấy tôi, Hoa mừng rỡ chạy lại: - Cậu đến rồi à!\"",
+      "question": "Dấu gạch ngang (-) trong đoạn văn trích sau có tác dụng gì? \"Thấy tôi, Hoa mừng rỡ chạy lại: - Cậu đến rồi à!\"",
       "options": [
-        "A. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 16",
-        "D. Từ viết sai chính tả nặng"
+        "A. Đánh dấu chỗ bắt đầu lời nói của nhân vật",
+        "B. Đánh dấu các ý liệt kê",
+        "C. Đánh dấu phần chú thích",
+        "D. Ngăn cách các vế câu"
       ],
-      "answer": "C",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 16."
+      "answer": "A",
+      "explanation": "Dấu gạch ngang đặt ở đầu dòng để đánh dấu lời nói trực tiếp của bạn Hoa.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W16-T3-2",
@@ -22336,16 +22382,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 17 - Tiết 3",
       "topic": "Viết thư cho bạn phương xa",
-      "text": "Chủ điểm Tuần 17: Viết thư cho bạn phương xa. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 17: Viết thư cho bạn phương xa. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Một bức thư gửi cho bạn bè thường gồm các phần cơ bản nào?",
+      "question": "Một bức thư gửi cho bạn bè thường gồm các phần cơ bản nào?",
       "options": [
-        "A. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "B. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 17",
-        "C. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "D. Từ viết sai chính tả nặng"
+        "A. Địa điểm và thời gian viết thư, lời chào, nội dung chính, lời chúc và chữ ký",
+        "B. Chỉ cần viết lời chào và ký tên",
+        "C. Chỉ cần viết địa chỉ người nhận",
+        "D. Bắt đầu bằng mục lục bài học"
       ],
-      "answer": "B",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 17."
+      "answer": "A",
+      "explanation": "Cấu trúc cơ bản của một bức thư: Địa điểm, thời gian -> Lời chào -> Thăm hỏi, tâm sự -> Lời chúc, ký tên.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W17-T3-2",
@@ -22591,16 +22638,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 18 - Tiết 3",
       "topic": "Ôn tập cuối học kì 1",
-      "text": "Chủ điểm Tuần 18: Ôn tập cuối học kì 1. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 18: Ôn tập cuối học kì 1. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Thành ngữ nào dưới đây khuyên chúng ta phải biết ơn những người đã giúp đỡ, tạo dựng thành quả cho mình?",
+      "question": "Thành ngữ nào dưới đây khuyên chúng ta phải biết ơn những người đã giúp đỡ, tạo dựng thành quả cho mình?",
       "options": [
-        "A. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 18",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "D. Từ viết sai chính tả nặng"
+        "A. Uống nước nhớ nguồn",
+        "B. Đi một ngày đàng học một sàng khôn",
+        "C. Học thầy không tày học bạn",
+        "D. Có công mài sắt có ngày nên kim"
       ],
       "answer": "A",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 18."
+      "explanation": "'Uống nước nhớ nguồn' là truyền thống đạo lí tốt đẹp nhắc nhở lòng biết ơn cội nguồn.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W18-T3-2",
@@ -22846,16 +22894,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 19 - Tiết 3",
       "topic": "Chủ điểm Bảo vệ Tổ quốc, Người trí thức",
-      "text": "Chủ điểm Tuần 19: Chủ điểm Bảo vệ Tổ quốc, Người trí thức. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 19: Chủ điểm Bảo vệ Tổ quốc, Người trí thức. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Dãy từ ngữ nào dưới đây gồm toàn các từ chỉ những người trí thức đóng góp cho xã hội?",
+      "question": "Dãy từ ngữ nào dưới đây gồm toàn các từ chỉ những người trí thức đóng góp cho xã hội?",
       "options": [
-        "A. Từ viết sai chính tả nặng",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "D. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 19"
+        "A. Bác sĩ, kĩ sư, giáo viên, nhà khoa học",
+        "B. Thợ xây, thợ may, thợ mộc, công nhân",
+        "C. Thợ làm bánh, nhân viên bán hàng, tài xế",
+        "D. Nông dân, ngư dân, người làm vườn"
       ],
-      "answer": "D",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 19."
+      "answer": "A",
+      "explanation": "Bác sĩ, kĩ sư, giáo viên, nhà khoa học là những người lao động trí óc (trí thức).",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W19-T3-2",
@@ -23101,16 +23150,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 20 - Tiết 3",
       "topic": "Nhân hóa (nói với sự vật thân mật như với người)",
-      "text": "Chủ điểm Tuần 20: Nhân hóa (nói với sự vật thân mật như với người). Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 20: Nhân hóa (nói với sự vật thân mật như với người). Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Trong câu: \"Trâu ơi, trâu có nghe thấy tiếng chim hót không?\", tác giả đã nhân hóa con trâu bằng cách nào?",
+      "question": "Trong câu: \"Trâu ơi, trâu có nghe thấy tiếng chim hót không?\", tác giả đã nhân hóa con trâu bằng cách nào?",
       "options": [
-        "A. Từ viết sai chính tả nặng",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "D. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 20"
+        "A. Trò chuyện, nói với sự vật thân mật như với một người bạn",
+        "B. Tả màu lông của con trâu",
+        "C. Đếm số chiếc sừng trâu",
+        "D. Kể về chuồng trâu"
       ],
-      "answer": "D",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 20."
+      "answer": "A",
+      "explanation": "Dùng từ gọi 'Trâu ơi' và hỏi han trò chuyện thể hiện cách nhân hóa coi con vật như bạn bè thân thiết.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W20-T3-2",
@@ -23356,16 +23406,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 21 - Tiết 3",
       "topic": "Chủ điểm Sáng tạo, phát minh khoa học",
-      "text": "Chủ điểm Tuần 21: Chủ điểm Sáng tạo, phát minh khoa học. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 21: Chủ điểm Sáng tạo, phát minh khoa học. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Ai là nhà bác học vĩ đại đã phát minh ra bóng đèn điện chiếu sáng nhân loại?",
+      "question": "Ai là nhà bác học vĩ đại đã phát minh ra bóng đèn điện chiếu sáng nhân loại?",
       "options": [
-        "A. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 21",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "D. Từ viết sai chính tả nặng"
+        "A. Thomas Edison",
+        "B. Isaac Newton",
+        "C. Albert Einstein",
+        "D. Marie Curie"
       ],
       "answer": "A",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 21."
+      "explanation": "Thomas Edison (Ê-đi-xơn) là nhà sáng chế lỗi lạc đã phát minh ra đèn sợi đốt thực dụng.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W21-T3-2",
@@ -23611,16 +23662,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 22 - Tiết 3",
       "topic": "Mở rộng vốn từ Sáng tạo, dấu phẩy ngăn cách trạng ngữ",
-      "text": "Chủ điểm Tuần 22: Mở rộng vốn từ Sáng tạo, dấu phẩy ngăn cách trạng ngữ. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 22: Mở rộng vốn từ Sáng tạo, dấu phẩy ngăn cách trạng ngữ. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Dấu phẩy (,) trong câu sau có tác dụng gì? \"Nhờ chăm chỉ học tập, Nam đã đạt danh hiệu học sinh xuất sắc.\"",
+      "question": "Dấu phẩy (,) trong câu sau có tác dụng gì? \"Nhờ chăm chỉ học tập, Nam đã đạt danh hiệu học sinh xuất sắc.\"",
       "options": [
-        "A. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "B. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 22",
-        "C. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "D. Từ viết sai chính tả nặng"
+        "A. Ngăn cách trạng ngữ chỉ nguyên nhân với nòng cốt câu",
+        "B. Kết thúc một câu kể",
+        "C. Dẫn lời nói của nhân vật",
+        "D. Đánh dấu từ ngữ được trích dẫn"
       ],
-      "answer": "B",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 22."
+      "answer": "A",
+      "explanation": "Dấu phẩy ngăn cách trạng ngữ 'Nhờ chăm chỉ học tập' với chủ ngữ và vị ngữ chính.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W22-T3-2",
@@ -23866,16 +23918,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 23 - Tiết 3",
       "topic": "Chủ điểm Nghệ thuật (ca hát, hội họa, kịch)",
-      "text": "Chủ điểm Tuần 23: Chủ điểm Nghệ thuật (ca hát, hội họa, kịch). Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 23: Chủ điểm Nghệ thuật (ca hát, hội họa, kịch). Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Dãy từ ngữ nào dưới đây chỉ các môn nghệ thuật?",
+      "question": "Dãy từ ngữ nào dưới đây chỉ các môn nghệ thuật?",
       "options": [
-        "A. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 23",
-        "D. Từ viết sai chính tả nặng"
+        "A. Âm nhạc, hội họa, điện ảnh, điêu khắc, sân khấu",
+        "B. Bóng đá, bơi lội, cầu lông, chạy bộ",
+        "C. Toán học, Vật lí, Hóa học, Sinh học",
+        "D. Nấu ăn, dọn dẹp, may vá, giặt giũ"
       ],
-      "answer": "C",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 23."
+      "answer": "A",
+      "explanation": "Âm nhạc, hội họa, điện ảnh, điêu khắc, sân khấu là các bộ môn nghệ thuật bồi đắp tâm hồn.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W23-T3-2",
@@ -24121,16 +24174,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 24 - Tiết 3",
       "topic": "Biện pháp tu từ nhân hóa tổng hợp",
-      "text": "Chủ điểm Tuần 24: Biện pháp tu từ nhân hóa tổng hợp. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 24: Biện pháp tu từ nhân hóa tổng hợp. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Câu nào dưới đây sử dụng cả 2 biện pháp nghệ thuật: So sánh và Nhân hóa?",
+      "question": "Câu nào dưới đây sử dụng cả 2 biện pháp nghệ thuật: So sánh và Nhân hóa?",
       "options": [
-        "A. Từ viết sai chính tả nặng",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "D. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 24"
+        "A. Những hạt mưa xuân dịu dàng nhảy múa như những vũ công tí hon.",
+        "B. Bầu trời hôm nay rất trong xanh.",
+        "C. Con mèo mướp nằm sưởi nắng bên hiên nhà.",
+        "D. Cánh đồng bát ngát một màu vàng óng."
       ],
-      "answer": "D",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 24."
+      "answer": "A",
+      "explanation": "Nhân hóa: mưa xuân 'dịu dàng nhảy múa'; So sánh: 'như những vũ công tí hon'.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W24-T3-2",
@@ -24376,16 +24430,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 25 - Tiết 3",
       "topic": "Chủ điểm Lễ hội truyền thống",
-      "text": "Chủ điểm Tuần 25: Chủ điểm Lễ hội truyền thống. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 25: Chủ điểm Lễ hội truyền thống. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Lễ hội nào dưới đây gắn liền với truyền thống nhớ ơn các vị Vua dựng nước đầu tiên của dân tộc ta?",
+      "question": "Lễ hội nào dưới đây gắn liền với truyền thống nhớ ơn các vị Vua dựng nước đầu tiên của dân tộc ta?",
       "options": [
-        "A. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 25",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "D. Từ viết sai chính tả nặng"
+        "A. Lễ hội Đền Hùng (Giỗ Tổ Hùng Vương)",
+        "B. Hội Chùa Hương",
+        "C. Hội Lim Bắc Ninh",
+        "D. Lễ hội Cầu Ngư"
       ],
       "answer": "A",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 25."
+      "explanation": "Lễ hội Đền Hùng vào mùng 10 tháng 3 âm lịch tôn vinh công lao dựng nước của các Vua Hùng.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W25-T3-2",
@@ -24631,16 +24686,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 26 - Tiết 3",
       "topic": "Ôn tập giữa học kì 2",
-      "text": "Chủ điểm Tuần 26: Ôn tập giữa học kì 2. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 26: Ôn tập giữa học kì 2. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Câu tục ngữ nào dưới đây ca ngợi lòng kiên trì, quyết tâm vượt khó trong học tập và cuộc sống?",
+      "question": "Câu tục ngữ nào dưới đây ca ngợi lòng kiên trì, quyết tâm vượt khó trong học tập và cuộc sống?",
       "options": [
-        "A. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "B. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 26",
-        "C. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "D. Từ viết sai chính tả nặng"
+        "A. Có công mài sắt, có ngày nên kim",
+        "B. Lá lành đùm lá rách",
+        "C. Ăn quả nhớ kẻ trồng cây",
+        "D. Gần mực thì đen, gần đèn thì rạng"
       ],
-      "answer": "B",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 26."
+      "answer": "A",
+      "explanation": "'Có công mài sắt, có ngày nên kim' khuyên răn sự bền chí, nhẫn nại sẽ dẫn tới thành công.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W26-T3-2",
@@ -24886,16 +24942,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 27 - Tiết 3",
       "topic": "Chủ điểm Thể thao, rèn luyện thân thể",
-      "text": "Chủ điểm Tuần 27: Chủ điểm Thể thao, rèn luyện thân thể. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 27: Chủ điểm Thể thao, rèn luyện thân thể. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Việc thường xuyên tập thể dục thể thao buổi sáng đem lại lợi ích gì cho học sinh?",
+      "question": "Việc thường xuyên tập thể dục thể thao buổi sáng đem lại lợi ích gì cho học sinh?",
       "options": [
-        "A. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 27",
-        "D. Từ viết sai chính tả nặng"
+        "A. Tăng cường sức khỏe, tinh thần sảng khoái và học tập tốt hơn",
+        "B. Khiến cơ thể mệt mỏi và buồn ngủ cả ngày",
+        "C. Giảm thị lực và trí nhớ",
+        "D. Không có tác dụng gì"
       ],
-      "answer": "C",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 27."
+      "answer": "A",
+      "explanation": "Rèn luyện thể thao giúp cơ thể dẻo dai, khỏe mạnh và tràn đầy năng lượng học tập.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W27-T3-2",
@@ -25141,16 +25198,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 28 - Tiết 3",
       "topic": "Chính tả phân biệt l/n, in/inh",
-      "text": "Chủ điểm Tuần 28: Chính tả phân biệt l/n, in/inh. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 28: Chính tả phân biệt l/n, in/inh. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Cặp từ nào dưới đây viết đúng chính tả để phân biệt l / n?",
+      "question": "Cặp từ nào dưới đây viết đúng chính tả để phân biệt l / n?",
       "options": [
-        "A. Từ viết sai chính tả nặng",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "D. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 28"
+        "A. Lúa nếp - Nón lá",
+        "B. Núa nếp - Lón lá",
+        "C. Lúa lếp - Nón ná",
+        "D. Núa lếp - Lón ná"
       ],
-      "answer": "D",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 28."
+      "answer": "A",
+      "explanation": "Chính tả chuẩn: 'Lúa nếp' (lúa âm l, nếp âm n) và 'Nón lá' (nón âm n, lá âm l).",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W28-T3-2",
@@ -25396,16 +25454,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 29 - Tiết 3",
       "topic": "Chủ điểm Ngôi nhà chung Trái Đất",
-      "text": "Chủ điểm Tuần 29: Chủ điểm Ngôi nhà chung Trái Đất. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 29: Chủ điểm Ngôi nhà chung Trái Đất. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Hành động nào dưới đây góp phần bảo vệ ngôi nhà chung Trái Đất của chúng ta?",
+      "question": "Hành động nào dưới đây góp phần bảo vệ ngôi nhà chung Trái Đất của chúng ta?",
       "options": [
-        "A. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 29",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "D. Từ viết sai chính tả nặng"
+        "A. Trồng cây gây rừng, vứt rác đúng nơi quy định, tiết kiệm điện nước",
+        "B. Xả rác bừa bãi ra kênh rạch và đường phố",
+        "C. Bẻ cành hái hoa nơi công viên trường học",
+        "D. Lãng phí nước sạch khi sinh hoạt"
       ],
       "answer": "A",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 29."
+      "explanation": "Trồng cây, không xả rác và tiết kiệm tài nguyên giúp giữ gìn môi trường sống xanh sạch đẹp.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W29-T3-2",
@@ -25651,16 +25710,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 30 - Tiết 3",
       "topic": "Mở rộng vốn từ Trái Đất, thiên tai và bảo vệ môi trường",
-      "text": "Chủ điểm Tuần 30: Mở rộng vốn từ Trái Đất, thiên tai và bảo vệ môi trường. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 30: Mở rộng vốn từ Trái Đất, thiên tai và bảo vệ môi trường. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Từ ngữ nào dưới đây chỉ hiện tượng thiên tai do mưa lớn kéo dài gây ra?",
+      "question": "Từ ngữ nào dưới đây chỉ hiện tượng thiên tai do mưa lớn kéo dài gây ra?",
       "options": [
-        "A. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 30",
-        "D. Từ viết sai chính tả nặng"
+        "A. Lũ lụt",
+        "B. Hạn hán",
+        "C. Nắng nóng kéo dài",
+        "D. Động đất ngầm"
       ],
-      "answer": "C",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 30."
+      "answer": "A",
+      "explanation": "Mưa lớn kéo dài làm nước sông suối dâng cao gây ra lũ lụt ngập úng.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W30-T3-2",
@@ -25906,16 +25966,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 31 - Tiết 3",
       "topic": "Chủ điểm Bầu trời và Vũ trụ",
-      "text": "Chủ điểm Tuần 31: Chủ điểm Bầu trời và Vũ trụ. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 31: Chủ điểm Bầu trời và Vũ trụ. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Hành tinh nào trong Hệ Mặt Trời là nơi con người và các loài sinh vật đang cùng sinh sống?",
+      "question": "Hành tinh nào trong Hệ Mặt Trời là nơi con người và các loài sinh vật đang cùng sinh sống?",
       "options": [
-        "A. Từ viết sai chính tả nặng",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "D. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 31"
+        "A. Trái Đất",
+        "B. Sao Hỏa",
+        "C. Sao Thủy",
+        "D. Sao Kim"
       ],
-      "answer": "D",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 31."
+      "answer": "A",
+      "explanation": "Trái Đất là hành tinh xanh duy nhất được biết đến có sự sống trong Hệ Mặt Trời.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W31-T3-2",
@@ -26161,16 +26222,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 32 - Tiết 3",
       "topic": "Đọc hiểu truyện đồng thoại thiếu nhi",
-      "text": "Chủ điểm Tuần 32: Đọc hiểu truyện đồng thoại thiếu nhi. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 32: Đọc hiểu truyện đồng thoại thiếu nhi. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Nhân vật Dế Mèn trong tác phẩm \"Dế Mèn phiêu lưu ký\" của nhà văn Tô Hoài đã rút ra bài học gì sau cái chết của Dế Choắt?",
+      "question": "Nhân vật Dế Mèn trong tác phẩm \"Dế Mèn phiêu lưu ký\" của nhà văn Tô Hoài đã rút ra bài học gì sau cái chết của Dế Choắt?",
       "options": [
-        "A. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 32",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "D. Từ viết sai chính tả nặng"
+        "A. Không được hung hăng, kiêu ngạo và trêu chọc làm hại người khác",
+        "B. Phải bắt nạt kẻ yếu hơn mình",
+        "C. Không nên đi ngao du thiên hạ",
+        "D. Chỉ nên ở nhà một mình"
       ],
       "answer": "A",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 32."
+      "explanation": "Dế Mèn đã ân hận sâu sắc vì thói kiêu ngạo, hung hăng gây ra cái chết thương tâm cho Dế Choắt.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W32-T3-2",
@@ -26416,16 +26478,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 33 - Tiết 3",
       "topic": "Cảm thụ thơ ca lớp 3 Archimedes",
-      "text": "Chủ điểm Tuần 33: Cảm thụ thơ ca lớp 3 Archimedes. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 33: Cảm thụ thơ ca lớp 3 Archimedes. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Trong bài thơ ca ngợi tình thầy trò, hình ảnh người thầy thường được ví với hình tượng cao đẹp nào?",
+      "question": "Trong bài thơ ca ngợi tình thầy trò, hình ảnh người thầy thường được ví với hình tượng cao đẹp nào?",
       "options": [
-        "A. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "B. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 33",
-        "C. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "D. Từ viết sai chính tả nặng"
+        "A. Người lái đò cần mẫn đưa từng chuyến đò tri thức qua sông",
+        "B. Người khách qua đường vội vã",
+        "C. Người thợ xây dựng nhà ở",
+        "D. Người chèo thuyền câu cá giải trí"
       ],
-      "answer": "B",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 33."
+      "answer": "A",
+      "explanation": "Hình ảnh người thầy chở những chuyến đò tri thức đưa học sinh cập bến tương lai là ẩn dụ quen thuộc và xúc động.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W33-T3-2",
@@ -26671,16 +26734,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 34 - Tiết 3",
       "topic": "Luyện viết đoạn văn biểu cảm",
-      "text": "Chủ điểm Tuần 34: Luyện viết đoạn văn biểu cảm. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 34: Luyện viết đoạn văn biểu cảm. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Khi viết đoạn văn biểu cảm bày tỏ tình cảm đối với mẹ kính yêu, em nên chọn những từ ngữ như thế nào?",
+      "question": "Khi viết đoạn văn biểu cảm bày tỏ tình cảm đối với mẹ kính yêu, em nên chọn những từ ngữ như thế nào?",
       "options": [
-        "A. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 34",
-        "D. Từ viết sai chính tả nặng"
+        "A. Chân thành, ấm áp, thể hiện lòng biết ơn sâu sắc",
+        "B. Khô khan, máy móc, chỉ toàn số liệu",
+        "C. Lạnh lùng, trách móc",
+        "D. Sao chép nguyên văn không có cảm xúc"
       ],
-      "answer": "C",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 34."
+      "answer": "A",
+      "explanation": "Văn biểu cảm cần chân thành, ấm áp và xuất phát từ tình cảm yêu thương thật lòng.",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W34-T3-2",
@@ -26926,16 +26990,17 @@ const TIENG_VIET_DB = {
       "grade": 3,
       "round": "Tuần 35 - Tiết 3",
       "topic": "Ôn tập tổng kết cuối năm học",
-      "text": "Chủ điểm Tuần 35: Ôn tập tổng kết cuối năm học. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
-      "question": "Chủ điểm Tuần 35: Ôn tập tổng kết cuối năm học. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+      "text": "Kết thúc năm học lớp 3, các em học sinh bước vào kỳ nghỉ hè bổ ích sẽ chuẩn bị sẵn sàng hành trang bước lên khối lớp nào?",
+      "question": "Kết thúc năm học lớp 3, các em học sinh bước vào kỳ nghỉ hè bổ ích sẽ chuẩn bị sẵn sàng hành trang bước lên khối lớp nào?",
       "options": [
-        "A. Từ viết sai chính tả nặng",
-        "B. Dãy từ vô nghĩa, không liên quan đến bài học",
-        "C. Các thuật ngữ kinh tế phức tạp ngoài chương trình",
-        "D. Các từ ngữ chỉ phẩm chất, hoạt động và sự vật cốt lõi theo chủ điểm tuần 35"
+        "A. Lớp 4",
+        "B. Lớp 3",
+        "C. Lớp 2",
+        "D. Lớp 1"
       ],
-      "answer": "D",
-      "explanation": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 35."
+      "answer": "A",
+      "explanation": "Sau Lớp 3, các em sẽ tự tin bước vào Khối Lớp 4 với nhiều kiến thức mới mẻ, hào hứng!",
+      "type": "mc"
     },
     {
       "id": "TV-G3-W35-T3-2",
@@ -44941,9 +45006,5 @@ const TIENG_VIET_DB = {
   ]
 };
 
-if (typeof module !== 'undefined' && module.exports) {
-  module.exports = { TIENG_VIET_DB };
-}
-if (typeof window !== 'undefined') {
-  window.TIENG_VIET_DB = TIENG_VIET_DB;
-}
+if (typeof window !== 'undefined') { window.TIENG_VIET_DB = TIENG_VIET_DB; }
+if (typeof module !== 'undefined' && module.exports) { module.exports = { TIENG_VIET_DB }; }

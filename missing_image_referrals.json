@@ -1,0 +1,734 @@
+[
+  {
+    "ctx": "TIMO - grade4 - #2",
+    "id": "4-Vong loai - De so 0-4",
+    "round": "Vong loai - De so 0",
+    "text": "According to the pattern below, how many squares are there in the first 50 figures?\nDựa vào quy luật dưới đây, có bao nhiêu hình vuông trong 50 hình vẽ đầu tiên?\n●□○●□○●□○●□○●□○ …"
+  },
+  {
+    "ctx": "TIMO - grade4 - #12",
+    "id": "4-Vong loai - De so 6-17",
+    "round": "Vong loai - De so 6",
+    "text": "A small square with a perimeter of 16 cm is combined with two rectangles to get a bigger\nsquare with a perimeter of 24 cm. The figure is given as below. Find the total area of the\ntwo rectangles in cm2.\nMột hình vuông nhỏ có chu vi 16 cm được ghép với hai hình chữ nhật để tạo thành một hình\nvuông lớn có chu vi 24 cm. Hình vẽ được cho như dưới đây. Hãy tìm tổng diện tích của hai hình\nchữ nhật đã cho theo đơn vị cm2."
+  },
+  {
+    "ctx": "TIMO - grade4 - #13",
+    "id": "4-Vong loai - De so 0-19",
+    "round": "Vong loai - De so 0",
+    "text": "At least how many square faces can be seen if viewing the figure below from the right?"
+  },
+  {
+    "ctx": "TIMO - grade4 - #14",
+    "id": "4-Vong loai - De so 0-20",
+    "round": "Vong loai - De so 0",
+    "text": "Jerry draws and paints the gate in his grid paper as the figure below. Find the area of the\npainted area in cm2, given that each cell of the grid paper has side length of 1 cm.\nJerry vẽ và tô màu một cái cổng vào vở ô li của anh ấy như hình dưới đây. Hãy tính diện tích của\nphần được tô màu theo đơn vị cm2, biết rằng mỗi ô trong vở ô li có cạnh dài 1 cm.\nCombinatorics / Tổ hợp"
+  },
+  {
+    "ctx": "TIMO - grade4 - #34",
+    "id": "4-Vong loai - De so 4-20",
+    "round": "Vong loai - De so 4",
+    "text": "Teddy draws and paints the boat in his grid paper as the figure below. Find the area of\nthe painted area in cm2, given that each cell of the grid paper has side length of 1cm.\nTeddy vẽ và tô màu một con thuyền vào vở ô li của anh ấy như hình dưới đây. Hãy tính diện tích\ncủa phần được tô màu theo đơn vị cm2, biết rằng mỗi ô trong vở ô li có cạnh dài 1cm.\nCombinatorics / Tổ hợp"
+  },
+  {
+    "ctx": "TIMO - grade4 - #42",
+    "id": "4-Vong loai - De so 2-16",
+    "round": "Vong loai - De so 2",
+    "text": "How many rectangles in the figure containing the candy are there?\nTrong hình dưới đây có bao nhiêu hình chữ nhật chứa chiếc kẹo?"
+  },
+  {
+    "ctx": "TIMO - grade4 - #43",
+    "id": "4-Vong loai - De so 4-17",
+    "round": "Vong loai - De so 4",
+    "text": "The figure below is a big square with side length 12cm formed by 4 identical rectangles\nand 1 small square. The area of the small square is 36 cm2. Find the area of each\nrectangle.\nHình vẽ dưới đây là một hình vuông lớn có cạnh dài 12cm được tạo bởi 4 hình chữ nhật giống hệt\nnhau và 1 hình vuông nhỏ. Diện tích của hình vuông nhỏ là 36 cm2. Tìm diện tích của một hình\nchữ nhật."
+  },
+  {
+    "ctx": "TIMO - grade4 - #44",
+    "id": "4-Vong loai - De so 0-19",
+    "round": "Vong loai - De so 0",
+    "text": "At least how many small squares can be seen if viewing the figure below from the front?"
+  },
+  {
+    "ctx": "TIMO - grade4 - #61",
+    "id": "4-Vong loai - De so 5-16",
+    "round": "Vong loai - De so 5",
+    "text": "How many rectangles in the figure containing the earth symbol are there?\nTrong hình dưới đây có bao nhiêu hình chữ nhật chứa biểu tượng hình Trái Đất?"
+  },
+  {
+    "ctx": "TIMO - grade4 - #63",
+    "id": "4-Vong loai - De so 4-20",
+    "round": "Vong loai - De so 4",
+    "text": "Jenny draws and paints 4 letters T I M O in her grid paper as the figure below. Find the area\nof the painted area in cm2, given that each cell of the grid paper has side length of 1cm.\nJenny viết và tô màu 4 chữ cái T I M O vào vở ô li như hình vẽ dưới đây. Hãy tính diện tích của\nphần được tô màu theo đơn vị cm2 biết rằng mỗi ô trong vở ô li có cạnh dài 1cm.\nCombinatorics / Tổ hợp"
+  },
+  {
+    "ctx": "TIMO - grade4 - #66",
+    "id": "4-Vong loai - De so 2-25",
+    "round": "Vong loai - De so 2",
+    "text": "Barney is at home now. The map from his house to the store is shown in the figure\nbelow. Because Barney wants to get to the store as soon as possible, he will only move up\nor move right along the road on the map. How many different ways are there for Barney\nto go to store?\nHiện tại Barney đang ở nhà. Sơ đồ từ nhà cậu đến cửa hàng được cho như hình dưới đây. Vì\nBarney muốn đi đến cửa hàng nhanh nhất có thể, cậu sẽ chỉ đi lên trên hoặc đi sang phải dọc theo\ncon đường trong bản đồ. Hỏi có bao nhiêu cách khác nhau để Barney đến cửa hàng?\nĐỀ SỐ 5\nLogical thinking / Tư duy lô-gic"
+  },
+  {
+    "ctx": "TIMO - grade4 - #72",
+    "id": "4-Vong loai - De so 2-16",
+    "round": "Vong loai - De so 2",
+    "text": "How many rectangles in the figure below contain the shaded region?\nTrong hình dưới đây có bao nhiêu hình chữ nhật chứa phần tô đậm?"
+  },
+  {
+    "ctx": "TIMO - grade4 - #74",
+    "id": "4-Vong loai - De so 0-19",
+    "round": "Vong loai - De so 0",
+    "text": "An Egyptian pyramid with a square base has the shape as the figure below. How many\nsides does it have?\nMột kim tự tháp Ai Cập với đáy là hình vuông như hình dưới đây. Hỏi kim tự tháp đó có bao\nnhiêu cạnh?"
+  },
+  {
+    "ctx": "TIMO - grade4 - #76",
+    "id": "4-Vong loai - De so 3-23",
+    "round": "Vong loai - De so 3",
+    "text": "Each cell in the grid below is painted with one in 3 colors red, blue and yellow. How\nmany ways to paint the grid are there if two adjacent cells must have different colors?\nMỗi ô trong bảng dưới đây được tô bởi một trong ba màu đỏ, xanh và vàng. Hỏi có bao nhiêu\ncách tô để hai ô cạnh nhau phải có màu khác nhau?"
+  },
+  {
+    "ctx": "TIMO - grade4 - #95",
+    "id": "4-Vong loai - De so 2-16",
+    "round": "Vong loai - De so 2",
+    "text": "Each cell in the grid below has side length 2. Find the area of the shaded region.\nMỗi ô vuông trong lưới dưới đây có độ dài cạnh bằng 2. Tính diện tích phần tô đậm."
+  },
+  {
+    "ctx": "TIMO - grade4 - #96",
+    "id": "4-Vong loai - De so 2-17",
+    "round": "Vong loai - De so 2",
+    "text": "They want to paint all surface of the figure below. At least how many squares do they\nhave to paint over?\nNgười ta muốn sơn toàn bộ bề mặt của hình dưới đây. Hỏi họ cần sơn ít nhất bao nhiêu hình vuông?"
+  },
+  {
+    "ctx": "TIMO - grade4 - #113",
+    "id": "4-Vong quoc gia - De so 3-25",
+    "round": "Vong quoc gia - De so 3",
+    "text": "In how many different ways can Daniel walk from point A to point B following the\npaths outlined in the figure below given that he can only move up or move right?\nup: Di chuyển lên trên; Move right: Di chuyển sang phải.\nĐỀ SỐ 2\nLogical Thinking / Tư duy logic"
+  },
+  {
+    "ctx": "TIMO - grade4 - #133",
+    "id": "4-Vong quoc gia - De so 8-20",
+    "round": "Vong quoc gia - De so 8",
+    "text": "How many rectangles are there in the figure below?\nRectangles: Hình chữ nhật; Figure: Hình vẽ.\nCombinatorics / Tổ hợp"
+  },
+  {
+    "ctx": "TIMO - grade4 - #146",
+    "id": "4-Vong quoc gia - De so 2-20",
+    "round": "Vong quoc gia - De so 2",
+    "text": "How many rectangle(s) is / are there in the figure below?\nRectangles: Hình chữ nhật; Figure: Hình vẽ.\nCombinatorics / Tổ hợp"
+  },
+  {
+    "ctx": "TIMO - grade4 - #158",
+    "id": "4-Vong quoc gia - De so 4-16",
+    "round": "Vong quoc gia - De so 4",
+    "text": "The figure below is formed by 4 identical right-angled triangles. The areas of the big and\nthe small squares are 64 and 36 respectively. Find the perimeter of the triangle.\nFigure: Hình vẽ; Identical right-angled triangles: Các tam giác vuông bằng nhau; Square: Hình\nvuông; Respectively: Lần lượt; Area: Diện tích; Perimeter: Chu vi."
+  },
+  {
+    "ctx": "TIMO - grade4 - #159",
+    "id": "4-Vong quoc gia - De so 2-18",
+    "round": "Vong quoc gia - De so 2",
+    "text": "At least how many squares can be seen if viewing the figure below from the right?\nAt least: Ít nhất; Squares: Hình vuông; Viewing: Quan sát; Figure: Hình vẽ; From the right: Từ\nphía bên phải."
+  },
+  {
+    "ctx": "TIMO - grade4 - #161",
+    "id": "4-Vong quoc gia - De so 0-20",
+    "round": "Vong quoc gia - De so 0",
+    "text": "How many rectangle(s) with “*” is / are there in the figure below?\nRectangles: Hình chữ nhật; Figure: Hình.\nCombinatorics / Tổ hợp"
+  },
+  {
+    "ctx": "TIMO - grade4 - #174",
+    "id": "4-Vong quoc gia - De so 0-16",
+    "round": "Vong quoc gia - De so 0",
+    "text": "How many rectangle(s) with “*” is / are there in the figure below?\nRectangles: Hình chữ nhật; Figure: Hình vẽ."
+  },
+  {
+    "ctx": "TIMO - grade4 - #175",
+    "id": "4-Vong quoc gia - De so 0-17",
+    "round": "Vòng quốc gia - Đề số 6",
+    "text": "How many right-angled triangle(s) is / are there in the figure below?\nRight-angled triangles: Tam giác vuông; Figure: Hình vẽ."
+  },
+  {
+    "ctx": "TIMO - grade2 - #7",
+    "id": "2-Vong loai - De so 6-16",
+    "round": "Vong loai - De so 6",
+    "text": "How many squares are there in the figure below?\nHỏi có bao nhiêu hình vuông trong hình vẽ dưới đây?"
+  },
+  {
+    "ctx": "TIMO - grade2 - #8",
+    "id": "2-Vong loai - De so 6-17",
+    "round": "Vong loai - De so 6",
+    "text": "According to the pattern shown below, what is the figure in the space?\nDựa vào quy luật dưới đây, tìm hình vẽ thích hợp điền vào chỗ trống."
+  },
+  {
+    "ctx": "TIMO - grade2 - #9",
+    "id": "2-Vong loai - De so 6-18",
+    "round": "Vong loai - De so 6",
+    "text": "At least how many small squares can be seen if viewing the figure below from the front?\nHỏi có thể thấy được ít nhất bao nhiêu hình vuông nhỏ nếu nhìn hình dưới đây từ phía trước?"
+  },
+  {
+    "ctx": "TIMO - grade2 - #14",
+    "id": "2-Vong loai - De so 0-16",
+    "round": "Vong loai - De so 0",
+    "text": "How many squares are there in the figure below?\nHỏi có bao nhiêu hình vuông trong hình dưới đây?"
+  },
+  {
+    "ctx": "TIMO - grade2 - #15",
+    "id": "2-Vong loai - De so 0-17",
+    "round": "Vong loai - De so 0",
+    "text": "According to the pattern shown below, what is the figure in the space?\nDựa vào quy luật dưới đây, tìm hình vẽ thích hợp điền vào chỗ trống."
+  },
+  {
+    "ctx": "TIMO - grade2 - #17",
+    "id": "2-Vong loai - De so 0-19",
+    "round": "Vong loai - De so 0",
+    "text": "How many line segments are there in the figure below?\nHỏi có bao nhiêu đoạn thẳng trong hình dưới đây?"
+  },
+  {
+    "ctx": "TIMO - grade2 - #18",
+    "id": "2-Vong loai - De so 0-20",
+    "round": "Vong loai - De so 0",
+    "text": "Camila stacks identical cubes on top of each other to get the figure below. At least how\nmany cubes does she need to use?\nCombinatorics / Tổ hợp"
+  },
+  {
+    "ctx": "TIMO - grade2 - #25",
+    "id": "2-Vong loai - De so 0-16",
+    "round": "Vong loai - De so 0",
+    "text": "How many squares are there in the figure below?\nHỏi có bao nhiêu hình vuông trong hình dưới đây?"
+  },
+  {
+    "ctx": "TIMO - grade2 - #28",
+    "id": "2-Vong loai - De so 0-19",
+    "round": "Vong loai - De so 0",
+    "text": "How many line segments are there in the figure below?\nHỏi có bao nhiêu đoạn thẳng trong hình dưới đây?"
+  },
+  {
+    "ctx": "TIMO - grade2 - #29",
+    "id": "2-Vong loai - De so 0-20",
+    "round": "Vong loai - De so 0",
+    "text": "Fiona stacks identical cubes on top of each other to get the figure below. At least how\nmany cubes does she need to use?\nCombinatorics / Tổ hợp"
+  },
+  {
+    "ctx": "TIMO - grade2 - #40",
+    "id": "2-Vong loai - De so 0-16",
+    "round": "Vong loai - De so 0",
+    "text": "Lucy stacks identical cubes on top of each other to get the figure below. At least how\nmany cubes does she need to use?"
+  },
+  {
+    "ctx": "TIMO - grade2 - #41",
+    "id": "2-Vong loai - De so 0-17",
+    "round": "Vong loai - De so 0",
+    "text": "At least how many small squares can be seen if viewing the figure below from the right?\nHỏi có thể nhìn thấy ít nhất bao nhiêu hình vuông nhỏ nếu nhìn hình dưới đây từ bên phải?"
+  },
+  {
+    "ctx": "TIMO - grade2 - #43",
+    "id": "2-Vong loai - De so 0-19",
+    "round": "Vong loai - De so 0",
+    "text": "How many line segments are there in the figure below?\nHỏi có bao nhiêu đoạn thẳng trong hình dưới đây?"
+  },
+  {
+    "ctx": "TIMO - grade2 - #59",
+    "id": "2-Vong loai - De so 9-16",
+    "round": "Vong loai - De so 9",
+    "text": "At least how many cubes are there in the figure below?"
+  },
+  {
+    "ctx": "TIMO - grade2 - #60",
+    "id": "2-Vong loai - De so 9-17",
+    "round": "Vong loai - De so 9",
+    "text": "At least how many squares can be seen if viewing the figure from top?\nNếu nhìn hình dưới đây từ trên xuống thì có thể thấy được ít nhất bao nhiêu hình vuông?"
+  },
+  {
+    "ctx": "TIMO - grade2 - #61",
+    "id": "2-Vong loai - De so 9-18",
+    "round": "Vong loai - De so 9",
+    "text": "How many triangles are there in the figure below?\nHình dưới đây có bao nhiêu hình tam giác?"
+  },
+  {
+    "ctx": "TIMO - grade2 - #72",
+    "id": "2-Vong loai - De so 4-16",
+    "round": "Vong loai - De so 4",
+    "text": "How many squares are there in the figure below?\nCó bao nhiêu hình vuông trong hình dưới đây?"
+  },
+  {
+    "ctx": "TIMO - grade2 - #75",
+    "id": "2-Vong loai - De so 4-19",
+    "round": "Vong loai - De so 4",
+    "text": "At least how many squares can be seen if viewing the figure below from the side?\nCó ít nhất bao nhiêu hình vuông có thể nhìn thấy được nếu nhìn từ phía bên cạnh?"
+  },
+  {
+    "ctx": "TIMO - grade2 - #84",
+    "id": "2-Vong loai - De so 2-19",
+    "round": "Vong loai - De so 2",
+    "text": "How many line segments are there in the figure below?\nHỏi có bao nhiêu đoạn thẳng trong hình dưới đây?"
+  },
+  {
+    "ctx": "TIMO - grade2 - #85",
+    "id": "2-Vong loai - De so 3-20",
+    "round": "Vong loai - De so 3",
+    "text": "Refer to the figure sequence below. How many triangles are there in the first 23 symbols\ncounting from the left?\nXét dãy hình dưới đây. Hỏi có bao nhiêu hình tam giác trong 23 hình đầu tiên tính từ phía bên\ntrái?\n★○●■●★○●■●★○●■●★…\nCombinatorics / Tổ hợp"
+  },
+  {
+    "ctx": "TIMO - grade2 - #110",
+    "id": "2-Vong quoc gia - De so 5-17",
+    "round": "Vong quoc gia - De so 5",
+    "text": "How many line segments are there in the figure below?\nLine segments: Đoạn thẳng; Figure: Hình vẽ."
+  },
+  {
+    "ctx": "TIMO - grade2 - #111",
+    "id": "2-Vong quoc gia - De so 5-18",
+    "round": "Vong quoc gia - De so 5",
+    "text": "Cubes of the same size are placed as shown in the figure below. At least how many\nsquare faces of small cubes can be seen if viewing the figure below from the right?\nCube: Hình lập phương; Same size: Cùng kích thước; Placed: Được xếp; Figure: Hình vẽ; At\nleast: Ít nhất; Square face: Mặt hình vuông; Viewing: Quan sát; From the right: Từ bên phải."
+  },
+  {
+    "ctx": "TIMO - grade2 - #145",
+    "id": "2-Vong quoc gia - De so 7-18",
+    "round": "Vong quoc gia - De so 7",
+    "text": "How many square(s) is / are there in the figure below?\nSquare: Hình vuông; Figure: Hình vẽ."
+  },
+  {
+    "ctx": "TIMO - grade2 - #158",
+    "id": "2-Vong quoc gia - De so 1-17",
+    "round": "Vong quoc gia - De so 1",
+    "text": "How many square(s) is / are there in the figure below?\nSquare: Hình vuông; Figure: Hình vẽ."
+  },
+  {
+    "ctx": "TIMO - grade2 - #160",
+    "id": "2-Vong quoc gia - De so 0-19",
+    "round": "Vong quoc gia - De so 0",
+    "text": "At least how many squares can be seen if viewing the figure below from side?\nAt least: Ít nhất; Square: Hình vuông; Figure: Hình vẽ; From side: Từ bên cạnh."
+  },
+  {
+    "ctx": "TIMO - grade2 - #173",
+    "id": "2-Vong quoc gia - De so 2-16",
+    "round": "Vong quoc gia - De so 2",
+    "text": "How many squares are there in the figure below?\nSquare: Hình vuông; Figure: Hình vẽ."
+  },
+  {
+    "ctx": "TIMO - grade2 - #176",
+    "id": "2-Vong quoc gia - De so 8-19",
+    "round": "Vong quoc gia - De so 8",
+    "text": "At least how many squares can be seen if viewing the figure below from side?\nAt least: Ít nhất; Square: Hình vuông; Figure: Hình vẽ; From side: Từ bên cạnh."
+  },
+  {
+    "ctx": "TIMO - grade3 - #11",
+    "id": "3-Vong loai - De so 1-16",
+    "round": "Vong loai - De so 1",
+    "text": "How many squares are there in the figure below?\nHỏi có bao nhiêu hình vuông trong hình dưới đây?"
+  },
+  {
+    "ctx": "TIMO - grade3 - #28",
+    "id": "3-Vong loai - De so 2-16",
+    "round": "Vong loai - De so 2",
+    "text": "How many squares are there in the figure below?\nHỏi có bao nhiêu hình vuông trong hình dưới đây?"
+  },
+  {
+    "ctx": "TIMO - grade3 - #30",
+    "id": "3-Vong loai - De so 4-19",
+    "round": "Vong loai - De so 4",
+    "text": "At least how many squares can be seen if observing the figure below from the top?\nHỏi có thể thấy ít nhất bao nhiêu hình vuông nếu quan sát hình dưới đây từ phía trên?"
+  },
+  {
+    "ctx": "TIMO - grade3 - #44",
+    "id": "3-Vong loai - De so 0-17",
+    "round": "Vong loai - De so 0",
+    "text": "How many rectangles containing the flower are there in the figure below?\nHỏi có bao nhiêu hình chữ nhật chứa bông hoa trong hình dưới đây?"
+  },
+  {
+    "ctx": "TIMO - grade3 - #46",
+    "id": "3-Vong loai - De so 6-19",
+    "round": "Vong loai - De so 6",
+    "text": "At least how many squares can be seen if observing the figure below from the right?\nHỏi có thể thấy ít nhất bao nhiêu hình vuông nếu quan sát hình dưới đây từ phía bên phải?"
+  },
+  {
+    "ctx": "TIMO - grade3 - #47",
+    "id": "3-Vong loai - De so 6-20",
+    "round": "Vong loai - De so 6",
+    "text": "The figure below is made up of three rectangles. Find its perimeter.\nHình dưới đây được tạo bởi 3 hình chữ nhật. Tìm chu vi của hình đó.\nCombinatorics / Tổ hợp"
+  },
+  {
+    "ctx": "TIMO - grade3 - #60",
+    "id": "3-Vong loai - De so 0-17",
+    "round": "Vong loai - De so 0",
+    "text": "How many rectangles containing the star are there in the figure below?\nHỏi có bao nhiêu hình chữ nhật chứa ngôi sao trong hình dưới đây?\n★"
+  },
+  {
+    "ctx": "TIMO - grade3 - #62",
+    "id": "3-Vong loai - De so 4-19",
+    "round": "Vong loai - De so 4",
+    "text": "At least how many squares can be seen if observing the figure below from the right?\nHỏi có thể thấy ít nhất bao nhiêu hình vuông nếu quan sát hình dưới đây từ phía bên phải?"
+  },
+  {
+    "ctx": "TIMO - grade3 - #69",
+    "id": "3-Vong loai - De so 8-19",
+    "round": "Vong loai - De so 8",
+    "text": "A box in the figure below has 8 vertices. How many sides does it have?\nChiếc hộp dưới đây có 8 đỉnh. Hỏi hộp đó có bao nhiêu cạnh?"
+  },
+  {
+    "ctx": "TIMO - grade3 - #80",
+    "id": "3-Vong loai - De so 2-16",
+    "round": "Vong loai - De so 2",
+    "text": "How many squares are there in the figure below?\nCó bao nhiêu hình vuông trong hình dưới đây?"
+  },
+  {
+    "ctx": "TIMO - grade3 - #87",
+    "id": "3-Vong loai - De so 1-16",
+    "round": "Vong loai - De so 1",
+    "text": "How many squares are there in the figure below?\nHỏi có bao nhiêu hình vuông trong hình dưới đây?"
+  },
+  {
+    "ctx": "TIMO - grade3 - #88",
+    "id": "3-Vong loai - De so 3-17",
+    "round": "Vong loai - De so 3",
+    "text": "They want to paint all surface of the 3D figure below. At least how many squares do they\nhave to paint over?\nNgười ta muốn sơn toàn bộ bề mặt của hình 3D ở bên dưới. Hỏi họ cần sơn ít nhất bao nhiêu\nhình vuông?"
+  },
+  {
+    "ctx": "TIMO - grade3 - #89",
+    "id": "3-Vong loai - De so 3-18",
+    "round": "Vong loai - De so 3",
+    "text": "How many rectangles containing the star are there in the figure below?\nHỏi có bao nhiêu hình chữ nhật chứa ngôi sao trong hình dưới đây?"
+  },
+  {
+    "ctx": "TIMO - grade3 - #102",
+    "id": "3-Vong quoc gia - De so 4-16",
+    "round": "Vong quoc gia - De so 4",
+    "text": "Identical cubes are combined to get the figure below. At least how many square faces\ncan be seen if viewing the figure from the right?\nIdentical: Giống nhau; Cubes; Hình lập phương; Figure: Hình vẽ; At least: Ít nhất; Square faces:\nMặt hình vuông; Viewing: Quan sát; Right: Bên phải."
+  },
+  {
+    "ctx": "TIMO - grade3 - #104",
+    "id": "3-Vong quoc gia - De so 0-18",
+    "round": "Vong quoc gia - De so 0",
+    "text": "How many squares are there in the figure below?\nSquares: Hình vuông; Figure: Hình vẽ."
+  },
+  {
+    "ctx": "TIMO - grade3 - #106",
+    "id": "3-Vong quoc gia - De so 3-23",
+    "round": "Vong quoc gia - De so 3",
+    "text": "In how many different ways can Amy walk from point A to point B following the\npaths in the figure below such that she can only move up or move right?\nĐi lên trên; Move right: Đi sang phải."
+  },
+  {
+    "ctx": "TIMO - grade3 - #120",
+    "id": "3-Vong quoc gia - De so 3-23",
+    "round": "Vong quoc gia - De so 3",
+    "text": "In how many different ways can Alan walk from point A to point B following the\npaths in the figure below such that he can only move up or move right?\nĐi lên trên; Move right: Đi sang phải.\n    B\n    A"
+  },
+  {
+    "ctx": "TIMO - grade3 - #123",
+    "id": "3-Vong quoc gia - De so 0-3",
+    "round": "Vong quoc gia - De so 0",
+    "text": "According to the pattern shown below, how many circles are there from the 1st to 90th\nsymbol counting from the left?\nPattern: Quy luật; Circle: Hình tròn; Symbol: Hình vẽ; From the left: Tính từ bên trái.\n○○△※○○△※○○△※○○△※○…"
+  },
+  {
+    "ctx": "TIMO - grade3 - #132",
+    "id": "3-Vong quoc gia - De so 8-20",
+    "round": "Vong quoc gia - De so 8",
+    "text": "How many squares are there in the figure below?\nSquares: Hình vuông; Figure: Hình vẽ.\nCombinatorics / Tổ hợp"
+  },
+  {
+    "ctx": "TIMO - grade3 - #141",
+    "id": "3-Vong quoc gia - De so 8-20",
+    "round": "Vong quoc gia - De so 8",
+    "text": "How many square(s) is / are there in the figure below?\nSquares: Hình vuông; Figure: Hình vẽ.\nCombinatorics / Tổ hợp"
+  },
+  {
+    "ctx": "TIMO - grade3 - #144",
+    "id": "3-Vong quoc gia - De so 9-2",
+    "round": "Vong quoc gia - De so 9",
+    "text": "There are 27 transparent boxes, as shown in figure 1. Each layer contains 9 boxes as\nfigure 2 showns. Some black marbles are inserted into the boxes and view from different\ndirections, the images are shown in the diagram below. Find the number of black\nmarbles inserted in these 27 boxes.\nTransparent boxes: Hộp trong suốt; Layer: Lớp hình; Contains: Chứa; Inserted: Được đặt vào;\nImages: Hình ảnh; Diagram: Sơ đồ; Figure: Hình; Top view: Nhìn từ trên xuống; Front view:\nNhìn từ đằng trước; From the right: Nhìn từ phía bên phải."
+  },
+  {
+    "ctx": "TIMO - grade3 - #150",
+    "id": "3-Vong quoc gia - De so 2-16",
+    "round": "Vong quoc gia - De so 2",
+    "text": "How many square(s) is / are there in the figure below?\nSquares: Hình vuông; Figure: Hình."
+  },
+  {
+    "ctx": "TIMO - grade3 - #161",
+    "id": "3-Vong quoc gia - De so 8-16",
+    "round": "Vong quoc gia - De so 8",
+    "text": "How many square(s) is / are there in the figure below?\nSquare: Hình vuông; Figure: Hình."
+  },
+  {
+    "ctx": "TIMO - grade3 - #162",
+    "id": "3-Vong quoc gia - De so 8-17",
+    "round": "Vong quoc gia - De so 8",
+    "text": "How many line segment(s) is / are there in the figure below?\nLine segment: Đoạn thẳng; Figure: Hình."
+  },
+  {
+    "ctx": "TIMO - grade3 - #174",
+    "id": "3-Vong quoc gia - De so 4-20",
+    "round": "Vong quoc gia - De so 4",
+    "text": "How many line segment(s) is / are there in the figure below?\nLine segments: Đoạn thẳng; Figure: Hình.\nCombinatorics / Tổ hợp"
+  },
+  {
+    "ctx": "TIMO - grade1 - #7",
+    "id": "1-Vong loai - De so 3-20",
+    "round": "Vong loai - De so 3",
+    "text": "How many triangles are there in the figure below?\nCó bao nhiêu hình tam giác trong hình vẽ dưới đây?\nCombinatorics / Tổ hợp"
+  },
+  {
+    "ctx": "TIMO - grade1 - #41",
+    "id": "1-Vong loai - De so 3-20",
+    "round": "Vong loai - De so 3",
+    "text": "How many sides are there in the following figure?\nHình dưới đây có bao nhiêu cạnh?\nCombinatorics / Tổ hợp"
+  },
+  {
+    "ctx": "TIMO - grade1 - #54",
+    "id": "1-Vong loai - De so 4-20",
+    "round": "Vong loai - De so 4",
+    "text": "According to the pattern shown below, what is the figure in the space?\nDựa vào quy luật dưới đây, tìm hình vẽ thích hợp điền vào chỗ trống.\n_______\nCombinatorics / Tổ hợp"
+  },
+  {
+    "ctx": "TIMO - grade1 - #60",
+    "id": "1-Vong loai - De so 5-4",
+    "round": "Vong loai - De so 5",
+    "text": "Refer to the figure below, how many circles are there in the 5th group?\nDựa vào dãy hình dưới đây, hỏi có bao nhiêu hình tròn trong nhóm thứ 5?"
+  },
+  {
+    "ctx": "TIMO - grade1 - #71",
+    "id": "1-Vong loai - De so 2-16",
+    "round": "Vong loai - De so 2",
+    "text": "How many circles are there in the figure below?\nHỏi có bao nhiêu hình tròn trong hình vẽ dưới đây?"
+  },
+  {
+    "ctx": "TIMO - grade1 - #72",
+    "id": "1-Vong loai - De so 2-17",
+    "round": "Vong loai - De so 2",
+    "text": "At least how many cubes are there in the figure below?\nHỏi có ít nhất bao nhiêu hình lập phương trong hình dưới đây?"
+  },
+  {
+    "ctx": "TIMO - grade1 - #74",
+    "id": "1-Vong loai - De so 2-19",
+    "round": "Vong loai - De so 2",
+    "text": "How many line segments are there in the figure below?\nHỏi có bao nhiêu đoạn thẳng trong hình dưới đây?"
+  },
+  {
+    "ctx": "TIMO - grade1 - #86",
+    "id": "1-Vong quoc gia - De so 2-18",
+    "round": "Vong quoc gia - De so 2",
+    "text": "How many line segments are there in the figure below?\nLine segment: Đoạn thẳng; Figure: Hình vẽ."
+  },
+  {
+    "ctx": "TIMO - grade1 - #88",
+    "id": "1-Vong quoc gia - De so 2-20",
+    "round": "Vong quoc gia - De so 2",
+    "text": "According to the pattern shown below, what is the figure in the space provided?\nPattern: Quy luật; Figure: Hình vẽ; Space: Chỗ trống.\n— ★ ▲ — ★ ▲ ▲ — ★ ▲ ▲ ___ — ★ ▲ ▲ ▲ ▲ …\nCombinatorics / Tổ hợp"
+  },
+  {
+    "ctx": "TIMO - grade1 - #96",
+    "id": "1-Vong quoc gia - De so 8-17",
+    "round": "Vong quoc gia - De so 8",
+    "text": "How many line segments are there in the figure below?\nLine segments: Đoạn thẳng; Figure: Hình vẽ."
+  },
+  {
+    "ctx": "TIMO - grade1 - #98",
+    "id": "1-Vong quoc gia - De so 8-20",
+    "round": "Vong quoc gia - De so 8",
+    "text": "Cubes of the same size are placed as shown in the figure below. At least how many cubes\nare there?\nCube: Hình lập phương; Same size: Cùng kích thước; Placed: Được sắp xếp; Figure: Hình vẽ; At\nleast: Ít nhất.\nCombinatorics / Tổ hợp"
+  },
+  {
+    "ctx": "TIMO - grade1 - #108",
+    "id": "1-Vong quoc gia - De so 2-20",
+    "round": "Vong quoc gia - De so 2",
+    "text": "Figure 1 is formed by 4 cubes. How many cubes are there in figure 2?\nFigure: Hình vẽ; Cubes: Hình lập phương.\n    Figure 1                                    Figure 2\nCombinatorics / Tổ hợp"
+  },
+  {
+    "ctx": "TIMO - grade1 - #117",
+    "id": "1-Vong quoc gia - De so 3-17",
+    "round": "Vong quoc gia - De so 3",
+    "text": "According to the pattern shown below, what is the figure in the space?\nPattern: Quy luật; Figure: Hình vẽ; Space: Chỗ trống.\n△ □ ○ △ △ □ ○ △ △ □ ○ __ △ □ ○ …"
+  },
+  {
+    "ctx": "TIMO - grade1 - #118",
+    "id": "1-Vong quoc gia - De so 3-19",
+    "round": "Vong quoc gia - De so 3",
+    "text": "Refer to the figure below, how many line segment(s) is / are there?\nFigure: Hình vẽ; Line segments: Đoạn thẳng."
+  },
+  {
+    "ctx": "TIMO - grade1 - #119",
+    "id": "1-Vong quoc gia - De so 1-20",
+    "round": "Vong quoc gia - De so 1",
+    "text": "Figure 1 is formed by 5 cubes. Figure 2 is formed by identical solids as figure 1. How\nmany cubes are there in figure 2?\nFigure: Hình vẽ; Cubes: Hình lập phương; Identical solids: Các hình giống y hệt nhau.\n    Figure 1                                    Figure 2\nCombinatorics / Tổ hợp"
+  },
+  {
+    "ctx": "TIMO - grade1 - #129",
+    "id": "1-Vong quoc gia - De so 2-19",
+    "round": "Vong quoc gia - De so 2",
+    "text": "According to the pattern below, what is the figure in the space (“___”)?\nPattern: Quy luật; Figure: Hình vẽ; Space: Chỗ trống.\n□ ○ ○ △ □ ○ ○ △ □ ○ ___ △ …"
+  },
+  {
+    "ctx": "TIMO - grade1 - #130",
+    "id": "1-Vong quoc gia - De so 2-20",
+    "round": "Vong quoc gia - De so 2",
+    "text": "How many line segment(s) is / are there in the figure below?\nLine segments: Đoạn thẳng; Figure: Hình vẽ.\nCombinatorics / Tổ hợp"
+  },
+  {
+    "ctx": "TIMO - grade1 - #141",
+    "id": "1-Vong quoc gia - De so 2-18",
+    "round": "Vong quoc gia - De so 2",
+    "text": "It is known that figure 1 is formed by 6 cubes. How many cube(s) is / are there in figure 2\ngiven that figure 2 is formed by some shapes as figure 1?\nFigure: Hình vẽ; Formed: Được ghép bởi; Cube: Hình lập phương."
+  },
+  {
+    "ctx": "TIMO - grade1 - #142",
+    "id": "1-Vong quoc gia - De so 1-19",
+    "round": "Vong quoc gia - De so 1",
+    "text": "How many line segment(s) is / are there in the figure below?\nLine segment: Đoạn thẳng; Figure: Hình vẽ."
+  },
+  {
+    "ctx": "TIMO - grade5 - #9",
+    "id": "5-Vong loai - De so 1-17",
+    "round": "Vong loai - De so 1",
+    "text": "10 cubes with a side length of 1 cm each are stacked to form the figure below. Find the\ntotal surface area of the combined figure.\n10 hình lập phương với cạnh dài 1 cm được xếp chồng lên nhau để tạo thành hình dưới đây.\nTính diện tích toàn phần của hình được ghép."
+  },
+  {
+    "ctx": "TIMO - grade5 - #19",
+    "id": "5-Vong loai - De so 6-16",
+    "round": "Vong loai - De so 6",
+    "text": "How many rectangles are there in the figure below?\nHỏi có bao nhiêu hình chữ nhật trong hình dưới đây?"
+  },
+  {
+    "ctx": "TIMO - grade5 - #20",
+    "id": "5-Vong loai - De so 1-17",
+    "round": "Vong loai - De so 1",
+    "text": "9 cubes with side length 1 cm are stacked to form the figure below. What is the value of\nits total surface area in cm2?\n9 hình lập phương với cạnh dài 1 cm được xếp chồng lên nhau để tạo thành hình dưới đây. Hỏi\ndiện tích toàn phần của hình dưới là bao nhiêu cm2?"
+  },
+  {
+    "ctx": "TIMO - grade5 - #33",
+    "id": "5-Vong loai - De so 0-16",
+    "round": "Vong loai - De so 0",
+    "text": "How many rectangles are there in the figure below?\nHỏi có bao nhiêu hình chữ nhật trong hình dưới đây?"
+  },
+  {
+    "ctx": "TIMO - grade5 - #34",
+    "id": "5-Vong loai - De so 1-17",
+    "round": "Vong loai - De so 1",
+    "text": "9 small cubes with side length 1 cm are combined to form the figure below. What is the\nvalue of its total surface area in cm2?\n9 hình lập phương với cạnh dài 1 cm được ghép lại thành hình dưới đây. Hỏi diện tích toàn phần\ncủa hình dưới là bao nhiêu cm2?"
+  },
+  {
+    "ctx": "TIMO - grade5 - #39",
+    "id": "5-Vong loai - De so 2-5",
+    "round": "Vong loai - De so 2",
+    "text": "According to the pattern shown below, how many ◇ are there in the next figure?\nTheo quy luật dưới đây, có bao nhiêu hình ◇ trong hình tiếp theo?\nArithmetic / Số học"
+  },
+  {
+    "ctx": "TIMO - grade5 - #47",
+    "id": "5-Vong loai - De so 1-19",
+    "round": "Vong loai - De so 1",
+    "text": "7 small cubes with side length 1cm are combined to form the figure below. What is the\nvalue of its total surface area in cm2?\n7 hình lập phương với cạnh dài 1cm được ghép lại thành hình dưới đây. Hỏi diện tích toàn phần\ncủa hình dưới là bao nhiêu cm2?"
+  },
+  {
+    "ctx": "TIMO - grade5 - #61",
+    "id": "5-Vong loai - De so 0-18",
+    "round": "Vong loai - De so 0",
+    "text": "Given a rectangle ABCD and a right-angled triangle EDC as the figure below. Find the\nlength of line segment BC given that ED = 6 cm, EC = 8 cm, DC = 10 cm .\nCho hình chữ nhật ABCD và tam giác vuông EDC như hình dưới đây. Tìm độ dài đoạn BC biết\nrằng ED = 6 cm, EC = 8 cm, DC = 10 cm ."
+  },
+  {
+    "ctx": "TIMO - grade5 - #62",
+    "id": "5-Vong loai - De so 0-20",
+    "round": "Vong loai - De so 0",
+    "text": "A square tile has the following pattern. Given that the area of the shaded region is 20\ncm2. Find the perimeter of the square tile in cm.\nMột miếng gạch lát hình vuông có họa tiết như hình dưới đây. Biết rằng phần in đậm có diện\ntích 20cm2. Tính chu vi của miếng gạch lát theo cm.\nCombinatorics / Tổ hợp"
+  },
+  {
+    "ctx": "TIMO - grade5 - #79",
+    "id": "5-Vong loai - De so 6-19",
+    "round": "Vong loai - De so 6",
+    "text": "A small square with side length 6cm is placed inside a big square with side length\n14cm. Find the area of the shaded region2.\nMột hình vuông nhỏ có cạnh dài 6cm được đặt trong hình vuông lớn có cạnh dài 14cm. Hãy\ntính diện tích của phần tô đậm theo cm2."
+  },
+  {
+    "ctx": "TIMO - grade5 - #90",
+    "id": "5-Vong loai - De so 1-20",
+    "round": "Vong loai - De so 1",
+    "text": "Andy had a square piece of paper with perimeter 72 as figure 1. Then he cut the paper\ninto 2 identical parts to combine it into a rectangle as figure 2. Find the perimeter of the\nfigure 2.\nAndy có một mảnh giấy hình vuông có chu vi 72 như hình 1. Sau đó, anh ấy cắt mảnh giấy\nthành 2 mảnh y hệt nhau để ghép thành hình 2. Tính chu vi của hình 2.\nCombinatorics / Tổ hợp"
+  },
+  {
+    "ctx": "TIMO - grade5 - #101",
+    "id": "5-Vong quoc gia - De so 2-17",
+    "round": "Vong quoc gia - De so 2",
+    "text": "How many rectangles are there in the figure below?\nRectangle: Hình chữ nhật; Figure: Hình vẽ."
+  },
+  {
+    "ctx": "TIMO - grade5 - #125",
+    "id": "5-Vong quoc gia - De so 0-16",
+    "round": "Vong quoc gia - De so 0",
+    "text": "The figure below is a polygon ABCDEFGHIJKM. It is given that AB = 10 ,\nBC = CD = HI = 4 , DE = XM = 6 , GH = 5 , KM = 9 and the area of polygon YFZJ = 1 .\nFind the area of polygon ABCDEFGHIJKM?\nFigure: Hình vẽ; Polygon: Đa giác; Area: Diện tích.\n    A                10                       B\n    D                   C\n    6               G       5      H\n    X                          E       Y   F               4\n    I\n    J\n    6                                      Z\n    M               9                 K"
+  },
+  {
+    "ctx": "TIMO - grade5 - #126",
+    "id": "5-Vong quoc gia - De so 0-17",
+    "round": "Vong quoc gia - De so 0",
+    "text": "How many rectangles are there in the figure below?\nRectangle: Hình chữ nhật; Figure: Hình vẽ."
+  },
+  {
+    "ctx": "TIMO - grade5 - #127",
+    "id": "5-Vong quoc gia - De so 2-18",
+    "round": "Vong quoc gia - De so 2",
+    "text": "Refer to the following figure, the figure is formed by connecting 2 identical square\npyramids and 1 cuboid. The bases of the pyramid and the cuboid are the same. The\nlength, width and height of the cuboid are 7, 7 and 11 respectively. The height of the\npyramid is 6. Find the volume of the figure.\nFigure: Hình vẽ; Connecting: Ghép; Identical: Giống nhau; Square pyramids: Hình chóp có\nđáy là hình vuông; Cuboid: Hình hộp chữ nhật; Base: Đáy; Pyramid: Hình chóp; The same:\nBằng nhau; Length: Chiều dài; Width: Chiều rộng; Height: Chiều cao; Respectively: Lần lượt;\nVolume: Thể tích."
+  },
+  {
+    "ctx": "TIMO - grade5 - #128",
+    "id": "5-Vong quoc gia - De so 6-19",
+    "round": "Vong quoc gia - De so 6",
+    "text": "How many rectangles with “*” are there in the figure below?\nRectangles: Hình chữ nhật; Figure: Hình vẽ.\n*"
+  },
+  {
+    "ctx": "TIMO - grade5 - #137",
+    "id": "5-Vong quoc gia - De so 4-17",
+    "round": "Vong quoc gia - De so 4",
+    "text": "The figure below is a polygon ABCDEFGHILKL. Given that AB = 11 , BC = 4, CD = 4,\nDE = 4, EF = 9, FG = 4, GH = 4, HI = 2, IJ = 4, JK = 3. Find the area of the polygon.\nFigure: Hình vẽ; Polygon: Đa giác; Area: Diện tích."
+  },
+  {
+    "ctx": "TIMO - grade5 - #138",
+    "id": "5-Vong quoc gia - De so 2-18",
+    "round": "Vong quoc gia - De so 2",
+    "text": "Refer to the following figure, the figure is formed by combining 2 identical pyramids\nand 1 cuboid. The bases of the pyramid and the cuboid are the same. The length, width\nand height of the cuboid are 11, 7 and 7 respectively. The height of the pyramid is 6.\nFind the volume of the figure given that the volume a pyramid is equal to 3 × Height ×\nArea of the base.\nFigure: Hình vẽ; Combining: Ghép; Identical pyramids: Hình chóp y hệt nhau; Cuboid: Hình\nhộp chữ nhật; Base: Đáy; Length: Chiều dài; Width: Chiều rộng; Height: Chiều cao; Respectively:\nLần lượt; Volume: Thể tích; Equal to: Bằng."
+  },
+  {
+    "ctx": "TIMO - grade5 - #149",
+    "id": "5-Vong quoc gia - De so 1-16",
+    "round": "Vong quoc gia - De so 1",
+    "text": "The following figure is formed by 4 identical cuboids and 1 cylinder. The length, width\nand height of the cuboid are 7, 5 and 12 respectively. If the surface area of the figure is\n3000, what is the surface area of the cylinder?\nFigure: Hình vẽ; Identical cuboids: Các hình hộp chữ nhật bằng nhau; Cylinder: Hình trụ;\nLength: Chiều dài; Width: Chiều rộng; Height: Chiều cao; Respectively: Lần lượt; Surface area:\nDiện tích toàn phần."
+  },
+  {
+    "ctx": "TIMO - grade5 - #177",
+    "id": "5-Vong quoc gia - De so 8-19",
+    "round": "Vong quoc gia - De so 8",
+    "text": "The figure below is formed by two squares. Their side lengths are 12cm and 8cm\nrespectively. Find the area of the shaded region. (Unit in cm2 ).\nFigure: Hình vẽ; Square: Hình vuông; Side: Cạnh; Length: Độ dài; Respectively: Lần lượt;\nShaded region: Phần tô đậm."
+  },
+  {
+    "ctx": "KANGAROO - grade4 - #42",
+    "id": "IKMC-G4-D02-Q18",
+    "round": "IKMC Lớp 4 - Đề Số 02",
+    "text": "Hai hình nào trong các hình ở dưới có thể được dùng để che phần trống\ntrong hình vuông này?"
+  },
+  {
+    "ctx": "KANGAROO - grade5 - #35",
+    "id": "IKMC-G5-D02-Q04",
+    "round": "IKMC Lớp 5 - Đề Số 02",
+    "text": "There are 10 islands and 12 bridges, as depicted in the figure. All bridges are\nopen for traffic right now. What is the smallest number of bridges that must be\nclosed in order to stop the traffic between A and B?"
+  },
+  {
+    "ctx": "KANGAROO - grade5 - #131",
+    "id": "IKMC-G5-D05-Q09",
+    "round": "IKMC Lớp 5 - Đề Số 05",
+    "text": "Harry participated in a broom flight contest which consisted of five laps. The\ntimes when Harry passed the starting point are shown in the table. Which lap\ntook the shortest time?"
+  },
+  {
+    "ctx": "TOAN_365 - grade3 - #38",
+    "id": "T365-G3-038",
+    "round": "Chuyên đề 4: HÌNH HỌC: CHU VI, DIỆN TÍCH HÌNH CHỮ NHẬT & HÌNH VUÔNG",
+    "text": "Bài 38. Cho hình vẽ gồm 5 ô vuông bằng nhau ghép lại hình chữ thập, chu vi cả hình là 48cm. Tính diện tích của cả hình chữ thập đó."
+  },
+  {
+    "ctx": "ARCHIMEDES_MATH - grade1 - #38",
+    "id": "ARCH-M-G1-W2-T3-03",
+    "round": "Tuần 2 - Tiết 3",
+    "text": "Một hình vuông lớn được chia làm 4 ô vuông nhỏ bằng nhau. Hỏi trong hình có tất cả bao nhiêu hình vuông?"
+  },
+  {
+    "ctx": "ARCHIMEDES_MATH - grade1 - #45",
+    "id": "ARCH-M-G1-W2-PKT-05",
+    "round": "Tuần 2 - Phiếu cuối tuần",
+    "text": "Hình vẽ ngôi nhà gồm 1 tam giác làm mái nhà, 1 hình chữ nhật lớn làm thân nhà và 1 hình chữ nhật nhỏ làm cửa ra vào. Có bao nhiêu hình chữ nhật?"
+  },
+  {
+    "ctx": "TIENG_VIET - grade1 - #17",
+    "id": "TV-G1-W1-PKT-04",
+    "round": "Tuần 1 - Phiếu cuối tuần",
+    "text": "Hình vẽ một chú chim bồ câu đang bay. Từ ngữ nào viết đúng?"
+  }
+]

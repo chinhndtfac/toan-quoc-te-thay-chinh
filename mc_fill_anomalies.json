@@ -1,0 +1,240 @@
+[
+  {
+    "issue": "MC_ANSWER_NOT_LETTER",
+    "ctx": "TIMO - grade4 - #84",
+    "id": "4-Vong loai - De so 5-17",
+    "round": "Vong loai - De so 5",
+    "answer": "10",
+    "options": [
+      "A. 36",
+      "B. 48",
+      "C. 12",
+      "D. 24"
+    ],
+    "text": "The area of a rectangle is 20. The length is 5 times as the width. Find its perimeter.\nDiện tích của"
+  },
+  {
+    "issue": "FILL_ANSWER_IS_LETTER_WITHOUT_OPTIONS",
+    "ctx": "TOAN_365 - grade4 - #82",
+    "id": "T365-G4-082",
+    "round": "Chuyên đề 6: DÃY SỐ TUẦN HOÀN VÀ QUY LUẬT CHU KỲ",
+    "answer": "E",
+    "text": "Bài 82. Bạn Lan viết dãy chữ MATHSPACE liên tục. Bạn đếm được dãy chữ đã viết có đúng 50 chữ 'A'. Hỏ"
+  },
+  {
+    "issue": "FILL_ANSWER_IS_LETTER_WITHOUT_OPTIONS",
+    "ctx": "TOAN_365 - grade4 - #350",
+    "id": "T365-G4-350",
+    "round": "Chuyên đề 24: BẢNG SUY LUẬN LOGIC VÀ BÀI TOÁN NÓI DỐI - NÓI THẬT",
+    "answer": "B",
+    "text": "Bài 350. Một hòn đảo có 3 người A, B, C. A nói: \"B nói dối\". B nói: \"C nói dối\". C nói: \"Cả A và B đ"
+  },
+  {
+    "issue": "MC_ANSWER_NOT_LETTER",
+    "ctx": "GRADE4_SPECIAL - #74",
+    "id": "G4-NC-1074",
+    "round": "01_GIÁ TRỊ TRUNG BÌNH P1",
+    "answer": "(B) 87",
+    "options": [
+      "A. 86",
+      "B. 87",
+      "C. 88",
+      "D. 89"
+    ],
+    "text": "Điểm trung bình của 4 bài kiểm tra Toán đầu tiên của Nam là 85 điểm. Điểm\r\ncủa bài kiểm tra thứ 5 là"
+  },
+  {
+    "issue": "MC_ANSWER_NOT_LETTER",
+    "ctx": "GRADE4_SPECIAL - #75",
+    "id": "G4-NC-1075",
+    "round": "01_GIÁ TRỊ TRUNG BÌNH P1",
+    "answer": "(B) 130",
+    "options": [
+      "A. 125",
+      "B. 130",
+      "C. 135",
+      "D. 140"
+    ],
+    "text": "Trung bình cộng số quả táo hái được trong 3 ngày đầu của một cửa hàng là\r\n120 quả/ngày. Ngày thứ 4 c"
+  },
+  {
+    "issue": "MC_ANSWER_NOT_LETTER",
+    "ctx": "GRADE4_SPECIAL - #76",
+    "id": "G4-NC-1076",
+    "round": "01_GIÁ TRỊ TRUNG BÌNH P1",
+    "answer": "(B) 47",
+    "options": [
+      "A. 45",
+      "B. 47",
+      "C. 48",
+      "D. 50"
+    ],
+    "text": "Số lượng khách hàng trung bình ghé thăm một cửa hàng trong 5 ngày đầu\r\ntuần là 42 người/ngày. Vào ng"
+  },
+  {
+    "issue": "MC_ANSWER_NOT_LETTER",
+    "ctx": "GRADE4_SPECIAL - #77",
+    "id": "G4-NC-1077",
+    "round": "01_GIÁ TRỊ TRUNG BÌNH P1",
+    "answer": "(A) 9,0",
+    "options": [
+      "A. 9,0",
+      "B. 9,2",
+      "C. 9,5",
+      "D. 9,8"
+    ],
+    "text": "Điểm trung bình của 3 bài kiểm tra Văn của Mai là 8,0 điểm. Để điểm trung\r\nbình sau 4 bài kiểm tra t"
+  },
+  {
+    "issue": "MC_ANSWER_NOT_LETTER",
+    "ctx": "GRADE4_SPECIAL - #78",
+    "id": "G4-NC-1078",
+    "round": "01_GIÁ TRỊ TRUNG BÌNH P1",
+    "answer": "(B) 17",
+    "options": [
+      "A. 16",
+      "B. 17",
+      "C. 18",
+      "D. 19"
+    ],
+    "text": "Trong 4 trận đấu bóng rổ đầu tiên, Hùng ghi được trung bình 15 điểm mỗi\r\ntrận. Sang trận thứ 5, Hùng"
+  },
+  {
+    "issue": "MC_ANSWER_NOT_LETTER",
+    "ctx": "GRADE4_SPECIAL - #79",
+    "id": "G4-NC-1079",
+    "round": "01_GIÁ TRỊ TRUNG BÌNH P1",
+    "answer": "(B) 55",
+    "options": [
+      "A. 53",
+      "B. 55",
+      "C. 57",
+      "D. 60"
+    ],
+    "text": "Trọng lượng trung bình của 4 kiện hàng đầu tiên là 50 kg. Kiện hàng thứ 5\r\nnặng 75 kg. Hỏi trọng lượ"
+  },
+  {
+    "issue": "MC_ANSWER_NOT_LETTER",
+    "ctx": "GRADE4_SPECIAL - #80",
+    "id": "G4-NC-1080",
+    "round": "01_GIÁ TRỊ TRUNG BÌNH P1",
+    "answer": "(B) 13",
+    "options": [
+      "A. 12,5",
+      "B. 13",
+      "C. 13,5",
+      "D. 14"
+    ],
+    "text": "Một vận động viên chạy bộ có vận tốc trung bình trong 3 giờ đầu là 12\r\nkm/giờ. Ở giờ thứ 4, vận động"
+  },
+  {
+    "issue": "MC_ANSWER_NOT_LETTER",
+    "ctx": "GRADE4_SPECIAL - #81",
+    "id": "G4-NC-1081",
+    "round": "01_GIÁ TRỊ TRUNG BÌNH P1",
+    "answer": "(B) 82",
+    "options": [
+      "A. 81",
+      "B. 82",
+      "C. 83"
+    ],
+    "text": "Điểm trung bình 4 bài kiểm tra Khoa học của Linh là 78 điểm. Bài kiểm tra\r\nthứ 5 Linh đạt 98 điểm. H"
+  },
+  {
+    "issue": "MC_ANSWER_NOT_LETTER",
+    "ctx": "GRADE4_SPECIAL - #82",
+    "id": "G4-NC-1082",
+    "round": "01_GIÁ TRỊ TRUNG BÌNH P1",
+    "answer": "(C) 240",
+    "options": [
+      "A. 220",
+      "B. 230",
+      "C. 240",
+      "D. 250"
+    ],
+    "text": "Số tiền tiết kiệm trung bình trong 3 tháng đầu năm của Bình là 200 nghìn\r\nđồng/tháng. Sang tháng thứ"
+  },
+  {
+    "issue": "MC_ANSWER_NOT_LETTER",
+    "ctx": "GRADE4_SPECIAL - #83",
+    "id": "G4-NC-1083",
+    "round": "01_GIÁ TRỊ TRUNG BÌNH P1",
+    "answer": "(C) 10,0",
+    "options": [
+      "A. 9,0",
+      "B. 9,5",
+      "C. 10,0",
+      "D. 8,8"
+    ],
+    "text": "Một học sinh có điểm trung bình 4 bài kiểm tra là 8,0. Bài kiểm tra thứ 5 học\r\nsinh đó được bao nhiê"
+  },
+  {
+    "issue": "MC_ANSWER_NOT_LETTER",
+    "ctx": "GRADE4_SPECIAL - #84",
+    "id": "G4-NC-1084",
+    "round": "01_GIÁ TRỊ TRUNG BÌNH P1",
+    "answer": "(B) 34",
+    "options": [
+      "A. 32",
+      "B. 34",
+      "C. 36",
+      "D. 38"
+    ],
+    "text": "Một cửa hàng có doanh thu trung bình 30 triệu đồng/ngày trong 4 ngày đầu\r\ntuần. Ngày thứ 5, doanh th"
+  },
+  {
+    "issue": "MC_ANSWER_NOT_LETTER",
+    "ctx": "GRADE4_SPECIAL - #85",
+    "id": "G4-NC-1085",
+    "round": "01_GIÁ TRỊ TRUNG BÌNH P1",
+    "answer": "(C) 30",
+    "options": [
+      "A. 28",
+      "B. 29",
+      "C. 30"
+    ],
+    "text": "Trung bình tuổi của 5 người trong một nhóm là 24. Khi thêm một người mới,\r\ntrung bình tuổi cả nhóm l"
+  },
+  {
+    "issue": "MC_ANSWER_NOT_LETTER",
+    "ctx": "GRADE4_SPECIAL - #86",
+    "id": "G4-NC-1086",
+    "round": "01_GIÁ TRỊ TRUNG BÌNH P1",
+    "answer": "(C) 6,5",
+    "options": [
+      "A. 6,0",
+      "B. 6,3",
+      "C. 6,5",
+      "D. 6,7"
+    ],
+    "text": "Một lớp có 30 học sinh, điểm trung bình môn Toán là 7,0. Nếu 10 học sinh\r\ntrong đó có điểm trung bìn"
+  },
+  {
+    "issue": "MC_ANSWER_NOT_LETTER",
+    "ctx": "GRADE4_SPECIAL - #87",
+    "id": "G4-NC-1087",
+    "round": "01_GIÁ TRỊ TRUNG BÌNH P1",
+    "answer": "(C) 21,5",
+    "options": [
+      "A. 20,5",
+      "B. 21",
+      "C. 21,5",
+      "D. 22"
+    ],
+    "text": "Trung bình của 10 số là 20. Nếu thay một số bằng số khác lớn hơn nó 15 đơn\r\nvị, trung bình mới là ba"
+  },
+  {
+    "issue": "MC_ANSWER_NOT_LETTER",
+    "ctx": "GRADE4_SPECIAL - #88",
+    "id": "G4-NC-1088",
+    "round": "01_GIÁ TRỊ TRUNG BÌNH P1",
+    "answer": "(C) 52",
+    "options": [
+      "A. 50",
+      "B. 51",
+      "C. 52",
+      "D. 53"
+    ],
+    "text": "Trung bình 6 ngày đầu tháng, một cửa hàng bán được 40 sản phẩm/ngày.\r\nTrung bình 24 ngày còn lại tro"
+  }
+]

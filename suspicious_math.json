@@ -1,0 +1,524 @@
+[
+  {
+    "type": "CALCULATION_MISMATCH",
+    "ctx": "KANGAROO - grade4 - #2",
+    "id": "IKMC-G4-D01-Q02",
+    "expr": "2 + 2 - 2 + 2 - 2 + 2 - 2 + 2 - 2 + 2",
+    "calculated": 4,
+    "answer": "C",
+    "text": "Thực hiện phép tính: 2 + 2 - 2 + 2 - 2 + 2 - 2 + 2 - 2 + 2"
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "KANGAROO - grade4 - #111",
+    "id": "IKMC-G4-D05-Q21",
+    "answer": "B",
+    "explanationVal": "c",
+    "text": "Trong biểu thức: 2002 [ ] 2003 [ ] 2004 [ ] 2005 [ ] 2006, mỗi ô trống [ ] được điền dấu '+' hoặc '−",
+    "expl": "Xét tính chẵn lẻ của biểu thức: 2002 ± 2003 ± 2004 ± 2005 ± 2006:\n- Trong 5 số trên, có 3 số chẵn (2002, 2004, 2006) và 2 số lẻ (2003, 2005).\n- Tổng h"
+  },
+  {
+    "type": "EXPLANATION_NUMBER_MISMATCH",
+    "ctx": "GRADE4_SPECIAL - #1",
+    "id": "G4-NC-01-01",
+    "answer": "943210",
+    "explanationVal": "943",
+    "text": "Viết số tự nhiên X lớn nhất có các chữ số khác nhau và có tổng các chữ số bằng 19.",
+    "expl": "Để số X lớn nhất thì X phải có nhiều chữ số nhất có thể.\nTa chọn các chữ số khác nhau nhỏ nhất có thể từ 0 trở lên: 0 + 1 + 2 + 3 + 4 = 10.\nCòn thiếu:"
+  },
+  {
+    "type": "EXPLANATION_NUMBER_MISMATCH",
+    "ctx": "GRADE4_SPECIAL - #2",
+    "id": "G4-NC-01-02",
+    "answer": "83210",
+    "explanationVal": "83",
+    "text": "Viết số tự nhiên X lớn nhất có các chữ số khác nhau và có tổng các chữ số bằng 14.",
+    "expl": "Để số X lớn nhất thì X phải có nhiều chữ số nhất có thể.\nChọn các chữ số khác nhau nhỏ nhất: 0 + 1 + 2 + 3 = 6.\nCòn thiếu: 14 – 6 = 8.\nVì 8 khác với {"
+  },
+  {
+    "type": "EXPLANATION_NUMBER_MISMATCH",
+    "ctx": "GRADE4_SPECIAL - #3",
+    "id": "G4-NC-01-03",
+    "answer": "9876543210",
+    "explanationVal": "9",
+    "text": "Viết số tự nhiên X lớn nhất có các chữ số khác nhau và có tổng các chữ số bằng 45.",
+    "expl": "Tổng tất cả 10 chữ số từ 0 đến 9 là:\n0 + 1 + 2 + 3 + 4 + 5 + 6 + 7 + 8 + 9 = 45.\nĐể số lớn nhất ta sắp xếp 10 chữ số này theo thứ tự giảm dần:\n9 876 5"
+  },
+  {
+    "type": "EXPLANATION_NUMBER_MISMATCH",
+    "ctx": "GRADE4_SPECIAL - #13",
+    "id": "G4-NC-01-13",
+    "answer": "29999",
+    "explanationVal": "29",
+    "text": "Viết số tự nhiên E bé nhất có tổng các chữ số bằng 38.",
+    "expl": "Để số bé nhất thì cần ít chữ số nhất, nên ưu tiên các chữ số lớn nhất là 9:\n38 = 9 + 9 + 9 + 9 + 2.\nChữ số đầu tiên là 2, bốn chữ số tiếp theo là 9.\nV"
+  },
+  {
+    "type": "EXPLANATION_NUMBER_MISMATCH",
+    "ctx": "GRADE4_SPECIAL - #14",
+    "id": "G4-NC-01-14",
+    "answer": "356789",
+    "explanationVal": "356",
+    "text": "Viết số tự nhiên E bé nhất có các chữ số khác nhau và tổng các chữ số bằng 38.",
+    "expl": "Để số bé nhất có các chữ số khác nhau thì cần ít chữ số nhất. Ta chọn các chữ số từ hàng đơn vị sang trái lớn nhất có thể và khác nhau:\n9 + 8 + 7 + 6 "
+  },
+  {
+    "type": "EXPLANATION_NUMBER_MISMATCH",
+    "ctx": "GRADE4_SPECIAL - #20",
+    "id": "G4-NC-01-20",
+    "answer": "10001",
+    "explanationVal": "10",
+    "text": "Viết số tự nhiên lẻ bé nhất có năm chữ số.",
+    "expl": "Số có 5 chữ số bé nhất là 10 000.\nĐể là số lẻ thì chữ số hàng đơn vị phải là số lẻ nhỏ nhất là 1.\nVậy số cần tìm là: 10 001.\nĐáp số: 10 001."
+  },
+  {
+    "type": "EXPLANATION_NUMBER_MISMATCH",
+    "ctx": "GRADE4_SPECIAL - #21",
+    "id": "G4-NC-01-21",
+    "answer": "98765",
+    "explanationVal": "98",
+    "text": "Viết số tự nhiên lẻ lớn nhất có năm chữ số khác nhau.",
+    "expl": "Để số lớn nhất có 5 chữ số khác nhau:\n- Hàng chục nghìn là 9\n- Hàng nghìn là 8\n- Hàng trăm là 7\n- Hàng chục là 6\n- Hàng đơn vị phải là số lẻ khác các "
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade1 - #39",
+    "id": "TV-G1-W3-T1-1",
+    "answer": "C",
+    "explanationVal": "A",
+    "text": "Trong bài học Tuần 3 (Âm l, m, n, g, gh; vần ngắn), tiếng nào dưới đây phù hợp nhất với bài học?",
+    "expl": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 3 về Âm l, m, n, g, gh; vần ngắn."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade1 - #54",
+    "id": "TV-G1-W4-T1-1",
+    "answer": "D",
+    "explanationVal": "A",
+    "text": "Trong bài học Tuần 4 (Âm h, k, p, ph, nh, ng, ngh), tiếng nào dưới đây phù hợp nhất với bài học?",
+    "expl": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 4 về Âm h, k, p, ph, nh, ng, ngh."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade1 - #84",
+    "id": "TV-G1-W6-T1-1",
+    "answer": "B",
+    "explanationVal": "A",
+    "text": "Trong bài học Tuần 6 (Vần en, et, em, ep), tiếng nào dưới đây phù hợp nhất với bài học?",
+    "expl": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 6 về Vần en, et, em, ep."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade1 - #99",
+    "id": "TV-G1-W7-T1-1",
+    "answer": "C",
+    "explanationVal": "A",
+    "text": "Trong bài học Tuần 7 (Vần in, it, im, ip), tiếng nào dưới đây phù hợp nhất với bài học?",
+    "expl": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 7 về Vần in, it, im, ip."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade1 - #114",
+    "id": "TV-G1-W8-T1-1",
+    "answer": "D",
+    "explanationVal": "A",
+    "text": "Trong bài học Tuần 8 (Vần on, ot, om, op), tiếng nào dưới đây phù hợp nhất với bài học?",
+    "expl": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 8 về Vần on, ot, om, op."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade1 - #159",
+    "id": "TV-G1-W11-T1-1",
+    "answer": "D",
+    "explanationVal": "A",
+    "text": "Trong bài học Tuần 11 (Vần ai, ay, ao, au), tiếng nào dưới đây phù hợp nhất với bài học?",
+    "expl": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 11 về Vần ai, ay, ao, au."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade1 - #174",
+    "id": "TV-G1-W12-T1-1",
+    "answer": "C",
+    "explanationVal": "A",
+    "text": "Trong bài học Tuần 12 (Vần oi, oy, ôi, ơi), tiếng nào dưới đây phù hợp nhất với bài học?",
+    "expl": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 12 về Vần oi, oy, ôi, ơi."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade1 - #189",
+    "id": "TV-G1-W13-T1-1",
+    "answer": "B",
+    "explanationVal": "A",
+    "text": "Trong bài học Tuần 13 (Vần ui, ưi, uôi, ươi), tiếng nào dưới đây phù hợp nhất với bài học?",
+    "expl": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 13 về Vần ui, ưi, uôi, ươi."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade1 - #219",
+    "id": "TV-G1-W15-T1-1",
+    "answer": "D",
+    "explanationVal": "A",
+    "text": "Trong bài học Tuần 15 (Vần ia, ya, iê, yê), tiếng nào dưới đây phù hợp nhất với bài học?",
+    "expl": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 15 về Vần ia, ya, iê, yê."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade1 - #234",
+    "id": "TV-G1-W16-T1-1",
+    "answer": "C",
+    "explanationVal": "A",
+    "text": "Trong bài học Tuần 16 (Vần ua, ưa, uô, ươ), tiếng nào dưới đây phù hợp nhất với bài học?",
+    "expl": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 16 về Vần ua, ưa, uô, ươ."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade1 - #249",
+    "id": "TV-G1-W17-T1-1",
+    "answer": "D",
+    "explanationVal": "A",
+    "text": "Trong bài học Tuần 17 (Ôn tập vần và chính tả), tiếng nào dưới đây phù hợp nhất với bài học?",
+    "expl": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 17 về Ôn tập vần và chính tả."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade1 - #279",
+    "id": "TV-G1-W19-T1-1",
+    "answer": "B",
+    "explanationVal": "A",
+    "text": "Trong bài học Tuần 19 (Vần oa, oe, oai, oay), tiếng nào dưới đây phù hợp nhất với bài học?",
+    "expl": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 19 về Vần oa, oe, oai, oay."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade1 - #294",
+    "id": "TV-G1-W20-T1-1",
+    "answer": "D",
+    "explanationVal": "A",
+    "text": "Trong bài học Tuần 20 (Vần oan, oat, oang, oac), tiếng nào dưới đây phù hợp nhất với bài học?",
+    "expl": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 20 về Vần oan, oat, oang, oac."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade1 - #324",
+    "id": "TV-G1-W22-T1-1",
+    "answer": "B",
+    "explanationVal": "A",
+    "text": "Trong bài học Tuần 22 (Vần uân, uât, uâng), tiếng nào dưới đây phù hợp nhất với bài học?",
+    "expl": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 22 về Vần uân, uât, uâng."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade1 - #339",
+    "id": "TV-G1-W23-T1-1",
+    "answer": "C",
+    "explanationVal": "A",
+    "text": "Trong bài học Tuần 23 (Chủ điểm Nhà trường, từ chỉ hoạt động học tập), tiếng nào dưới đây phù hợp nh",
+    "expl": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 23 về Chủ điểm Nhà trường, từ chỉ hoạt động học tập."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade1 - #354",
+    "id": "TV-G1-W24-T1-1",
+    "answer": "D",
+    "explanationVal": "A",
+    "text": "Trong bài học Tuần 24 (Chủ điểm Gia đình, từ xưng hô lễ phép), tiếng nào dưới đây phù hợp nhất với b",
+    "expl": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 24 về Chủ điểm Gia đình, từ xưng hô lễ phép."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade1 - #384",
+    "id": "TV-G1-W26-T1-1",
+    "answer": "B",
+    "explanationVal": "A",
+    "text": "Trong bài học Tuần 26 (Ôn tập giữa học kì 2), tiếng nào dưới đây phù hợp nhất với bài học?",
+    "expl": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 26 về Ôn tập giữa học kì 2."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade1 - #399",
+    "id": "TV-G1-W27-T1-1",
+    "answer": "C",
+    "explanationVal": "A",
+    "text": "Trong bài học Tuần 27 (Chủ điểm Quê hương đất nước), tiếng nào dưới đây phù hợp nhất với bài học?",
+    "expl": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 27 về Chủ điểm Quê hương đất nước."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade1 - #414",
+    "id": "TV-G1-W28-T1-1",
+    "answer": "D",
+    "explanationVal": "A",
+    "text": "Trong bài học Tuần 28 (Mở rộng vốn từ Thiên nhiên, cây cỏ), tiếng nào dưới đây phù hợp nhất với bài ",
+    "expl": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 28 về Mở rộng vốn từ Thiên nhiên, cây cỏ."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade1 - #444",
+    "id": "TV-G1-W30-T1-1",
+    "answer": "C",
+    "explanationVal": "A",
+    "text": "Trong bài học Tuần 30 (Chính tả phân biệt ch/tr, s/x), tiếng nào dưới đây phù hợp nhất với bài học?",
+    "expl": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 30 về Chính tả phân biệt ch/tr, s/x."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade1 - #459",
+    "id": "TV-G1-W31-T1-1",
+    "answer": "D",
+    "explanationVal": "A",
+    "text": "Trong bài học Tuần 31 (Chính tả phân biệt l/n, r/d/gi), tiếng nào dưới đây phù hợp nhất với bài học?",
+    "expl": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 31 về Chính tả phân biệt l/n, r/d/gi."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade1 - #489",
+    "id": "TV-G1-W33-T1-1",
+    "answer": "B",
+    "explanationVal": "A",
+    "text": "Trong bài học Tuần 33 (Kể chuyện theo tranh Archimedes), tiếng nào dưới đây phù hợp nhất với bài học",
+    "expl": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 33 về Kể chuyện theo tranh Archimedes."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade1 - #504",
+    "id": "TV-G1-W34-T1-1",
+    "answer": "C",
+    "explanationVal": "A",
+    "text": "Trong bài học Tuần 34 (Luyện đọc diễn cảm và cảm thụ ngôn từ), tiếng nào dưới đây phù hợp nhất với b",
+    "expl": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 34 về Luyện đọc diễn cảm và cảm thụ ngôn từ."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade1 - #519",
+    "id": "TV-G1-W35-T1-1",
+    "answer": "D",
+    "explanationVal": "A",
+    "text": "Trong bài học Tuần 35 (Ôn tập tổng kết cuối năm học), tiếng nào dưới đây phù hợp nhất với bài học?",
+    "expl": "Tiếng ở đáp án A thể hiện chuẩn xác bài học Tuần 35 về Ôn tập tổng kết cuối năm học."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade3 - #28",
+    "id": "TV-G3-W2-T3-1",
+    "answer": "B",
+    "explanationVal": "A",
+    "text": "Chủ điểm Tuần 2: Cô giáo tí hon, từ chỉ sự so sánh 'như', 'tựa', 'là'. Dãy từ ngữ nào gồm toàn các t",
+    "expl": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 2."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade3 - #43",
+    "id": "TV-G3-W3-T3-1",
+    "answer": "C",
+    "explanationVal": "A",
+    "text": "Chủ điểm Tuần 3: Chiếc áo len, từ ngữ về Gia đình. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này",
+    "expl": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 3."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade3 - #58",
+    "id": "TV-G3-W4-T3-1",
+    "answer": "D",
+    "explanationVal": "A",
+    "text": "Chủ điểm Tuần 4: Mở rộng vốn từ Thiếu nhi, câu Ai làm gì?. Dãy từ ngữ nào gồm toàn các từ thuộc chủ ",
+    "expl": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 4."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade3 - #88",
+    "id": "TV-G3-W6-T3-1",
+    "answer": "B",
+    "explanationVal": "A",
+    "text": "Chủ điểm Tuần 6: Nhân hóa (gọi sự vật như người). Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+    "expl": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 6."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade3 - #103",
+    "id": "TV-G3-W7-T3-1",
+    "answer": "C",
+    "explanationVal": "A",
+    "text": "Chủ điểm Tuần 7: Chủ điểm Thầy cô, luyện từ ngữ chỉ hoạt động dạy học. Dãy từ ngữ nào gồm toàn các t",
+    "expl": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 7."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade3 - #118",
+    "id": "TV-G3-W8-T3-1",
+    "answer": "D",
+    "explanationVal": "A",
+    "text": "Chủ điểm Tuần 8: Nhân hóa (tả sự vật bằng từ ngữ chỉ hoạt động của người). Dãy từ ngữ nào gồm toàn c",
+    "expl": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 8."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade3 - #163",
+    "id": "TV-G3-W11-T3-1",
+    "answer": "D",
+    "explanationVal": "A",
+    "text": "Chủ điểm Tuần 11: So sánh âm thanh với âm thanh. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+    "expl": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 11."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade3 - #178",
+    "id": "TV-G3-W12-T3-1",
+    "answer": "C",
+    "explanationVal": "A",
+    "text": "Chủ điểm Tuần 12: Chủ điểm Bắc - Trung - Nam, danh lam thắng cảnh. Dãy từ ngữ nào gồm toàn các từ th",
+    "expl": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 12."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade3 - #193",
+    "id": "TV-G3-W13-T3-1",
+    "answer": "B",
+    "explanationVal": "A",
+    "text": "Chủ điểm Tuần 13: Mở rộng vốn từ Đô thị - Nông thôn. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm n",
+    "expl": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 13."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade3 - #223",
+    "id": "TV-G3-W15-T3-1",
+    "answer": "D",
+    "explanationVal": "A",
+    "text": "Chủ điểm Tuần 15: Chủ điểm Anh em các dân tộc. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+    "expl": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 15."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade3 - #238",
+    "id": "TV-G3-W16-T3-1",
+    "answer": "C",
+    "explanationVal": "A",
+    "text": "Chủ điểm Tuần 16: Dấu gạch ngang, dấu ngoặc kép. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+    "expl": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 16."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade3 - #253",
+    "id": "TV-G3-W17-T3-1",
+    "answer": "B",
+    "explanationVal": "A",
+    "text": "Chủ điểm Tuần 17: Viết thư cho bạn phương xa. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+    "expl": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 17."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade3 - #283",
+    "id": "TV-G3-W19-T3-1",
+    "answer": "D",
+    "explanationVal": "A",
+    "text": "Chủ điểm Tuần 19: Chủ điểm Bảo vệ Tổ quốc, Người trí thức. Dãy từ ngữ nào gồm toàn các từ thuộc chủ ",
+    "expl": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 19."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade3 - #298",
+    "id": "TV-G3-W20-T3-1",
+    "answer": "D",
+    "explanationVal": "A",
+    "text": "Chủ điểm Tuần 20: Nhân hóa (nói với sự vật thân mật như với người). Dãy từ ngữ nào gồm toàn các từ t",
+    "expl": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 20."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade3 - #328",
+    "id": "TV-G3-W22-T3-1",
+    "answer": "B",
+    "explanationVal": "A",
+    "text": "Chủ điểm Tuần 22: Mở rộng vốn từ Sáng tạo, dấu phẩy ngăn cách trạng ngữ. Dãy từ ngữ nào gồm toàn các",
+    "expl": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 22."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade3 - #343",
+    "id": "TV-G3-W23-T3-1",
+    "answer": "C",
+    "explanationVal": "A",
+    "text": "Chủ điểm Tuần 23: Chủ điểm Nghệ thuật (ca hát, hội họa, kịch). Dãy từ ngữ nào gồm toàn các từ thuộc ",
+    "expl": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 23."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade3 - #358",
+    "id": "TV-G3-W24-T3-1",
+    "answer": "D",
+    "explanationVal": "A",
+    "text": "Chủ điểm Tuần 24: Biện pháp tu từ nhân hóa tổng hợp. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm n",
+    "expl": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 24."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade3 - #388",
+    "id": "TV-G3-W26-T3-1",
+    "answer": "B",
+    "explanationVal": "A",
+    "text": "Chủ điểm Tuần 26: Ôn tập giữa học kì 2. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+    "expl": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 26."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade3 - #403",
+    "id": "TV-G3-W27-T3-1",
+    "answer": "C",
+    "explanationVal": "A",
+    "text": "Chủ điểm Tuần 27: Chủ điểm Thể thao, rèn luyện thân thể. Dãy từ ngữ nào gồm toàn các từ thuộc chủ đi",
+    "expl": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 27."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade3 - #418",
+    "id": "TV-G3-W28-T3-1",
+    "answer": "D",
+    "explanationVal": "A",
+    "text": "Chủ điểm Tuần 28: Chính tả phân biệt l/n, in/inh. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+    "expl": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 28."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade3 - #448",
+    "id": "TV-G3-W30-T3-1",
+    "answer": "C",
+    "explanationVal": "A",
+    "text": "Chủ điểm Tuần 30: Mở rộng vốn từ Trái Đất, thiên tai và bảo vệ môi trường. Dãy từ ngữ nào gồm toàn c",
+    "expl": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 30."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade3 - #463",
+    "id": "TV-G3-W31-T3-1",
+    "answer": "D",
+    "explanationVal": "A",
+    "text": "Chủ điểm Tuần 31: Chủ điểm Bầu trời và Vũ trụ. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+    "expl": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 31."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade3 - #493",
+    "id": "TV-G3-W33-T3-1",
+    "answer": "B",
+    "explanationVal": "A",
+    "text": "Chủ điểm Tuần 33: Cảm thụ thơ ca lớp 3 Archimedes. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này",
+    "expl": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 33."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade3 - #508",
+    "id": "TV-G3-W34-T3-1",
+    "answer": "C",
+    "explanationVal": "A",
+    "text": "Chủ điểm Tuần 34: Luyện viết đoạn văn biểu cảm. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+    "expl": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 34."
+  },
+  {
+    "type": "EXPLANATION_LETTER_MISMATCH",
+    "ctx": "TIENG_VIET - grade3 - #523",
+    "id": "TV-G3-W35-T3-1",
+    "answer": "D",
+    "explanationVal": "A",
+    "text": "Chủ điểm Tuần 35: Ôn tập tổng kết cuối năm học. Dãy từ ngữ nào gồm toàn các từ thuộc chủ điểm này?",
+    "expl": "Các từ ngữ trong đáp án A bám sát mục tiêu mở rộng vốn từ của tuần 35."
+  }
+]

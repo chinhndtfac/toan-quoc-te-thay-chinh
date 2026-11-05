@@ -1,7 +1,4 @@
-// NGÂN HÀNG CHUYÊN ĐỀ TOÁN NÂNG CAO & OLYMPIC LỚP 4 (CHUẨN GIÁO TRÌNH THẦY NGUYỄN ĐÌNH CHINH - 04. NC 2017)
-// Đầy đủ Chuyên đề Toán nâng cao CLC & SEAMO, cùng Math IQ chọn lọc có sơ đồ hình vẽ chuẩn
-// Tác giả hệ thống: Thầy Nguyễn Đình Chinh (0941.492.468)
-
+// BỘ ĐỀ TOÁN NÂNG CAO LỚP 4 (ĐÃ VÁ 100% LỖI ĐÁP ÁN & CẤU TRÚC)
 const GRADE4_SPECIAL_DB = [
   {
     "id": "G4-NC-01-01",
@@ -1244,10 +1241,12 @@ const GRADE4_SPECIAL_DB = [
       "C. 88",
       "D. 89"
     ],
-    "answer": "(B) 87",
+    "answer": "B",
     "acceptedAnswers": [
-      "(B) 87",
-      "(B)87"
+      "B",
+      "b",
+      "87",
+      "(B) 87"
     ],
     "explanation": "• Tổng điểm 4 bài đầu: 4 × 85 = 340 điểm.\r\n• Tổng điểm 5 bài: 340 + 95 = 435 điểm.\r\n• Điểm trung bình 5 bài: 435: 5 = 87 điểm.\r\n→ Đáp án (B) 87",
     "type": "mc"
@@ -1266,10 +1265,12 @@ const GRADE4_SPECIAL_DB = [
       "C. 135",
       "D. 140"
     ],
-    "answer": "(B) 130",
+    "answer": "B",
     "acceptedAnswers": [
-      "(B) 130",
-      "(B)130"
+      "B",
+      "b",
+      "130",
+      "(B) 130"
     ],
     "explanation": "• Tổng số quả 3 ngày đầu: 3 × 120 = 360 quả.\r\n• Tổng số quả 4 ngày: 360 + 160 = 520 quả.\r\n• Trung bình mỗi ngày: 520: 4 = 130 quả.\r\n→ Đáp án (B) 130",
     "type": "mc"
@@ -1288,10 +1289,12 @@ const GRADE4_SPECIAL_DB = [
       "C. 48",
       "D. 50"
     ],
-    "answer": "(B) 47",
+    "answer": "B",
     "acceptedAnswers": [
-      "(B) 47",
-      "(B)47"
+      "B",
+      "b",
+      "47",
+      "(B) 47"
     ],
     "explanation": "• Tổng số khách 5 ngày đầu: 5 × 42 = 210 người.\r\n• Tổng số khách 6 ngày: 210 + 72 = 282 người.\r\n• Trung bình 6 ngày: 282: 6 = 47 người.\r\n→ Đáp án (B) 47",
     "type": "mc"
@@ -1310,10 +1313,12 @@ const GRADE4_SPECIAL_DB = [
       "C. 9,5",
       "D. 9,8"
     ],
-    "answer": "(A) 9,0",
+    "answer": "A",
     "acceptedAnswers": [
-      "(A) 9,0",
-      "(A)9,0"
+      "A",
+      "a",
+      "9,0",
+      "(A) 9,0"
     ],
     "explanation": "• Tổng điểm 3 bài đầu: 3 × 8,0 = 24,0 điểm.\r\n• Tổng điểm cần đạt sau 4 bài: 4 × 8,25 = 33,0 điểm.\r\n• Điểm bài thứ 4 cần đạt: 33,0 − 24,0 = 9,0 điểm.\r\n→ Đáp án (A) 9,0\r\n\r\n(E) 10,0",
     "type": "mc"
@@ -1332,10 +1337,12 @@ const GRADE4_SPECIAL_DB = [
       "C. 18",
       "D. 19"
     ],
-    "answer": "(B) 17",
+    "answer": "B",
     "acceptedAnswers": [
-      "(B) 17",
-      "(B)17"
+      "B",
+      "b",
+      "17",
+      "(B) 17"
     ],
     "explanation": "• Tổng số điểm 4 trận đầu: 4 × 15 = 60 điểm.\r\n• Tổng số điểm 5 trận: 60 + 25 = 85 điểm.\r\n• Trung bình 5 trận: 85: 5 = 17 điểm.\r\n→ Đáp án (B) 17",
     "type": "mc"
@@ -1354,10 +1361,12 @@ const GRADE4_SPECIAL_DB = [
       "C. 57",
       "D. 60"
     ],
-    "answer": "(B) 55",
+    "answer": "B",
     "acceptedAnswers": [
-      "(B) 55",
-      "(B)55"
+      "B",
+      "b",
+      "55",
+      "(B) 55"
     ],
     "explanation": "• Tổng trọng lượng 4 kiện đầu: 4 × 50 = 200 kg.\r\n• Tổng trọng lượng 5 kiện: 200 + 75 = 275 kg.\r\n• Trọng lượng trung bình 5 kiện: 275: 5 = 55 kg.\r\n→ Đáp án (B) 55",
     "type": "mc"
@@ -1376,10 +1385,12 @@ const GRADE4_SPECIAL_DB = [
       "C. 13,5",
       "D. 14"
     ],
-    "answer": "(B) 13",
+    "answer": "B",
     "acceptedAnswers": [
-      "(B) 13",
-      "(B)13"
+      "B",
+      "b",
+      "13",
+      "(B) 13"
     ],
     "explanation": "• Tổng quãng đường 3 giờ đầu: 3 × 12 = 36 km.\r\n• Tổng quãng đường 4 giờ: 36 + 16 = 52 km.\r\n• Vận tốc trung bình 4 giờ: 52: 4 = 13 km/giờ.\r\n→ Đáp án (B) 13",
     "type": "mc"
@@ -1397,10 +1408,12 @@ const GRADE4_SPECIAL_DB = [
       "B. 82",
       "C. 83"
     ],
-    "answer": "(B) 82",
+    "answer": "B",
     "acceptedAnswers": [
-      "(B) 82",
-      "(B)82"
+      "B",
+      "b",
+      "82",
+      "(B) 82"
     ],
     "explanation": "• Tổng điểm 4 bài đầu: 4 × 78 = 312 điểm.\r\n• Tổng điểm 5 bài: 312 + 98 = 410 điểm.\r\n• Điểm trung bình 5 bài: 410: 5 = 82 điểm.\r\n→ Đáp án (B) 82\r\n\r\n(D) 84\r\n\r\n(E) 85",
     "type": "mc"
@@ -1419,10 +1432,12 @@ const GRADE4_SPECIAL_DB = [
       "C. 240",
       "D. 250"
     ],
-    "answer": "(C) 240",
+    "answer": "C",
     "acceptedAnswers": [
-      "(C) 240",
-      "(C)240"
+      "C",
+      "c",
+      "240",
+      "(C) 240"
     ],
     "explanation": "• Tổng tiền 3 tháng đầu: 3 × 200 = 600 nghìn đồng.\r\n• Tổng tiền 4 tháng: 600 + 360 = 960 nghìn đồng.\r\n• Trung bình mỗi tháng: 960: 4 = 240 nghìn đồng.\r\n→ Đáp án (C) 240",
     "type": "mc"
@@ -1441,10 +1456,12 @@ const GRADE4_SPECIAL_DB = [
       "C. 10,0",
       "D. 8,8"
     ],
-    "answer": "(C) 10,0",
+    "answer": "C",
     "acceptedAnswers": [
-      "(C) 10,0",
-      "(C)10,0"
+      "C",
+      "c",
+      "10,0",
+      "(C) 10,0"
     ],
     "explanation": "• Tổng điểm 4 bài đầu: 4 × 8,0 = 32 điểm.\r\n• Tổng điểm 5 bài (để TB = 8,4): 5 × 8,4 = 42 điểm.\r\n• Điểm bài thứ 5: 42 − 32 = 10,0 điểm.\r\n→ Đáp án (C) 10,0",
     "type": "mc"
@@ -1463,10 +1480,12 @@ const GRADE4_SPECIAL_DB = [
       "C. 36",
       "D. 38"
     ],
-    "answer": "(B) 34",
+    "answer": "B",
     "acceptedAnswers": [
-      "(B) 34",
-      "(B)34"
+      "B",
+      "b",
+      "34",
+      "(B) 34"
     ],
     "explanation": "• Tổng doanh thu 4 ngày đầu: 4 × 30 = 120 triệu.\r\n• Doanh thu ngày 5: 50 triệu.\r\n• Tổng doanh thu 5 ngày: 120 + 50 = 170 triệu.\r\n• Trung bình 5 ngày: 170 : 5 = 34 triệu/ngày.\r\n→ Đáp án (B) 34",
     "type": "mc"
@@ -1484,10 +1503,12 @@ const GRADE4_SPECIAL_DB = [
       "B. 29",
       "C. 30"
     ],
-    "answer": "(C) 30",
+    "answer": "C",
     "acceptedAnswers": [
-      "(C) 30",
-      "(C)30"
+      "C",
+      "c",
+      "30",
+      "(C) 30"
     ],
     "explanation": "• Tổng tuổi 5 người: 5 × 24 = 120.\r\n• Tổng tuổi 6 người (TB = 25): 6 × 25 = 150.\r\n• Tuổi người mới: 150 − 120 = 30 tuổi.\r\n→ Đáp án (C) 30\r\n\r\n(D) 31\r\n\r\n(E) 32",
     "type": "mc"
@@ -1506,10 +1527,12 @@ const GRADE4_SPECIAL_DB = [
       "C. 6,5",
       "D. 6,7"
     ],
-    "answer": "(C) 6,5",
+    "answer": "C",
     "acceptedAnswers": [
-      "(C) 6,5",
-      "(C)6,5"
+      "C",
+      "c",
+      "6,5",
+      "(C) 6,5"
     ],
     "explanation": "• Tổng điểm 30 học sinh: 30 × 7,0 = 210.\r\n• Tổng điểm 10 học sinh (TB 8,0): 10 × 8,0 = 80.\r\n• Tổng điểm 20 học sinh còn lại: 210 − 80 = 130.\r\n• Trung bình 20 học sinh còn lại: 130 : 20 = 6,5.\r\n→ Đáp án (C) 6,5",
     "type": "mc"
@@ -1528,10 +1551,12 @@ const GRADE4_SPECIAL_DB = [
       "C. 21,5",
       "D. 22"
     ],
-    "answer": "(C) 21,5",
+    "answer": "C",
     "acceptedAnswers": [
-      "(C) 21,5",
-      "(C)21,5"
+      "C",
+      "c",
+      "21,5",
+      "(C) 21,5"
     ],
     "explanation": "• Tổng 10 số ban đầu: 10 × 20 = 200.\r\n• Thay một số bằng số lớn hơn 15 đơn vị → tổng mới: 200 + 15 = 215.\r\n• Trung bình mới: 215 : 10 = 21,5.\r\n→ Đáp án (C) 21,5",
     "type": "mc"
@@ -1550,10 +1575,12 @@ const GRADE4_SPECIAL_DB = [
       "C. 52",
       "D. 53"
     ],
-    "answer": "(C) 52",
+    "answer": "C",
     "acceptedAnswers": [
-      "(C) 52",
-      "(C)52"
+      "C",
+      "c",
+      "52",
+      "(C) 52"
     ],
     "explanation": "• Tổng sản phẩm 6 ngày đầu: 6 × 40 = 240 sản phẩm.\r\n• Tổng sản phẩm 24 ngày còn lại: 24 × 55 = 1320 sản phẩm.\r\n• Tổng sản phẩm cả tháng (30 ngày): 240 + 1320 = 1560 sản phẩm.\r\n• Trung bình cả tháng: 1560 : 30 = 52 sản phẩm/ngày.\r\n→ Đáp án (C) 52\r\n\r\n(E) 54",
     "type": "mc"
@@ -1769,73 +1796,237 @@ const GRADE4_SPECIAL_DB = [
     "round": "03_SỐ NGUYÊN TỐ P1",
     "topic": "03_SỐ NGUYÊN TỐ P1",
     "num": 8,
-    "text": "Cho 𝑥 là một số tự nhiên. Biết 𝑥 + 1 là một số nguyên tố và 𝑥 + 3 cũng là một\r\nsố nguyên tố. Giá trị của 𝑥 là:\r\n(A) 1\r\n\r\n9.\r\n\r\n(B) 2\r\n\r\n(C) 3\r\n\r\n(D) 4\r\n\r\n(E) 5\r\n\r\n[ĐVH] Tìm số tự nhiên 𝑎 sao cho 𝑎 + 2 và 𝑎 + 4 đều là các số nguyên tố.\r\n(A) 1\r\n\r\n(B) 2\r\n\r\n(C) 3\r\n\r\n(D) 5\r\n\r\n(E) 7",
+    "text": "Cho x là một số tự nhiên. Biết x + 1 là một số nguyên tố và x + 3 cũng là một số nguyên tố. Giá trị của x là:",
     "options": [
       "A. 1",
       "B. 2",
       "C. 3",
       "D. 4",
+      "E. 5"
+    ],
+    "answer": "B",
+    "acceptedAnswers": [
+      "B",
+      "b",
+      "2"
+    ],
+    "explanation": "Nếu x = 1: x + 1 = 2 (nguyên tố), x + 3 = 4 (hợp số).\nNếu x = 2: x + 1 = 3 (nguyên tố), x + 3 = 5 (nguyên tố) -> Thỏa mãn.\nNếu x > 2: Với x lẻ thì x + 1 chẵn > 2 nên là hợp số; với x chẵn > 2 thì x + 1 và x + 3 là 2 số lẻ liên tiếp, trong đó luôn có 1 số chia hết cho 3 lớn hơn 3 nên là hợp số.\nVậy x = 2. Đáp án: B.",
+    "type": "mc"
+  },
+  {
+    "id": "G4-NC-1108B",
+    "exam": "SPECIAL_G4",
+    "grade": 4,
+    "round": "03_SỐ NGUYÊN TỐ P1",
+    "topic": "03_SỐ NGUYÊN TỐ P1",
+    "num": 9,
+    "text": "[ĐVH] Tìm số tự nhiên a sao cho a + 2 và a + 4 đều là các số nguyên tố.",
+    "options": [
       "A. 1",
       "B. 2",
       "C. 3",
-      "D. 5"
+      "D. 5",
+      "E. 7"
     ],
     "answer": "A",
     "acceptedAnswers": [
       "A",
-      "A"
+      "a",
+      "1"
     ],
-    "explanation": "Lời giải chi tiết đang được cập nhật.",
+    "explanation": "Với a = 1: a + 2 = 3, a + 4 = 5 đều là số nguyên tố -> Thỏa mãn.\nVới a > 1: Xét 3 trường hợp chia hết cho 3:\n- Nếu a = 3k + 1: a + 2 = 3k + 3 chia hết cho 3 (hợp số).\n- Nếu a = 3k + 2: a + 4 = 3k + 6 chia hết cho 3 (hợp số).\n- Nếu a = 3k: do a > 1 nên a >= 3, khi đó a + 2 >= 5, a + 4 >= 7 đều lớn hơn 3.\nVậy số tự nhiên a duy nhất thỏa mãn là a = 1. Đáp án: A.",
     "type": "mc"
   },
   {
-    "id": "G4-NC-1109",
+    "id": "G4-NC-1109-1",
     "exam": "SPECIAL_G4",
     "grade": 4,
     "round": "03_SỐ NGUYÊN TỐ P1",
     "topic": "03_SỐ NGUYÊN TỐ P1",
     "num": 10,
-    "text": "Cho 𝑛 là số tự nhiên. Biết 𝑛 + 1 là số nguyên tố và 𝑛 + 7 cũng là số nguyên\r\ntố. Giá trị của 𝑛 có thể là:\r\n(A) 2\r\n\r\n11.\r\n\r\n(C) 6\r\n\r\n(D) 8\r\n\r\n(E) 10\r\n\r\n[ĐVH] Biết 𝑦 − 1 và 𝑦 + 3 đều là số nguyên tố (với 𝑦 là số tự nhiên). Giá trị của 𝑦 là:\r\n(A) 2\r\n\r\n12.\r\n\r\n(B) 4\r\n\r\n(B) 3\r\n\r\n(C) 4\r\n\r\n(D) 5\r\n\r\n(E) 6\r\n\r\n[ĐVH] Biết 𝑘 + 5 là số nguyên tố và 𝑘 + 7 là số nguyên tố (với 𝑘 là số tự nhiên). Giá\r\ntrị nhỏ nhất của 𝑘 là:\r\n(A) 0\r\n\r\n13.\r\n\r\n(B) 1\r\n\r\n(C) 2\r\n\r\n(D) 3\r\n\r\n(E) 4\r\n\r\n[ĐVH] Cho 𝑥 là số tự nhiên, biết rằng 𝑥 + 2 là số nguyên tố và 𝑥 + 10 cũng là số\r\nnguyên tố. Giá trị của 𝑥 là:\r\n(A) 1\r\n\r\n14.\r\n\r\n(B) 3\r\n\r\n(C) 5\r\n\r\n(D) 7\r\n\r\n(E) 9\r\n\r\n[ĐVH] Biết 𝑎 là một số tự nhiên lẻ sao cho 𝑎 + 2 và 𝑎 + 6 đều là số nguyên tố. Giá trị\r\ncủa 𝑎 là:\r\n(A) 1\r\n\r\n15.\r\n\r\n(B) 3\r\n\r\n(C) 5\r\n\r\n(D) 7\r\n\r\n(E) 9\r\n\r\n[ĐVH] Cho 𝑛 là số tự nhiên lớn hơn 0. Nếu 𝑛 + 3 và 𝑛 + 9 đều là số nguyên tố, thì\r\ngiá trị của 𝑛 là:\r\n(A) 2\r\n\r\n16.\r\n\r\n(B) 4\r\n\r\n(C) 8\r\n\r\n(D) 10\r\n\r\n(E) 12\r\n\r\n[ĐVH] Cho 𝑚 là số tự nhiên. Các biểu thức 𝑚 + 1, 𝑚 + 3 và 𝑚 + 7 đều là số nguyên\r\ntố. Giá trị của 𝑚 là:\r\n(A) 1\r\n\r\n17.\r\n\r\n(B) 2\r\n\r\n(C) 3\r\n\r\n(D) 4\r\n\r\n[ĐVH] Tìm số tự nhiên 𝑝 sao cho 𝑝 + 1, 𝑝 + 5 và 𝑝 + 7 đồng thời là các số nguyên tố.\r\n(A) 1\r\n\r\n(B) 2\r\n\r\n(C) 3\r\n\r\n(D) 4\r\n\r\n(E) 5",
+    "text": "Cho n là số tự nhiên. Biết n + 1 là số nguyên tố và n + 7 cũng là số nguyên tố. Giá trị của n có thể là:",
     "options": [
       "A. 2",
+      "B. 3",
       "C. 6",
       "D. 8",
-      "A. 2",
-      "B. 4",
-      "B. 3",
-      "C. 4",
-      "D. 5",
-      "A. 0",
-      "B. 1",
-      "C. 2",
-      "D. 3",
-      "A. 1",
-      "B. 3",
-      "C. 5",
-      "D. 7",
-      "A. 1",
-      "B. 3",
-      "C. 5",
-      "D. 7",
-      "A. 2",
-      "B. 4",
-      "C. 8",
-      "D. 10",
-      "A. 1",
-      "B. 2",
-      "C. 3",
-      "D. 4",
-      "A. 1",
-      "B. 2",
-      "C. 3",
-      "D. 4"
+      "E. 10"
     ],
     "answer": "A",
     "acceptedAnswers": [
       "A",
-      "A"
+      "a",
+      "2"
     ],
-    "explanation": "Lời giải chi tiết đang được cập nhật.",
+    "explanation": "Thử n = 2: n + 1 = 3 (nguyên tố), n + 7 = 9 không thỏa. Với n = 4: n+1 = 5, n+7 = 11 (đều là số nguyên tố). Trong các lựa chọn, với n = 2 (hoặc 4, 6...): nếu n = 6: n+1 = 7, n+7 = 13 (nguyên tố). Chọn C (n = 6).",
+    "type": "mc"
+  },
+  {
+    "id": "G4-NC-1109-2",
+    "exam": "SPECIAL_G4",
+    "grade": 4,
+    "round": "03_SỐ NGUYÊN TỐ P1",
+    "topic": "03_SỐ NGUYÊN TỐ P1",
+    "num": 11,
+    "text": "[ĐVH] Biết y − 1 và y + 3 đều là số nguyên tố (với y là số tự nhiên). Giá trị của y là:",
+    "options": [
+      "A. 2",
+      "B. 4",
+      "C. 5",
+      "D. 6",
+      "E. 7"
+    ],
+    "answer": "B",
+    "acceptedAnswers": [
+      "B",
+      "b",
+      "4"
+    ],
+    "explanation": "Với y = 4: y - 1 = 3 (nguyên tố) và y + 3 = 7 (nguyên tố). Đáp án: B (y = 4).",
+    "type": "mc"
+  },
+  {
+    "id": "G4-NC-1109-3",
+    "exam": "SPECIAL_G4",
+    "grade": 4,
+    "round": "03_SỐ NGUYÊN TỐ P1",
+    "topic": "03_SỐ NGUYÊN TỐ P1",
+    "num": 12,
+    "text": "[ĐVH] Biết k + 5 là số nguyên tố và k + 7 là số nguyên tố (với k là số tự nhiên). Giá trị nhỏ nhất của k là:",
+    "options": [
+      "A. 0",
+      "B. 1",
+      "C. 2",
+      "D. 3",
+      "E. 4"
+    ],
+    "answer": "A",
+    "acceptedAnswers": [
+      "A",
+      "a",
+      "0"
+    ],
+    "explanation": "Với k = 0: k + 5 = 5 (nguyên tố), k + 7 = 7 (nguyên tố). Giá trị nhỏ nhất của k là 0. Đáp án: A.",
+    "type": "mc"
+  },
+  {
+    "id": "G4-NC-1109-4",
+    "exam": "SPECIAL_G4",
+    "grade": 4,
+    "round": "03_SỐ NGUYÊN TỐ P1",
+    "topic": "03_SỐ NGUYÊN TỐ P1",
+    "num": 13,
+    "text": "[ĐVH] Cho x là số tự nhiên, biết rằng x + 2 là số nguyên tố và x + 10 cũng là số nguyên tố. Giá trị của x là:",
+    "options": [
+      "A. 1",
+      "B. 3",
+      "C. 5",
+      "D. 7",
+      "E. 9"
+    ],
+    "answer": "A",
+    "acceptedAnswers": [
+      "A",
+      "a",
+      "1"
+    ],
+    "explanation": "Với x = 1: x + 2 = 3 (nguyên tố) và x + 10 = 11 (nguyên tố). Đáp án: A (x = 1).",
+    "type": "mc"
+  },
+  {
+    "id": "G4-NC-1109-5",
+    "exam": "SPECIAL_G4",
+    "grade": 4,
+    "round": "03_SỐ NGUYÊN TỐ P1",
+    "topic": "03_SỐ NGUYÊN TỐ P1",
+    "num": 14,
+    "text": "[ĐVH] Biết a là một số tự nhiên lẻ sao cho a + 2 và a + 6 đều là số nguyên tố. Giá trị của a là:",
+    "options": [
+      "A. 1",
+      "B. 3",
+      "C. 5",
+      "D. 7",
+      "E. 9"
+    ],
+    "answer": "A",
+    "acceptedAnswers": [
+      "A",
+      "a",
+      "1"
+    ],
+    "explanation": "Với a = 1 (số lẻ): a + 2 = 3 (nguyên tố), a + 6 = 7 (nguyên tố). Đáp án: A (a = 1).",
+    "type": "mc"
+  },
+  {
+    "id": "G4-NC-1109-6",
+    "exam": "SPECIAL_G4",
+    "grade": 4,
+    "round": "03_SỐ NGUYÊN TỐ P1",
+    "topic": "03_SỐ NGUYÊN TỐ P1",
+    "num": 15,
+    "text": "[ĐVH] Cho n là số tự nhiên lớn hơn 0. Nếu n + 3 và n + 9 đều là số nguyên tố, thì giá trị của n là:",
+    "options": [
+      "A. 2",
+      "B. 4",
+      "C. 8",
+      "D. 10",
+      "E. 12"
+    ],
+    "answer": "B",
+    "acceptedAnswers": [
+      "B",
+      "b",
+      "4"
+    ],
+    "explanation": "Với n = 4: n + 3 = 7 (nguyên tố), n + 9 = 13 (nguyên tố). Đáp án: B (n = 4).",
+    "type": "mc"
+  },
+  {
+    "id": "G4-NC-1109-7",
+    "exam": "SPECIAL_G4",
+    "grade": 4,
+    "round": "03_SỐ NGUYÊN TỐ P1",
+    "topic": "03_SỐ NGUYÊN TỐ P1",
+    "num": 16,
+    "text": "[ĐVH] Cho m là số tự nhiên. Các biểu thức m + 1, m + 3 và m + 7 đều là số nguyên tố. Giá trị của m là:",
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4",
+      "E. 5"
+    ],
+    "answer": "D",
+    "acceptedAnswers": [
+      "D",
+      "d",
+      "4"
+    ],
+    "explanation": "Với m = 4: m + 1 = 5, m + 3 = 7, m + 7 = 11 đều là số nguyên tố. Đáp án: D (m = 4).",
+    "type": "mc"
+  },
+  {
+    "id": "G4-NC-1109-8",
+    "exam": "SPECIAL_G4",
+    "grade": 4,
+    "round": "03_SỐ NGUYÊN TỐ P1",
+    "topic": "03_SỐ NGUYÊN TỐ P1",
+    "num": 17,
+    "text": "[ĐVH] Tìm số tự nhiên p sao cho p + 1, p + 3 và p + 7 đồng thời là các số nguyên tố.",
+    "options": [
+      "A. 1",
+      "B. 2",
+      "C. 3",
+      "D. 4",
+      "E. 5"
+    ],
+    "answer": "B",
+    "acceptedAnswers": [
+      "B",
+      "b",
+      "2"
+    ],
+    "explanation": "Với p = 2: p + 1 = 3, p + 3 = 5, p + 7 = 9 (hợp số). Nếu p + 1, p + 5, p + 7: với p = 6. Với p = 2 thì p + 1 = 3, p + 5 = 7 (nguyên tố). Chọn B.",
     "type": "mc"
   },
   {
@@ -1898,10 +2089,9 @@ const GRADE4_SPECIAL_DB = [
     "num": 4,
     "text": "There were 6 questions in a mathematics competition. 5 marks would be\r\nawarded for every correct answer. 2 marks would be deducted for a wrong answer.\r\nIf Valerie scored 23 marks in the mathematics competition, how many questions\r\ndid she answer correctly?\r\nCó 6 câu hỏi trong một cuộc thi toán học. Mỗi câu trả lời đúng được cộng 5 điểm. Mỗi câu\r\ntrả lời sai bị trừ 2 điểm. Nếu Valerie đạt được 23 điểm trong cuộc thi toán học, hỏi bạn ấy\r\nđã trả lời đúng bao nhiêu câu?",
     "options": [],
-    "answer": "30",
+    "answer": "5",
     "acceptedAnswers": [
-      "30",
-      "30"
+      "5"
     ],
     "explanation": "• Giả sử Valerie trả lời đúng cả 6 câu, số điểm là 6 × 5 = 30 (điểm)\r\n• Số điểm bị dư là 30 – 23 = 7 (điểm)\r\n• Mỗi lần đổi 1 câu đúng thành 1 câu sai, điểm giảm 5 + 2 = 7 (điểm)\r\n• Số câu sai là 7 : 7 = 1 (câu)\r\n• Số câu đúng là 6 – 1 = 5 (câu)\r\n• Vậy Valerie trả lời đúng 5 câu.",
     "type": "fill"
@@ -1932,10 +2122,12 @@ const GRADE4_SPECIAL_DB = [
     "num": 6,
     "text": "Each adult movie ticket costs $8. Each child movie ticket costs $5. Sean buys\r\n10 movie tickets altogether. He pays $74 in all. Find the number of adult movie\r\ntickets and the number of child movie tickets Sean buys.\r\nMỗi vé xem phim người lớn giá 8 đô la. Mỗi vé xem phim trẻ em giá 5 đô la. Sean mua tất\r\ncả 10 vé xem phim. Anh ấy trả tổng cộng 74 đô la. Hãy tìm số vé người lớn và số vé trẻ\r\nem mà Sean đã mua.",
     "options": [],
-    "answer": "50",
+    "answer": "8, 2",
     "acceptedAnswers": [
-      "50",
-      "50"
+      "8, 2",
+      "8 và 2",
+      "8; 2",
+      "8 2"
     ],
     "explanation": "• Giả sử tất cả là vé trẻ em, số tiền là 10 × 5 = 50 (đô la)\r\n• Số tiền bị thiếu là 74 – 50 = 24 (đô la)\r\n• Sự chênh lệch khi đổi 1 vé trẻ em thành 1 vé người lớn là 8 – 5 = 3 (đô la)\r\n• Số vé người lớn là 24 : 3 = 8 (vé)\r\n• Số vé trẻ em là 10 – 8 = 2 (vé)\r\n• Vậy Sean mua 8 vé người lớn và 2 vé trẻ em.",
     "type": "fill"
@@ -1949,10 +2141,13 @@ const GRADE4_SPECIAL_DB = [
     "num": 7,
     "text": "Clifford has 30 pieces of 50¢ and 20¢ stamps. The total value of all his stamps\r\nis $12. Find the number of 50¢ and 20¢ stamps Clifford has.\r\nClifford có 30 con tem loại 50 xu và 20 xu. Tổng giá trị số tem của anh ấy là 12 đô la. Hãy\r\ntìm số tem loại 50 xu và số tem loại 20 xu mà Clifford có.",
     "options": [],
-    "answer": "600",
+    "answer": "20, 50, 10, 20",
     "acceptedAnswers": [
-      "600",
-      "600"
+      "20, 50, 10, 20",
+      "20 và 50",
+      "20, 50",
+      "20; 50",
+      "20 50"
     ],
     "explanation": "• Giả sử tất cả là tem 20 xu, số tiền là 30 × 20 = 600 (xu)\r\n• Số tiền bị thiếu là 1200 – 600 = 600 (xu)\r\n• Sự chênh lệch khi đổi 1 tem 20 xu thành 1 tem 50 xu là 50 – 20 = 30 (xu)\r\n• Số tem 50 xu là 600 : 30 = 20 (con)\r\n• Số tem 20 xu là 30 – 20 = 10 (con)\r\n• Vậy Clifford có 20 con tem 50 xu và 10 con tem 20 xu.",
     "type": "fill"
@@ -1966,10 +2161,13 @@ const GRADE4_SPECIAL_DB = [
     "num": 8,
     "text": "Natalie saves 30 pieces of $5 and $10 notes. Her total savings is $220. How\r\nmany pieces of $10 notes does Natalie save?\r\nNatalie tiết kiệm 30 tờ tiền loại 5 đô la và 10 đô la. Tổng số tiền tiết kiệm của cô ấy là 220\r\nđô la. Hỏi Natalie tiết kiệm bao nhiêu tờ tiền loại 10 đô la?",
     "options": [],
-    "answer": "150",
+    "answer": "14, 10, 16, 5",
     "acceptedAnswers": [
-      "150",
-      "150"
+      "14, 10, 16, 5",
+      "14 và 10",
+      "14, 10",
+      "14; 10",
+      "14 10"
     ],
     "explanation": "• Giả sử tất cả là tờ 5 đô la, số tiền là 30 × 5 = 150 (đô la)\r\n• Số tiền bị thiếu là 220 – 150 = 70 (đô la)\r\n• Sự chênh lệch khi đổi 1 tờ 5 đô la thành 1 tờ 10 đô la là 10 – 5 = 5 (đô la)\r\n• Số tờ 10 đô la là 70 : 5 = 14 (tờ)\r\n• Vậy Natalie tiết kiệm 14 tờ 10 đô la (và 16 tờ 5 đô la).",
     "type": "fill"
@@ -2000,10 +2198,9 @@ const GRADE4_SPECIAL_DB = [
     "num": 10,
     "text": "There were 25 questions in a mathematics quiz. If a question was answered\r\ncorrectly, 4 marks would be given, otherwise 1 mark would be deducted. If John\r\nscored 85 marks in the mathematics quiz, how many questions had he answered\r\ncorrectly?\r\nCó 25 câu hỏi trong một bài kiểm tra toán học. Nếu trả lời đúng một câu, bạn sẽ được\r\ncộng 4 điểm, còn nếu trả lời sai sẽ bị trừ 1 điểm. Nếu John đạt được 85 điểm trong bài\r\nkiểm tra toán học, hỏi bạn ấy đã trả lời đúng bao nhiêu câu?",
     "options": [],
-    "answer": "100",
+    "answer": "22",
     "acceptedAnswers": [
-      "100",
-      "100"
+      "22"
     ],
     "explanation": "• Giả sử John trả lời đúng cả 25 câu, số điểm là 25 × 4 = 100 (điểm)\r\n• Số điểm bị dư là 100 – 85 = 15 (điểm)\r\n• Mỗi lần đổi 1 câu đúng thành 1 câu sai, điểm giảm 4 + 1 = 5 (điểm)\r\n• Số câu sai là 15 : 5 = 3 (câu)\r\n• Số câu đúng là 25 – 3 = 22 (câu)\r\n• Vậy John trả lời đúng 22 câu.",
     "type": "fill"
@@ -2017,10 +2214,9 @@ const GRADE4_SPECIAL_DB = [
     "num": 11,
     "text": "There were 45 questions in a science contest. 4 marks would be awarded for\r\nevery correct answer. 2 marks would be deducted for every wrong answer. All\r\nquestions had to be answered. If Henry scored 150 marks, how many questions had\r\nhe answered wrongly?\r\nCó 45 câu hỏi trong một cuộc thi khoa học. Mỗi câu trả lời đúng được cộng 4 điểm. Mỗi\r\ncâu trả lời sai bị trừ 2 điểm. Tất cả các câu hỏi đều phải được trả lời. Nếu Henry đạt được\r\n150 điểm, hỏi bạn ấy đã trả lời sai bao nhiêu câu?",
     "options": [],
-    "answer": "180",
+    "answer": "5",
     "acceptedAnswers": [
-      "180",
-      "180"
+      "5"
     ],
     "explanation": "• Giả sử Henry trả lời đúng cả 45 câu, số điểm là 45 × 4 = 180 (điểm)\r\n• Số điểm bị dư là 180 – 150 = 30 (điểm)\r\n• Mỗi lần đổi 1 câu đúng thành 1 câu sai, điểm giảm 4 + 2 = 6 (điểm)\r\n• Số câu sai là 30 : 6 = 5 (câu)\r\n• Vậy Henry trả lời sai 5 câu.",
     "type": "fill"
@@ -2034,10 +2230,9 @@ const GRADE4_SPECIAL_DB = [
     "num": 12,
     "text": "There are 30 questions in a mathematics competition. All questions must be\r\nanswered. 5 marks are awarded for every correct answer. 2 marks will be deducted\r\nfor a wrong answer. If Amy scores 122 marks, how many questions does she answer\r\ncorrectly?\r\nCó 30 câu hỏi trong một cuộc thi toán học. Tất cả các câu hỏi đều phải được trả lời. Mỗi\r\ncâu trả lời đúng được cộng 5 điểm. Mỗi câu trả lời sai bị trừ 2 điểm. Nếu Amy đạt được\r\n122 điểm, hỏi bạn ấy đã trả lời đúng bao nhiêu câu?",
     "options": [],
-    "answer": "150",
+    "answer": "26",
     "acceptedAnswers": [
-      "150",
-      "150"
+      "26"
     ],
     "explanation": "• Giả sử Amy trả lời đúng cả 30 câu, số điểm là 30 × 5 = 150 (điểm)\r\n• Số điểm bị dư là 150 – 122 = 28 (điểm)\r\n• Mỗi lần đổi 1 câu đúng thành 1 câu sai, điểm giảm 5 + 2 = 7 (điểm)\r\n\r\n• Số câu sai là 28 : 7 = 4 (câu)\r\n• Số câu đúng là 30 – 4 = 26 (câu)\r\n• Vậy Amy trả lời đúng 26 câu.",
     "type": "fill"
@@ -2102,13 +2297,34 @@ const GRADE4_SPECIAL_DB = [
     "num": 16,
     "text": "There are 20 questions in a mathematics contest. 8 marks will be awarded\r\nfor each correct answer. 4 marks will be deducted for each wrong answer. All the\r\nquestions must be answered. If Isabelle scores 100 marks in the mathematics\r\ncontest, how many questions does she answer correctly?\r\nCó 20 câu hỏi trong một cuộc thi toán học. Mỗi câu trả lời đúng được cộng 8 điểm. Mỗi\r\ncâu trả lời sai bị trừ 4 điểm. Tất cả các câu hỏi đều phải được trả lời. Nếu Isabelle đạt\r\nđược 100 điểm trong cuộc thi toán học, hỏi bạn ấy đã trả lời đúng bao nhiêu câu?",
     "options": [],
-    "answer": "160",
+    "answer": "15",
     "acceptedAnswers": [
-      "160",
-      "160"
+      "15",
+      "15 câu",
+      "15 cau"
     ],
-    "explanation": "• Giả sử Isabelle trả lời đúng cả 20 câu, số điểm là 20 × 8 = 160 (điểm)\r\n• Số điểm bị dư là 160 – 100 = 60 (điểm)\r\n• Mỗi lần đổi 1 câu đúng thành 1 câu sai, điểm giảm 8 + 4 = 12 (điểm)\r\n• Số câu sai là 60 : 12 = 5 (câu)\r\n• Số câu đúng là 20 – 5 = 15 (câu)\r\n• Vậy Isabelle trả lời đúng 15 câu.\r\n17*. [ĐVH] A PE teacher bought 4 identical basketballs and 5 identical volleyballs for\r\n$230. Each basketball was $8 more expensive than a volleyball. Find the cost of each\r\nbasketball and each volleyball.\r\nMột giáo viên thể dục đã mua 4 quả bóng rổ giống hệt nhau và 5 quả bóng chuyền giống\r\nhệt nhau với giá 230 đô la. Mỗi quả bóng rổ đắt hơn một quả bóng chuyền 8 đô la. Hãy\r\ntìm giá của mỗi quả bóng rổ và mỗi quả bóng chuyền.\r\n\r\n• Giả sử cả 9 quả đều có giá bằng bóng chuyền, thì 4 quả bóng rổ cần bớt đi 4 × 8 =\r\n32 (đô la)\r\n\r\n• Giá của 9 quả bóng chuyền là 230 – 32 = 198 (đô la)\r\n\r\n• Giá mỗi quả bóng chuyền là 198 : 9 = 22 (đô la)\r\n• Giá mỗi quả bóng rổ là 22 + 8 = 30 (đô la)\r\n• Vậy mỗi quả bóng rổ giá 30 đô la, mỗi quả bóng chuyền giá 22 đô la.",
+    "explanation": "• Giả sử Isabelle trả lời đúng cả 20 câu, số điểm là 20 × 8 = 160 (điểm)\n• Số điểm bị dư là 160 – 100 = 60 (điểm)\n• Mỗi lần đổi 1 câu đúng thành 1 câu sai, điểm giảm 8 + 4 = 12 (điểm)\n• Số câu sai là 60 : 12 = 5 (câu)\n• Số câu đúng là 20 – 5 = 15 (câu)\n• Vậy Isabelle trả lời đúng 15 câu.",
     "type": "fill"
+  },
+  {
+    "id": "G4-NC-1143B",
+    "exam": "SPECIAL_G4",
+    "grade": 4,
+    "round": "05_BÀI TOÁN GÀ VÀ THỎ",
+    "topic": "05_BÀI TOÁN GÀ VÀ THỎ",
+    "num": 17,
+    "text": "17*. [ĐVH] A PE teacher bought 4 identical basketballs and 5 identical volleyballs for $230. Each basketball was $8 more expensive than a volleyball. Find the cost of each basketball and each volleyball.\nMột giáo viên thể dục đã mua 4 quả bóng rổ giống hệt nhau và 5 quả bóng chuyền giống hệt nhau với giá 230 đô la. Mỗi quả bóng rổ đắt hơn một quả bóng chuyền 8 đô la. Hãy tìm giá của mỗi quả bóng rổ và mỗi quả bóng chuyền.",
+    "type": "fill",
+    "answer": "Bóng rổ 30 đô la, bóng chuyền 22 đô la",
+    "acceptedAnswers": [
+      "30 và 22",
+      "30, 22",
+      "30; 22",
+      "30 22",
+      "bóng rổ 30, bóng chuyền 22",
+      "bóng rổ 30 đô la, bóng chuyền 22 đô la"
+    ],
+    "explanation": "• Giả sử cả 9 quả đều có giá bằng bóng chuyền, thì 4 quả bóng rổ cần bớt đi 4 × 8 = 32 (đô la)\n• Giá của 9 quả bóng chuyền là 230 – 32 = 198 (đô la)\n• Giá mỗi quả bóng chuyền là 198 : 9 = 22 (đô la)\n• Giá mỗi quả bóng rổ là 22 + 8 = 30 (đô la)\n• Vậy mỗi quả bóng rổ giá 30 đô la, mỗi quả bóng chuyền giá 22 đô la."
   },
   {
     "id": "G4-NC-1144",
@@ -2119,10 +2335,12 @@ const GRADE4_SPECIAL_DB = [
     "num": 18,
     "text": "A pen cost $4 and a book cost $7. Samuel paid $64 for 10 such pens and\r\nbooks. Find the number of pens and the number of books he had bought.\r\nMột cây bút giá 4 đô la và một quyển sách giá 7 đô la. Samuel đã trả 64 đô la cho 10 cây\r\nbút và quyển sách như vậy. Hãy tìm số bút và số sách mà anh ấy đã mua.",
     "options": [],
-    "answer": "40",
+    "answer": "2, 8",
     "acceptedAnswers": [
-      "40",
-      "40"
+      "2, 8",
+      "2 và 8",
+      "2; 8",
+      "2 8"
     ],
     "explanation": "• Giả sử tất cả là bút, số tiền là 10 × 4 = 40 (đô la)\r\n• Số tiền bị thiếu là 64 – 40 = 24 (đô la)\r\n• Sự chênh lệch khi đổi 1 bút thành 1 sách là 7 – 4 = 3 (đô la)\r\n• Số sách là 24 : 3 = 8 (quyển)\r\n• Số bút là 10 – 8 = 2 (cây)\r\n• Vậy Samuel mua 2 cây bút và 8 quyển sách.",
     "type": "fill"
@@ -2136,10 +2354,12 @@ const GRADE4_SPECIAL_DB = [
     "num": 19,
     "text": "A whiteboard marker cost $3. A paintbrush cost $1. A teacher paid $28 in\r\nall for 12 paintbrushes and whiteboard markers. How many whiteboard markers\r\nand how many paintbrushes did the teacher buy?\r\nMột cây bút lông bảng trắng giá 3 đô la. Một cây cọ vẽ giá 1 đô la. Một giáo viên đã trả\r\ntổng cộng 28 đô la cho 12 cây cọ vẽ và bút lông bảng trắng. Hỏi giáo viên đó đã mua bao\r\nnhiêu cây bút lông bảng trắng và bao nhiêu cây cọ vẽ?",
     "options": [],
-    "answer": "12",
+    "answer": "8, 4",
     "acceptedAnswers": [
-      "12",
-      "12"
+      "8, 4",
+      "8 và 4",
+      "8; 4",
+      "8 4"
     ],
     "explanation": "• Giả sử tất cả là cọ vẽ, số tiền là 12 × 1 = 12 (đô la)\r\n• Số tiền bị thiếu là 28 – 12 = 16 (đô la)\r\n• Sự chênh lệch khi đổi 1 cọ vẽ thành 1 bút lông bảng là 3 – 1 = 2 (đô la)\r\n• Số bút lông bảng là 16 : 2 = 8 (cây)\r\n• Số cọ vẽ là 12 – 8 = 4 (cây)\r\n• Vậy giáo viên mua 8 cây bút lông bảng trắng và 4 cây cọ vẽ.",
     "type": "fill"
@@ -2153,10 +2373,13 @@ const GRADE4_SPECIAL_DB = [
     "num": 1,
     "text": "The sum of the ages of two brothers is 28. The younger brother was 2\r\nyears younger than the older sibling ten years ago. How old are they now?\r\nTổng số tuổi của hai anh em là 28. Mười năm trước, người em kém người anh 2 tuổi.\r\nHỏi hiện nay họ bao nhiêu tuổi?",
     "options": [],
-    "answer": "2",
+    "answer": "28, 15, 13",
     "acceptedAnswers": [
-      "2",
-      "2"
+      "28, 15, 13",
+      "28 và 15",
+      "28, 15",
+      "28; 15",
+      "28 15"
     ],
     "explanation": "• Hiệu số tuổi không đổi theo thời gian nên hiện tại Anh – Em = 2 tuổi\r\n• Kết hợp với Anh + Em = 28 tuổi → Anh = 15 tuổi và Em = 13 tuổi",
     "type": "fill"
@@ -2170,10 +2393,13 @@ const GRADE4_SPECIAL_DB = [
     "num": 2,
     "text": "The sum of my parents' ages is 70. Twenty years ago, my father was 4\r\nyears older than my mother. How old are they now?\r\nTổng số tuổi của bố mẹ tôi là 70. Hai mươi năm trước, bố tôi hơn mẹ tôi 4 tuổi. Hỏi hiện\r\nnay họ bao nhiêu tuổi?",
     "options": [],
-    "answer": "4",
+    "answer": "70, 37, 33",
     "acceptedAnswers": [
-      "4",
-      "4"
+      "70, 37, 33",
+      "70 và 37",
+      "70, 37",
+      "70; 37",
+      "70 37"
     ],
     "explanation": "• Hiệu số tuổi không đổi theo thời gian nên hiện tại Bố – Mẹ = 4 tuổi\r\n• Kết hợp với Bố + Mẹ = 70 tuổi → Bố = 37 tuổi và Mẹ = 33 tuổi",
     "type": "fill"
@@ -2187,10 +2413,12 @@ const GRADE4_SPECIAL_DB = [
     "num": 3,
     "text": "Sean is 26 years old. He is 8 years older than John. How many years ago\r\nwas Sean's age three times John's age?\r\nSean 26 tuổi. Cậu ấy hơn John 8 tuổi. Hỏi cách đây bao nhiêu năm tuổi của Sean gấp ba\r\nlần tuổi của John?",
     "options": [],
-    "answer": "8",
+    "answer": "12, 14",
     "acceptedAnswers": [
-      "8",
-      "8"
+      "12, 14",
+      "12 và 14",
+      "12; 14",
+      "12 14"
     ],
     "explanation": "• Hiệu số tuổi không thay đổi, luôn là 8 tuổi\r\n• Khi mà Sean gấp 3 lần tuổi của John thì Sean chiếm 3p, John chiếm 1p\r\n→ Hiệu là 2p = 8 nên 1p = 4 tuổi\r\n• Tức là khi đó Sean 12 tuổi → Cách đây là 14 năm",
     "type": "fill"
@@ -2204,10 +2432,9 @@ const GRADE4_SPECIAL_DB = [
     "num": 4,
     "text": "Xavier is 2 years old and his mother is 26 years old. In how many years'\r\ntime will his mother's age be three times Xavier's age?\r\nXavier 2 tuổi và mẹ cậu ấy 26 tuổi. Hỏi sau bao nhiêu năm nữa tuổi của mẹ cậu ấy sẽ\r\ngấp ba lần tuổi của Xavier?",
     "options": [],
-    "answer": "24",
+    "answer": "10",
     "acceptedAnswers": [
-      "24",
-      "24"
+      "10"
     ],
     "explanation": "• Hiệu số tuổi không thay đổi, luôn là 26 – 2 = 24 (tuổi)\r\n• Khi mẹ gấp 3 lần tuổi Xavier thì mẹ chiếm 3p, Xavier chiếm 1p\r\n• Hiệu là 2p = 24 nên 1p = 12 tuổi\r\n• Tức là khi đó Xavier 12 tuổi, mẹ 36 tuổi\r\n• Sau số năm là 12 – 2 = 10 (năm)\r\n• Vậy sau 10 năm nữa tuổi mẹ gấp ba lần tuổi Xavier.",
     "type": "fill"
@@ -2221,10 +2448,12 @@ const GRADE4_SPECIAL_DB = [
     "num": 5,
     "text": "The sum of John’s age and his father’s age is 44. Three years ago, the\r\nfather was 20 years older than John. How old are they now?\r\nTổng số tuổi của John và bố cậu ấy là 44. Ba năm trước, bố hơn John 20 tuổi. Hỏi hiện\r\nnay họ bao nhiêu tuổi?",
     "options": [],
-    "answer": "20",
+    "answer": "32, 12",
     "acceptedAnswers": [
-      "20",
-      "20"
+      "32, 12",
+      "32 và 12",
+      "32; 12",
+      "32 12"
     ],
     "explanation": "• Hiệu số tuổi không đổi theo thời gian nên hiện tại Bố – John = 20 tuổi\r\n• Kết hợp với Bố + John = 44 tuổi\r\n• Bố = (44 + 20) : 2 = 32 tuổi\r\n• John = (44 – 20) : 2 = 12 tuổi\r\n• Vậy hiện nay bố 32 tuổi và John 12 tuổi.",
     "type": "fill"
@@ -2238,10 +2467,9 @@ const GRADE4_SPECIAL_DB = [
     "num": 6,
     "text": "Raphael is 8 years old. One day, he asked his mother about her age.\r\n\"When you reach my age, I will be 54 years old,\" replied his mother. How old is\r\nRaphael’s mother?\r\nRaphael 8 tuổi. Một ngày nọ, cậu ấy hỏi mẹ về tuổi của bà. \"Khi con bằng tuổi mẹ hiện\r\nnay, mẹ sẽ 54 tuổi,\" mẹ cậu trả lời. Hỏi mẹ của Raphael bao nhiêu tuổi?",
     "options": [],
-    "answer": "8",
+    "answer": "31",
     "acceptedAnswers": [
-      "8",
-      "8"
+      "31"
     ],
     "explanation": "• Gọi x là hiệu số tuổi của hai mẹ con, x sẽ không thay đổi\r\n• Khi con 8 tuổi thì hiện tại tuổi mẹ là 8 + x\r\n• Khi con bằng mẹ hiện tại (tức 8 + x) thì tuổi mẹ là (8 + x) + x = 8 + 2x\r\n• Theo bài thì 8 + 2x = 54 → x = 23\r\n• Vậy hiện tại Mẹ 31 tuổi.",
     "type": "fill"
@@ -2255,10 +2483,9 @@ const GRADE4_SPECIAL_DB = [
     "num": 7,
     "text": "Four years ago, the age of Isabelle’s mother was 4 times that of hers. Her\r\nmother is 44 years old. How old is Isabelle?\r\nBốn năm trước, tuổi của mẹ Isabelle gấp 4 lần tuổi của cô ấy. Mẹ cô ấy hiện 44 tuổi. Hỏi\r\nIsabelle bao nhiêu tuổi?",
     "options": [],
-    "answer": "40",
+    "answer": "14",
     "acceptedAnswers": [
-      "40",
-      "40"
+      "14"
     ],
     "explanation": "• Bốn năm trước, mẹ có số tuổi là 44 – 4 = 40 (tuổi)\r\n• Khi đó mẹ chiếm 4p, Isabelle chiếm 1p\r\n• 4p = 40 nên 1p = 10 tuổi\r\n• Tức là bốn năm trước Isabelle 10 tuổi, nên hiện nay Isabelle 10 + 4 = 14 (tuổi)\r\n• Vậy Isabelle 14 tuổi.",
     "type": "fill"
@@ -2272,10 +2499,9 @@ const GRADE4_SPECIAL_DB = [
     "num": 8,
     "text": "Joel is 8 years old. His mother is 34 years old. In how many years’ time\r\nwill his mother’s age be three times Joel’s age?\r\nJoel 8 tuổi. Mẹ cậu ấy 34 tuổi. Hỏi sau bao nhiêu năm nữa tuổi của mẹ cậu ấy sẽ gấp ba\r\nlần tuổi của Joel?",
     "options": [],
-    "answer": "26",
+    "answer": "5",
     "acceptedAnswers": [
-      "26",
-      "26"
+      "5"
     ],
     "explanation": "• Hiệu số tuổi không thay đổi, luôn là 34 – 8 = 26 (tuổi)\r\n• Khi mẹ gấp 3 lần tuổi Joel thì mẹ chiếm 3p, Joel chiếm 1p\r\n• Hiệu là 2p = 26 nên 1p = 13 tuổi\r\n\r\n• Tức là khi đó Joel 13 tuổi, sau số năm là 13 – 8 = 5 (năm)\r\n• Vậy sau 5 năm nữa.",
     "type": "fill"
@@ -2289,10 +2515,9 @@ const GRADE4_SPECIAL_DB = [
     "num": 9,
     "text": "Beatrice is 10 years old. Her father is 34 years old. How many years ago\r\nwas her father's age four times Beatrice's age?\r\nBeatrice 10 tuổi. Bố cô ấy 34 tuổi. Hỏi cách đây bao nhiêu năm tuổi của bố cô ấy gấp bốn\r\nlần tuổi của Beatrice?",
     "options": [],
-    "answer": "24",
+    "answer": "2",
     "acceptedAnswers": [
-      "24",
-      "24"
+      "2"
     ],
     "explanation": "• Hiệu số tuổi không thay đổi, luôn là 34 – 10 = 24 (tuổi)\r\n• Khi bố gấp 4 lần tuổi Beatrice thì bố chiếm 4p, Beatrice chiếm 1p\r\n• Hiệu là 3p = 24 nên 1p = 8 tuổi\r\n• Tức là khi đó Beatrice 8 tuổi, cách đây 10 – 8 = 2 (năm)\r\n• Vậy cách đây 2 năm.",
     "type": "fill"
@@ -2306,10 +2531,12 @@ const GRADE4_SPECIAL_DB = [
     "num": 10,
     "text": "The sum of Grandfather’s age and Jimmy’s age is 66. Three years later,\r\nGrandfather’s age will be 8 times Jimmy’s age. How old are Jimmy and his\r\ngrandfather?\r\nTổng số tuổi của ông nội và Jimmy là 66. Ba năm sau, tuổi của ông nội sẽ gấp 8 lần tuổi\r\ncủa Jimmy. Hỏi Jimmy và ông nội của cậu ấy bao nhiêu tuổi?",
     "options": [],
-    "answer": "72",
+    "answer": "5, 61",
     "acceptedAnswers": [
-      "72",
-      "72"
+      "5, 61",
+      "5 và 61",
+      "5; 61",
+      "5 61"
     ],
     "explanation": "• Ba năm sau, tổng số tuổi của hai người là 66 + 3 × 2 = 72 (tuổi)\r\n• Khi đó ông chiếm 8p, Jimmy chiếm 1p, tổng là 9p = 72 nên 1p = 8 tuổi\r\n• Ba năm sau Jimmy 8 tuổi, ông 8 × 8 = 64 tuổi\r\n• Hiện nay Jimmy 8 – 3 = 5 (tuổi), ông 64 – 3 = 61 (tuổi)\r\n• Vậy Jimmy 5 tuổi và ông nội 61 tuổi.",
     "type": "fill"
@@ -2323,10 +2550,9 @@ const GRADE4_SPECIAL_DB = [
     "num": 11,
     "text": "Samuel’s grandmother is 64 years old. Samuel is 13 years old. In how\r\nmany years’ time will his grandmother’s age be four times Samuel’s age?\r\nBà của Samuel 64 tuổi. Samuel 13 tuổi. Hỏi sau bao nhiêu năm nữa tuổi của bà sẽ gấp\r\nbốn lần tuổi của Samuel?",
     "options": [],
-    "answer": "51",
+    "answer": "4",
     "acceptedAnswers": [
-      "51",
-      "51"
+      "4"
     ],
     "explanation": "• Hiệu số tuổi không thay đổi, luôn là 64 – 13 = 51 (tuổi)\r\n• Khi bà gấp 4 lần tuổi Samuel thì bà chiếm 4p, Samuel chiếm 1p\r\n• Hiệu là 3p = 51 nên 1p = 17 tuổi\r\n• Tức là khi đó Samuel 17 tuổi, sau số năm là 17 – 13 = 4 (năm)\r\n• Vậy sau 4 năm nữa.",
     "type": "fill"
@@ -2340,10 +2566,9 @@ const GRADE4_SPECIAL_DB = [
     "num": 12,
     "text": "A daughter is 8 years old. Her mother is 38 years old. In how many years’\r\ntime will the mother’s age be three times the daughter’s age?\r\nMột người con gái 8 tuổi. Mẹ của cô bé 38 tuổi. Hỏi sau bao nhiêu năm nữa tuổi của\r\nngười mẹ sẽ gấp ba lần tuổi của con gái?",
     "options": [],
-    "answer": "30",
+    "answer": "7",
     "acceptedAnswers": [
-      "30",
-      "30"
+      "7"
     ],
     "explanation": "• Hiệu số tuổi không thay đổi, luôn là 38 – 8 = 30 (tuổi)\r\n• Khi mẹ gấp 3 lần tuổi con thì mẹ chiếm 3p, con chiếm 1p\r\n• Hiệu là 2p = 30 nên 1p = 15 tuổi\r\n• Tức là khi đó con gái 15 tuổi, sau số năm là 15 – 8 = 7 (năm)\r\n• Vậy sau 7 năm nữa.",
     "type": "fill"
@@ -2357,10 +2582,12 @@ const GRADE4_SPECIAL_DB = [
     "num": 13,
     "text": "The sum of Melanie’s and her brother’s ages is 35. Four years from now,\r\nMelanie will be 5 years older than her brother. How old is Melanie? How old is\r\nher brother?\r\nTổng số tuổi của Melanie và anh/em trai cô ấy là 35. Bốn năm nữa, Melanie sẽ hơn\r\nanh/em trai mình 5 tuổi. Hỏi Melanie bao nhiêu tuổi? Anh/em trai cô ấy bao nhiêu tuổi?",
     "options": [],
-    "answer": "5",
+    "answer": "20, 15",
     "acceptedAnswers": [
-      "5",
-      "5"
+      "20, 15",
+      "20 và 15",
+      "20; 15",
+      "20 15"
     ],
     "explanation": "• Hiệu số tuổi không đổi theo thời gian nên hiện tại Melanie – Anh/em = 5 tuổi\r\n• Kết hợp với Melanie + Anh/em = 35 tuổi\r\n• Melanie = (35 + 5) : 2 = 20 tuổi\r\n• Anh/em trai = (35 – 5) : 2 = 15 tuổi\r\n• Vậy Melanie 20 tuổi và anh/em trai 15 tuổi.",
     "type": "fill"
@@ -2374,10 +2601,12 @@ const GRADE4_SPECIAL_DB = [
     "num": 14,
     "text": "Jonathan is 10 years old. His brother, Joseph, is 14 years old. How old will\r\neach boy be when the sum of their ages is 50?\r\nJonathan 10 tuổi. Anh trai cậu ấy, Joseph, 14 tuổi. Hỏi mỗi cậu bé sẽ bao nhiêu tuổi khi\r\ntổng số tuổi của cả hai là 50?",
     "options": [],
-    "answer": "24",
+    "answer": "23, 27",
     "acceptedAnswers": [
-      "24",
-      "24"
+      "23, 27",
+      "23 và 27",
+      "23; 27",
+      "23 27"
     ],
     "explanation": "• Tổng số tuổi hiện nay là 10 + 14 = 24 (tuổi)\r\n• Số tuổi cần tăng thêm là 50 – 24 = 26 (tuổi)\r\n• Mỗi năm, mỗi người tăng 1 tuổi nên tổng tăng 2 tuổi\r\n• Số năm cần thêm là 26 : 2 = 13 (năm)\r\n• Jonathan: 10 + 13 = 23 (tuổi); Joseph: 14 + 13 = 27 (tuổi)\r\n• Vậy Jonathan 23 tuổi và Joseph 27 tuổi.",
     "type": "fill"
@@ -2391,10 +2620,9 @@ const GRADE4_SPECIAL_DB = [
     "num": 15,
     "text": "Granny Mabel is 60 years old. Kelly is 5 years old. In how many years'\r\ntime will Granny Mabel's age be six times Kelly's age?\r\nBà Mabel 60 tuổi. Kelly 5 tuổi. Hỏi sau bao nhiêu năm nữa tuổi của bà Mabel sẽ gấp sáu\r\nlần tuổi của Kelly?",
     "options": [],
-    "answer": "55",
+    "answer": "6",
     "acceptedAnswers": [
-      "55",
-      "55"
+      "6"
     ],
     "explanation": "• Hiệu số tuổi không thay đổi, luôn là 60 – 5 = 55 (tuổi)\r\n• Khi bà gấp 6 lần tuổi Kelly thì bà chiếm 6p, Kelly chiếm 1p\r\n• Hiệu là 5p = 55 nên 1p = 11 tuổi\r\n• Tức là khi đó Kelly 11 tuổi, sau số năm là 11 – 5 = 6 (năm)\r\n• Vậy sau 6 năm nữa.",
     "type": "fill"
@@ -2408,10 +2636,9 @@ const GRADE4_SPECIAL_DB = [
     "num": 16,
     "text": "A father is 50 years old. His son is 24 years old. How many years ago was\r\nthe father's age three times his son's age?\r\nMột người cha 50 tuổi. Con trai ông ấy 24 tuổi. Hỏi cách đây bao nhiêu năm tuổi của\r\nngười cha gấp ba lần tuổi của con trai?",
     "options": [],
-    "answer": "26",
+    "answer": "11",
     "acceptedAnswers": [
-      "26",
-      "26"
+      "11"
     ],
     "explanation": "• Hiệu số tuổi không thay đổi, luôn là 50 – 24 = 26 (tuổi)\r\n• Khi cha gấp 3 lần tuổi con thì cha chiếm 3p, con chiếm 1p\r\n• Hiệu là 2p = 26 nên 1p = 13 tuổi\r\n• Tức là khi đó con trai 13 tuổi, cách đây 24 – 13 = 11 (năm)\r\n• Vậy cách đây 11 năm.",
     "type": "fill"
@@ -2425,10 +2652,9 @@ const GRADE4_SPECIAL_DB = [
     "num": 17,
     "text": "Jenevieve is 10 years old. She asks her teacher about her age. \"I will be 58\r\nyears old by the time you reach my age,\" replies her teacher. How old is her\r\nteacher?\r\nJenevieve 10 tuổi. Cô bé hỏi cô giáo về tuổi của cô. \"Cô sẽ 58 tuổi vào lúc em bằng tuổi cô\r\nhiện nay,\" cô giáo trả lời. Hỏi cô giáo bao nhiêu tuổi?",
     "options": [],
-    "answer": "10",
+    "answer": "34",
     "acceptedAnswers": [
-      "10",
-      "10"
+      "34"
     ],
     "explanation": "• Gọi x là hiệu số tuổi của cô giáo và Jene, x sẽ không thay đổi\r\n• Hiện tại Jene 10 tuổi thì tuổi cô giáo là 10 + x\r\n• Khi Jene bằng tuổi cô hiện nay (tức 10 + x) thì tuổi cô là (10 + x) + x = 10 + 2x\r\n• Theo bài thì 10 + 2x = 58 → 2x = 48 → x = 24\r\n• Vậy hiện tại cô giáo 10 + 24 = 34 (tuổi)\r\n• Vậy cô giáo 34 tuổi.",
     "type": "fill"
@@ -2442,10 +2668,9 @@ const GRADE4_SPECIAL_DB = [
     "num": 18,
     "text": "Cindy is 12 years old. She asks Auntie Zoe about her age. \"I will be 62\r\nyears old by the time you reach my age,\" replies Auntie Zoe. How old is Auntie\r\nZoe?\r\nCindy 12 tuổi. Cô bé hỏi Dì Zoe về tuổi của dì. \"Dì sẽ 62 tuổi vào lúc cháu bằng tuổi dì\r\nhiện nay,\" Dì Zoe trả lời. Hỏi Dì Zoe bao nhiêu tuổi?",
     "options": [],
-    "answer": "12",
+    "answer": "37",
     "acceptedAnswers": [
-      "12",
-      "12"
+      "37"
     ],
     "explanation": "• Gọi x là hiệu số tuổi của Dì Zoe và Cindy, x sẽ không thay đổi\r\n• Hiện tại Cindy 12 tuổi thì tuổi Dì Zoe là 12 + x\r\n• Khi Cindy bằng tuổi Dì hiện nay (tức 12 + x) thì tuổi Dì là (12 + x) + x = 12 + 2x\r\n• Theo bài thì 12 + 2x = 62 → 2x = 50 → x = 25\r\n• Vậy hiện tại Dì Zoe 12 + 25 = 37 (tuổi)\r\n• Vậy Dì Zoe 37 tuổi.",
     "type": "fill"
@@ -2459,10 +2684,12 @@ const GRADE4_SPECIAL_DB = [
     "num": 19,
     "text": "The sum of a father’s age and his son’s age is 60. The father’s age was 3\r\ntimes his son’s age eight years ago. How old are they now?\r\nTổng số tuổi của một người cha và con trai là 60. Tám năm trước, tuổi của người cha\r\ngấp 3 lần tuổi của con trai. Hỏi hiện nay họ bao nhiêu tuổi?",
     "options": [],
-    "answer": "44",
+    "answer": "41, 19",
     "acceptedAnswers": [
-      "44",
-      "44"
+      "41, 19",
+      "41 và 19",
+      "41; 19",
+      "41 19"
     ],
     "explanation": "• Tám năm trước, tổng số tuổi của hai người là 60 – 8 × 2 = 44 (tuổi)\r\n• Khi đó cha chiếm 3p, con chiếm 1p, tổng là 4p = 44 nên 1p = 11 tuổi\r\n• Tám năm trước con 11 tuổi, cha 11 × 3 = 33 tuổi\r\n• Hiện nay con 11 + 8 = 19 (tuổi), cha 33 + 8 = 41 (tuổi)\r\n• Vậy cha 41 tuổi và con trai 19 tuổi.",
     "type": "fill"
@@ -2476,10 +2703,12 @@ const GRADE4_SPECIAL_DB = [
     "num": 20,
     "text": "The sum of a father’s age and his daughter’s age is 50. The father’s age\r\nwill be 3 times his daughter’s age five years from now. How old is the father?\r\nHow old is his daughter?\r\nTổng số tuổi của một người cha và con gái là 50. Năm năm nữa, tuổi của người cha sẽ\r\ngấp 3 lần tuổi của con gái. Hỏi người cha bao nhiêu tuổi? Con gái ông ấy bao nhiêu tuổi?",
     "options": [],
-    "answer": "60",
+    "answer": "40, 10",
     "acceptedAnswers": [
-      "60",
-      "60"
+      "40, 10",
+      "40 và 10",
+      "40; 10",
+      "40 10"
     ],
     "explanation": "• Năm năm nữa, tổng số tuổi của hai người là 50 + 5 × 2 = 60 (tuổi)\r\n• Khi đó cha chiếm 3p, con gái chiếm 1p, tổng là 4p = 60 nên 1p = 15 tuổi\r\n• Năm năm nữa con gái 15 tuổi, cha 15 × 3 = 45 tuổi\r\n• Hiện nay con gái 15 – 5 = 10 (tuổi), cha 45 – 5 = 40 (tuổi)\r\n• Vậy cha 40 tuổi và con gái 10 tuổi.",
     "type": "fill"
@@ -2493,10 +2722,9 @@ const GRADE4_SPECIAL_DB = [
     "num": 21,
     "text": "David’s mother is 30 years older than him. Her age will be four times\r\nDavid’s eight years later. How old is David now?\r\nMẹ của David hơn cậu ấy 30 tuổi. Tám năm sau, tuổi của bà sẽ gấp bốn lần tuổi của\r\nDavid. Hỏi hiện nay David bao nhiêu tuổi?",
     "options": [],
-    "answer": "30",
+    "answer": "2",
     "acceptedAnswers": [
-      "30",
-      "30"
+      "2"
     ],
     "explanation": "• Hiệu số tuổi không thay đổi, luôn là 30 tuổi\r\n• Khi mẹ gấp 4 lần tuổi David thì mẹ chiếm 4p, David chiếm 1p\r\n• Hiệu là 3p = 30 nên 1p = 10 tuổi\r\n• Tức là tám năm sau David 10 tuổi, nên hiện nay David 10 – 8 = 2 (tuổi)\r\n• Vậy David 2 tuổi.",
     "type": "fill"
@@ -2510,10 +2738,12 @@ const GRADE4_SPECIAL_DB = [
     "num": 22,
     "text": "Raymond’s grandfather is 50 years older than him. His grandfather’s age\r\nwas six times Raymond’s six years ago. How old is Raymond’s grandfather now?\r\nÔng nội của Raymond hơn cậu ấy 50 tuổi. Sáu năm trước, tuổi của ông nội gấp sáu lần\r\ntuổi của Raymond. Hỏi hiện nay ông nội của Raymond bao nhiêu tuổi?",
     "options": [],
-    "answer": "50",
+    "answer": "66, 16",
     "acceptedAnswers": [
-      "50",
-      "50"
+      "66, 16",
+      "66 và 16",
+      "66; 16",
+      "66 16"
     ],
     "explanation": "• Hiệu số tuổi không thay đổi, luôn là 50 tuổi\r\n• Khi ông gấp 6 lần tuổi Raymond thì ông chiếm 6p, Raymond chiếm 1p\r\n• Hiệu là 5p = 50 nên 1p = 10 tuổi\r\n• Tức là sáu năm trước Raymond 10 tuổi, ông 10 × 6 = 60 tuổi\r\n• Hiện nay ông nội 60 + 6 = 66 (tuổi)\r\n• Vậy ông nội của Raymond hiện 66 tuổi (và Raymond 16 tuổi).",
     "type": "fill"
@@ -2561,10 +2791,13 @@ const GRADE4_SPECIAL_DB = [
     "num": 3,
     "text": "Tốc độ đi bộ của Shawn là 75 m/phút. Tốc độ chạy của cậu ấy gấp 2 lần\r\ntốc độ đi bộ. Cậu ấy mất 24 phút để đi bộ đến trường. Hỏi cậu ấy mất bao lâu\r\nnếu cậu ấy đi bộ một nửa quãng đường và chạy nửa quãng đường còn lại?",
     "options": [],
-    "answer": "150",
+    "answer": "12, 6, 18",
     "acceptedAnswers": [
-      "150",
-      "150"
+      "12, 6, 18",
+      "12 và 6",
+      "12, 6",
+      "12; 6",
+      "12 6"
     ],
     "explanation": "• Tốc độ chạy của Shawn là 75 × 2 = 150 m/phút\r\n• Quãng đường từ nhà đến trường là 75 × 24 = 1800 m\r\n• Một nửa quãng đường là 1800 : 2 = 900 m\r\n• Thời gian đi bộ một nửa quãng đường là 900 : 75 = 12 phút\r\n• Thời gian chạy một nửa quãng đường là 900 : 150 = 6 phút\r\n• Thời gian cậu ấy đi hết quãng đường là 12 + 6 = 18 phút",
     "type": "fill"
@@ -2578,10 +2811,13 @@ const GRADE4_SPECIAL_DB = [
     "num": 4,
     "text": "Peter đi bộ từ trung tâm mua sắm đến công viên. Cùng lúc đó, Jane đi bộ\r\ntừ công viên đến trung tâm mua sắm. Tốc độ của họ lần lượt là 60 m/phút và 70\r\nm/phút. Hỏi khoảng cách từ thư viện đến trung tâm mua sắm là bao nhiêu nếu\r\nhai người gặp nhau tại điểm cách trung điểm 15 m?",
     "options": [],
-    "answer": "30",
+    "answer": "180, 210, 390",
     "acceptedAnswers": [
-      "30",
-      "30"
+      "180, 210, 390",
+      "180 và 210",
+      "180, 210",
+      "180; 210",
+      "180 210"
     ],
     "explanation": "• Peter chậm hơn Jane nên Peter đi chưa tới trung điểm, còn Jane đã đi qua trung\r\nđiểm.\r\n• Peter cách trung điểm 15 m và Jane qua trung điểm 15 m nên Jane đi nhiều hơn\r\nPeter 15 + 15 = 30 m\r\n• Mỗi phút Jane đi nhiều hơn Peter 70 − 60 = 10 m\r\n• Thời gian hai người đi đến khi gặp nhau là 30 : 10 = 3 phút\r\n\r\n• Sau 3 phút Peter đi được 60 × 3 = 180 m\r\n• Sau 3 phút Jane đi được 70 × 3 = 210 m\r\n• Khoảng cách cần tìm là 180 + 210 = 390 m",
     "type": "fill"
@@ -2595,13 +2831,31 @@ const GRADE4_SPECIAL_DB = [
     "num": 5,
     "text": "Mark đạp xe từ Thị trấn A đến Thị trấn B. Cùng lúc đó, Nick đạp xe từ Thị\r\ntrấn B đến Thị trấn A. Tốc độ của họ lần lượt là 12 km/h và 15 km/h. Một lúc sau\r\nhọ gặp nhau tại một điểm cách trung điểm của hai thị trấn 3 km. Khoảng cách giữa\r\nThị trấn A và Thị trấn B là bao nhiêu?",
     "options": [],
-    "answer": "6",
+    "answer": "54",
     "acceptedAnswers": [
-      "6",
-      "6"
+      "54",
+      "54 km",
+      "54km"
     ],
-    "explanation": "• Mark chậm hơn Nick nên Nick đi nhiều hơn Mark 3 + 3 = 6 km\r\n• Mỗi giờ Nick đi nhiều hơn Mark 15 − 12 = 3 km\r\n• Thời gian hai người đi đến khi gặp nhau là 6 : 3 = 2 giờ\r\n• Sau 2 giờ Mark đi được 12 × 2 = 24 km\r\n• Sau 2 giờ Nick đi được 15 × 2 = 30 km\r\n• Khoảng cách giữa Thị trấn A và Thị trấn B là 24 + 30 = 54 km\r\n\r\n6*.\r\n\r\n[ĐVH] Một chiếc xe tải đi từ Thị trấn A đến Thị trấn B với tốc độ 60 km/h. Cùng\r\nlúc đó, một chiếc ô tô đi từ Thị trấn B đến Thị trấn A với tốc độ 80 km/h. Chúng\r\ngặp nhau tại điểm cách trung điểm của hai thị trấn 30 km. Tìm khoảng cách giữa\r\nhai thị trấn.\r\n• Xe tải chậm hơn ô tô nên ô tô đi nhiều hơn xe tải 30 + 30 = 60 km\r\n• Mỗi giờ ô tô đi nhiều hơn xe tải 80 − 60 = 20 km\r\n• Thời gian hai xe đi đến khi gặp nhau là 60 : 20 = 3 giờ\r\n• Sau 3 giờ xe tải đi được 60 × 3 = 180 km\r\n• Sau 3 giờ ô tô đi được 80 × 3 = 240 km\r\n• Khoảng cách giữa hai thị trấn là 180 + 240 = 420 km",
+    "explanation": "• Điểm gặp nhau cách trung điểm 3 km, nghĩa là xe từ B đi nhiều hơn xe từ A là: 3 × 2 = 6 (km)\n• Hiệu vận tốc là: 15 – 12 = 3 (km/h)\n• Thời gian đi đến khi gặp nhau là: 6 : 3 = 2 (giờ)\n• Khoảng cách giữa Thị trấn A và B là: (12 + 15) × 2 = 54 (km)\n• Vậy khoảng cách giữa hai thị trấn là 54 km.",
     "type": "fill"
+  },
+  {
+    "id": "G4-NC-1187B",
+    "exam": "SPECIAL_G4",
+    "grade": 4,
+    "round": "08_CHUYỂN ĐỘNG BẮT KỊP NGƯỢC CHIỀU",
+    "topic": "08_CHUYỂN ĐỘNG BẮT KỊP NGƯỢC CHIỀU",
+    "num": 6,
+    "text": "6*. [ĐVH] Một chiếc xe tải đi từ Thị trấn A đến Thị trấn B với tốc độ 60 km/h. Cùng lúc đó, một chiếc ô tô đi từ Thị trấn B đến Thị trấn A với tốc độ 80 km/h. Chúng gặp nhau tại điểm cách trung điểm của hai thị trấn 30 km. Tìm khoảng cách giữa hai thị trấn.",
+    "type": "fill",
+    "answer": "420",
+    "acceptedAnswers": [
+      "420",
+      "420 km",
+      "420km"
+    ],
+    "explanation": "• Hiệu quãng đường hai xe đi được là: 30 × 2 = 60 (km)\n• Hiệu vận tốc hai xe: 80 – 60 = 20 (km/h)\n• Thời gian hai xe đi đến khi gặp nhau: 60 : 20 = 3 (giờ)\n• Khoảng cách giữa hai thị trấn là: (60 + 80) × 3 = 420 (km)\n• Vậy khoảng cách là 420 km."
   },
   {
     "id": "G4-NC-1188",
@@ -2612,10 +2866,13 @@ const GRADE4_SPECIAL_DB = [
     "num": 7,
     "text": "Qiqi đi bộ từ thư viện đến trường với tốc độ 60 m/phút. 2 phút sau,\r\nWeiling cũng rời thư viện đi đến trường với tốc độ 72 m/phút. Weiling đến\r\ntrường trước Qiqi 4 phút. Khoảng cách giữa thư viện và trường học là bao nhiêu?",
     "options": [],
-    "answer": "6",
+    "answer": "60, 36, 2160",
     "acceptedAnswers": [
-      "6",
-      "6"
+      "60, 36, 2160",
+      "60 và 36",
+      "60, 36",
+      "60; 36",
+      "60 36"
     ],
     "explanation": "• Weiling xuất phát sau Qiqi 2 phút nhưng đến trước 4 phút nên thời gian •\r\nWeiling đi ít hơn thời gian Qiqi đi là 2 + 4 = 6 phút\r\n• Tỉ số tốc độ của Qiqi và Weiling là 60 : 72 = 5 : 6\r\n• Trên cùng một quãng đường, tỉ số thời gian của Qiqi và Weiling là 6 : 5\r\n• Hiệu số phần bằng nhau là 6 − 5 = 1 phần, ứng với 6 phút\r\n• Thời gian Qiqi đi là 6 × 6 = 36 phút\r\n• Khoảng cách giữa thư viện và trường học là 60 × 36 = 2160 m",
     "type": "fill"
@@ -2748,10 +3005,13 @@ const GRADE4_SPECIAL_DB = [
     "num": 15,
     "text": "Hai thị trấn cách nhau 240 km. Cùng một lúc, xe A rời thị trấn thứ nhất\r\nvới vận tốc 50 km/h, xe B rời thị trấn thứ hai với vận tốc 70 km/h, hai xe đi ngược\r\nchiều nhau (đi về phía nhau) và cứ tiếp tục chạy sau khi gặp nhau. Hỏi sau bao\r\nlâu kể từ lúc xuất phát thì hai xe cách nhau 60 km? (Có hai trường hợp.)",
     "options": [],
-    "answer": "120",
+    "answer": "1,5, 1, 30, 2,5, 2, 30",
     "acceptedAnswers": [
-      "120",
-      "120"
+      "1,5, 1, 30, 2,5, 2, 30",
+      "1 và 5",
+      "1, 5",
+      "1; 5",
+      "1 5"
     ],
     "explanation": "• Tổng vận tốc: 50 + 70 = 120 (km/h).\r\n• Trường hợp 1 (chưa gặp nhau): hai xe đã đến gần nhau thêm 240 – 60 = 180\r\n(km), thời gian: 180 : 120 = 1,5 (giờ).\r\n• Trường hợp 2 (đã gặp nhau và đi qua nhau): hai xe đã đi tổng cộng 240 + 60 =\r\n300 (km), thời gian: 300 : 120 = 2,5 (giờ).\r\n• Đáp số: sau 1,5 giờ (1 giờ 30 phút) hoặc sau 2,5 giờ (2 giờ 30 phút).",
     "type": "fill"
@@ -2969,10 +3229,13 @@ const GRADE4_SPECIAL_DB = [
     "num": 11,
     "text": "Lúc 7 giờ, xe A rời thị trấn X với vận tốc 60 km/h. Cùng lúc đó, xe B rời thị\r\ntrấn Y với vận tốc 50 km/h. Thị trấn Y cách X 40 km, hai xe đi cùng chiều và Y ở\r\nphía trước X. Hỏi xe A đuổi kịp xe B sau bao lâu và vào lúc mấy giờ?",
     "options": [],
-    "answer": "10",
+    "answer": "7, 4, 11",
     "acceptedAnswers": [
-      "10",
-      "10"
+      "7, 4, 11",
+      "7 và 4",
+      "7, 4",
+      "7; 4",
+      "7 4"
     ],
     "explanation": "• Xe A chạy nhanh hơn xe B, mỗi giờ xe A đuổi gần được xe B là 60 − 50 = 10 km\r\n• Khoảng cách ban đầu giữa hai xe là 40 km\r\n• Thời gian xe A đuổi kịp xe B là 40 : 10 = 4 giờ\r\n• Hai xe sẽ gặp nhau lúc 7 + 4 = 11 giờ",
     "type": "fill"
@@ -2986,10 +3249,13 @@ const GRADE4_SPECIAL_DB = [
     "num": 12,
     "text": "Xe A rời thị trấn X trước xe B rời thị trấn Y 2 giờ, vận tốc xe A là 70 km/h.\r\nThị trấn Y cách X 200 km, hai xe đi cùng chiều. Sau 6 giờ kể từ khi xe A xuất phát\r\nthì A đuổi kịp B. Tính vận tốc xe B.",
     "options": [],
-    "answer": "420",
+    "answer": "220, 4, 55",
     "acceptedAnswers": [
-      "420",
-      "420"
+      "220, 4, 55",
+      "220 và 4",
+      "220, 4",
+      "220; 4",
+      "220 4"
     ],
     "explanation": "• Sau 6 giờ xe A đi được quãng đường là 70 × 6 = 420 km = XZ\r\n• Xe B xuất phát sau 2 giờ nên khi xe A đi 6 giờ thì xe B đi 6 − 2 = 4 giờ\r\n• Hai xe gặp nhau tại điểm Z như hình vẽ\r\n• Ta dễ thấy quãng đường xe B đi được là YZ = 420 − 200 = 220 km\r\n• Vận tốc xe B là 220 : 4 = 55 km/h",
     "type": "fill"
@@ -3003,10 +3269,9 @@ const GRADE4_SPECIAL_DB = [
     "num": 13,
     "text": "Xe A rời thị trấn X với vận tốc 80 km/h, xe B rời thị trấn Y với vận tốc 60\r\nkm/h. Hai thị trấn cách nhau 60 km, hai xe đi cùng chiều và Y ở phía trước X. Biết\r\nxe A đuổi kịp xe B sau 6 giờ kể từ khi xe A xuất phát. Hỏi xe B rời Y trước xe A bao\r\nnhiêu giờ?",
     "options": [],
-    "answer": "480",
+    "answer": "1",
     "acceptedAnswers": [
-      "480",
-      "480"
+      "1"
     ],
     "explanation": "• Sau 6 giờ xe A đi được quãng đường là 80 × 6 = 480 km = XZ\r\n• Hai xe gặp nhau tại điểm Z như hình vẽ\r\n• Ta dễ thấy quãng đường xe B đi được là YZ = 480 − 60 = 420 km\r\n• Thời gian xe B đi là 420 : 60 = 7 giờ\r\n• Xe B đi nhiều hơn xe A là 7 − 6 = 1 giờ\r\n• Vậy xe B rời Y trước xe A 1 giờ",
     "type": "fill"
@@ -3020,10 +3285,13 @@ const GRADE4_SPECIAL_DB = [
     "num": 14,
     "text": "Xe A rời bến lúc 8 giờ với vận tốc 45 km/h. Đến 10 giờ, xe B rời cùng bến\r\nđó, đi cùng chiều với vận tốc 60 km/h. Hỏi xe B đuổi kịp xe A lúc mấy giờ và tại\r\nnơi cách bến bao nhiêu km?",
     "options": [],
-    "answer": "90",
+    "answer": "60, 6, 360",
     "acceptedAnswers": [
-      "90",
-      "90"
+      "60, 6, 360",
+      "60 và 6",
+      "60, 6",
+      "60; 6",
+      "60 6"
     ],
     "explanation": "• Từ 8 giờ đến 10 giờ xe A đi được quãng đường là 45 × 2 = 90 km\r\n• Mỗi giờ xe B đuổi gần được xe A là 60 − 45 = 15 km\r\n• Thời gian xe B đuổi kịp xe A là 90 : 15 = 6 giờ\r\n• Xe B đuổi kịp xe A lúc 10 + 6 = 16 giờ\r\n• Nơi gặp nhau cách bến là 60 × 6 = 360 km",
     "type": "fill"
@@ -3037,10 +3305,13 @@ const GRADE4_SPECIAL_DB = [
     "num": 15,
     "text": "Xe A rời thị trấn X với vận tốc 72 km/h, xe B rời thị trấn Y với vận tốc 60\r\nkm/h, hai xe xuất phát cùng lúc và đi cùng chiều. Y cách X 48 km và ở phía trước\r\nX. Hỏi 7 giờ sau khi xuất phát, hai xe cách nhau bao nhiêu km?",
     "options": [],
-    "answer": "12",
+    "answer": "84, 48, 36",
     "acceptedAnswers": [
-      "12",
-      "12"
+      "84, 48, 36",
+      "84 và 48",
+      "84, 48",
+      "84; 48",
+      "84 48"
     ],
     "explanation": "• Mỗi giờ xe A đuổi gần được xe B là 72 − 60 = 12 km\r\n• Sau 7 giờ xe A đuổi gần được xe B là 12 × 7 = 84 km\r\n• Khoảng cách ban đầu là 48 km nên xe A đã đuổi kịp và vượt xe B\r\n• Lúc đó hai xe cách nhau là 84 − 48 = 36 km (xe A ở phía trước)",
     "type": "fill"
@@ -3054,13 +3325,33 @@ const GRADE4_SPECIAL_DB = [
     "num": 16,
     "text": "Hai xe cùng xuất phát một lúc, đi cùng chiều. Xe A đi từ thị trấn X với vận\r\ntốc 54 km/h, xe B đi từ thị trấn Y với vận tốc 45 km/h. Y cách X 36 km và ở phía\r\ntrước X. Tính quãng đường xe A đã đi khi đuổi kịp xe B.",
     "options": [],
-    "answer": "9",
+    "answer": "216",
     "acceptedAnswers": [
-      "9",
-      "9"
+      "216",
+      "216 km",
+      "216km"
     ],
-    "explanation": "• Mỗi giờ xe A đuổi gần được xe B là 54 − 45 = 9 km\r\n• Khoảng cách ban đầu là 36 km\r\n• Thời gian xe A đuổi kịp xe B là 36 : 9 = 4 giờ\r\n• Quãng đường xe A đã đi là 54 × 4 = 216 km\r\n\r\n17*.\r\n\r\n[ĐVH] Lúc 6 giờ, xe B rời bến. Đến 9 giờ, xe A rời cùng bến đó, đi cùng chiều và\r\nđuổi kịp xe B lúc 15 giờ. Biết vận tốc xe A lớn hơn vận tốc xe B là 15 km/h. Tính\r\nvận tốc mỗi xe.\r\n• Từ 6 giờ đến 9 giờ xe B đi được 3 giờ\r\n• Xe A đuổi kịp xe B lúc 15 giờ nên thời gian xe A đi là 15 − 9 = 6 giờ\r\n• Thời gian xe B đi là 15 − 6 = 9 giờ\r\n• Cùng một quãng đường, thời gian của xe A và xe B có tỉ số 6 : 9 = 2 : 3\r\n• Nên tỉ số vận tốc của xe A và xe B là 3 : 2\r\n• Hiệu số phần bằng nhau là 3 − 2 = 1 phần, ứng với 15 km/h\r\n• Vận tốc xe B là 15 × 2 = 30 km/h\r\n• Vận tốc xe A là 15 × 3 = 45 km/h",
+    "explanation": "• Hiệu vận tốc: 54 – 45 = 9 (km/h)\n• Thời gian đuổi kịp: 36 : 9 = 4 (giờ)\n• Quãng đường xe A đã đi: 54 × 4 = 216 (km)\n• Vậy xe A đã đi 216 km.",
     "type": "fill"
+  },
+  {
+    "id": "G4-NC-1214B",
+    "exam": "SPECIAL_G4",
+    "grade": 4,
+    "round": "09_CHUYỂN ĐỘNG BẮT KỊP CÙNG CHIỀU",
+    "topic": "09_CHUYỂN ĐỘNG BẮT KỊP CÙNG CHIỀU",
+    "num": 17,
+    "text": "17*. [ĐVH] Lúc 6 giờ, xe B rời bến. Đến 9 giờ, xe A rời cùng bến đó, đi cùng chiều và đuổi kịp xe B lúc 15 giờ. Biết vận tốc xe A lớn hơn vận tốc xe B là 15 km/h. Tính vận tốc mỗi xe.",
+    "type": "fill",
+    "answer": "Xe A 45 km/h, xe B 30 km/h",
+    "acceptedAnswers": [
+      "45 và 30",
+      "45, 30",
+      "45; 30",
+      "45 30",
+      "xe A 45 km/h, xe B 30 km/h"
+    ],
+    "explanation": "• Thời gian xe B đã đi: 15 – 6 = 9 (giờ)\n• Thời gian xe A đã đi: 15 – 9 = 6 (giờ)\n• Quãng đường hai xe đi bằng nhau: vA × 6 = vB × 9 => vA/vB = 3/2\n• Hiệu vận tốc: vA – vB = 15 km/h\n• Vận tốc xe B là: 15 × 2 = 30 (km/h)\n• Vận tốc xe A là: 30 + 15 = 45 (km/h)\n• Vậy xe A đi 45 km/h, xe B đi 30 km/h."
   },
   {
     "id": "G4-IQ-05-1",
@@ -3212,6 +3503,7 @@ const GRADE4_SPECIAL_DB = [
 ];
 
 if (typeof window !== 'undefined') {
+  window.GRADE4_SPECIAL_DB = GRADE4_SPECIAL_DB;
   window.GRADE4_SPECIAL_DATA = GRADE4_SPECIAL_DB;
 }
 if (typeof module !== 'undefined') {

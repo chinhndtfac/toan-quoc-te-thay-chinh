@@ -909,26 +909,26 @@
   </footer>
 
   <!-- Cơ sở dữ liệu tài khoản học sinh dùng chung -->
-  <script src="users_db.js?v=20261105_0900"></script>
+  <script src="users_db.js?v=20261105_1200"></script>
   <!-- Dữ liệu chuẩn sạch từ PDF -->
-  <script src="timo_data.js?v=20261105_0900"></script>
+  <script src="timo_data.js?v=20261105_1200"></script>
   <!-- Dữ liệu chuyên đề nâng cao Lớp 4 (Gà thỏ, tuổi, số nguyên tố, IQ...) -->
-  <script src="grade4_special.js?v=20261105_0900"></script>
+  <script src="grade4_special.js?v=20261105_1200"></script>
   <!-- Dữ liệu Kangaroo, ASMO & Ngân hàng đề thi mở rộng -->
-  <script src="extra_exams.js?v=20261105_0900"></script>
+  <script src="extra_exams.js?v=20261105_1200"></script>
   <!-- Dữ liệu Olympic FMO -->
-  <script src="fmo_data.js?v=20261105_0900"></script>
+  <script src="fmo_data.js?v=20261105_1200"></script>
   <!-- Dữ liệu Olympic Toán Kangaroo (IKMC) Trọn bộ 9 Đề thi kèm hình gốc -->
-  <script src="kangaroo_data.js?v=20261105_0900"></script>
+  <script src="kangaroo_data.js?v=20261105_1200"></script>
   <!-- Dữ liệu Tuyển tập 365 Bài Toán Hay & Khó (Lớp 1 - Lớp 5) -->
-  <script src="toan365_data.js?v=20261105_0900"></script>
+  <script src="toan365_data.js?v=20261105_1200"></script>
   <!-- Bộ bài tập Archimedes (Toán & Tiếng Việt Lớp 1 - 5) -->
-  <script src="archimedes_math_data.js?v=20261105_0900"></script>
-  <script src="archimedes_g4_real.js?v=20261105_0900"></script>
-  <script src="tieng_viet_data.js?v=20261105_0900"></script>
+  <script src="archimedes_math_data.js?v=20261105_1200"></script>
+  <script src="archimedes_g4_real.js?v=20261105_1200"></script>
+  <script src="tieng_viet_data.js?v=20261105_1200"></script>
   <!-- Thư viện Tạp chí Toán Tuổi Thơ 1 & 2 -->
-  <script src="toan_tuoi_tho_1_data.js?v=20261105_1000"></script>
-  <script src="toan_tuoi_tho_data.js?v=20261105_1000"></script>
+  <script src="toan_tuoi_tho_1_data.js?v=20261105_1200"></script>
+  <script src="toan_tuoi_tho_data.js?v=20261105_1200"></script>
 
   <script>
     // ===== HỆ THỐNG ÂM THANH THIẾU NHI (WEB AUDIO API) =====
@@ -993,7 +993,7 @@
         { id: 'TOAN_365', name: '365 Bài Hay & Khó', emoji: '📕', desc: 'Toán nâng cao & Bồi dưỡng HSG Lớp 1 - 5' },
         { id: 'FMO', name: 'Olympic FMO', emoji: '🌟', desc: 'Olympic Toán tiếng Anh FMO' },
         { id: 'Kangaroo', name: 'Kangaroo', emoji: '🦘', desc: 'Bộ đề thi Olympic IKMC Lớp 1 - 5 (863 câu kèm 100% hình gốc)' },
-        { id: 'ASMO', name: 'ASMO', emoji: '🌏', desc: 'Olympic Toán châu Á' },
+        { id: 'ASMO', name: 'ASMO (Sắp mở)', emoji: '🌏', desc: 'Olympic Toán châu Á (Đang cập nhật ngân hàng đề thi chính thức)' },
         { id: 'SPECIAL_G4', name: 'Toán Nâng Cao & AMO', emoji: '💎', desc: 'Chuyên đề G4 đỉnh cao' },
         { id: 'ARCHIMEDES_MATH', name: 'Ôn Luyện Toán Archimedes', emoji: '🏛️', desc: 'Bộ bài tập Toán Archimedes Lớp 1 - 5' },
         { id: 'TIENG_VIET', name: 'Ôn luyện TV Archimedes', emoji: '📖', desc: 'Bộ bài tập Tiếng Việt Archimedes Lớp 1 - 5' },
@@ -1309,7 +1309,7 @@
           return na - nb;
         });
       } else if (e === 'FMO') {
-        if (typeof FMO_DATA === 'undefined') return [];
+        if (typeof FMO_DATA === 'undefined' || grade !== 4) return [];
         const rounds = new Set();
         FMO_DATA.forEach(q => { if (q.round) rounds.add(q.round); });
         return Array.from(rounds);
@@ -3803,7 +3803,6 @@
       if (matchSingleAnswer(u, c)) return true;
 
       // 2. Nếu đáp án chính chứa nhiều phương án lựa chọn cách nhau bởi ';' hoặc 'hoặc' hoặc 'hay'
-      // Ví dụ: "Đỏ - Xanh - Đỏ - Xanh; Xanh - Đỏ - Xanh - Đỏ"
       const alternatives = c.split(/;|\bhoặc\b|\bhay\b/i).map(s => s.trim()).filter(Boolean);
       if (alternatives.length > 1) {
         for (const alt of alternatives) {
@@ -3820,6 +3819,23 @@
             for (const sub of subAlts) {
               if (matchSingleAnswer(u, sub)) return true;
             }
+          }
+        }
+      }
+
+      // 4. Bóc tách phương án trắc nghiệm A-E thông minh đa tầng
+      if (q.type === 'mc' || (Array.isArray(q.options) && q.options.length >= 2)) {
+        const uMatch = u.match(/^[\(\[\s]*([A-Ea-e])[\.\:\)\s\]]?$/);
+        const uLetter = uMatch ? uMatch[1].toUpperCase() : null;
+
+        if (uLetter && uLetter.length === 1) {
+          const cMatch = c.match(/^[\(\[\s]*([A-Ea-e])[\.\:\)\s\]]?/);
+          if (cMatch && cMatch[1].toUpperCase() === uLetter) return true;
+
+          const optIdx = uLetter.charCodeAt(0) - 65;
+          if (q.options && q.options[optIdx]) {
+            const optText = q.options[optIdx].replace(/^[A-Ea-e][\.\:\)]\s*/, '').trim();
+            if (matchSingleAnswer(optText, c)) return true;
           }
         }
       }

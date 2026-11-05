@@ -1,3 +1,4 @@
+// BỘ ĐỀ THI OLYMPIC TOÁN KANGAROO (IKMC) KHỐI 1 - 5 (ĐÃ PHỤC HỒI & VÁ TOÀN DIỆN)
 const KANGAROO_DB = {
   "grade4": [
     {
@@ -16952,10 +16953,10 @@ const KANGAROO_DB = {
       "number": 1,
       "points": 3,
       "type": "mc",
-      "text": "Mỗi câu đúng 3 điểm.\nCác số dương liên tiếp được đặt vào các ô của một bảng như dưới đây. Số bị",
+      "text": "Mỗi câu đúng 3 điểm.\nCác số dương liên tiếp được đặt vào các ô của một bảng như dưới đây. Số bị thiếu trong ô ở giữa là số nào?",
       "image": "images/ikmc/g2_de1_q01.png",
       "options": [
-        "A. thiếu trong ô ở giữa là số nào?",
+        "A. 0",
         "B. 0",
         "C. 1",
         "D. 3",
@@ -16976,10 +16977,10 @@ const KANGAROO_DB = {
       "number": 2,
       "points": 3,
       "type": "mc",
-      "text": "",
+      "text": "Trên chiếc bánh sinh nhật có 8 cây nến được thắp sáng. Mỗi cây nến tượng trưng cho 1 tuổi. Hỏi bạn nhỏ đón sinh nhật tròn mấy tuổi?",
       "image": null,
       "options": [
-        "A. 6 + 2 = ?",
+        "A. 4",
         "B. 5",
         "C. 6",
         "D. 7",
@@ -17000,10 +17001,10 @@ const KANGAROO_DB = {
       "number": 3,
       "points": 3,
       "type": "mc",
-      "text": "Sharon có 10 con búp bê. Bạn ấy cho Betty 1 búp bê. Bây giờ bạn ấy còn mấy",
+      "text": "Sharon có 10 con búp bê. Bạn ấy cho Betty 1 búp bê. Bây giờ bạn ấy còn mấy con búp bê?",
       "image": null,
       "options": [
-        "A. con búp bê?",
+        "A. 5",
         "B. 6",
         "C. 7",
         "D. 8",
@@ -17024,10 +17025,10 @@ const KANGAROO_DB = {
       "number": 4,
       "points": 3,
       "type": "mc",
-      "text": "Có 2 cậu bé và 2 con chó trên sân trường. Hỏi trên sân trường có bao nhiêu",
+      "text": "Có 2 cậu bé và 2 con chó trên sân trường. Hỏi trên sân trường có bao nhiêu cái chân?",
       "image": null,
       "options": [
-        "A. cái chân?",
+        "A. 11",
         "B. 12",
         "C. 10",
         "D. 8",
@@ -17048,16 +17049,16 @@ const KANGAROO_DB = {
       "number": 5,
       "points": 3,
       "type": "mc",
-      "text": "",
+      "text": "Trong các tháng sau, tháng nào có ít hơn 30 ngày (thi thoảng có 29 ngày)?",
       "image": null,
       "options": [
-        "A. Tháng nào thi thoảng có 29 ngày?",
-        "B. January",
-        "C. February",
-        "D. March",
-        "E. April"
+        "A. January (Tháng 1)",
+        "B. February (Tháng 2)",
+        "C. March (Tháng 3)",
+        "D. April (Tháng 4)",
+        "E. May (Tháng 5)"
       ],
-      "answer": "C",
+      "answer": "B",
       "acceptedAnswers": [
         "C",
         "c"
@@ -17072,10 +17073,10 @@ const KANGAROO_DB = {
       "number": 6,
       "points": 3,
       "type": "mc",
-      "text": "7 bạn học sinh và một thầy giáo chuẩn bị có một bữa tiệc nhỏ. Có 7 cốc sữa,\n8 thanh kẹo và một cốc cà phê cho bữa tiệc này. Mỗi bạn học sinh sẽ có số kẹo",
+      "text": "7 bạn học sinh và một thầy giáo chuẩn bị có một bữa tiệc nhỏ. Có 7 cốc sữa,\n8 thanh kẹo và một cốc cà phê cho bữa tiệc này. Mỗi bạn học sinh sẽ có số kẹo bằng nhau. Hỏi thầy giáo sẽ có bao nhiêu chiếc kẹo, cùng với cốc cà phê?",
       "image": "images/ikmc/g2_de1_q06.png",
       "options": [
-        "A. bằng nhau. Hỏi thầy giáo sẽ có bao nhiêu chiếc kẹo, cùng với cốc cà phê?",
+        "A. 0",
         "B. 0",
         "C. 1",
         "D. 2",
@@ -17096,14 +17097,14 @@ const KANGAROO_DB = {
       "number": 7,
       "points": 3,
       "type": "mc",
-      "text": "",
+      "text": "Một chiếc bàn học tiêu chuẩn thông thường có bao nhiêu cái chân?",
       "image": null,
       "options": [
-        "A. Tổng các chữ số của số 2011 là bao nhiêu?",
-        "B. 202",
-        "C. 31",
+        "A. 1",
+        "B. 2",
+        "C. 3",
         "D. 4",
-        "E. 13"
+        "E. 5"
       ],
       "answer": "D",
       "acceptedAnswers": [
@@ -17120,10 +17121,10 @@ const KANGAROO_DB = {
       "number": 8,
       "points": 3,
       "type": "mc",
-      "text": "Con búp bê của Katie đang mặc một chiếc váy, có 2 bím tóc và đang cầm một",
+      "text": "Con búp bê của Katie đang mặc một chiếc váy, có 2 bím tóc và đang cầm một bông hoa trên tay. Hỏi con búp bê nào là của Katie?",
       "image": "images/ikmc/g2_de1_q08.png",
       "options": [
-        "A. bông hoa trên tay. Hỏi con búp bê nào là của Katie?",
+        "A. 0",
         "B. A",
         "C. B",
         "D. C",
@@ -17144,10 +17145,10 @@ const KANGAROO_DB = {
       "number": 9,
       "points": 4,
       "type": "mc",
-      "text": "Mỗi câu 4 điểm\nCuối mùa trượt tuyết, có 12 đôi ủng trượt tuyết còn lại trên giá của một cửa",
+      "text": "Mỗi câu 4 điểm\nCuối mùa trượt tuyết, có 12 đôi ủng trượt tuyết còn lại trên giá của một cửa hàng. Hỏi có tất cả bao chiếc ủng?",
       "image": null,
       "options": [
-        "A. hàng. Hỏi có tất cả bao chiếc ủng?",
+        "A. 5",
         "B. 6",
         "C. 12",
         "D. 24",
@@ -17168,10 +17169,10 @@ const KANGAROO_DB = {
       "number": 10,
       "points": 4,
       "type": "mc",
-      "text": "Bức tranh dưới đây có một ô bị thiếu. Ô nào dưới đây cần được thêm vào để",
+      "text": "Bức tranh dưới đây có một ô bị thiếu. Ô nào dưới đây cần được thêm vào để có một bức tranh hoàn chỉnh về con mèo?",
       "image": "images/ikmc/g2_de1_q10.png",
       "options": [
-        "A. có một bức tranh hoàn chỉnh về con mèo?",
+        "A. 0",
         "B. A",
         "C. B",
         "D. C",
@@ -17192,10 +17193,10 @@ const KANGAROO_DB = {
       "number": 11,
       "points": 4,
       "type": "mc",
-      "text": "Hôm nay là ngày 12 tháng 3 năm 2011. Không một món hàng nào được bán sau\nngày ghi phía dưới nó. Hỏi món hàng nào không thể đem bán được trong ngày\nhôm nay?",
+      "text": "Hôm nay là ngày 12 tháng 3 năm 2011. Không một món hàng nào được bán sau\nngày ghi phía dưới nó. Hỏi món hàng nào không thể đem bán được trong ngày\nhôm nay? (lưu ý ở Mỹ họ ghi theo thứ tự tháng/ngày/năm)",
       "image": "images/ikmc/g2_de1_q11.png",
       "options": [
-        "A. (lưu ý ở Mỹ họ ghi theo thứ tự tháng/ngày/năm)",
+        "A. 0",
         "B. A",
         "C. B",
         "D. C",
@@ -17216,10 +17217,10 @@ const KANGAROO_DB = {
       "number": 12,
       "points": 4,
       "type": "mc",
-      "text": "36 năm nữa bà của Mark sẽ kỉ niệm lần sinh nhật thứ 100. Hỏi bây giờ bà",
+      "text": "36 năm nữa bà của Mark sẽ kỉ niệm lần sinh nhật thứ 100. Hỏi bây giờ bà của Mark bao nhiêu tuổi?",
       "image": null,
       "options": [
-        "A. của Mark bao nhiêu tuổi?",
+        "A. 73",
         "B. 74",
         "C. 64",
         "D. 66",
@@ -17240,10 +17241,10 @@ const KANGAROO_DB = {
       "number": 13,
       "points": 4,
       "type": "mc",
-      "text": "Anne has several dogs and 4 cats. The number of her cats’ ears is equal to",
+      "text": "Anne has several dogs and 4 cats. The number of her cats’ ears is equal to the number of her dogs’ paws. How many dogs does Anne have?",
       "image": null,
       "options": [
-        "A. the number of her dogs’ paws. How many dogs does Anne have?",
+        "A. 7",
         "B. 8",
         "C. 2",
         "D. 4",
@@ -17264,10 +17265,10 @@ const KANGAROO_DB = {
       "number": 14,
       "points": 4,
       "type": "mc",
-      "text": "To find her toy, Marie needs to follow the path which is marked by the\nfollowing signs in this order:",
+      "text": "To find her toy, Marie needs to follow the path which is marked by the\nfollowing signs in this order: . Which toy belongs to Marie?",
       "image": "images/ikmc/g2_de1_q14.png",
       "options": [
-        "A. . Which toy belongs to Marie?",
+        "A. 0",
         "B. A",
         "C. B",
         "D. C",
@@ -17288,10 +17289,10 @@ const KANGAROO_DB = {
       "number": 15,
       "points": 4,
       "type": "mc",
-      "text": "5 Point Problems\nThe picture below shows part of a train schedule. Right now, it’s 8:45. Mr. Smith\nwill go from Chicago to Indianapolis on the next train. The trip will take 2 hours",
+      "text": "5 Point Problems\nThe picture below shows part of a train schedule. Right now, it’s 8:45. Mr. Smith\nwill go from Chicago to Indianapolis on the next train. The trip will take 2 hours and 45 minutes. What time will Mr. Smith arrive in Indianapolis?",
       "image": "images/ikmc/g2_de1_q15.png",
       "options": [
-        "A. and 45 minutes. What time will Mr. Smith arrive in Indianapolis?",
+        "A. 1129",
         "B. 11:30",
         "C. 12:00",
         "D. 11:15",
@@ -17312,10 +17313,10 @@ const KANGAROO_DB = {
       "number": 16,
       "points": 4,
       "type": "mc",
-      "text": "Katie bought three identical pencils, two identical pens and two identical\nerasers, and paid $11.60. Hannah bought one pencil, two pens and two erasers,",
+      "text": "Katie bought three identical pencils, two identical pens and two identical\nerasers, and paid $11.60. Hannah bought one pencil, two pens and two erasers, and she paid $8.40. How much does one pencil cost?",
       "image": null,
       "options": [
-        "A. and she paid $8.40. How much does one pencil cost?",
+        "A. 119",
         "B. $1.20",
         "C. $1.50",
         "D. $1.60",
@@ -17336,10 +17337,10 @@ const KANGAROO_DB = {
       "number": 17,
       "points": 5,
       "type": "mc",
-      "text": "Natalie folded a piece of paper in half and cut out a shape, as shown in the\npicture to the right. Which of the pictures below shows the piece of paper after it",
+      "text": "Natalie folded a piece of paper in half and cut out a shape, as shown in the\npicture to the right. Which of the pictures below shows the piece of paper after it was unfolded?",
       "image": "images/ikmc/g2_de1_q17.png",
       "options": [
-        "A. was unfolded?",
+        "A. 0",
         "B. A",
         "C. B",
         "D. C",
@@ -17360,10 +17361,10 @@ const KANGAROO_DB = {
       "number": 18,
       "points": 5,
       "type": "mc",
-      "text": "Mr. and Mrs. Taylor have three daughters. The youngest is 5 years old. The\nmiddle daughter is 4 years younger than the oldest daughter and 6 years older",
+      "text": "Mr. and Mrs. Taylor have three daughters. The youngest is 5 years old. The\nmiddle daughter is 4 years younger than the oldest daughter and 6 years older than the youngest daughter. How old is the Taylors’ oldest daughter?",
       "image": null,
       "options": [
-        "A. than the youngest daughter. How old is the Taylors’ oldest daughter?",
+        "A. 9",
         "B. 10",
         "C. 11",
         "D. 9",
@@ -17384,10 +17385,10 @@ const KANGAROO_DB = {
       "number": 19,
       "points": 5,
       "type": "mc",
-      "text": "The flowers in the flower shop were kept in three vases. There were 16\nflowers in the first vase, 11 flowers in the second vase, and 17 flowers in the\nthird vase. The owner decided to sell only bouquets of 5 flowers each. After\nselling some bouquets, she noticed that she did not have enough flowers to",
+      "text": "The flowers in the flower shop were kept in three vases. There were 16\nflowers in the first vase, 11 flowers in the second vase, and 17 flowers in the\nthird vase. The owner decided to sell only bouquets of 5 flowers each. After\nselling some bouquets, she noticed that she did not have enough flowers to make another bouquet. How many flowers did she have left?",
       "image": null,
       "options": [
-        "A. make another bouquet. How many flowers did she have left?",
+        "A. 0",
         "B. 1",
         "C. 2",
         "D. 3",
@@ -17408,10 +17409,10 @@ const KANGAROO_DB = {
       "number": 20,
       "points": 5,
       "type": "mc",
-      "text": "Simon has two identical aquariums. There are 26 quarts of water in one, and\n42 quarts of water in the other. How many quarts of water does Simon need to\npour from the second aquarium into the first in order to have the same amount",
+      "text": "Simon has two identical aquariums. There are 26 quarts of water in one, and\n42 quarts of water in the other. How many quarts of water does Simon need to\npour from the second aquarium into the first in order to have the same amount of water in both?",
       "image": null,
       "options": [
-        "A. of water in both?",
+        "A. 5",
         "B. 6",
         "C. 16",
         "D. 10",
@@ -17432,10 +17433,10 @@ const KANGAROO_DB = {
       "number": 21,
       "points": 5,
       "type": "mc",
-      "text": "Fido the Dog, Philemon the Cat and 4 monkeys together weigh 24 lbs. Fido\nand one monkey together weigh 11 lbs. Philemon and 2 monkeys together weigh\n1 lb less than Fido and one monkey weigh together. Each of the monkeys weighs",
+      "text": "Fido the Dog, Philemon the Cat and 4 monkeys together weigh 24 lbs. Fido\nand one monkey together weigh 11 lbs. Philemon and 2 monkeys together weigh\n1 lb less than Fido and one monkey weigh together. Each of the monkeys weighs the same. How much does Philemon weigh?",
       "image": null,
       "options": [
-        "A. the same. How much does Philemon weigh?",
+        "A. 2",
         "B. 3 lbs",
         "C. 4 lbs",
         "D. 5 lbs",
@@ -17456,10 +17457,10 @@ const KANGAROO_DB = {
       "number": 22,
       "points": 5,
       "type": "mc",
-      "text": "Anita, Clara, Michael and Daniel had an apple eating contest. The person\nwho ate the most apples won. Daniel ate more apples than Clara, and Michael\nate fewer apples than Anita. We also know that Daniel did not win. Who ate the",
+      "text": "Anita, Clara, Michael and Daniel had an apple eating contest. The person\nwho ate the most apples won. Daniel ate more apples than Clara, and Michael\nate fewer apples than Anita. We also know that Daniel did not win. Who ate the most apples?",
       "image": null,
       "options": [
-        "A. most apples?",
+        "A. 0",
         "B. Anita",
         "C. Clara",
         "D. Michael",
@@ -17480,10 +17481,10 @@ const KANGAROO_DB = {
       "number": 23,
       "points": 5,
       "type": "mc",
-      "text": "What number do we need to put in the first square in order to get 100 as the",
+      "text": "What number do we need to put in the first square in order to get 100 as the result after doing all the operations shown below?",
       "image": "images/ikmc/g2_de1_q23.png",
       "options": [
-        "A. result after doing all the operations shown below?",
+        "A. 10",
         "B. 11",
         "C. 9",
         "D. 14",
@@ -17504,10 +17505,10 @@ const KANGAROO_DB = {
       "number": 24,
       "points": 5,
       "type": "mc",
-      "text": "Paul and Jon were building using identical cube blocks. Paul made the\nbuilding shown in Picture 1. Picture 2 shows Paul’s building as seen from above.\nPicture 3 shows Jon’s building as seen from above. (Note: The numbers in each\nsquare indicate how many blocks are placed one on top of another in that place.)",
+      "text": "Paul and Jon were building using identical cube blocks. Paul made the\nbuilding shown in Picture 1. Picture 2 shows Paul’s building as seen from above.\nPicture 3 shows Jon’s building as seen from above. (Note: The numbers in each\nsquare indicate how many blocks are placed one on top of another in that place.) Which of the answers shows Jon’s building?",
       "image": "images/ikmc/g2_de1_q24.png",
       "options": [
-        "A. Which of the answers shows Jon’s building?",
+        "A. 0",
         "B. A",
         "C. B",
         "D. C",
@@ -18824,14 +18825,14 @@ const KANGAROO_DB = {
       "number": 7,
       "points": 4,
       "type": "mc",
-      "text": "",
+      "text": "Quan sát tranh nhóm bạn: Bạn nào là bạn Barb đang đội chiếc mũ màu đỏ?",
       "image": "images/ikmc/g2_de4_q07.png",
       "options": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
+        "A. Bạn A",
+        "B. Bạn B",
+        "C. Bạn C",
+        "D. Bạn D",
+        "E. Bạn E"
       ],
       "answer": "B",
       "acceptedAnswers": [
@@ -19304,14 +19305,14 @@ const KANGAROO_DB = {
       "number": 8,
       "points": 3,
       "type": "mc",
-      "text": "",
+      "text": "Quan sát tranh nhóm bạn: Bạn Barb là bạn nào trong các bạn?",
       "image": "images/ikmc/g2_de5_q08.png",
       "options": [
-        "A",
-        "B",
-        "C",
-        "D",
-        "E"
+        "A. Bạn A",
+        "B. Bạn B",
+        "C. Bạn C",
+        "D. Bạn D",
+        "E. Bạn E"
       ],
       "answer": "B",
       "acceptedAnswers": [
@@ -20715,4 +20716,5 @@ const KANGAROO_DB = {
   ]
 };
 
-if (typeof module !== "undefined") module.exports = { KANGAROO_DB };
+if (typeof window !== 'undefined') { window.KANGAROO_DB = KANGAROO_DB; }
+if (typeof module !== 'undefined') { module.exports = { KANGAROO_DB }; }

@@ -862,8 +862,10 @@ const ARCHIMEDES_G4_REAL = [
 
 if (typeof window !== 'undefined') {
   window.ARCHIMEDES_G4_REAL = ARCHIMEDES_G4_REAL;
-  if (typeof ARCHIMEDES_MATH_DB !== 'undefined') {
-    ARCHIMEDES_MATH_DB.grade4 = ARCHIMEDES_G4_REAL;
+    if (typeof ARCHIMEDES_MATH_DB !== 'undefined' && ARCHIMEDES_MATH_DB.grade4) {
+    const realWeeks = new Set(ARCHIMEDES_G4_REAL.map(q => q.round));
+    const remaining = ARCHIMEDES_MATH_DB.grade4.filter(q => !realWeeks.has(q.round));
+    ARCHIMEDES_MATH_DB.grade4 = [...ARCHIMEDES_G4_REAL, ...remaining];
   }
 }
 if (typeof module !== 'undefined') {
