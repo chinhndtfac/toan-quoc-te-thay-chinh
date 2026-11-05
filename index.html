@@ -909,26 +909,26 @@
   </footer>
 
   <!-- Cơ sở dữ liệu tài khoản học sinh dùng chung -->
-  <script src="users_db.js?v=20261105_1200"></script>
+  <script src="users_db.js?v=20261105_1400"></script>
   <!-- Dữ liệu chuẩn sạch từ PDF -->
-  <script src="timo_data.js?v=20261105_1200"></script>
+  <script src="timo_data.js?v=20261105_1400"></script>
   <!-- Dữ liệu chuyên đề nâng cao Lớp 4 (Gà thỏ, tuổi, số nguyên tố, IQ...) -->
-  <script src="grade4_special.js?v=20261105_1200"></script>
+  <script src="grade4_special.js?v=20261105_1400"></script>
   <!-- Dữ liệu Kangaroo, ASMO & Ngân hàng đề thi mở rộng -->
-  <script src="extra_exams.js?v=20261105_1200"></script>
+  <script src="extra_exams.js?v=20261105_1400"></script>
   <!-- Dữ liệu Olympic FMO -->
-  <script src="fmo_data.js?v=20261105_1200"></script>
+  <script src="fmo_data.js?v=20261105_1400"></script>
   <!-- Dữ liệu Olympic Toán Kangaroo (IKMC) Trọn bộ 9 Đề thi kèm hình gốc -->
-  <script src="kangaroo_data.js?v=20261105_1200"></script>
+  <script src="kangaroo_data.js?v=20261105_1400"></script>
   <!-- Dữ liệu Tuyển tập 365 Bài Toán Hay & Khó (Lớp 1 - Lớp 5) -->
-  <script src="toan365_data.js?v=20261105_1200"></script>
+  <script src="toan365_data.js?v=20261105_1400"></script>
   <!-- Bộ bài tập Archimedes (Toán & Tiếng Việt Lớp 1 - 5) -->
-  <script src="archimedes_math_data.js?v=20261105_1200"></script>
-  <script src="archimedes_g4_real.js?v=20261105_1200"></script>
-  <script src="tieng_viet_data.js?v=20261105_1200"></script>
+  <script src="archimedes_math_data.js?v=20261105_1400"></script>
+  <script src="archimedes_g4_real.js?v=20261105_1400"></script>
+  <script src="tieng_viet_data.js?v=20261105_1400"></script>
   <!-- Thư viện Tạp chí Toán Tuổi Thơ 1 & 2 -->
-  <script src="toan_tuoi_tho_1_data.js?v=20261105_1200"></script>
-  <script src="toan_tuoi_tho_data.js?v=20261105_1200"></script>
+  <script src="toan_tuoi_tho_1_data.js?v=20261105_1400"></script>
+  <script src="toan_tuoi_tho_data.js?v=20261105_1400"></script>
 
   <script>
     // ===== HỆ THỐNG ÂM THANH THIẾU NHI (WEB AUDIO API) =====
@@ -3380,9 +3380,14 @@
       // 1. KIỂM TRA BÀI ĐANG LÀM DỞ
       const savedSession = getSavedSession(state.selectedGrade, state.selectedExam, state.selectedRound);
       if (savedSession) {
-        state.resumeModal = { type: 'in_progress', session: savedSession };
-        render();
-        return;
+        const hasUnplayable = savedSession.questions && savedSession.questions.some(q => !isQuestionPlayable(q));
+        if (hasUnplayable) {
+          clearSavedSession(state.selectedGrade, state.selectedExam, state.selectedRound);
+        } else {
+          state.resumeModal = { type: 'in_progress', session: savedSession };
+          render();
+          return;
+        }
       }
 
       // 2. KIỂM TRA BÀI ĐÃ HOÀN THÀNH
@@ -3394,6 +3399,31 @@
       }
 
       startFreshQuiz();
+    }
+
+    // HỆ THỐNG KIỂM SOÁT HÌNH ẢNH & ĐỘ SẴN SÀNG CỦA ĐỀ THI
+    function resolveQuestionImage(q) {
+      if (q && q.image && q.image.trim()) return q.image;
+      if (!q || !q.text) return null;
+      if (typeof TIMO_DB !== 'undefined') {
+        for (let g = 1; g <= 5; g++) {
+          const list = TIMO_DB['grade' + g] || [];
+          const found = list.find(item => (q.origId && item.id === q.origId) || (q.text && item.text === q.text));
+          if (found && found.image) return found.image;
+        }
+      }
+      return null;
+    }
+
+    function isQuestionPlayable(q) {
+      if (!q || !q.text) return false;
+      const t = (q.text + ' ' + (q.explanation || '')).toLowerCase();
+      const requiresImage = /in the figure below|the figure below|figure below|polygon below|grid below|pattern below|shown in the figure|the following figure|hình dưới đây|trong hình dưới|theo hình vẽ|như hình vẽ|bảng dưới đây|bảng số dưới đây|được tô màu|hình sau|hình vẽ sau|khối lập phương trong hình|ở hình dưới|nhìn vào hình bên|cho hình vuông dưới đây/i.test(t);
+      const img = resolveQuestionImage(q);
+      if (requiresImage && (!img || !img.trim())) {
+        return false;
+      }
+      return true;
     }
 
     function startFreshQuiz() {
@@ -3443,11 +3473,18 @@
       } 
       // Nếu chọn kỳ thi TIMO
       else if (state.selectedExam === 'TIMO' && typeof TIMO_DB !== 'undefined' && TIMO_DB['grade' + state.selectedGrade]) {
-        const gradeList = TIMO_DB['grade' + state.selectedGrade];
+        const allList = TIMO_DB['grade' + state.selectedGrade];
         if (state.selectedRound === 'random') {
-          pool = [...gradeList].sort(() => Math.random() - 0.5).slice(0, 15);
+          pool = allList.filter(isQuestionPlayable).sort(() => Math.random() - 0.5).slice(0, 15);
         } else {
-          pool = gradeList.filter(q => q.round === state.selectedRound);
+          pool = allList.filter(q => q.round === state.selectedRound && isQuestionPlayable(q));
+          if (pool.length < 15) {
+            const backups = allList.filter(q => q.round !== state.selectedRound && isQuestionPlayable(q)).sort(() => Math.random() - 0.5);
+            for (let b of backups) {
+              if (pool.length >= 15) break;
+              if (!pool.some(p => p.id === b.id)) pool.push(b);
+            }
+          }
         }
       }
       // Nếu chọn Bộ bài tập Toán Archimedes
@@ -3506,8 +3543,9 @@
 
       state.questions = pool.map((q, idx) => ({
         id: idx + 1,
+        origId: q.id,
         text: q.text,
-        image: q.image || null,
+        image: resolveQuestionImage(q) || null,
         options: q.options || [],
         answer: q.answer,
         acceptedAnswers: q.acceptedAnswers || [],
@@ -3583,7 +3621,17 @@
           </div>
           <div class="question-box">
             ${formatQuestionText(q.text)}
-            ${q.image ? `<div style="text-align:center;margin:15px 0;"><img src="${q.image}" alt="Hình minh họa đề thi" style="max-width:100%;max-height:380px;border-radius:12px;box-shadow:0 3px 12px rgba(0,0,0,0.1);background:white;padding:10px;object-fit:contain"></div>` : ''}
+            ${(() => {
+              const img = resolveQuestionImage(q);
+              if (img) {
+                return `<div style="text-align:center;margin:15px 0;"><img src="${img}" alt="Hình minh họa đề thi" style="max-width:100%;max-height:380px;border-radius:12px;box-shadow:0 3px 12px rgba(0,0,0,0.1);background:white;padding:10px;object-fit:contain"></div>`;
+              }
+              const requiresImg = /in the figure below|the figure below|figure below|polygon below|grid below|pattern below|shown in the figure|the following figure|hình dưới đây|trong hình dưới|theo hình vẽ|như hình vẽ|bảng dưới đây|bảng số dưới đây|hình sau|hình vẽ sau|khối lập phương trong hình|ở hình dưới|nhìn vào hình bên|cho hình vuông dưới đây/i.test(q.text || '');
+              if (requiresImg) {
+                return `<div style="background:#FFFBEB;border:2px dashed #F59E0B;border-radius:14px;padding:16px;margin:16px 0;text-align:center;color:#92400E"><div style="font-size:1.8em;margin-bottom:6px">🖼️</div><div style="font-weight:800;font-size:1.05em">Hình vẽ đang được hệ thống đồng bộ</div><div style="font-size:0.9em;margin-top:4px;color:#78350F">Thầy Chinh đang đồng bộ ảnh chuẩn cho câu hỏi này. Con hãy bấm <b>Câu sau ➔</b> để làm tiếp các câu khác nhé!</div></div>`;
+              }
+              return '';
+            })()}
           </div>
 
           ${q.type === 'mc' ? `
@@ -3957,7 +4005,10 @@
               <div style="font-weight:800;font-size:1.15em;margin-bottom:8px">Câu ${i+1}:</div>
               <div style="margin-bottom:12px">
                 ${formatQuestionText(d.text)}
-                ${d.image ? `<div style="text-align:center;margin:12px 0;"><img src="${d.image}" alt="Hình minh họa" style="max-width:100%;max-height:360px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.1);background:white;padding:8px;object-fit:contain"></div>` : ''}
+                ${(() => {
+                const img = resolveQuestionImage(d);
+                return img ? `<div style="text-align:center;margin:12px 0;"><img src="${img}" alt="Hình minh họa" style="max-width:100%;max-height:360px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.1);background:white;padding:8px;object-fit:contain"></div>` : '';
+              })()}
               </div>
               <div style="font-weight:700;font-size:1.05em">
                 ${d.status === 'correct' ? `✅ Con chọn đúng: <strong style="color:#059669">${d.userAns}</strong>` :

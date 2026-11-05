@@ -6631,6 +6631,7 @@ const TIMO_DB = {
     },
     {
       "id": "2-Vong quoc gia - De so 3-19",
+      "image": "images/timo_g1_de3_polygon13.svg",
       "grade": 2,
       "exam": "TIMO",
       "round": "Vòng quốc gia - Đề số 03",
@@ -13135,6 +13136,7 @@ const TIMO_DB = {
     },
     {
       "id": "1-Vong quoc gia - De so 8-16",
+      "image": "images/timo_g1_de8_polygon8.svg",
       "grade": 1,
       "exam": "TIMO",
       "round": "Vòng quốc gia - Đề số 08",
@@ -13152,6 +13154,7 @@ const TIMO_DB = {
     },
     {
       "id": "1-Vong quoc gia - De so 8-17",
+      "image": "images/timo_g1_de8_line_segments18.svg",
       "grade": 1,
       "exam": "TIMO",
       "round": "Vòng quốc gia - Đề số 08",
@@ -13188,6 +13191,7 @@ const TIMO_DB = {
     },
     {
       "id": "1-Vong quoc gia - De so 8-20",
+      "image": "images/timo_g1_de8_cubes8.svg",
       "grade": 1,
       "exam": "TIMO",
       "round": "Vòng quốc gia - Đề số 08",
@@ -13523,6 +13527,7 @@ const TIMO_DB = {
     },
     {
       "id": "1-Vong quoc gia - De so 3-16",
+      "image": "images/timo_g1_de3_polygon13.svg",
       "grade": 1,
       "exam": "TIMO",
       "round": "Vòng quốc gia - Đề số 03",
@@ -13728,6 +13733,7 @@ const TIMO_DB = {
     },
     {
       "id": "1-Vong quoc gia - De so 2-18-B",
+      "image": "images/timo_g1_de2_polygon12.svg",
       "grade": 1,
       "exam": "TIMO",
       "round": "Vòng quốc gia - Đề số 02",
@@ -13925,6 +13931,7 @@ const TIMO_DB = {
     },
     {
       "id": "1-Vong quoc gia - De so 7-17",
+      "image": "images/timo_g1_de7_polygon7.svg",
       "grade": 1,
       "exam": "TIMO",
       "round": "Vòng quốc gia - Đề số 07",

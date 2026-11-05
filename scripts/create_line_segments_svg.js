@@ -1,0 +1,81 @@
+const fs = require('fs');
+
+// 1. Line segments 18 SVG:
+// A figure with:
+// Line A (horizontal top, 3 segments): 1, 2, 3 -> points (60, 80) to (180, 80) to (300, 80) to (420, 80)
+// Line B (left vertical, 2 segments): 4, 5 -> points (60, 80) to (60, 200) to (60, 320)
+// Line C (bottom horizontal, 2 segments): 6, 7 -> points (60, 320) to (240, 320) to (420, 320)
+// Line D (right vertical, 2 segments): 8, 9 -> points (420, 80) to (420, 200) to (420, 320)
+// Line E (middle vertical or diagonal, 2 segments): 10, 11 -> points (240, 80) to (240, 200) to (240, 320)
+// Total 11 single segments:
+// 1,2,3 on top (3 single + 2 pairs + 1 triplet = 6)
+// 4,5 on left (2 single + 1 pair = 3)
+// 6,7 on bottom (2 single + 1 pair = 3)
+// 8,9 on right (2 single + 1 pair = 3)
+// 10,11 in middle (2 single + 1 pair = 3)
+// Total: 6 + 3 + 3 + 3 + 3 = 18 segments!
+const svgLineSegments = `<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 400" width="100%" height="320">
+  <defs>
+    <style>
+      .line { stroke: #1E3A8A; stroke-width: 4; stroke-linecap: round; }
+      .point { fill: #DC2626; stroke: #FFFFFF; stroke-width: 2.5; }
+      .label { font-family: system-ui, sans-serif; font-size: 15px; font-weight: 700; fill: #1E40AF; text-anchor: middle; }
+      .bg { fill: #F8FAFC; rx: 16; }
+    </style>
+  </defs>
+  <rect width="500" height="400" class="bg" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="250" y="38" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#0F172A">Hình vẽ các đoạn thẳng (Đề số 08 - Câu 17)</text>
+  
+  <!-- Outer & Inner Lines -->
+  <!-- Line 1, 2, 3 (Top) -->
+  <line x1="70" y1="90" x2="430" y2="90" class="line" />
+  <!-- Line 4, 5 (Left) -->
+  <line x1="70" y1="90" x2="70" y2="330" class="line" />
+  <!-- Line 6, 7 (Bottom) -->
+  <line x1="70" y1="330" x2="430" y2="330" class="line" />
+  <!-- Line 8, 9 (Right) -->
+  <line x1="430" y1="90" x2="430" y2="330" class="line" />
+  <!-- Line 10, 11 (Middle) -->
+  <line x1="250" y1="90" x2="250" y2="330" class="line" />
+  
+  <!-- Segment points -->
+  <!-- Top points: 4 points -> 3 segments -->
+  <circle cx="70" cy="90" r="7" class="point" />
+  <circle cx="190" cy="90" r="7" class="point" />
+  <circle cx="310" cy="90" r="7" class="point" />
+  <circle cx="430" cy="90" r="7" class="point" />
+  
+  <!-- Middle column point (center) -> 2 segments -->
+  <circle cx="250" cy="210" r="7" class="point" />
+  
+  <!-- Left point (mid) -> 2 segments -->
+  <circle cx="70" cy="210" r="7" class="point" />
+  
+  <!-- Right point (mid) -> 2 segments -->
+  <circle cx="430" cy="210" r="7" class="point" />
+  
+  <!-- Bottom points: 3 points -> 2 segments -->
+  <circle cx="70" cy="330" r="7" class="point" />
+  <circle cx="250" cy="330" r="7" class="point" />
+  <circle cx="430" cy="330" r="7" class="point" />
+  
+  <!-- Number labels on unit segments -->
+  <text x="130" y="78" class="label">①</text>
+  <text x="250" y="78" class="label">②</text>
+  <text x="370" y="78" class="label">③</text>
+  
+  <text x="50" y="155" class="label">④</text>
+  <text x="50" y="275" class="label">⑤</text>
+  
+  <text x="160" y="358" class="label">⑥</text>
+  <text x="340" y="358" class="label">⑦</text>
+  
+  <text x="450" y="155" class="label">⑧</text>
+  <text x="450" y="275" class="label">⑨</text>
+  
+  <text x="230" y="155" class="label">⑩</text>
+  <text x="230" y="275" class="label">⑪</text>
+</svg>`;
+
+fs.writeFileSync('C:/Users/HNBV3384/.gemini/antigravity/scratch/toan-quoc-te/images/timo_g1_de8_line_segments18.svg', svgLineSegments, 'utf8');
+console.log('Created images/timo_g1_de8_line_segments18.svg');

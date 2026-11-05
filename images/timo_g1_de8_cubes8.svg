@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 380" width="100%" height="300">
+  <rect width="500" height="380" fill="#F8FAFC" rx="16" stroke="#E2E8F0" stroke-width="2"/>
+  <text x="250" y="38" text-anchor="middle" font-family="system-ui, sans-serif" font-size="16" font-weight="700" fill="#0F172A">Hình khối lập phương (Đề số 08 - Câu 20)</text>
+  <g>
+    <path d="M 250 160 L 293.30127018922195 135 L 250 110 L 206.69872981077805 135 Z" fill="#93C5FD" stroke="#334155" stroke-width="2"/>
+    <path d="M 206.69872981077805 135 L 250 160 L 250 210 L 206.69872981077805 185 Z" fill="#3B82F6" stroke="#334155" stroke-width="2"/>
+    <path d="M 250 160 L 293.30127018922195 135 L 293.30127018922195 185 L 250 210 Z" fill="#1D4ED8" stroke="#334155" stroke-width="2"/>
+  
+    <path d="M 250 110 L 293.30127018922195 85 L 250 60.00000000000001 L 206.69872981077805 85 Z" fill="#93C5FD" stroke="#334155" stroke-width="2"/>
+    <path d="M 206.69872981077805 85 L 250 110 L 250 160 L 206.69872981077805 135 Z" fill="#3B82F6" stroke="#334155" stroke-width="2"/>
+    <path d="M 250 110 L 293.30127018922195 85 L 293.30127018922195 135 L 250 160 Z" fill="#1D4ED8" stroke="#334155" stroke-width="2"/>
+  
+    <path d="M 293.30127018922195 185 L 336.6025403784439 160 L 293.30127018922195 135 L 250 160 Z" fill="#93C5FD" stroke="#334155" stroke-width="2"/>
+    <path d="M 250 160 L 293.30127018922195 185 L 293.30127018922195 235 L 250 210 Z" fill="#3B82F6" stroke="#334155" stroke-width="2"/>
+    <path d="M 293.30127018922195 185 L 336.6025403784439 160 L 336.6025403784439 210 L 293.30127018922195 235 Z" fill="#1D4ED8" stroke="#334155" stroke-width="2"/>
+  
+    <path d="M 206.69872981077805 185 L 250 160 L 206.69872981077805 135 L 163.3974596215561 160 Z" fill="#93C5FD" stroke="#334155" stroke-width="2"/>
+    <path d="M 163.3974596215561 160 L 206.69872981077805 185 L 206.69872981077805 235 L 163.3974596215561 210 Z" fill="#3B82F6" stroke="#334155" stroke-width="2"/>
+    <path d="M 206.69872981077805 185 L 250 160 L 250 210 L 206.69872981077805 235 Z" fill="#1D4ED8" stroke="#334155" stroke-width="2"/>
+  
+    <path d="M 293.30127018922195 135 L 336.6025403784439 110 L 293.30127018922195 85 L 250 110 Z" fill="#93C5FD" stroke="#334155" stroke-width="2"/>
+    <path d="M 250 110 L 293.30127018922195 135 L 293.30127018922195 185 L 250 160 Z" fill="#3B82F6" stroke="#334155" stroke-width="2"/>
+    <path d="M 293.30127018922195 135 L 336.6025403784439 110 L 336.6025403784439 160 L 293.30127018922195 185 Z" fill="#1D4ED8" stroke="#334155" stroke-width="2"/>
+  
+    <path d="M 336.6025403784439 210 L 379.90381056766586 185 L 336.6025403784439 160 L 293.30127018922195 185 Z" fill="#93C5FD" stroke="#334155" stroke-width="2"/>
+    <path d="M 293.30127018922195 185 L 336.6025403784439 210 L 336.6025403784439 260 L 293.30127018922195 235 Z" fill="#3B82F6" stroke="#334155" stroke-width="2"/>
+    <path d="M 336.6025403784439 210 L 379.90381056766586 185 L 379.90381056766586 235 L 336.6025403784439 260 Z" fill="#1D4ED8" stroke="#334155" stroke-width="2"/>
+  
+    <path d="M 250 210 L 293.30127018922195 185 L 250 160 L 206.69872981077805 185 Z" fill="#93C5FD" stroke="#334155" stroke-width="2"/>
+    <path d="M 206.69872981077805 185 L 250 210 L 250 260 L 206.69872981077805 235 Z" fill="#3B82F6" stroke="#334155" stroke-width="2"/>
+    <path d="M 250 210 L 293.30127018922195 185 L 293.30127018922195 235 L 250 260 Z" fill="#1D4ED8" stroke="#334155" stroke-width="2"/>
+  
+    <path d="M 293.30127018922195 235 L 336.6025403784439 210 L 293.30127018922195 185 L 250 210 Z" fill="#93C5FD" stroke="#334155" stroke-width="2"/>
+    <path d="M 250 210 L 293.30127018922195 235 L 293.30127018922195 285 L 250 260 Z" fill="#3B82F6" stroke="#334155" stroke-width="2"/>
+    <path d="M 293.30127018922195 235 L 336.6025403784439 210 L 336.6025403784439 260 L 293.30127018922195 285 Z" fill="#1D4ED8" stroke="#334155" stroke-width="2"/>
+  </g>
+  <text x="250" y="350" text-anchor="middle" font-family="system-ui, sans-serif" font-size="14" font-weight="600" fill="#64748B">Có ít nhất bao nhiêu hình lập phương nhỏ?</text>
+</svg>
