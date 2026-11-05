@@ -11441,7 +11441,7 @@ const TIMO_DB = {
       "type": "mc"
     },
     {
-      "id": "1-Vong loai - De so 2-1",
+            "id": "1-Vong loai - De so 2-1",
       "grade": 1,
       "exam": "TIMO",
       "round": "Vong loai - De so 2",
@@ -11459,9 +11459,10 @@ const TIMO_DB = {
         "D. Quả lê"
       ],
       "answer": "D",
-      "explanation": "Do đó, quả lê nặng hơn quả cam và quả lê nặng hơn quả na.\nỞ chiếc cân thứ hai, quả cam nặng hơn quả na và quả táo cộng lại.\nDo đó, quả cam nặng hơn quả na và quả cam nặng hơn quả táo.\nNhận thấy, quả lê nặng hơn quả cam và quả cam nặng hơn quả táo.\nDo đó, quả lê nặng hơn quả táo.\nVậy quả nặng nhất là quả lê.\nĐáp số: D.",
-      "type": "mc"
-    },
+      "acceptedAnswers": ["D", "d"],
+      "explanation": "Quan sát hình vẽ hai chiếc cân:\n- Ở chiếc cân thứ nhất: Quả lê nặng hơn quả cam và quả na cộng lại (Lê > Cam + Na). Do đó quả lê nặng hơn quả cam và quả lê nặng hơn quả na.\n- Ở chiếc cân thứ hai: Quả cam nặng hơn quả na và quả táo cộng lại (Cam > Na + Táo). Do đó quả cam nặng hơn quả na và quả cam nặng hơn quả táo.\nNhận thấy: Quả lê nặng hơn quả cam, mà quả cam lại nặng hơn quả táo. Do đó quả lê nặng hơn cả quả táo.\nVậy quả nặng nhất là quả lê.\nĐáp án đúng là D. Quả lê.",
+      "image": "images/timo/balance_g1_de2_q1.svg",
+      "type": "mc"},
     {
       "id": "1-Vong loai - De so 5-6",
       "grade": 1,
@@ -11621,7 +11622,7 @@ const TIMO_DB = {
       "type": "mc"
     },
     {
-      "id": "1-Vong loai - De so 3-1",
+            "id": "1-Vong loai - De so 3-1",
       "grade": 1,
       "exam": "TIMO",
       "round": "Vong loai - De so 3",
@@ -11639,9 +11640,10 @@ const TIMO_DB = {
         "D. Bánh pizza"
       ],
       "answer": "A",
-      "explanation": "Ở chiếc cân thứ hai, quả táo nặng hơn tổng cân nặng của quả cam và quả chanh.\nDo đó, quả táo nặng hơn quả cam và quả táo nặng hơn quả chanh.\nNhư vậy, quả nặng nhất là chùm nho.\nĐáp số: A.",
-      "type": "mc"
-    },
+      "acceptedAnswers": ["A", "a"],
+      "explanation": "Quan sát hình vẽ hai chiếc cân:\n- Ở chiếc cân thứ nhất: Túi khoai tây chiên ở đĩa cân bổng lên, tức là nhẹ hơn cốc nước (Khoai tây chiên < Cốc nước).\n- Ở chiếc cân thứ hai: Túi khoai tây chiên cùng cốc nước nhẹ hơn chiếc bánh Hamburger cùng cốc nước. Khi bớt cốc nước ở cả hai đĩa cân thì túi khoai tây chiên nhẹ hơn chiếc bánh Hamburger (Khoai tây chiên < Hamburger).\nDo đó, túi khoai tây chiên vừa nhẹ hơn cốc nước vừa nhẹ hơn bánh Hamburger.\nVậy loại đồ ăn nhanh nhẹ nhất là khoai tây chiên.\nĐáp án đúng là A. Khoai tây chiên.",
+      "image": "images/timo/balance_g1_de3_q1.svg",
+      "type": "mc"},
     {
       "id": "1-Vong loai - De so 6-2",
       "grade": 1,
@@ -11825,7 +11827,7 @@ const TIMO_DB = {
       "type": "mc"
     },
     {
-      "id": "1-Vong loai - De so 4-1",
+            "id": "1-Vong loai - De so 4-1",
       "grade": 1,
       "exam": "TIMO",
       "round": "Vong loai - De so 4",
@@ -11843,10 +11845,11 @@ const TIMO_DB = {
         "C. Orange",
         "D. Lemon"
       ],
-      "answer": "C",
-      "explanation": "Do đó, quả xoài nặng hơn quả cam và quả xoài nặng hơn quả táo.\nNhư vậy, loại quả nặng nhất là quả xoài.\nĐáp số: C.",
-      "type": "mc"
-    },
+      "answer": "A",
+      "acceptedAnswers": ["A", "a"],
+      "explanation": "Quan sát hình vẽ hai chiếc cân:\n- Chiếc cân thứ nhất: Chùm nho ở đĩa cân chúc xuống phía dưới, tức là chùm nho nặng hơn quả táo (Chùm nho > Táo).\n- Chiếc cân thứ hai: Quả táo ở đĩa cân chúc xuống phía dưới, tức là quả táo nặng hơn tổng cân nặng của quả cam và quả chanh (Táo > Cam + Chanh).\nDo đó ta có thứ tự cân nặng: Chùm nho > Táo > Cam, Chanh.\nVậy quả nặng nhất là chùm nho.\nĐáp án đúng là A. Bunch of grapes (Chùm nho).",
+      "image": "images/timo/balance_g1_de4_q1.svg",
+      "type": "mc"},
     {
       "id": "1-Vong loai - De so 6-10",
       "grade": 1,
@@ -13095,24 +13098,24 @@ const TIMO_DB = {
       "type": "fill"
     },
     {
-      "id": "1-Vong quoc gia - De so 1-16",
+            "id": "1-Vong quoc gia - De so 1-16",
       "grade": 1,
       "exam": "TIMO",
       "round": "Vong quoc gia - De so 1",
       "topic": "Geometry / Hình học",
       "num": 16,
-      "text": "Figure 1 is formed by 5 cubes and figure 2 is formed by identical shapes as figure 1. How\nmany cubes are there in figure 2?\nFigure: Hình vẽ; Form: Ghép; Cube: Hình lập phương; Identical shape: Hình giống nhau.\n    Figure 1                            Figure 2",
+      "text": "Figure 1 is formed by 5 cubes and figure 2 is formed by identical shapes as figure 1. How many cubes are there in figure 2?\nFigure: Hình vẽ; Form: Ghép; Cube: Hình lập phương; Identical shape: Hình giống nhau.",
       "textLines": [
         "Figure 1 is formed by 5 cubes and figure 2 is formed by identical shapes as figure 1. How",
         "many cubes are there in figure 2?",
-        "Figure: Hình vẽ; Form: Ghép; Cube: Hình lập phương; Identical shape: Hình giống nhau.",
-        "    Figure 1                            Figure 2"
+        "Figure: Hình vẽ; Form: Ghép; Cube: Hình lập phương; Identical shape: Hình giống nhau."
       ],
       "options": [],
-      "answer": "11",
-      "explanation": "Vậy đa giác đã cho có 11 cạnh.\nĐáp số: 11.",
-      "type": "fill"
-    },
+      "answer": "20",
+      "acceptedAnswers": ["20", "20 hình", "20 khối", "20 hình lập phương", "20 khối lập phương"],
+      "explanation": "Quan sát hình vẽ minh họa:\n- Hình 1 là một khối gồm 5 hình lập phương nhỏ.\n- Hình 2 được tạo thành bằng cách ghép 4 khối giống hệt Hình 1 lại với nhau.\nDo đó, tổng số hình lập phương ở Hình 2 là:\n5 × 4 = 20 (hình lập phương).\nĐáp số đúng: 20.",
+      "image": "images/timo/g1_cubes_figure1_figure2.svg",
+      "type": "fill"},
     {
       "id": "1-Vong quoc gia - De so 2-17",
       "grade": 1,
@@ -13863,7 +13866,7 @@ const TIMO_DB = {
       "type": "fill"
     },
     {
-      "id": "1-Vong quoc gia - De so 2-16",
+            "id": "1-Vong quoc gia - De so 2-16",
       "grade": 1,
       "exam": "TIMO",
       "round": "Vong quoc gia - De so 2",
@@ -13876,10 +13879,11 @@ const TIMO_DB = {
         "Formed: Được ghép bởi; Cube: Hình lập phương; Figure: Hình vẽ."
       ],
       "options": [],
-      "answer": "12",
-      "explanation": "Như vậy, hình đa giác có 12 cạnh.\nĐáp số: 12.",
-      "type": "fill"
-    },
+      "answer": "20",
+      "acceptedAnswers": ["20", "20 hình", "20 khối", "20 hình lập phương", "20 khối lập phương"],
+      "explanation": "Quan sát hình vẽ minh họa:\n- Hình 1 là một khối gồm 5 hình lập phương nhỏ (ghép thành hình chữ T / dấu cộng).\n- Hình 2 được tạo thành bằng cách ghép 4 khối giống hệt Hình 1 lại với nhau.\nDo đó, tổng số hình lập phương ở Hình 2 là:\n5 × 4 = 20 (hình lập phương).\nĐáp số đúng: 20.",
+      "image": "images/timo/g1_cubes_figure1_figure2.svg",
+      "type": "fill"},
     {
       "id": "1-Vong quoc gia - De so 2-17",
       "grade": 1,
