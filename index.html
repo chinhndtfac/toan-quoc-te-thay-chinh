@@ -911,7 +911,8 @@
   <!-- Cơ sở dữ liệu tài khoản học sinh dùng chung -->
   <script src="users_db.js?v=20261105_1400"></script>
   <!-- Dữ liệu chuẩn sạch từ PDF -->
-  <script src="timo_data.js?v=20261105_1400"></script>
+  <script src="timo_data.js?v=20261110_1000"></script>
+  <script src="olympiad_topics_data.js?v=20261110_1000"></script>
   <!-- Dữ liệu chuyên đề nâng cao Lớp 4 (Gà thỏ, tuổi, số nguyên tố, IQ...) -->
   <script src="grade4_special.js?v=20261105_1400"></script>
   <!-- Dữ liệu Kangaroo, ASMO & Ngân hàng đề thi mở rộng -->
@@ -989,6 +990,7 @@
         { id: 5, name: 'Lớp 5', emoji: '🚀' },
       ],
       exams: [
+        { id: 'OLYMPIAD_TOPICS', name: 'Chuyên Đề Tư Duy Quốc Tế', emoji: '🦉', desc: '75 Chuyên đề & 450 bài toán Olympic quốc tế (Có bài giảng & hình vẽ vector SVG)' },
         { id: 'TIMO', name: 'TIMO', emoji: '🏆', desc: 'Sách Olympic TIMO' },
         { id: 'TOAN_365', name: '365 Bài Hay & Khó', emoji: '📕', desc: 'Toán nâng cao & Bồi dưỡng HSG Lớp 1 - 5' },
         { id: 'FMO', name: 'Olympic FMO', emoji: '🌟', desc: 'Olympic Toán tiếng Anh FMO' },
@@ -1289,6 +1291,12 @@
 
     function getAvailableRounds(grade, exam) {
       const e = exam || state.selectedExam;
+      if (e === 'OLYMPIAD_TOPICS') {
+        if (typeof OLYMPIAD_TOPICS_DB === 'undefined' || !OLYMPIAD_TOPICS_DB['grade' + grade]) return [];
+        const rounds = new Set();
+        OLYMPIAD_TOPICS_DB['grade' + grade].forEach(q => { if (q.round) rounds.add(q.round); });
+        return Array.from(rounds);
+      } else
       if (e === 'ARCHIMEDES_MATH') {
         if (typeof ARCHIMEDES_MATH_DB === 'undefined' || !ARCHIMEDES_MATH_DB['grade' + grade]) return [];
         const rounds = new Set();
@@ -3154,7 +3162,11 @@
     function renderHome(app) {
       const availableRounds = getAvailableRounds(state.selectedGrade, state.selectedExam);
       let countText = '';
-      if (state.selectedExam === 'TIMO') {
+      if (state.selectedExam === 'OLYMPIAD_TOPICS') {
+        const total = (typeof OLYMPIAD_TOPICS_DB !== 'undefined' && OLYMPIAD_TOPICS_DB['grade' + state.selectedGrade]) ? OLYMPIAD_TOPICS_DB['grade' + state.selectedGrade].length : 0;
+        const roundCount = availableRounds.length;
+        countText = `(Trọn bộ ${roundCount} chuyên đề Olympic với ${total} bài toán kèm 100% hình vẽ vector SVG & bài giảng)`;
+      } else if (state.selectedExam === 'TIMO') {
         const total = (typeof TIMO_DB !== 'undefined' && TIMO_DB['grade' + state.selectedGrade]) ? TIMO_DB['grade' + state.selectedGrade].length : 0;
         countText = `(Đang có sẵn ${total} câu hỏi từ sách TIMO)`;
       } else if (state.selectedExam === 'ARCHIMEDES_MATH') {
@@ -3416,6 +3428,7 @@
     }
 
     function isQuestionPlayable(q) {
+      if (q && q.svg) return true;
       if (!q || !q.text) return false;
       const t = (q.text + ' ' + (q.explanation || '')).toLowerCase();
       const requiresImage = /in the figure below|the figure below|figure below|polygon below|grid below|pattern below|shown in the figure|the following figure|hình dưới đây|trong hình dưới|theo hình vẽ|như hình vẽ|bảng dưới đây|bảng số dưới đây|được tô màu|hình sau|hình vẽ sau|khối lập phương trong hình|ở hình dưới|nhìn vào hình bên|cho hình vuông dưới đây/i.test(t);
@@ -3622,7 +3635,13 @@
           <div class="question-box">
             ${formatQuestionText(q.text)}
             ${(() => {
+              if (q.svg) {
+                return `<div class="question-svg-container" style="text-align:center;margin:16px 0;display:flex;justify-content:center;overflow-x:auto;">${q.svg}</div>`;
+              }
               const img = resolveQuestionImage(q);
+              if (img && img.startsWith('<svg')) {
+                return `<div class="question-svg-container" style="text-align:center;margin:16px 0;display:flex;justify-content:center;overflow-x:auto;">${img}</div>`;
+              }
               if (img) {
                 return `<div style="text-align:center;margin:15px 0;"><img src="${img}" alt="Hình minh họa đề thi" style="max-width:100%;max-height:380px;border-radius:12px;box-shadow:0 3px 12px rgba(0,0,0,0.1);background:white;padding:10px;object-fit:contain"></div>`;
               }
@@ -3804,6 +3823,39 @@
       // 3. Bỏ đuôi đơn vị thông dụng
       const stripUnits = str => str.replace(/(tuổi|tấn|tạ|yến|kg|g|m|cm|dm|km|cm2|cm²|m2|m²|lần|số|giây|phút|giờ|năm|chiếc|đồng|đ|đô|đô la)$/i, '').trim();
       if (stripUnits(noSpaceU) === stripUnits(noSpaceC)) return true;
+
+      // 3b. Xử lý thời gian thông minh (1:30 vs 90 phút vs 1h30)
+      const parseTimeSec = (t) => {
+        const m1 = t.match(/^(\d{1,2}):(\d{2})(?::(\d{2}))?$/);
+        if (m1) return 3600 * Number(m1[1]) + 60 * Number(m1[2]) + Number(m1[3] || 0);
+        const m2 = t.match(/^(?:(\d+)(?:giờ|h))?(?:(\d+)(?:phút)?)?(?:(\d+)giây)?$/i);
+        if (m2 && (m2[1] !== undefined || m2[2] !== undefined || m2[3] !== undefined)) {
+          return 3600 * Number(m2[1] || 0) + 60 * Number(m2[2] || 0) + Number(m2[3] || 0);
+        }
+        return null;
+      };
+      const timeU = parseTimeSec(noSpaceU);
+      const timeC = parseTimeSec(noSpaceC);
+      if (timeU !== null && timeC !== null && timeU === timeC) return true;
+
+      // 3c. Bóc tách số và đơn vị bất kỳ (ví dụ '15 học sinh' vs '15', '20 quả' vs '20')
+      const extractNumAndUnit = (t) => {
+        const m = t.match(/^(\d+(?:[.,]\d+)?)([^\d.,].*)$/);
+        if (!m || /[=+\-\u2212\xd7:/<>]/.test(m[2]) || /\d/.test(m[2])) return null;
+        return [m[1], m[2]];
+      };
+      const splitU = extractNumAndUnit(noSpaceU);
+      const splitC = extractNumAndUnit(noSpaceC);
+      if (splitU && !splitC) {
+        const numPart = splitU[0].replace(',', '.');
+        const cNumPart = noSpaceC.replace(',', '.');
+        if (numPart === cNumPart || Math.abs(Number(numPart) - Number(cNumPart)) < 1e-9) return true;
+      }
+      if (!splitU && splitC) {
+        const uNumPart = noSpaceU.replace(',', '.');
+        const numPart = splitC[0].replace(',', '.');
+        if (uNumPart === numPart || Math.abs(Number(uNumPart) - Number(numPart)) < 1e-9) return true;
+      }
 
       // 4. Chuẩn hóa chuỗi (thay dấu gạch nối, phẩy, chấm phẩy thành khoảng cách)
       const normU = normalizeSequence(cu);
@@ -4006,8 +4058,17 @@
               <div style="margin-bottom:12px">
                 ${formatQuestionText(d.text)}
                 ${(() => {
+                if (d.svg) {
+                  return `<div class="question-svg-container" style="text-align:center;margin:14px 0;display:flex;justify-content:center;overflow-x:auto;">${d.svg}</div>`;
+                }
                 const img = resolveQuestionImage(d);
-                return img ? `<div style="text-align:center;margin:12px 0;"><img src="${img}" alt="Hình minh họa" style="max-width:100%;max-height:360px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.1);background:white;padding:8px;object-fit:contain"></div>` : '';
+                if (img) {
+                  if (img.startsWith('<svg')) {
+                    return `<div class="question-svg-container" style="text-align:center;margin:14px 0;display:flex;justify-content:center;overflow-x:auto;">${img}</div>`;
+                  }
+                  return `<div style="text-align:center;margin:12px 0;"><img src="${img}" alt="Hình minh họa" style="max-width:100%;max-height:360px;border-radius:10px;box-shadow:0 2px 8px rgba(0,0,0,0.1);background:white;padding:8px;object-fit:contain"></div>`;
+                }
+                return '';
               })()}
               </div>
               <div style="font-weight:700;font-size:1.05em">
