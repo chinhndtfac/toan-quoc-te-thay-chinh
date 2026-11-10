@@ -922,7 +922,7 @@
   <!-- Dữ liệu Olympic Toán Kangaroo (IKMC) Trọn bộ 9 Đề thi kèm hình gốc -->
   <script src="kangaroo_data.js?v=20261110_1001"></script>
   <!-- Dữ liệu Tuyển tập 365 Bài Toán Hay & Khó (Lớp 1 - Lớp 5) -->
-  <script src="toan365_data.js?v=20261110_1057"></script>
+  <script src="toan365_data.js?v=20261110_1111"></script>
   <!-- Bộ bài tập Archimedes (Toán & Tiếng Việt Lớp 1 - 5) -->
   <script src="archimedes_math_data.js?v=20261110_1001"></script>
   <script src="archimedes_g4_real.js?v=20261110_1001"></script>
@@ -3824,11 +3824,21 @@
     // Bỏ các từ chỉ loại tiếng Việt (classifiers), từ đệm và liên từ
     function stripClassifiersAndFillers(str) {
       if (!str) return '';
-      return str
-        .replace(/\b(viên|quả|trái|con|chiếc|cái|bông|bạn|người|học sinh|em|cây|cuốn|quyển|mảnh|miếng|hạt|đồng|bài|tấm|thanh|hộp|túi|gói|đôi|bi|bông hoa|ngôi sao)\b/gi, ' ')
-        .replace(/\b(và|với|hoặc|hay|thì|là|gồm|có)\b/gi, ' ')
-        .replace(/\s+/g, ' ')
-        .trim();
+      const words = [
+        'chỉ hướng', 'hướng', 'hình', 'màu',
+        'quả', 'trái', 'con', 'chiếc', 'cái', 'bông hoa', 'bông', 'bạn', 'người',
+        'học sinh', 'em', 'cây', 'cuốn', 'quyển', 'mảnh', 'miếng', 'hạt', 'viên',
+        'đồng', 'bài', 'tấm', 'thanh', 'hộp', 'túi', 'gói', 'đội', 'bi', 'ngôi sao',
+        'số',
+        'và', 'với', 'hoặc', 'hay', 'thì', 'là', 'gồm', 'có'
+      ];
+
+      let s = ' ' + str.toString().toLowerCase().normalize('NFC').trim() + ' ';
+      for (const w of words) {
+        const regex = new RegExp('(?:^|\\s)' + w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&') + '(?=\\s|$)', 'gi');
+        s = s.replace(regex, ' ');
+      }
+      return s.replace(/\s+/g, ' ').trim();
     }
 
     function normalizeSequence(str) {

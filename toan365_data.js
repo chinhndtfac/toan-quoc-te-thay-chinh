@@ -557,7 +557,8 @@ const TOAN_365_DB = {
         "Số 5; số 7 đều cách số 6 đúng 1 đơn vị",
         "số 7 đều cách số 6 đúng 1 đơn vị; Số 5",
         "Số 5 số 7 đều cách số 6 đúng 1 đơn vị",
-        "số 7 đều cách số 6 đúng 1 đơn vị Số 5"
+        "số 7 đều cách số 6 đúng 1 đơn vị Số 5",
+        "5 và số 7 đều cách số 6 đúng 1 đơn vị"
       ],
       "explanation": "Số 5 và số 7 đều cách số 6 đúng 1 đơn vị."
     },
@@ -3945,7 +3946,8 @@ const TOAN_365_DB = {
       "answer": "Hình tam giác",
       "acceptedAnswers": [
         "Hình tam giác",
-        "hình tam giác"
+        "hình tam giác",
+        "tam giác"
       ],
       "explanation": "Hình tam giác."
     },
@@ -3961,7 +3963,8 @@ const TOAN_365_DB = {
       "answer": "Hình vuông",
       "acceptedAnswers": [
         "Hình vuông",
-        "hình vuông"
+        "hình vuông",
+        "vuông"
       ],
       "explanation": "Hình vuông."
     },
@@ -3977,7 +3980,8 @@ const TOAN_365_DB = {
       "answer": "Hình tròn",
       "acceptedAnswers": [
         "Hình tròn",
-        "hình tròn"
+        "hình tròn",
+        "tròn"
       ],
       "explanation": "Hình tròn."
     },
@@ -3993,7 +3997,8 @@ const TOAN_365_DB = {
       "answer": "Hình tròn",
       "acceptedAnswers": [
         "Hình tròn",
-        "hình tròn"
+        "hình tròn",
+        "tròn"
       ],
       "explanation": "Hình tròn."
     },
@@ -4009,7 +4014,8 @@ const TOAN_365_DB = {
       "answer": "Hình chữ nhật",
       "acceptedAnswers": [
         "Hình chữ nhật",
-        "hình chữ nhật"
+        "hình chữ nhật",
+        "chữ nhật"
       ],
       "explanation": "Hình chữ nhật."
     },
@@ -4025,7 +4031,8 @@ const TOAN_365_DB = {
       "answer": "Hình chữ nhật",
       "acceptedAnswers": [
         "Hình chữ nhật",
-        "hình chữ nhật"
+        "hình chữ nhật",
+        "chữ nhật"
       ],
       "explanation": "Hình chữ nhật."
     },
@@ -4041,7 +4048,8 @@ const TOAN_365_DB = {
       "answer": "Hình tam giác",
       "acceptedAnswers": [
         "Hình tam giác",
-        "hình tam giác"
+        "hình tam giác",
+        "tam giác"
       ],
       "explanation": "Hình tam giác."
     },
@@ -4057,7 +4065,8 @@ const TOAN_365_DB = {
       "answer": "Hình tròn",
       "acceptedAnswers": [
         "Hình tròn",
-        "hình tròn"
+        "hình tròn",
+        "tròn"
       ],
       "explanation": "Hình tròn (hoặc vuông)."
     },
@@ -4130,7 +4139,8 @@ const TOAN_365_DB = {
       "answer": "Hình chữ nhật",
       "acceptedAnswers": [
         "Hình chữ nhật",
-        "hình chữ nhật"
+        "hình chữ nhật",
+        "chữ nhật"
       ],
       "explanation": "Hình chữ nhật (hoặc hình vuông hoặc hình tam giác lớn hơn)."
     },
@@ -4146,7 +4156,8 @@ const TOAN_365_DB = {
       "answer": "Hình chữ nhật",
       "acceptedAnswers": [
         "Hình chữ nhật",
-        "hình chữ nhật"
+        "hình chữ nhật",
+        "chữ nhật"
       ],
       "explanation": "Hình chữ nhật."
     },
@@ -4178,7 +4189,8 @@ const TOAN_365_DB = {
       "answer": "Hình tròn",
       "acceptedAnswers": [
         "Hình tròn",
-        "hình tròn"
+        "hình tròn",
+        "tròn"
       ],
       "explanation": "Hình tròn."
     },
@@ -4242,7 +4254,8 @@ const TOAN_365_DB = {
       "answer": "Hình vuông",
       "acceptedAnswers": [
         "Hình vuông",
-        "hình vuông"
+        "hình vuông",
+        "vuông"
       ],
       "explanation": "Hình vuông."
     },
@@ -4258,7 +4271,8 @@ const TOAN_365_DB = {
       "answer": "Hình chữ nhật",
       "acceptedAnswers": [
         "Hình chữ nhật",
-        "hình chữ nhật"
+        "hình chữ nhật",
+        "chữ nhật"
       ],
       "explanation": "Hình chữ nhật."
     },
@@ -4727,7 +4741,8 @@ const TOAN_365_DB = {
       "answer": "Hình tam giác lớn",
       "acceptedAnswers": [
         "Hình tam giác lớn",
-        "hình tam giác lớn"
+        "hình tam giác lớn",
+        "tam giác lớn"
       ],
       "explanation": "Hình tam giác lớn (mỗi cạnh 2 que tính)."
     },
@@ -4920,7 +4935,9 @@ const TOAN_365_DB = {
       "answer": "Hình Tam giác",
       "acceptedAnswers": [
         "Hình Tam giác",
-        "hình tam giác"
+        "hình tam giác",
+        "Tam giác",
+        "tam giác"
       ],
       "explanation": "Hình Tam giác."
     },
@@ -4936,7 +4953,9 @@ const TOAN_365_DB = {
       "answer": "Màu Vàng",
       "acceptedAnswers": [
         "Màu Vàng",
-        "màu vàng"
+        "màu vàng",
+        "Vàng",
+        "vàng"
       ],
       "explanation": "Màu Vàng."
     },
@@ -4968,7 +4987,9 @@ const TOAN_365_DB = {
       "answer": "Hình Tròn",
       "acceptedAnswers": [
         "Hình Tròn",
-        "hình tròn"
+        "hình tròn",
+        "Tròn",
+        "tròn"
       ],
       "explanation": "Hình Tròn."
     },
@@ -4984,7 +5005,9 @@ const TOAN_365_DB = {
       "answer": "Màu Đỏ",
       "acceptedAnswers": [
         "Màu Đỏ",
-        "màu đỏ"
+        "màu đỏ",
+        "Đỏ",
+        "đỏ"
       ],
       "explanation": "Màu Đỏ (bắt đầu nhóm mới)."
     },
@@ -5000,7 +5023,9 @@ const TOAN_365_DB = {
       "answer": "Hình Tam giác",
       "acceptedAnswers": [
         "Hình Tam giác",
-        "hình tam giác"
+        "hình tam giác",
+        "Tam giác",
+        "tam giác"
       ],
       "explanation": "Hình Tam giác."
     },
@@ -5016,7 +5041,9 @@ const TOAN_365_DB = {
       "answer": "Chỉ hướng Lên",
       "acceptedAnswers": [
         "Chỉ hướng Lên",
-        "chỉ hướng lên"
+        "chỉ hướng lên",
+        "Lên",
+        "lên"
       ],
       "explanation": "Chỉ hướng Lên."
     },
@@ -5032,7 +5059,9 @@ const TOAN_365_DB = {
       "answer": "Quả Táo",
       "acceptedAnswers": [
         "Quả Táo",
-        "quả táo"
+        "quả táo",
+        "Táo",
+        "táo"
       ],
       "explanation": "Quả Táo (bắt đầu chu kỳ mới thứ 3)."
     },
@@ -5358,7 +5387,8 @@ const TOAN_365_DB = {
       "answer": "Quả dưa hấu nặng hơn quả táo",
       "acceptedAnswers": [
         "Quả dưa hấu nặng hơn quả táo",
-        "quả dưa hấu nặng hơn quả táo"
+        "quả dưa hấu nặng hơn quả táo",
+        "dưa hấu nặng hơn quả táo"
       ],
       "explanation": "Quả dưa hấu nặng hơn quả táo."
     },
@@ -5440,7 +5470,8 @@ const TOAN_365_DB = {
       "answer": "Quả tạ sắt nặng hơn",
       "acceptedAnswers": [
         "Quả tạ sắt nặng hơn",
-        "quả tạ sắt nặng hơn"
+        "quả tạ sắt nặng hơn",
+        "tạ sắt nặng hơn"
       ],
       "explanation": "Quả tạ sắt nặng hơn."
     },
@@ -5456,7 +5487,8 @@ const TOAN_365_DB = {
       "answer": "Con gà nặng hơn chim sẻ",
       "acceptedAnswers": [
         "Con gà nặng hơn chim sẻ",
-        "con gà nặng hơn chim sẻ"
+        "con gà nặng hơn chim sẻ",
+        "gà nặng hơn chim sẻ"
       ],
       "explanation": "Con gà nặng hơn chim sẻ."
     },
@@ -5732,7 +5764,8 @@ const TOAN_365_DB = {
         "1, 10",
         "1; 10",
         "1 10",
-        "số 1 đầu tiên, số 10 cuối cùng"
+        "số 1 đầu tiên, số 10 cuối cùng",
+        "1 đầu tiên, số 10 cuối cùng"
       ],
       "explanation": "Số 1 đầu tiên, số 10 cuối cùng."
     },
@@ -5941,7 +5974,9 @@ const TOAN_365_DB = {
       "answer": "Màu Xanh",
       "acceptedAnswers": [
         "Màu Xanh",
-        "màu xanh"
+        "màu xanh",
+        "Xanh",
+        "xanh"
       ],
       "explanation": "Màu Xanh (vì các số chẵn là màu Xanh)."
     },
@@ -6141,7 +6176,8 @@ const TOAN_365_DB = {
       "answer": "Số có hai chữ số giống nhau: 77",
       "acceptedAnswers": [
         "Số có hai chữ số giống nhau: 77",
-        "số có hai chữ số giống nhau: 77"
+        "số có hai chữ số giống nhau: 77",
+        "có hai chữ số giống nhau: 77"
       ],
       "explanation": "Số có hai chữ số giống nhau: 77."
     },
@@ -10314,7 +10350,8 @@ const TOAN_365_DB = {
       "answer": "Con xúc xắc, hộp rubik",
       "acceptedAnswers": [
         "Con xúc xắc, hộp rubik",
-        "con xúc xắc, hộp rubik"
+        "con xúc xắc, hộp rubik",
+        "xúc xắc, hộp rubik"
       ],
       "explanation": "Con xúc xắc, hộp rubik."
     },
@@ -10394,7 +10431,8 @@ const TOAN_365_DB = {
       "answer": "Hình vuông",
       "acceptedAnswers": [
         "Hình vuông",
-        "hình vuông"
+        "hình vuông",
+        "vuông"
       ],
       "explanation": "Hình vuông."
     },
@@ -11164,7 +11202,9 @@ const TOAN_365_DB = {
         "3, 1",
         "3; 1",
         "3 1",
-        "quả 3 màu xanh. vậy quả 1 màu vàng"
+        "quả 3 màu xanh. vậy quả 1 màu vàng",
+        "3 màu Xanh. Vậy quả 1 màu Vàng",
+        "3 màu xanh. vậy quả 1 màu vàng"
       ],
       "explanation": "Quả 2: Đỏ. Quả 3 không phải vàng => Quả 3 màu Xanh. Vậy quả 1 màu Vàng."
     },
@@ -11521,7 +11561,8 @@ const TOAN_365_DB = {
       "answer": "Hình tam giác",
       "acceptedAnswers": [
         "Hình tam giác",
-        "hình tam giác"
+        "hình tam giác",
+        "tam giác"
       ],
       "explanation": "Hình tam giác (mỗi cạnh 2 que tính)."
     },
@@ -12029,7 +12070,8 @@ const TOAN_365_DB = {
       "answer": "Số đó giảm đi đúng 2000 đơn vị",
       "acceptedAnswers": [
         "Số đó giảm đi đúng 2000 đơn vị",
-        "số đó giảm đi đúng 2000 đơn vị"
+        "số đó giảm đi đúng 2000 đơn vị",
+        "đó giảm đi đúng 2000 đơn vị"
       ],
       "explanation": "Số ban đầu là 2bcd, xóa chữ số 2 được bcd => Số đó giảm đi đúng 2000 đơn vị."
     },
@@ -14515,7 +14557,9 @@ const TOAN_365_DB = {
       "answer": "Màu thứ 2 là màu Xanh",
       "acceptedAnswers": [
         "Màu thứ 2 là màu Xanh",
-        "màu thứ 2 là màu xanh"
+        "màu thứ 2 là màu xanh",
+        "thứ 2 là màu Xanh",
+        "thứ 2 là màu xanh"
       ],
       "explanation": "Chu kỳ 4 màu. 42 : 4 = 10 dư 2 => Màu thứ 2 là màu Xanh."
     },
@@ -17646,7 +17690,8 @@ const TOAN_365_DB = {
         "1, 3, 5",
         "1; 3; 5",
         "1 3 5",
-        "số ở giữa phải là số lẻ: 1, 3 hoặc 5"
+        "số ở giữa phải là số lẻ: 1, 3 hoặc 5",
+        "ở giữa phải là số lẻ: 1, 3 hoặc 5"
       ],
       "explanation": "Số ở giữa phải là số lẻ: 1, 3 hoặc 5."
     },
@@ -18202,7 +18247,8 @@ const TOAN_365_DB = {
       "type": "fill",
       "answer": "số lẻ",
       "acceptedAnswers": [
-        "số lẻ"
+        "số lẻ",
+        "lẻ"
       ],
       "explanation": "Nhóm đầu là tích các số lẻ nên kết quả là số Lẻ. Nhóm sau có các số chẵn nên kết quả là số Chẵn. Lẻ + Chẵn = Lẻ. Vậy A là số lẻ."
     },
@@ -18567,7 +18613,8 @@ const TOAN_365_DB = {
       "type": "fill",
       "answer": "số chẵn",
       "acceptedAnswers": [
-        "số chẵn"
+        "số chẵn",
+        "chẵn"
       ],
       "explanation": "Tổng của hai số là 2025 (số lẻ) nên một số phải là số Chẵn và một số phải là số Lẻ. Tích của số Chẵn với số Lẻ luôn là một số chẵn."
     },
@@ -18626,7 +18673,8 @@ const TOAN_365_DB = {
       "type": "fill",
       "answer": "số chẵn",
       "acceptedAnswers": [
-        "số chẵn"
+        "số chẵn",
+        "chẵn"
       ],
       "explanation": "Từ 1 đến 10 có 5 số lẻ và 5 số chẵn. Khi chia thành 2 nhóm 5 thẻ, chắc chắn ít nhất 1 bạn có chứa số chẵn (thực tế vì có 5 số chẵn nên cả hai bạn hoặc ít nhất một bạn đều có số chẵn). Nhóm nào có ít nhất một số chẵn thì tích sẽ chẵn. Cả 2 tích đều là số chẵn nên tổng hai tích chắc chắn là số chẵn."
     },
@@ -18662,7 +18710,8 @@ const TOAN_365_DB = {
       "type": "fill",
       "answer": "số lẻ",
       "acceptedAnswers": [
-        "số lẻ"
+        "số lẻ",
+        "lẻ"
       ],
       "explanation": "Bảng có 25 ô, tức là tổng của 25 số lẻ. Tổng của 25 số lẻ (25 là số lẻ) luôn là một số lẻ."
     },
@@ -18677,7 +18726,8 @@ const TOAN_365_DB = {
       "type": "fill",
       "answer": "số chẵn",
       "acceptedAnswers": [
-        "số chẵn"
+        "số chẵn",
+        "chẵn"
       ],
       "explanation": "Trong 3 số tự nhiên a, b, c theo nguyên lý chẵn lẻ luôn có ít nhất hai số cùng tính chẵn lẻ (cùng chẵn hoặc cùng lẻ). Hiệu của hai số cùng tính chẵn lẻ luôn là một số chẵn. Trong tích có ít nhất một thừa số chẵn nên tích luôn là số chẵn."
     },
@@ -18692,7 +18742,8 @@ const TOAN_365_DB = {
       "type": "fill",
       "answer": "số lẻ",
       "acceptedAnswers": [
-        "số lẻ"
+        "số lẻ",
+        "lẻ"
       ],
       "explanation": "Trong 9 số tự nhiên liên tiếp luôn có tổng là một số chia hết cho 9. Trong 9 số liên tiếp thì hoặc có 5 số chẵn 4 số lẻ (tổng chẵn) hoặc có 5 số lẻ 4 số chẵn (tổng lẻ). Ta thấy tổng của 8 số còn lại là 2024 (số chẵn). Nếu tổng 9 số ban đầu là lẻ thì số bị xóa là Lẻ - Chẵn = Lẻ. Ngược lại nếu tổng ban đầu chẵn thì số bị xóa là Chẵn - Chẵn = Chẵn. Ta kiểm tra: 9 số liên tiếp có dạng n-4 đến n+4 thì tổng bằng 9n. Vì 2024 chia 9 dư 8, nên 9n - số xóa = 2024 => số xóa chia 9 dư 1. Trong dãy liên tiếp, số xóa phải là số lẻ (chứng minh cụ thể qua tính chẵn lẻ của 9n)."
     },
@@ -19054,7 +19105,9 @@ const TOAN_365_DB = {
       "answer": "màu Vàng",
       "acceptedAnswers": [
         "màu Vàng",
-        "màu vàng"
+        "màu vàng",
+        "Vàng",
+        "vàng"
       ],
       "explanation": "Chu kỳ gồm 4 màu (Đỏ, Vàng, Xanh, Tím). 246 : 4 = 61 (dư 2). Màu thứ 2 của chu kỳ là màu Vàng."
     },
@@ -19070,7 +19123,9 @@ const TOAN_365_DB = {
       "answer": "màu Vàng",
       "acceptedAnswers": [
         "màu Vàng",
-        "màu vàng"
+        "màu vàng",
+        "Vàng",
+        "vàng"
       ],
       "explanation": "Mỗi cụm gồm: 1 đỏ + 2 xanh + 3 vàng = 6 viên bi. 150 : 6 = 25 (chia hết). Viên bi thứ 150 là viên cuối cùng của cụm, tức là màu Vàng."
     },
@@ -23851,7 +23906,9 @@ const TOAN_365_DB = {
       "answer": "màu Vàng",
       "acceptedAnswers": [
         "màu Vàng",
-        "màu vàng"
+        "màu vàng",
+        "Vàng",
+        "vàng"
       ],
       "explanation": "Nếu bóng đỏ: An và Cường nói... Để chỉ 1 bạn đúng: Nếu bóng Vàng thì An sai, Cường sai, Bình đúng. Vậy quả bóng màu Vàng."
     },
@@ -26096,7 +26153,8 @@ const TOAN_365_DB = {
         "Số bé: 7.8; số lớn: 23.4",
         "Số bé: 7,8, số lớn: 23,4",
         "Số bé: 7,8 và số lớn: 23,4",
-        "Số bé: 7,8 số lớn: 23,4"
+        "Số bé: 7,8 số lớn: 23,4",
+        "bé: 7,8; số lớn: 23,4"
       ],
       "explanation": "Hiệu 2 phần = 15,6 => Số bé: 7,8; số lớn: 23,4."
     },
@@ -26118,7 +26176,8 @@ const TOAN_365_DB = {
         "số bé: 25; số lớn: 100",
         "Số bé: 25, số lớn: 100",
         "Số bé: 25 và số lớn: 100",
-        "Số bé: 25 số lớn: 100"
+        "Số bé: 25 số lớn: 100",
+        "bé: 25; số lớn: 100"
       ],
       "explanation": "25% = 1/4. Tổng 5 phần = 125 => Số bé: 25; số lớn: 100."
     },
@@ -26141,7 +26200,8 @@ const TOAN_365_DB = {
         "Số bé: 49.6; số lớn: 74.4",
         "Số bé: 49,6, số lớn: 74,4",
         "Số bé: 49,6 và số lớn: 74,4",
-        "Số bé: 49,6 số lớn: 74,4"
+        "Số bé: 49,6 số lớn: 74,4",
+        "bé: 49,6; số lớn: 74,4"
       ],
       "explanation": "1,5 = 3/2. Hiệu 1 phần = 24,8 => Số bé: 49,6; số lớn: 74,4."
     },
