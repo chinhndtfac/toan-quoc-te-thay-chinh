@@ -922,7 +922,7 @@
   <!-- Dữ liệu Olympic Toán Kangaroo (IKMC) Trọn bộ 9 Đề thi kèm hình gốc -->
   <script src="kangaroo_data.js?v=20261110_1001"></script>
   <!-- Dữ liệu Tuyển tập 365 Bài Toán Hay & Khó (Lớp 1 - Lớp 5) -->
-  <script src="toan365_data.js?v=20261110_1001"></script>
+  <script src="toan365_data.js?v=20261110_1057"></script>
   <!-- Bộ bài tập Archimedes (Toán & Tiếng Việt Lớp 1 - 5) -->
   <script src="archimedes_math_data.js?v=20261110_1001"></script>
   <script src="archimedes_g4_real.js?v=20261110_1001"></script>
@@ -3050,76 +3050,62 @@
       }
 
       if (state.selectedExam === 'TOAN_365') {
-        if (state.selectedGrade === 1) {
-          return `<optgroup label="🌱 TOÁN TƯ DUY & NÂNG CAO LỚP 1 (30 Bài Tinh Tuyển)">` +
-            rounds.map(r => optHtml(r)).join('') +
-            `</optgroup>`;
-        }
-        if (state.selectedGrade === 2) {
-          return `<optgroup label="🌿 TOÁN NÂNG CAO & NĂNG LỰC LỚP 2 (40 Bài Tinh Tuyển)">` +
-            rounds.map(r => optHtml(r)).join('') +
-            `</optgroup>`;
-        }
-        if (state.selectedGrade === 3) {
-          return `<optgroup label="☘️ TOÁN NÂNG CAO & NĂNG KHIẾU LỚP 3 (50 Bài Tinh Tuyển)">` +
-            rounds.map(r => optHtml(r)).join('') +
-            `</optgroup>`;
-        }
-        if (state.selectedGrade === 5) {
-          const t1 = [], t2 = [];
-          rounds.forEach(r => {
-            const num = parseInt((r.match(/Chuyên đề\s*(\d+)/i) || [])[1] || '0', 10);
-            if (num <= 3) t1.push(r);
-            else t2.push(r);
-          });
-          let html = '';
-          if (t1.length) {
-            html += `<optgroup label="📚 TẬP 1: PHÂN SỐ, SỐ THẬP PHÂN & TỈ SỐ % (Chuyên đề 1 - 3, Bài 1 - 45)">` +
-              t1.map(r => optHtml(r)).join('') +
-              `</optgroup>`;
-          }
-          if (t2.length) {
-            html += `<optgroup label="📐 TẬP 2: TỈ SỐ DIỆN TÍCH & CHUYỂN ĐỘNG ĐỀU (Chuyên đề 4 - 5, Bài 46 - 65)">` +
-              t2.map(r => optHtml(r)).join('') +
-              `</optgroup>`;
-          }
-          return html;
-        }
-        // Khối 4 (25 chuyên đề trọn bộ 5 tập)
-        const t1 = [], t2 = [], t3 = [], t4 = [], t5 = [];
+        const volumeLabels = {
+          1: [
+            '📕 TẬP 1: Số đếm, So sánh & Phép cộng trừ phạm vi 10 (Chuyên đề 1 - 5, Bài 1 - 75)',
+            '📗 TẬP 2: Cộng trừ phạm vi 20 & Các số đến 100 (Chuyên đề 6 - 10, Bài 76 - 150)',
+            '📘 TẬP 3: Cộng trừ phạm vi 100, Lời văn & Đo lường (Chuyên đề 11 - 15, Bài 151 - 225)',
+            '📙 TẬP 4: Hình học trực quan, Khối hình & Đếm hình (Chuyên đề 16 - 20, Bài 226 - 300)',
+            '🏆 TẬP 5: Tư duy logic, Cân bập bênh & Olympic Lớp 1 (Chuyên đề 21 - 25, Bài 301 - 365)'
+          ],
+          2: [
+            '📕 TẬP 1: Số học, Phép tính & Tia số (Chuyên đề 1 - 5, Bài 1 - 75)',
+            '📗 TẬP 2: Bảng nhân chia & Dãy số quy luật (Chuyên đề 6 - 10, Bài 76 - 150)',
+            '📘 TẬP 3: Toán có lời văn & Đo lường (Chuyên đề 11 - 15, Bài 151 - 225)',
+            '📙 TẬP 4: Hình học & Đường gấp khúc (Chuyên đề 16 - 20, Bài 226 - 300)',
+            '🏆 TẬP 5: Logic xếp hàng & Olympic Lớp 2 (Chuyên đề 21 - 25, Bài 301 - 365)'
+          ],
+          3: [
+            '📕 TẬP 1: Số học & Phép tính trong phạm vi 100.000 (Chuyên đề 1 - 5, Bài 1 - 75)',
+            '📗 TẬP 2: Rút về đơn vị & Tỉ số (Chuyên đề 6 - 10, Bài 76 - 150)',
+            '📘 TẬP 3: Phép chia có dư & Đại lượng đo lường (Chuyên đề 11 - 15, Bài 151 - 225)',
+            '📙 TẬP 4: Hình học, Chu vi & Diện tích (Chuyên đề 16 - 20, Bài 226 - 300)',
+            '🏆 TẬP 5: Toán trồng cây, Logic & Olympic Lớp 3 (Chuyên đề 21 - 25, Bài 301 - 365)'
+          ],
+          4: [
+            '📕 TẬP 1: Số học & Dãy số cách đều (Chuyên đề 1 - 5, Bài 1 - 75)',
+            '📗 TẬP 2: Các dạng toán điển hình (Chuyên đề 6 - 10, Bài 76 - 150)',
+            '📘 TẬP 3: Phương pháp giải toán nâng cao (Chuyên đề 11 - 15, Bài 151 - 225)',
+            '📙 TẬP 4: Tổ hợp, Logic & Phân số (Chuyên đề 16 - 20, Bài 226 - 300)',
+            '🏆 TẬP 5: Hình học, Chia hết & Chuyển động (Chuyên đề 21 - 25, Bài 301 - 365)'
+          ],
+          5: [
+            '📕 TẬP 1: Số học, Hỗn số & Phân số nâng cao (Chuyên đề 1 - 5, Bài 1 - 75)',
+            '📗 TẬP 2: Tỉ số phần trăm & Toán kinh tế (Chuyên đề 6 - 10, Bài 76 - 150)',
+            '📘 TẬP 3: Các phương pháp giải toán điển hình (Chuyên đề 11 - 15, Bài 151 - 225)',
+            '📙 TẬP 4: Toán chuyển động đều & Thực tế (Chuyên đề 16 - 20, Bài 226 - 300)',
+            '🏆 TẬP 5: Hình học không gian & Đề thi vào 6 CLC (Chuyên đề 21 - 25, Bài 301 - 365)'
+          ]
+        };
+
+        const t = [[], [], [], [], []];
         rounds.forEach(r => {
           const num = parseInt((r.match(/Chuyên đề\s*(\d+)/i) || [])[1] || '0', 10);
-          if (num <= 5) t1.push(r);
-          else if (num <= 10) t2.push(r);
-          else if (num <= 15) t3.push(r);
-          else if (num <= 20) t4.push(r);
-          else t5.push(r);
+          if (num <= 5) t[0].push(r);
+          else if (num <= 10) t[1].push(r);
+          else if (num <= 15) t[2].push(r);
+          else if (num <= 20) t[3].push(r);
+          else t[4].push(r);
         });
+
+        const labels = volumeLabels[state.selectedGrade] || volumeLabels[4];
         let html = '';
-        if (t1.length) {
-          html += `<optgroup label="📚 TẬP 1: SỐ HỌC & DÃY SỐ (Chuyên đề 1 - 5, Bài 1 - 75)">` +
-            t1.map(r => optHtml(r)).join('') +
-            `</optgroup>`;
-        }
-        if (t2.length) {
-          html += `<optgroup label="📐 TẬP 2: CÁC DẠNG TOÁN ĐIỂN HÌNH (Chuyên đề 6 - 10, Bài 76 - 150)">` +
-            t2.map(r => optHtml(r)).join('') +
-            `</optgroup>`;
-        }
-        if (t3.length) {
-          html += `<optgroup label="💡 TẬP 3: PHƯƠNG PHÁP GIẢI TOÁN (Chuyên đề 11 - 15, Bài 151 - 225)">` +
-            t3.map(r => optHtml(r)).join('') +
-            `</optgroup>`;
-        }
-        if (t4.length) {
-          html += `<optgroup label="🧩 TẬP 4: TỔ HỢP, LOGIC & PHÂN SỐ (Chuyên đề 16 - 20, Bài 226 - 300)">` +
-            t4.map(r => optHtml(r)).join('') +
-            `</optgroup>`;
-        }
-        if (t5.length) {
-          html += `<optgroup label="📏 TẬP 5: HÌNH HỌC, CHIA HẾT & CHUYỂN ĐỘNG (Chuyên đề 21 - 25, Bài 301 - 365)">` +
-            t5.map(r => optHtml(r)).join('') +
-            `</optgroup>`;
+        for (let i = 0; i < 5; i++) {
+          if (t[i].length) {
+            html += `<optgroup label="${labels[i]}">` +
+              t[i].map(r => optHtml(r)).join('') +
+              `</optgroup>`;
+          }
         }
         return html;
       }
