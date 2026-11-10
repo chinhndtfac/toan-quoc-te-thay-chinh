@@ -1,0 +1,4 @@
+exclude:
+  - conversation_archive
+  - scripts
+  - node_modules
