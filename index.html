@@ -3812,11 +3812,27 @@
     // BỘ HÀM SO KHỚP ĐÁP ÁN THÔNG MINH BẬC CAO CHO TIỂU HỌC
     function cleanAnswerText(str) {
       if (!str) return '';
-      return str.toString().trim().toLowerCase()
+      let s = str.toString().trim().toLowerCase()
         .normalize('NFC')
         .replace(/^["'“”‘’]+|["'“”‘’.]+$/g, '')
         .replace(/[–—−]/g, '-')
         .trim();
+      // Chuẩn hóa tên tháng bằng chữ sang số (không dùng \b vì ký tự tiếng Việt)
+      s = s.replace(/(?:^|\s)tháng\s*(?:tư|bốn)(?:$|\s)/gi, ' 4 ')
+           .replace(/(?:^|\s)tháng\s*(?:một|giêng)(?:$|\s)/gi, ' 1 ')
+           .replace(/(?:^|\s)tháng\s*hai(?:$|\s)/gi, ' 2 ')
+           .replace(/(?:^|\s)tháng\s*ba(?:$|\s)/gi, ' 3 ')
+           .replace(/(?:^|\s)tháng\s*năm(?:$|\s)/gi, ' 5 ')
+           .replace(/(?:^|\s)tháng\s*sáu(?:$|\s)/gi, ' 6 ')
+           .replace(/(?:^|\s)tháng\s*bảy(?:$|\s)/gi, ' 7 ')
+           .replace(/(?:^|\s)tháng\s*tám(?:$|\s)/gi, ' 8 ')
+           .replace(/(?:^|\s)tháng\s*chín(?:$|\s)/gi, ' 9 ')
+           .replace(/(?:^|\s)tháng\s*mười\s*một(?:$|\s)/gi, ' 11 ')
+           .replace(/(?:^|\s)tháng\s*(?:mười\s*hai|chạp)(?:$|\s)/gi, ' 12 ')
+           .replace(/(?:^|\s)tháng\s*mười(?:$|\s)/gi, ' 10 ')
+           .replace(/^tháng\s*(\d+)/i, '$1')
+           .trim();
+      return s;
     }
 
     // Bỏ các từ chỉ loại tiếng Việt (classifiers), từ đệm và liên từ
