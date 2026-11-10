@@ -909,27 +909,27 @@
   </footer>
 
   <!-- Cơ sở dữ liệu tài khoản học sinh dùng chung -->
-  <script src="users_db.js?v=20261105_1400"></script>
+  <script src="users_db.js?v=20261110_1001"></script>
   <!-- Dữ liệu chuẩn sạch từ PDF -->
-  <script src="timo_data.js?v=20261110_1000"></script>
-  <script src="olympiad_topics_data.js?v=20261110_1000"></script>
+  <script src="timo_data.js?v=20261110_1001"></script>
+  <script src="olympiad_topics_data.js?v=20261110_1001"></script>
   <!-- Dữ liệu chuyên đề nâng cao Lớp 4 (Gà thỏ, tuổi, số nguyên tố, IQ...) -->
-  <script src="grade4_special.js?v=20261105_1400"></script>
+  <script src="grade4_special.js?v=20261110_1001"></script>
   <!-- Dữ liệu Kangaroo, ASMO & Ngân hàng đề thi mở rộng -->
-  <script src="extra_exams.js?v=20261105_1400"></script>
+  <script src="extra_exams.js?v=20261110_1001"></script>
   <!-- Dữ liệu Olympic FMO -->
-  <script src="fmo_data.js?v=20261105_1400"></script>
+  <script src="fmo_data.js?v=20261110_1001"></script>
   <!-- Dữ liệu Olympic Toán Kangaroo (IKMC) Trọn bộ 9 Đề thi kèm hình gốc -->
-  <script src="kangaroo_data.js?v=20261105_1400"></script>
+  <script src="kangaroo_data.js?v=20261110_1001"></script>
   <!-- Dữ liệu Tuyển tập 365 Bài Toán Hay & Khó (Lớp 1 - Lớp 5) -->
-  <script src="toan365_data.js?v=20261105_1400"></script>
+  <script src="toan365_data.js?v=20261110_1001"></script>
   <!-- Bộ bài tập Archimedes (Toán & Tiếng Việt Lớp 1 - 5) -->
-  <script src="archimedes_math_data.js?v=20261105_1400"></script>
-  <script src="archimedes_g4_real.js?v=20261105_1400"></script>
-  <script src="tieng_viet_data.js?v=20261105_1400"></script>
+  <script src="archimedes_math_data.js?v=20261110_1001"></script>
+  <script src="archimedes_g4_real.js?v=20261110_1001"></script>
+  <script src="tieng_viet_data.js?v=20261110_1001"></script>
   <!-- Thư viện Tạp chí Toán Tuổi Thơ 1 & 2 -->
-  <script src="toan_tuoi_tho_1_data.js?v=20261105_1400"></script>
-  <script src="toan_tuoi_tho_data.js?v=20261105_1400"></script>
+  <script src="toan_tuoi_tho_1_data.js?v=20261110_1001"></script>
+  <script src="toan_tuoi_tho_data.js?v=20261110_1001"></script>
 
   <script>
     // ===== HỆ THỐNG ÂM THANH THIẾU NHI (WEB AUDIO API) =====
@@ -3443,8 +3443,23 @@
       clearSavedSession(state.selectedGrade, state.selectedExam, state.selectedRound);
       let pool = [];
       
+      // Nếu chọn Chuyên Đề Tư Duy Quốc Tế (OLYMPIAD_TOPICS)
+      if (state.selectedExam === 'OLYMPIAD_TOPICS') {
+        const list = (typeof OLYMPIAD_TOPICS_DB !== 'undefined' && OLYMPIAD_TOPICS_DB['grade' + state.selectedGrade]) 
+          ? OLYMPIAD_TOPICS_DB['grade' + state.selectedGrade] : [];
+        if (list.length === 0) {
+          alert('Chưa có dữ liệu chuyên đề cho Khối ' + state.selectedGrade + '. Con chọn khối khác nhé!');
+          return;
+        }
+        if (state.selectedRound === 'random' || !state.selectedRound) {
+          pool = [...list].sort(() => Math.random() - 0.5).slice(0, 15);
+        } else {
+          pool = list.filter(q => q.round === state.selectedRound);
+          if (pool.length === 0) pool = [...list].slice(0, 15);
+        }
+      }
       // Nếu chọn chuyên đề Toán Nâng Cao & AMO Lớp 4
-      if (state.selectedExam === 'SPECIAL_G4') {
+      else if (state.selectedExam === 'SPECIAL_G4') {
         const list = (typeof GRADE4_SPECIAL_DB !== 'undefined') ? GRADE4_SPECIAL_DB : [];
         if (state.selectedRound === 'random' || !state.selectedRound) {
           pool = [...list].sort(() => Math.random() - 0.5).slice(0, 15);
@@ -3557,8 +3572,10 @@
       state.questions = pool.map((q, idx) => ({
         id: idx + 1,
         origId: q.id,
+        origCode: q.origCode || null,
         text: q.text,
         image: resolveQuestionImage(q) || null,
+        svg: q.svg || null,
         options: q.options || [],
         answer: q.answer,
         acceptedAnswers: q.acceptedAnswers || [],
@@ -3633,6 +3650,34 @@
             Câu ${current} / ${total}:
           </div>
           <div class="question-box">
+            ${(() => {
+              if (state.selectedExam === 'OLYMPIAD_TOPICS' && typeof OLYMPIAD_LESSONS_DB !== 'undefined') {
+                const lesson = OLYMPIAD_LESSONS_DB['grade' + state.selectedGrade]?.[q.origCode];
+                if (lesson) {
+                  return `
+                    <div style="margin-bottom:16px">
+                      <details style="background:#F0FDF4;border:1.5px solid #86EFAC;border-radius:14px;padding:10px 14px;cursor:pointer">
+                        <summary style="font-weight:800;color:#166534;outline:none;user-select:none;font-size:0.95em">
+                          💡 Bấm vào đây để xem Bài giảng & Mẹo làm nhanh chuyên đề: "${lesson.title}"
+                        </summary>
+                        <div style="margin-top:10px;font-size:0.95em;color:#1E293B;line-height:1.6">
+                          <div style="margin-bottom:8px;font-weight:700;color:#14532D">${lesson.intro || ''}</div>
+                          ${(lesson.steps || []).map(s => `
+                            <div style="margin:8px 0;padding:10px;background:white;border-radius:10px;border:1px solid #DCFCE7">
+                              <div style="font-weight:800;color:#15803D">${s.heading}</div>
+                              <div style="white-space:pre-line;margin-top:4px">${s.content}</div>
+                              ${s.svg ? `<div style="text-align:center;margin:10px 0">${s.svg}</div>` : ''}
+                            </div>
+                          `).join('')}
+                          ${lesson.tip ? `<div style="margin-top:8px;padding:8px 12px;background:#FEF3C7;border-radius:8px;color:#92400E;font-weight:700">⭐ Mẹo của thầy: ${lesson.tip}</div>` : ''}
+                        </div>
+                      </details>
+                    </div>
+                  `;
+                }
+              }
+              return '';
+            })()}
             ${formatQuestionText(q.text)}
             ${(() => {
               if (q.svg) {
